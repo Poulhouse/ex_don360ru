@@ -243,7 +243,7 @@
 							-->
 						<?}?>
 			</div><!-- /.row -->
-			<div class="row align-items-center mt-5">
+			<div class="row align-items-center">
 				<div class="col-12">
 
 					<?php if($_GET['lang'] == 'ru' || !$_GET['lang']){ ?>
