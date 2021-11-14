@@ -34,11 +34,11 @@
 								<img src="images/rus.jpg" class="lang_img" />
 								<p class="small_text">Русский</p>
 							</a>
-							<a href="?lang=en">
+							<a href="?lang=en" class="active">
 								<img src="images/eng.jpg" class="lang_img" />
 								<p class="small_text">English</p>
 							</a>
-							<a href="?lang=ch">
+							<a href="?lang=ch" class="active">
 								<img src="images/china.jpg" class="lang_img" />
 								<p class="small_text">中国人</p>
 							</a>
