@@ -120,7 +120,7 @@
 
 						<?php if($_GET['lang'] == 'ru' || !$_GET['lang']){ ?>
 
-							<div class="col">
+							<div class="col-12 col-xxl-4 mb-5">
 								<div class="card" style="">
 									<img src="images/pushkin.jpg" class="img-fluid card-img-top" alt="Виртуальный тур по улице Пушкинской в Ростове-на-Дону">
 									<div class="card-body">
@@ -133,7 +133,7 @@
 								</div>
 							</div>
 
-							<div class="col">
+							<div class="col-12 col-xxl-4 mb-5">
 								<div class="card" style="">
 									<img src="images/chehov.jpg" class="img-fluid card-img-top" alt="Виртуальный тур «На родине А.П. Чехова»">
 									<div class="card-body">
@@ -146,7 +146,7 @@
 								</div>
 							</div>
 
-							<div class="col">
+							<div class="col-12 col-xxl-4 mb-5">
 								<div class="card" style="">
 									<img src="images/kalinin.jpg" class="img-fluid card-img-top" alt="Виртуальный тур по Раздорскому этнографическому музею-заповеднику">
 									<div class="card-body">
@@ -161,7 +161,7 @@
 
 						<?} elseif($_GET['lang'] == 'en'){?>
 							
-							<div class="col">
+							<div class="col-12 col-xxl-4 mb-5">
 								<div class="card" style="">
 									<img src="images/pushkin.jpg" class="card-img-top" alt="Virtual tour of Pushkinskaya street in Rostov-on-Don">
 									<div class="card-body">
@@ -174,7 +174,7 @@
 								</div>
 							</div>
 
-							<div class="col">
+							<div class="col-12 col-xxl-4 mb-5">
 								<div class="card" style="">
 									<img src="images/chehov.jpg" class="card-img-top" alt="Virtual tour in the homeland of A.P. Chekhov in Taganrog">
 									<div class="card-body">
@@ -202,7 +202,7 @@
 							-->
 						<?} elseif($_GET['lang'] == 'ch'){?>
 							
-							<div class="col">
+							<div class="col-12 col-xxl-4 mb-5">
 								<div class="card" style="">
 									<img src="images/pushkin.jpg" class="card-img-top" alt="顿河畔罗斯托夫普希金大街的虚拟之旅">
 									<div class="card-body">
@@ -215,7 +215,7 @@
 								</div>
 							</div>
 
-							<div class="col">
+							<div class="col-12 col-xxl-4 mb-5">
 								<div class="card" style="">
 									<img src="images/chehov.jpg" class="card-img-top" alt="塔甘罗格 A.P. Chekhov 故乡的虚拟之旅">
 									<div class="card-body">
