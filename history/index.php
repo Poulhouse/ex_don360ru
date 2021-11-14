@@ -21,6 +21,7 @@
  <body class="body " style="">
  
 	<header id="header">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container header_wrapper">
 			<div class="row align-items-center justify-content-between">
 				<div class="col-auto me-auto">
@@ -30,7 +31,7 @@
 						</svg> Вернуться на главную
 					</a>
 				</div>
-				<div class="col-auto me-auto">
+				<!--<div class="col-auto me-auto d-none d-lg-block">
 
 					<?php if($_GET['lang'] == 'ru'){ ?>
 					
@@ -50,10 +51,8 @@
 
 					<?}?>
 
-				</div>
+				</div>-->
 				<div class="col-auto lang_wrapper d-none d-lg-block">	
-								
-					<?php if($_GET['lang'] == 'ru' || $_GET['lang'] == ''){ ?>
 						
 						<div class="lang_wrap">
 							<a href="?lang=ru" class="active">
@@ -62,56 +61,18 @@
 							</a>
 							<a href="?lang=en">
 								<img src="images/eng.jpg" class="lang_img" />
-								<p class="small_text">Английский</p>
-							</a>
-							<a href="?lang=ch">
-								<img src="images/china.jpg" class="lang_img" />
-								<p class="small_text">Китайский</p>
-							</a>
-						</div>
-						
-					<?} elseif($_GET['lang'] == 'en'){?>
-					
-						<!--<span class="title_lang">Choose language</span>-->
-						<div class="lang_wrap">
-							<a href="?lang=ru">
-								<img src="images/rus.jpg" class="lang_img" />
-								<p class="small_text">Russian</p>
-							</a>
-							<a href="?lang=en"  class="active">
-								<img src="images/eng.jpg" class="lang_img" />
 								<p class="small_text">English</p>
 							</a>
 							<a href="?lang=ch">
 								<img src="images/china.jpg" class="lang_img" />
-								<p class="small_text">Chinese</p>
-							</a>
-						</div>
-					
-					
-					<?} elseif($_GET['lang'] == 'ch'){?>
-					
-						<!--<span class="title_lang">选择语言</span>-->
-						<div class="lang_wrap">
-							<a href="?lang=ru">
-								<img src="images/rus.jpg" class="lang_img" />
-								<p class="small_text">俄语</p>
-							</a>
-							<a href="?lang=en">
-								<img src="images/eng.jpg" class="lang_img" />
-								<p class="small_text">英语</p>
-							</a>
-							<a href="?lang=ch"  class="active">
-								<img src="images/china.jpg" class="lang_img" />
 								<p class="small_text">中国人</p>
 							</a>
-						</div>				
-					
-					<?}?>
-					
+						</div>					
+
 				</div>
 			</div><!-- /.row -->
 		</div><!-- /.container -->	
+					</nav>
 	</header>
 	
 	<section id="centerLayer">
