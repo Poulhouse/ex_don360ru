@@ -248,15 +248,15 @@
 
 					<?php if($_GET['lang'] == 'ru' || !$_GET['lang']){ ?>
 
-						<h1>Проект «Узнай Россию: гении слова, рождённые на Дону»<br>при поддержке<br>Фонда Презедентских Грантов</h1>
+						<h2>Проект «Узнай Россию: гении слова, рождённые на Дону»<br>при поддержке<br>Фонда Презедентских Грантов</h2>
 
 					<?} elseif($_GET['lang'] == 'en'){?>
 
-						<h1>Project "Get to know Russia: geniuses of the word, born on the Don"<br>with the support of<br>Presidential Grands Fund</h1>
+						<h2>Project "Get to know Russia: geniuses of the word, born on the Don"<br>with the support of<br>Presidential Grands Fund</h2>
 
 					<?} elseif($_GET['lang'] == 'ch'){?>
 
-						<h1>了解俄罗斯：这个词的天才，出生在顿河<br>在支持下<br>总统赠款基金</h1>
+						<h2>了解俄罗斯：这个词的天才，出生在顿河<br>在支持下<br>总统赠款基金</h2>
 
 					<?}?>
 
