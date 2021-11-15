@@ -1,0 +1,576 @@
+<krpano>
+	<scene name="scene_0001" title="[b]1.[/b] ПАМЯТНЫЙ КАМЕНЬ" number="[b]- 1 -[/b]" onstart="" thumburl="panos/0001__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-93.74" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0001__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0001__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0001__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0001__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0001__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="-45" atv="10" linkedscene="scene_0002"/>
+		-->
+		<hotspot name="infospot2" 
+				 style="skin_infospot" 
+				 ath="-12" atv="6.0" 
+				 onclick="popup('image', '%CURRENTXML%/skin/infospot/pictures/infospot2.jpg');" 
+		/>
+
+	</scene>
+	
+	<scene name="scene_0002" title="[b]2.[/b] ВХОД В МУЗЕЙ" number="[b]- 2 -[/b]" onstart="" thumburl="panos/0002__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-146.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0002__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0002__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0002__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0002__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0002__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="80" atv="10" linkedscene="scene_0001" />		
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-80" atv="10" linkedscene="scene_0003" />
+		-->
+	</scene>
+
+	<scene name="scene_0003" title="[b]3.[/b] БЮСТ КАЛИНИНА" number="[b]- 3 -[/b]" onstart="" thumburl="panos/0003__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="9.56" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0003__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0003__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0003__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0003__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0003__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="77" atv="10" linkedscene="scene_0002" />		
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="9.5" atv="10" linkedscene="scene_0004" />
+		-->
+	</scene>
+
+	<scene name="scene_0004" title="[b]4.[/b] НА КРЫЛЬЦЕ МУЗЕЯ" number="[b]- 4 -[/b]" onstart="" thumburl="panos/0004__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-33.48" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0004__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0004__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0004__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0004__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0004__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot5" style="skin_hotspotstyle" ath="0" atv="10" linkedscene="scene_0005" />		
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="180" atv="10" linkedscene="scene_0003" />
+		-->
+	</scene>
+	
+	<scene name="scene_0005" title="[b]5.[/b] КАРТИННАЯ ГАЛЕРЕЯ" number="[b]- 5 -[/b]" onstart="" thumburl="panos/0005__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="22.15" vlookat="-0.6" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0005__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0005__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0005__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0005__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0005__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="53" atv="10" linkedscene="scene_0004" />		
+		<hotspot name="spot6" style="skin_hotspotstyle" ath="-70" atv="10" linkedscene="scene_0006" />
+		-->
+	</scene>
+
+	<scene name="scene_0006" title="[b]6.[/b] ЛИТЕРАТУРНАЯ СЕМЬЯ" number="[b]- 6 -[/b]" onstart="" thumburl="panos/0006__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="154.34" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0006__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0006__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0006__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0006__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0006__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot5" style="skin_hotspotstyle" ath="107" atv="10" linkedscene="scene_0005" />
+		<hotspot name="spot7" style="skin_hotspotstyle" ath="-104" atv="10" linkedscene="scene_0007" />
+		-->
+	</scene>
+
+	<scene name="scene_0007" title="[b]7.[/b] ПИШУЩАЯ МАШИНКА" number="[b]- 7 -[/b]" onstart="" thumburl="panos/0007__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-171.49" vlookat="8.33" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0007__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0007__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0007__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0007__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0007__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot6" style="skin_hotspotstyle" ath="65" atv="10" linkedscene="scene_0006" />		
+		<hotspot name="spot8" style="skin_hotspotstyle" ath="-8" atv="10" linkedscene="scene_0008" />
+		-->
+	</scene>
+	
+	<scene name="scene_0008" title="[b]8.[/b] РУКОДЕЛЬНИЦА" number="[b]- 8 -[/b]" onstart="" thumburl="panos/0008__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-178.47" vlookat="46.92" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0008__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0008__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0008__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0008__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0008__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot9" style="skin_hotspotstyle" ath="-94" atv="10" linkedscene="scene_0009" />
+		<hotspot name="spot7" style="skin_hotspotstyle" ath="180" atv="10" linkedscene="scene_0007" />
+		-->
+	</scene>
+	
+	<scene name="scene_0009" title="[b]9.[/b] РАБОЧИЙ СТОЛ" number="[b]- 9 -[/b]" onstart="" thumburl="panos/0009__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="133.43" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0009__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0009__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0009__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0009__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0009__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot8" style="skin_hotspotstyle" ath="42.7" atv="10" linkedscene="scene_0008" />		
+		<hotspot name="spot11" style="skin_hotspotstyle" ath="-90" atv="10" linkedscene="scene_0011" />
+		-->
+	</scene>
+	<!--
+	<scene name="scene_0010" title="Улица Центральная" onstart="" thumburl="panos/0010__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0010__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0010__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0010__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0010__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot9" style="skin_hotspotstyle" ath="50" atv="10" linkedscene="scene_0009" />		
+		<hotspot name="spot11" style="skin_hotspotstyle" ath="-2" atv="10" linkedscene="scene_0011" />
+
+	</scene>
+	<scene name="scene_0010" title="Улица Центральная" onstart="" thumburl="panos/0010__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0010__.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/0010__.tiles/pano_%s.jpg" />
+		</image>
+		<hotspot name="spot9" style="skin_hotspotstyle" ath="50" atv="10" linkedscene="scene_0009" />		
+		<hotspot name="spot11" style="skin_hotspotstyle" ath="-2" atv="10" linkedscene="scene_0011" />
+
+	</scene>
+	-->
+	
+	<scene name="scene_0011" title="[b]10.[/b] ВХОД В УСАДЬБУ" number="[b]- 10 -[/b]" onstart="" thumburl="panos/0011__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-47.25" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0011__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0011__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0011__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0011__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0011__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot12" style="skin_hotspotstyle" ath="-10" atv="10" linkedscene="scene_0012" />		
+		<hotspot name="spot10" style="skin_hotspotstyle" ath="50" atv="10" linkedscene="scene_0009" />
+		-->
+	</scene>
+	
+	<scene name="scene_0012" title="[b]11.[/b] ЗЕЛЁНЫЙ КАБИНЕТ" number="[b]- 11 -[/b]" onstart="" thumburl="panos/0012__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-155.54" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0012__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0012__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0012__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0012__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0012__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot11" style="skin_hotspotstyle" ath="178" atv="10" linkedscene="scene_0011" />		
+		<hotspot name="spot13" style="skin_hotspotstyle" ath="-2.5" atv="10" linkedscene="scene_0013" />
+		-->
+	</scene>
+
+	<scene name="scene_0013" title="[b]12.[/b] ДОНСКАЯ ЧАША" number="[b]- 12 -[/b]" onstart="" thumburl="panos/0013__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-110.4797022077691" vlookat="-4.73944683690738" fovtype="MFOV" fov="39.878687814700776" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0013__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0013__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0013__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0013__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0013__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot12" style="skin_hotspotstyle" ath="173" atv="10" linkedscene="scene_0012" />		
+		<hotspot name="spot14" style="skin_hotspotstyle" ath="-92" atv="10" linkedscene="scene_0014" />
+		-->
+	</scene>	
+	
+	<scene name="scene_0014" title="[b]13.[/b] САД КАЛИНИНА" number="[b]- 13 -[/b]" onstart="" thumburl="panos/0014__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-150.1" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+		<!--
+		<hotspot name="spot13" style="skin_hotspotstyle" ath="91" atv="10" linkedscene="scene_0013" />		
+		<hotspot name="spot15" style="skin_hotspotstyle" ath="-84" atv="10" linkedscene="scene_0015" />
+		-->
+
+		<preview url="panos/0014__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0014__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0014__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0014__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0014__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+	
+	
+	<scene name="scene_0015" title="[b]14.[/b] ТРОПА СКОРБИ" number="[b]- 14 -[/b]" onstart="" thumburl="panos/0015__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-174.0" vlookat="31.82" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0015__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0015__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0015__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0015__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0015__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot14" style="skin_hotspotstyle" ath="92" atv="10" linkedscene="scene_0014" />		
+		<hotspot name="spot18" style="skin_hotspotstyle" ath="20" atv="10" linkedscene="scene_0018" />
+		-->
+	</scene>	
+	
+	<scene name="scene_0018" title="[b]15.[/b] ВЫХОД К ДОНУ" number="[b]- 15 -[/b]" onstart="" thumburl="panos/0018__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="47.45" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0018__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0018__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0018__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0018__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0018__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot15" style="skin_hotspotstyle" ath="6.52" atv="10" linkedscene="scene_0015" />		
+		<hotspot name="spot20" style="skin_hotspotstyle" ath="149.8" atv="10" linkedscene="scene_0020" />
+		-->
+	</scene>
+	
+	<scene name="scene_0020" title="[b]16.[/b] ЛОДКИ" number="[b]- 16 -[/b]" onstart="" thumburl="panos/0020__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="54.34" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0020__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0020__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0020__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0020__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0020__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot19" style="skin_hotspotstyle" ath="100" atv="10" linkedscene="scene_0019" />
+		<hotspot name="spot18" style="skin_hotspotstyle" ath="175" atv="10" linkedscene="scene_0018" />
+		-->
+	</scene>
+	
+	<scene name="scene_0019" title="[b]17.[/b] ДРЕВНИЕ КУРГАНЫ" number="[b]- 17 -[/b]" onstart="" thumburl="panos/0019__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="138.46" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0019__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0019__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0019__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0019__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0019__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot23" style="skin_hotspotstyle" ath="-170" atv="10" linkedscene="scene_0023" />
+		<hotspot name="spot20" style="skin_hotspotstyle" ath="-80" atv="10" linkedscene="scene_0020" />
+		-->
+	</scene>
+
+	<scene name="scene_0023" title="[b]18.[/b] НА БУГРАХ" number="[b]- 18 -[/b]" onstart="" thumburl="panos/0023__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-62.22" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0023__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0023__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0023__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0023__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0023__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<!--
+		<hotspot name="spot19" style="skin_hotspotstyle" ath="0" atv="10" linkedscene="scene_0019" />		
+		<hotspot name="spot24" style="skin_hotspotstyle" ath="-35" atv="10" linkedscene="scene_0024" />
+		-->
+	</scene>
+
+	<scene name="scene_0024" title="[b]19.[/b] ДОНСКАЯ РУСЬ" number="[b]- 19 -[/b]" onstart="" thumburl="panos/0024__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-123.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0"/>
+
+		<preview url="panos/0024__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0024__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0024__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0024__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0024__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<!--
+		<hotspot name="spot23" style="skin_hotspotstyle" ath="110" atv="10" linkedscene="scene_0023" />
+		-->
+	</scene>	
+	
+	<!-- textfield with information about the currently dragged hotspot -->
+	<layer name="hotspot_pos_info"
+	        type="text"
+	        html="drag the hotspots..."
+	        css="font-family:Courier;"
+	        padding="8"
+	        align="lefttop" x="10" y="10"
+	        width="200"
+	        enabled="false"
+			zorder="9999"
+	/>
+	
+
+	<!-- the action for dragging the hotspot - call it once in the ondown event -->
+	<action name="draghotspot">
+		spheretoscreen(ath, atv, hotspotcenterx, hotspotcentery, calc(mouse.stagex LT stagewidth/2 ? 'l' : 'r'));
+		sub(drag_adjustx, mouse.stagex, hotspotcenterx);
+		sub(drag_adjusty, mouse.stagey, hotspotcentery);
+		asyncloop(pressed,
+			sub(dx, mouse.stagex, drag_adjustx);
+			sub(dy, mouse.stagey, drag_adjusty);
+			screentosphere(dx, dy, ath, atv);
+			print_hotspot_pos();
+		  );
+	</action>
+	
+	<!-- show the xml code of the hotspot position -->
+	<action name="print_hotspot_pos">
+		<![CDATA[
+			copy(print_ath, ath);
+			copy(print_atv, atv);
+			roundval(print_ath, 3);
+			roundval(print_atv, 3);
+			calc(layer[hotspot_pos_info].html, '&lt;hotspot name="' + name + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ath="' + print_ath + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;atv="' + print_atv + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;');
+		]]>
+	</action>
+	
+</krpano>

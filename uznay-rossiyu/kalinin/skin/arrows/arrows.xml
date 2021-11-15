@@ -1,0 +1,179 @@
+<krpano>
+	<arrowsxmlpath url="./" />
+	<style 	name="hs_red" url="arrow-red.png" edge="center" crop="0|0|200|90" distorted="false"
+			tooltip=""
+			linkedscene=""
+			linkedscene_lookat=""
+			onclick="skin_hotspotstyle_click_two();"
+			onloaded="if(linkedscene, 
+				copy(tooltip,scene[get(linkedscene)].title);
+				copy(default_tooltip,scene[get(xml.scene)].title);				
+				loadstyle(skin_hover); 
+			);"
+	       />
+	<!--<style name="skin_hover"
+	       onover.mouse="set(crop, 0|90|200|90);
+						 copy(layer[skin_tooltip].html, tooltip);
+	                     set(layer[skin_tooltip].visible, calc(webvr.isenabled ? false : true));
+	                     tween(layer[skin_tooltip].alpha, 1.0, 0.1);
+	                     asyncloop(hovering, copy(layer[skin_tooltip].x,mouse.stagex); copy(layer[skin_tooltip].y,mouse.stagey); );"
+	       onout.mouse="set(crop, 0|0|200|90); tween(layer[skin_tooltip].alpha, 0.0, 0.1, default, set(layer[skin_tooltip].visible,false), copy(layer[skin_tooltip].x,mouse.stagex); copy(layer[skin_tooltip].y,mouse.stagey); );"
+	       />-->
+	<style name="skin_hover"
+	       onover.mouse="set(crop, 0|90|200|90);
+						 copy(layer[info].html, tooltip);
+	                     set(layer[info].visible, calc(webvr.isenabled ? false : true));
+						 set(layer[info2].visible, false);
+						 set(layer[info].bgborder,2 0x901518);
+						 set(layer[info].css, font-family: Open Sans; text-transform: uppercase; padding:0px 30px; color:#901518; font-weight: 600; text-align: center; font-size:14px;);
+	                     "
+	       onout.mouse="copy(layer[info].html, default_tooltip); set(crop, 0|0|200|90); set(layer[info].bgborder, 0); set(layer[info2].visible,false); 
+						 set(layer[info].visible, true); set(layer[info].css, font-family: Open Sans; text-transform: uppercase; padding:0px 30px; color:#0A0A0A; font-weight: 600; text-align: center; font-size:14px;);"
+	       />
+	<style 	name="hs__up" url="../hs/hs_up.png" scale="0.3" edge="center" crop="0|0|146|146" distorted="false"
+			tooltip=""
+			linkedscene=""
+			linkedscene_lookat=""
+			onclick="skin_hotspotstyle_click_two();"
+			onloaded="if(linkedscene, 
+				copy(tooltip,scene[get(linkedscene)].title);				
+				loadstyle(skin_tooltips); 
+			);"
+	       />
+	<style 	name="hs__up_2" url="../hs/hs_up.png" scale="0.3" edge="center" crop="0|0|146|146" distorted="false"
+			tooltip=""
+			linkedscene=""
+			linkedscene_lookat=""
+			onclick="skin_hotspotstyle_click_two();"
+			onout="set(crop, 0|0|146|146); "
+			onover="set(crop, 0|166|146|146);"
+	       />
+	<style 	name="hs__arrow" url="../hs/arrow4_2__120.png" scale="1.0" edge="center" distorted="false"
+			tooltip=""
+			linkedscene=""
+			linkedscene_lookat=""
+			crop="0|0|120|120" 
+			onclick="skin_hotspotstyle_click_two();"
+			onloaded="if(linkedscene, 
+				copy(tooltip,scene[get(linkedscene)].title);					
+				loadstyle(skin_tooltips_three); 	
+			);"
+	       />
+	<style 	name="hs__arrow-f-hover" url="../hs/arrow2-f-170.png" scale="1.0" edge="center" distorted="false"
+			tooltip=""
+			linkedscene=""
+			linkedscene_lookat=""
+			crop="0|0|170|170" 
+			onclick="skin_hotspotstyle_click_two();"
+			onloaded="if(linkedscene, 
+				copy(tooltip,scene[get(linkedscene)].title);					
+				loadstyle(skin_tooltip_up); 	
+			);"
+	       />
+		   
+	<style name="skin_tooltip_up"
+	       onover.mouse="set(crop, 0|170|170|170);
+						 copy(layer[info2].html, tooltip);
+	                     set(layer[info2].visible, calc(webvr.isenabled ? false : true));
+						 set(layer[info].visible, false);
+	                     tween(layer[info2].alpha, 1.0, 0.1);
+	                     "
+	       onout.mouse="set(crop, 0|0|170|170); tween(layer[info2].alpha, 0.0, 0.1, default, set(layer[info2].visible,false)); 
+						 set(layer[info].visible, true);"
+	       />
+	<style 	name="hs__arrow_street" url="../hs/arrow5_2__165.png" scale="1.0" edge="center" distorted="false"
+			tooltip=""
+			linkedscene=""
+			linkedscene_lookat=""
+			crop="0|0|165|165" 
+			onclick="skin_hotspotstyle_click_two();"
+			onout="set(crop, 0|0|165|165); "
+			onover="set(crop, 0|140|165|165);"
+			
+	       />
+	<style 	name="hs__arrow_2" url="../hs/arrow5__120.png" scale="1.0" edge="center" distorted="false"
+			tooltip=""
+			linkedscene=""
+			linkedscene_lookat=""
+			onclick="skin_hotspotstyle_click_two();"
+			onloaded="if(linkedscene, 
+				copy(tooltip,scene[get(linkedscene)].title);					
+				loadstyle(skin_tooltips_two); 	
+			);"
+	       />
+				<!--loadstyle(skin_tooltips); onloaded="if(linkedscene, 
+				copy(tooltip,scene[get(linkedscene)].title);					
+				loadstyle(skin_tooltips_four); 	
+			);"-->
+	<style 	name="hs__into" url="../hs/hs_into.png" scale="0.3" edge="center" crop="0|0|146|146" distorted="false"
+			tooltip=""
+			linkedscene=""
+			linkedscene_lookat=""
+			onclick="skin_hotspotstyle_click_two();"
+			onloaded="if(linkedscene, 
+				copy(tooltip,scene[get(linkedscene)].title); 
+				loadstyle(skin_tooltips); 
+			);"
+	       />				
+	<action name="skin_hotspotstyle_click_two" scope="local">
+		copy(layer[info].html, 'qqq');
+		copy(layer[info2].html, 'www');
+		if(caller.linkedscene,
+			copy(hs_linkedscene, caller.linkedscene);
+			if(caller.linkedscene_lookat, txtsplit(caller.linkedscene_lookat, ',', hs_lookat_h, hs_lookat_v, hs_lookat_fov); );
+			set(caller.enabled, false);
+			skin_hidetooltips();
+			tween(caller.depth|caller.alpha|caller.oy|caller.rx, 4000|0.0|-50|-60, 0.5, default,
+				skin_loadscene(get(hs_linkedscene), get(skin_settings.loadscene_blend));
+				if(hs_lookat_h !== null, skin_lookat(get(hs_lookat_h), get(hs_lookat_v), get(hs_lookat_fov)); );
+				skin_updatescroll();
+			);
+			
+			
+		);
+	</action>
+	<!-- skin_tooltip - style for the thumb, hotspot and mapspot tooltips -->
+	
+	<style name="skin_tooltips"
+	       onover.mouse="tween(scale,0.33); set(crop, 0|166|146|146);
+						 copy(layer[skin_tooltip].html, tooltip);
+	                     set(layer[skin_tooltip].visible, calc(webvr.isenabled ? false : true));
+	                     tween(layer[skin_tooltip].alpha, 1.0, 0.1);
+	                     asyncloop(hovering, copy(layer[skin_tooltip].x,mouse.stagex); copy(layer[skin_tooltip].y,mouse.stagey); );"
+	       onout.mouse="tween(scale,0.3);set(crop, 0|0|146|146); tween(layer[skin_tooltip].alpha, 0.0, 0.1, default, set(layer[skin_tooltip].visible,false), copy(layer[skin_tooltip].x,mouse.stagex); copy(layer[skin_tooltip].y,mouse.stagey); );"
+	       />
+	<style name="skin_tooltips_three"
+	       onover.mouse="set(crop, 0|120|120|120); copy(layer[skin_tooltip].html, tooltip);
+	                     set(layer[skin_tooltip].visible, calc(webvr.isenabled ? false : true));
+	                     tween(layer[skin_tooltip].alpha, 1.0, 0.1);
+	                     asyncloop(hovering, copy(layer[skin_tooltip].x,mouse.stagex); copy(layer[skin_tooltip].y,mouse.stagey); );"
+	       onout.mouse="set(crop, 0|0|120|120); tween(layer[skin_tooltip].alpha, 0.0, 0.1, default, set(layer[skin_tooltip].visible,false), copy(layer[skin_tooltip].x,mouse.stagex); copy(layer[skin_tooltip].y,mouse.stagey); );"
+	       />
+	<style name="skin_tooltips_four"
+	       onover.mouse="set(crop, 0|140|165|165); copy(layer[skin_tooltip].html, tooltip);
+	                     set(layer[skin_tooltip].visible, calc(webvr.isenabled ? false : true));
+	                     tween(layer[skin_tooltip].alpha, 1.0, 0.1);
+	                     asyncloop(hovering, copy(layer[skin_tooltip].x,mouse.stagex); copy(layer[skin_tooltip].y,mouse.stagey); );"
+	       onout.mouse="set(crop, 0|0|165|165); tween(layer[skin_tooltip].alpha, 0.0, 0.1, default, set(layer[skin_tooltip].visible,false), copy(layer[skin_tooltip].x,mouse.stagex); copy(layer[skin_tooltip].y,mouse.stagey); );"
+	       />
+   <style name="skin_tooltips_two"
+	       onover.mouse="copy(layer[skin_tooltip].html, tooltip);
+	                     set(layer[skin_tooltip].visible, calc(webvr.isenabled ? false : true));
+	                     tween(layer[skin_tooltip].alpha, 1.0, 0.1);
+	                     asyncloop(hovering, copy(layer[skin_tooltip].x,mouse.stagex); copy(layer[skin_tooltip].y,mouse.stagey); );"
+	       onout.mouse="tween(layer[skin_tooltip].alpha, 0.0, 0.1, default, set(layer[skin_tooltip].visible,false), copy(layer[skin_tooltip].x,mouse.stagex); copy(layer[skin_tooltip].y,mouse.stagey); );"
+	       />
+	<!-- the tooltip textfield -->
+	<layer name="skin_tooltip" keep="true"
+	       type="text"
+	       parent="STAGE"
+	       visible="false" alpha="0.0" enabled="false" zorder="2"
+	       align="lefttop" edge="top" oy="100%"
+		   font="Open Sans" fontsize.no-mobile="14" fontsize.mobile="29" bold="true"
+		   bgcolor="0x901518"
+	       bg="true"
+	       textshadow="get:skin_settings.design_text_shadow" textshadowrange="6.0" textshadowangle="90" textshadowcolor="0x000000" textshadowalpha="1.0"
+	       css="calc:skin_settings.design_text_css + ' text-align:center; font-size:14px; padding:4px 8px; text-transform: uppercase; font-weight: 700;'"
+	       html=""
+	       />
+</krpano>

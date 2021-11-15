@@ -1,0 +1,289 @@
+<krpano>
+	<action name="getLevelGroup">
+		if(%1 !== null,			
+			<!--trace('ID переданный в getLevelGroup ', %1);	-->	 			
+			txtadd(level, 'level_', %1);
+			calc(prevnum, %1 - 1);
+			txtadd(oldlevel, 'level_', get(prevnum));
+			calc(nextnum, %1 + 1);
+			txtadd(newlevel, 'level_', get(nextnum));
+		, 
+			<!--trace('ID переданный в getLevelGroup ', %1);	-->		
+			txtadd(level, 'level_', 0);
+			calc(prevnum, -1);
+			txtadd(oldlevel, 'level_', -1 );
+			calc(nextnum, 1);
+			txtadd(newlevel,'level_', 1);
+		);
+	</action>
+	<action name="start"> 
+		trace('START()');
+		
+		set(layer[btn_left_container].visible, false);
+		set(layer[btn_right_container].visible, false);
+		set(currentscene, get(scene[get(xml.scene)].name));
+					
+		<!--
+		for(set(t,0), t LT 10, inc(t),
+			copy(hs,hotspot[get(t)]);
+			set(hs.visible, false );
+		);
+		-->
+		
+		trace('Кол-во групп автогида = ', group_v.count );
+		for(set(c,0), c LE group_v.count, inc(c),			
+			getLevelGroup(get(c));
+			
+			if(group_v[get(level)].enabled === true,	
+				trace('Если группа автогида = ', get(level), ' Активна! ', get(c) );	
+								
+				for(set(k,1), k LE group_v[get(level)].group.count, inc(k),				
+					txtadd(object_1_html,'object_',get(k));					
+					if(get(group_v[get(level)].group[get(object_1_html)].value) === currentscene,	
+					
+						trace('Если значение сцены текущей группы равно имени текущей панорамы' );
+						
+						play( get(c) );
+						set(layer[btn_play].onclick, play( get(c) ) );
+						set(layer[btn_pause].onclick, pause( get(c) ) );
+						exitcall(start);
+					);
+				);
+				break();
+			);
+		); 
+		trace('end START()');
+	
+	
+	
+	<!--
+		trace('START()');
+		
+		set(layer[btn_left_container].visible, false);
+		set(layer[btn_right_container].visible, false);
+					
+		
+		for(set(t,0), t LT 10, inc(t),
+			copy(hs,hotspot[get(t)]);
+			if(hs.style === 'skin_hotspotstyle', set(hs.visible, false ); );
+		);
+		
+		trace('Кол-во групп автогида = ', group_v.count );
+		for(set(c,0), c LE group_v.count, inc(c),			
+			getLevelGroup(get(c));
+			
+			if(group_v[get(level)].enabled === true,	
+				trace('Если группа автогида = ', get(level), ' Активна! ', get(c) );	
+				if(group_v[get(level)].group.count GT 0, 				
+					for(set(k,1), k LE group_v[get(level)].group.count, inc(k),				
+						txtadd(object_1_html,'object_',get(k));					
+						if(get(group_v[get(level)].group[get(object_1_html)].value) === scene[get(xml.scene)].name,	
+							for(set(t,0), t LT 10, inc(t),
+								copy(hs,hotspot[get(t)]);
+								if(hs.style === 'skin_hotspotstyle', set(hs.visible, true ); );
+							);
+							play( get(c) );
+							set(layer[btn_play].onclick, play( get(c) ) );
+							set(layer[btn_pause].onclick, pause( get(c) ) );
+							exitcall(start);
+						);
+					);
+				,
+					for(set(k,1), k LE group_v[get(level)].group.count, inc(k),				
+						txtadd(object_1_html,'object_',get(k));						
+						if(get(group_v[get(level)].group[get(object_1_html)].value) === scene[get(xml.scene)].name,	
+						
+							trace('Если значение сцены текущей группы равно имени текущей панорамы' );
+							
+							play( get(c) );
+							set(layer[btn_play].onclick, play( get(c) ) );
+							set(layer[btn_pause].onclick, pause( get(c) ) );
+							exitcall(start);
+						);
+					);
+				);
+				break();
+			);
+		); 
+		trace('end START()');-->
+	</action>	
+	<action name="changegroup">
+		set(layer[btn_left_container].visible, true);
+		set(currentscene, get(scene[get(xml.scene)].name));
+		trace('текущая сцена = ', get(currentscene));
+		<!--
+		for(set(t,0), t LT 10, inc(t),
+			copy(hs,hotspot[get(t)]);
+			set(hs.ondown, draghotspot(); );
+		);
+		-->
+		trace('Деактивируем все группы');
+		set(group_v.enabled, false);
+		for(set(e,0), e LE group_v.count, inc(e),
+			getLevelGroup(get(e));
+			
+			<!--if(get(group_v[get(level)].group.count) === 1, -->				
+				sound[get(level)].stop();
+				trace('Удаляем звук с именем ', get(level));
+			<!--);-->
+			
+		
+				
+		);	
+		
+		for(set(w,0), w LE group_v.count, inc(w),
+			getLevelGroup(get(w));
+			for(set(q,1), q LE group_v[get(level)].group.count, inc(q),
+				trace('q = ', get(q));
+				trace('group count = ',get(group_v[get(level)].group.count));
+				txtadd(object_4_html,'object_',get(q));	
+				<!--
+				if(get(group_v[get(level)].group.count) GT 1,
+					trace( get(s) );
+					set(scene[get(group_v[get(level)].group[get(object_4_html)].value)].onstart, playerShowHide(); );
+					exitcall(changegroup);
+				);
+				-->
+				if(group_v[get(level)].group[get(object_4_html)].value === currentscene,
+					trace('Активируем группу = ', get(level));
+					set(group_v[get(level)].enabled, true);
+					if(group_v[get(level)].voice,
+						
+						createsound(get(level), get(group_v[get(level)].voice),false);
+						trace('Создаётся звук с именем ', get(level));
+						set(layer[btn_play].onclick, play( get(w) ) );
+						if(events[audiogidState].soundd === true, play( get(w) ) );
+						set(layer[btn_pause].onclick, pause( get(w) ) );
+					);
+						<!--if(!sound[get(level)],
+						
+							if(get(group_v[get(level)].group.count) === 1, 
+							
+								createsound(get(level), get(group_v[get(level)].voice),false); 
+								trace('Создаётся звук с именем ', get(level));
+								
+								set(layer[btn_play].onclick, play( get(w) ) );
+								if(events[audiogidState].soundd === true, play( get(w) ) );
+								set(layer[btn_pause].onclick, pause( get(w) ) );
+								
+							,
+								createsound(get(level), get(group_v[get(level)].voice),false);
+								trace('Создаётся звук с именем ', get(level));
+								set(layer[btn_play].onclick, play( get(w) ) );	
+								if(events[audiogidState].soundd === true, play( get(w) ) );						
+								set(layer[btn_pause].onclick, pause( get(w) ) );				
+								
+							);
+						,
+							trace('Звук есть');							
+							if(get(group_v[get(level)].group.count) === 1, 
+								createsound(get(level), get(group_v[get(level)].voice),false); 
+								trace('Создаётся звук с именем ', get(level));
+								set(layer[btn_play].onclick, play( get(w) ) );
+								if(events[audiogidState].soundd === true, play( get(w) ) );
+								set(layer[btn_pause].onclick, pause( get(w) ) );
+							);
+							
+						);-->
+					exitcall(changegroup);
+				);
+				
+			);
+		);
+	</action>	
+	<action name="soundDataCreate">		
+		getLevelGroup(%1);
+		trace('ID переданный в soundDataCreate = ', %1 );		
+		if(group_v[get(level)].voice,
+			createsound(get(level), get(group_v[get(level)].voice),false);
+		);		
+		trace('Создаётся звук с именем ', get(level));
+	</action>
+	<action name="autogid">		
+		trace('Запуск автогида');		
+		getLevelGroup(%1);		
+		
+		if(group_v[get(level)].voice,
+			createsound(get(level), get(group_v[get(level)].voice),false);
+			trace('Создаётся звук с именем ', get(level));
+		);
+		
+		for(set(t,0), t LT 10, inc(t),
+			copy(hs,hotspot[get(t)]);
+			if(hs.style === 'skin_hotspotstyle', set(hs.visible, false ); );
+		);
+		
+		set(layer[btn_left_container].visible, false);
+		set(layer[btn_right_container].visible, false);
+		
+		for(set(i,0), i LT scene.count, inc(i),
+			txtadd(thumb_name, 'skin_thumb_',get(i));
+			for(set(j,1), j LE group_v[get(level)].group.count, inc(j),
+				
+				
+				txtadd(object_0_html,'object_',get(j));
+				
+				if(group_v[get(level)].enabled === true AND scene[get(i)].name === get(group_v[get(level)].group[get(object_0_html)].value),
+					set(layer[get(thumb_name)].enabled, true);
+					set(layer[get(thumb_name)].alpha, 1.0);
+					break();
+				, 
+					set(layer[get(thumb_name)].enabled, false);
+					set(layer[get(thumb_name)].alpha, 0.5);
+				);
+				
+				
+				
+				if(sound[get(oldlevel)],
+					trace('Есть звук с предыдущей группы ', get(oldlevel) );
+					if(group_v[get(oldlevel)].group[get(object_0_html)].value,
+						
+						set(layer[btn_play].onclick, bgsound_play() );
+						set(layer[btn_pause].onclick, bgsound_pause() );
+						
+						set(layer[btn_right_container].visible, true);
+						
+						set(layer[btn_right_container].bgborder, 0);
+						set(layer[btn_right_container].bgcolor, 0x901518);							
+						set(layer[btn_right].crop, 1439|69|64|64);
+						
+						set(layer[btn_right_container].onout,
+							default_tooltip(); 
+							set(layer[btn_right].crop, 1439|69|64|64); 
+							set(bgborder,0); 
+							set(bgalpha, 0.66);
+						);
+						
+						set(layer[btn_right_container].onover, 
+							group_scenename_title(+1); 							
+							set(layer[btn_right].crop, 1439|69|64|64); 
+							set(bgborder, 2 0x901518); 
+							set(bgalpha, 1.0);
+						);
+						
+						trace('ссылка на плей = ', get(layer[btn_play].onclick));
+						trace('ссылка на паузу = ', get(layer[btn_pause].onclick));
+						
+					,
+						<!--trace('Нет'); -->
+						trace('ID текущей группы автогида = ', %1 );
+						if(layer[layout_container].mainsound === 'pause',
+							set(layer[btn_play].enabled, true );
+							set(layer[btn_play].alpha, 1.0 ); 
+							set(layer[btn_play].onclick, play(%1) );
+							set(layer[btn_pause].onclick, pause(%1) );
+						);
+						trace('ссылка на плей2 = ', get(layer[btn_play].onclick));
+						trace('ссылка на паузу2 = ', get(layer[btn_pause].onclick));
+						
+					);
+				,
+					
+					trace('Нет');
+				);
+			);
+			
+		);
+		
+	</action>
+</krpano>
