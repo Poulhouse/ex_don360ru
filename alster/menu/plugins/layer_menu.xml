@@ -1,0 +1,230 @@
+﻿<krpano>
+	
+	<!-- //////////////////////    СТИЛИ    /////////////////////////////// --> 
+	<!-- Контейнер группы -->
+    <style  name="cont_gr" type="container" keep="true" align="top" width="100%" height="0" y="0" maskchildren="true"  add_y="0" 
+ 			bgcolor="0xa0b404"  bgalpha="0.0"  bgcapture="true"  bgborder="0,0,0,0 0xFFFFFF 0"  bgshadow="0 0 0 0 0x000000 0.0"   bgroundedge="0 0 0 0" />
+	 <!-- Слой прокрутки -->	   
+    <style 	name="scroll_m"  url.flash="%CURRENTXML%/plugins/scrollarea.swf"  url.html5="%CURRENTXML%/plugins/scrollarea.js" keep="true" align="lefttop" y="0" x="0"
+		    width="100%" height="500" direction="v" draggable="true" mwheel="true"  
+			onhover_autoscrolling="false" overscroll="0" friction="0.8" onscroll="updatebegun_men();"   />
+	<!-- Контейнер столбца -->
+    <style  name="top_m"  type="container"  keep="true"  enabled="true" visible="true" alpha="1" maskchildren="false"
+			zorder="51" width=""  height="500"  bgcolor=""  bgalpha="0"  bgcapture="true" handcursor="false"/>
+	<!-- Индикатор просмотра -->
+	<style 	name="indik_prosmotr" type="text"  keep="true" align="lefttop" enabled="false" alpha="0" x="7" y="0" handcursor="false"  
+			bgalpha="0" bgroundedge="0" bgborder="0 0x000000 0" bgbordercolor="0x2D3E50" bgborderwidth="0" 
+			txtshadow="1 1 3 0x000000 0.9" 
+			css="font-family:Arial; font-size:20px; color:#FFFFFF;" padding="1" vcenter="true"
+			bgcolor=""  
+			html="get:data[ic_prosm].content" />	
+	<!--  /////////////////////////   ОСНОВНОЙ КОНТЕЙНЕР  МЕНЮ  ////////////////////////////// -->	
+	<layer 	name="osnovn_cont_menu" type="container" keep="true" visible="true" state="opened" width="get:menu_sm.menu_width" height="100%" 
+			align="get:menu_sm.menu_align"  x="calc: - menu_sm.menu_width" y="0" zorder="50"
+			bgcolor="get:menu_sm.menu_bgcolor" bgalpha="get:menu_sm.menu_bgalpha" maskchildren="true" 
+			onout="" onover=""/>
+	<!-- Контейнер логотипа -->		
+	<layer 	name="cont_log_m" type="container" keep="true" width="100%" height="get:menu_sm.logo_cont_height" visible="true" 
+			parent="osnovn_cont_menu" bgcolor="0x000000" bgalpha="0.0">
+		<!-- логотип -->
+		<layer 	name="logo_thumbnail_SM" url="get:menu_sm.logo" type="image" align="top" width="prop" height="get:menu_sm.logo_height" x="0" y="get:menu_sm.logo_y"  
+				keep="true" alpha="1" scale="1" onclick="get:menu_sm.logo_click"  zorder="10" />
+	</layer>
+	<!-- текст логотипа	 -->
+	<layer 	name="logo_txt" type="text" keep="true" align="bottom" edge="top"  width="100%" height="0" alpha="1" zorder="10" 
+			bgcolor="0x045088" bgalpha="0" bgroundedge="0" bgborder="0 0x045088 1" bgbordercolor="0x045088" bgborderwidth="0" parent="cont_log_m"
+			css="get:menu_sm.logo_css_text" vcenter="true" padding="10 10 10 10"
+			html="get:menu_sm.logo_text" onclick="get:menu_sm.logo_click"
+		/>		
+			
+	<!-- Контейнер шапки  -->
+	<layer 	name="back_cont" style="cont_gr"  align="bottom" edge="top" width="100%"  height="get:menu_sm.title_height" maskchildren="false"  parent="logo_txt"   >
+		<!-- кнопка меню в шапке с маркером -->
+		<layer 	name="back_cont2" style="cont_title"  bgcolor="0xa0b404"  bgalpha="0.6" height="100%"   align="top"   
+					onclick="if(back_konec, back_menu(get(langM)));"  onover="callwith(layer[back_picture],onover);" onout="callwith(layer[back_picture],onout);" >
+			<!-- картинка  кнопки -->
+			<layer  name="back_picture"  style="menu_picture"  url="get:menu_sm.title_picture"   onover=""   />
+			<!-- текст -->
+			<layer 	name="back_txt" style="txt_title" html="get:menu_sm.title_text_1"  css="get:menu_sm.title_css" onclick="if(back_konec,back_menu(get(langM)),  hide_m(); );"  
+							onover="set(layer[back_mar1].x,5);" onout="set(layer[back_mar1].x,10);"/>
+			<!-- маркер -->
+			<layer	name="back_mar1" url="icon/back.png" align="left" alpha="0.8" height="calc:menu_sm.line_height * 0.4" width="prop" x="7" zorder="53" 
+						onover="set(x,5);" onout="set(x,10);" onclick="if(back_konec,back_menu(get(langM)), hide_m(); );" />
+		</layer>			
+	</layer>	
+	
+	<!-- Контейнер Индикатор группы -->		
+	<layer 	name="cont_indik_m" type="container" keep="true" align="bottom" edge="top" width="100%" height="get:menu_sm.group_indicator_height" visible="true" bgalpha="0"  
+				maskchildren="true"  parent="back_cont" >	
+		<!-- Индикатор  -->
+		<layer 	name="indik_vlog" type="text"  keep="true" align="center" edge="center" enabled="true" width="100%" height="20"  x="0" y="0" handcursor="false"  zorder="11"
+					bgalpha="0" bgroundedge="0" bgborder="0 0x000000 0" bgbordercolor="0x436eb3" bgborderwidth="0" 
+					css="font-family:Arial; font-size:20px; color:#436eb3; text-align:center; margin-left:5px; margin-right:5px;" padding="0" vcenter="true"
+					bgcolor=""  
+					html="get:data[ic_mmen].content" />	
+	</layer>	
+
+	<!-- https://html5book.ru/specsimvoly-html/ -->
+	<data name="ic_mmen"><![CDATA[ &bull;]]></data>	
+	<data name="ic_prosm"><![CDATA[&#10004;]]></data>		
+	
+	<!-- /////////////////     БЛОК ДЛЯ МЕНЮ /////////////////////////// -->
+	<layer 	name="block_menu_sm" type="container" width="100%" y="calc:-layer[cont_indik_m].height" align="bottom" edge="top" visible="true"  handcursor="false"  parent="back_cont"
+			keep="true"   maskchildren="false"  >
+			<!-- прокрутка слева -->
+			<layer  name="scr_men_1" style="scroll_m"  height="200" />
+			<!-- прокрутка справа -->
+			<layer  name="scr_men_2" style="scroll_m"  height="200" x="get:menu_sm.menu_width" />
+	</layer>
+	
+	<!-- /////////////////    Нижний контейнер  /////////////////////////// -->
+	
+	
+	<layer 	name="bottom_menu_sm" type="container" keep="true" width="100%" height="get:menu_sm.bottom_height" y="0" align="bottom"  visible="true"   parent="osnovn_cont_menu"
+				bgcapture="true" maskchildren="false"  bgcolor="get:menu_sm.head_bgcolor"  bgalpha="0"  
+				onover="set(bgalpha,0.5);" onout="set(bgalpha,0);" handcursor="false" >
+			<!-- смена языка -->
+			<layer 	name="lang_buttom_men" type="text"  keep="true" align="left"  enabled="false" visible="false" width="30" height="25"  x="10" y="0" handcursor="false"  zorder="15"
+							bgalpha="1" bgroundedge="2" bgborder="0 0x000000 0" bgbordercolor="0x2D3E50" bgborderwidth="0" 
+							css="font-family:Arial; font-size:12px; color:#FFFFFF; text-align:center; margin-left:2px; margin-right:2px;" padding="3" vcenter="true"
+							bgcolor="get:menu_sm.line_bgcolor"  onover="set(bgcolor,get:menu_sm.line_onover_color);"  onout="set(bgcolor,get:menu_sm.line_bgcolor);"
+							lang="1" onclick="switch(lang, 1, 2); lang_set(get(lang)));"
+							html="get:menu_sm.lang_1" />
+			<layer 	name="soc_vk_buttom_men" url="get:menu_sm.vk_url" type="image" align="top" width="prop" height="get:menu_sm.vk_height" x="get:menu_sm.vk_x" y="get:menu_sm.vk_y"  
+				keep="true" alpha="1" scale="1" onclick="get:menu_sm.vk_click"  zorder="10" />
+			<layer 	name="soc_inst_buttom_men" url="get:menu_sm.inst_url" type="image" align="top" width="prop" height="get:menu_sm.inst_height" x="get:menu_sm.inst_x" y="get:menu_sm.inst_y"  
+				keep="true" alpha="1" scale="1" onclick="get:menu_sm.inst_click"  zorder="10" />
+			<layer 	name="soc_fb_buttom_men" url="get:menu_sm.fb_url" type="image" align="top" width="prop" height="get:menu_sm.fb_height" x="get:menu_sm.fb_x" y="get:menu_sm.fb_y"  
+				keep="true" alpha="1" scale="1" onclick="get:menu_sm.fb_click"  zorder="10" />
+	</layer>
+
+	
+	<!-- ///////////////////    БЕГУНОК   //////////////////////////////////////////  -->
+	
+	<layer 	name="beg_cont_menu"  type="container" keep="true" align="righttop"  x="0"  y="0" width="7"  height="100%" enabled="true" parent="block_menu_sm" zorder="55"
+				bgcolor="0x777777"  bgalpha="0.7" alpha="0"   bgcapture="false"  bgroundedge="0">
+		<!-- Бегунок перемещение мышкой-->		  
+		<layer 	name="begun_menu"  type="container" keep="true" align="top"   x="0"  y="0" width="80%"  height="" enabled="true"
+					bgcolor="0xBBBBBB" bgalpha="1" alpha="1"   bgcapture="true"  bgroundedge="3" 
+					onover="tween(bgcolor, 0xEEEEEE,0.1); tween(layer[beg_cont_menu].width,10,0.1);" 
+					onout="if(pressed,,tween(bgcolor, 0xBBBBBB,0.2); tween(layer[beg_cont_menu].width,7,0.2); ); " 
+					onup="tween(bgcolor, 0xBBBBBB,0.2); tween(layer[beg_cont_menu].width,7,0.2);"
+					ondown="tween(bgcolor, 0xEEEEEE,0.2); copy(drag_currenty,y); copy(drag_stagey,mouse.stagey); dragging_menu();"
+			/>	
+	</layer>	
+
+	 <action name="dragging_menu"  > 
+			if(pressed, sub(dy, mouse.stagey, drag_stagey); 
+						add(newy, drag_currenty, dy);
+                        sub(dragy, layer[block_menu_sm].pixelheight, pixelheight);
+						if(newy LT 0, set(newy,0));
+						if(newy GT dragy, copy(newy,dragy));
+						set(layer[begun_menu].y,get(newy));
+					    mul(val, newy, propor);
+						set(layer[get(skryt_men)].y, val); 
+						delayedcall(0,dragging_menu()); 
+						div(Hprop, layer[get(skryt_men)].pixelheight,layer[block_menu_sm].pixelheight );
+						mul(Hprop, newy);
+						mul(Hprop, -1);
+						set(layer[get(skryt_men)].y, get(Hprop));
+						,
+						layer[get(skryt_men)].update();
+						tween(bgcolor, 0xBBBBBB,0.2)
+			  );
+	</action>						
+							
+	<!-- Установить положение и высоту бегунка 1 -->	
+	<action name="updatebegun_men" scope="localonly" args="scr_m"> 
+			copy(scr,global.layer[get(global.skryt_men)]);
+			copy(beg,global.layer[begun_menu]);
+			sub(Hcont,scr.pixelheight, scr.Hoverflow);
+			div(propor, Hcont, scr.height);
+			mul(Hbeg, propor, Hcont);
+			mul(Ybeg, propor, scr.Toverflow); 
+			set(beg.height, get(Hbeg));
+			clamp(beg.height, 10, get(Hcont)); <!-- Границы мин. макс. значение --> 
+			set(beg.y, get(Ybeg));
+    </action>
+		
+		
+
+	 <!-- /////////////////////////////////////////////     показать/спрятать меню   /////////////////////////////////////////////////////  -->
+
+	<!-- кнопка показать/спрятать меню -->
+    <layer  name="butt_m_cont" type="container"  keep="true"  enabled="true" visible="true" alpha="1.0"  align="get:menu_sm.menu_align" width="50"  height="50" x="10" y="10" 
+		      bgcolor="0x4fb3a4" bgalpha="0.5" bgcapture="true" zorder="51"  parent="" 
+			bgroundedge="0 0 0 0" bgshadow="2 2 3 0 0x1D1D1D 0.0"  
+			onover="if(open_m, set(alpha,1.0);set(bgalpha,0.6);, set(bgalpha,0.6););" 
+			onout="if(open_m, set(bgalpha,0);, set(bgalpha,0.3););" 
+			onclick="if(open_m, hide_m();,shou_m();  );"  
+		/>
+	<!--     анимированный крестик кнопки   -->
+    <style  name="butt_m"  type="container"  keep="true"  enabled="false" visible="true" alpha="1" align="center" zorder="51" parent="butt_m_cont"
+				width="22.97"  height="2.7"  bgcolor="0xFFFFFF"  bgalpha="1"  bgcapture="false"  bgroundedge="2 2 2 2" />
+	<!-- палочки кнопки меню -->
+	<layer  name="cross_1" style="butt_m" rotate="0" y="-8" width="22.97" />	
+	<layer  name="cross_2" style="butt_m" rotate="0"   y="0"  width="22.97" />	
+	<layer  name="cross_3" style="butt_m" rotate="0"  y="8"  width="22.97" />		
+	
+	<!-- спрятать меню  -->
+	<action name="hide_m" > 
+					set(open_m,false);
+					calc(hideVmen, menu_sm.menu_width * -1 - 10);
+					tween(layer[osnovn_cont_menu].x,get(hideVmen),0.4); <!-- закрыть меню  -->
+					tween(layer[cross_1].rotate|layer[cross_1].y,0|-8,0.2);
+					tween(layer[cross_2].width,22.97,0.2); 
+					tween(layer[cross_3].rotate|layer[cross_3].y,0|8,0.2);
+					tween(layer[cross_1].bgcolor,0xFFFFFF); 
+					tween(layer[cross_3].bgcolor,0xFFFFFF);
+					tween(layer[butt_m_cont].x|layer[butt_m_cont].y|layer[butt_m_cont].bgalpha,10|10|0.3,0.4); 
+	</action>
+	<!-- открыть меню  -->
+	<action name="shou_m" > 
+					set(open_m,true);
+					tween(layer[osnovn_cont_menu].x,get(menu_sm.menu_x),0.4);		<!-- открыть меню  -->
+					tween(layer[cross_1].rotate|layer[cross_1].y,-45|0,0.2);
+					tween(layer[cross_3].rotate|layer[cross_3].y,45|0,0.2);
+					tween(layer[cross_2].width,2,0.2);  
+					calc(but_hide, menu_sm.menu_width - 39);
+					calc(x_clos,menu_sm.menu_width + menu_sm.menu_x - 50);
+					tween(layer[butt_m_cont].x, get(x_clos),0.4);
+					tween(layer[butt_m_cont].y|layer[butt_m_cont].bgalpha,0|0,0.4); 
+					tween(layer[cross_1].bgcolor,0xFFFFFF); 
+					tween(layer[cross_3].bgcolor,0xFFFFFF);
+	</action>
+		
+	
+	 <!-- ///////////////////////////////////                   БЛОК ФРЕЙМ HTML                   /////////////////////////////////////////////////////////////////////// -->
+	<style name="frame_html2" alpha="1" keep="true" align="righttop"  width="50%" height="100%"   zorder="52" url="textfield.swf" interactivecontent="true" 
+		   bgborder="0 0xFFFFFF 0" bgcolor="0x000000"  bgalpha="0.5" />	
+	<!-- close_freim_url   Кнопка закрыть -->	   
+	<layer name="close_freim_url_men"  keep="true" align="righttop" x="35"  y="23" url="icon/close.png" zorder="51" 
+	        width="20" height="prop" alpha="1" edge="center" visible="false" bgcapture="true" handcursor="true" onclick="" />		
+	<!-- Закрыть кнопку назад, что бы не перезагружало сцену и просто закрывало окно -->
+	<action name="zakryty_nazad">
+			callwith(layer[close_freim_url_men], onclick); 
+			set(layer[nazad].alpha, 0);
+			set(layer[nazad].enabled, false);
+	</action>
+	<!-- Окно HTML  https://krpano.com/forum/wbb/index.php?page=Thread&postID=70787#post70787  -->
+	<action name="iframe_action">
+	removelayer(actionW); 
+	set(layer[close_freim_url_men].visible,false);
+		addlayer(actionW);
+		layer[actionW].loadstyle(frame_html2);
+		set(layer[close_freim_url_men].parent, actionW);
+		set(layer[close_freim_url_men].onclick, set(visible,false);	removelayer(actionW); );
+		set(layer[close_freim_url_men].visible, true);
+		txtadd(iframecode,'[iframe  id="krpano_iframe_actionW',
+						  '" width="100%" height="100%" allowtransparency="true" src="',%1,'" frameborder="0" allow-same-origin allowfullscreen][/iframe]');
+					copy(layer[actionW].html, iframecode);
+					set(layer[actionW].onloaded, iframe_resize(actionW); );
+	</action>	
+	<action name="iframe_resize" type="Javascript" devices="html5"><![CDATA[
+			document.querySelector("#krpano_iframe_"+args[1]).parentNode.style.height="100%";]]>
+	</action>	
+	
+
+								
+		
+</krpano>

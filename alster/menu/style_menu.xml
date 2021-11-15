@@ -1,0 +1,340 @@
+﻿<krpano>
+
+	<!--  http://novosibpano.ru/Plugins/Menu_en.html 
+	
+						vk_url="%CURRENTXML%/menu/image/icon/vk.png"
+						vk_y="19"
+						vk_x="-35"
+						vk_height="12"
+						vk_click="openurl('https://vk.com/coworking_undertheroof',_blank);"
+						
+						fb_url="%CURRENTXML%/menu/image/icon/fb.png"
+						fb_y="14"
+						fb_x="30"
+						fb_height="22"
+						fb_click="openurl('https://www.facebook.com/newrostov.ru/',_blank);"
+						
+						inst_url="%CURRENTXML%/menu/image/icon/inst.png"
+						inst_y="14"
+						inst_x="0"
+						inst_height="22"
+						inst_click="openurl('https://www.instagram.com/podkryshei.rf/',_blank);"
+			  
+	-->
+	
+  <menu_sm    auto_menu="false"
+						open_start="true"
+						open_start_mob="false"
+						menu_width="300"
+						menu_x="0"
+						menu_bgcolor="0xFFFFFF"
+						menu_bgalpha="0.1"
+						menu_align="lefttop"
+						
+						logo_cont_height="150"
+						logo_height="90"
+						logo_y="40"
+						logo="%CURRENTXML%/menu/image/logoALSTER.png"
+						logo_text=""
+						logo_css_text="font-family:Tahoma; font-style:italic; font-size:14px; color:#000000; text-align:center; letter-spacing: 0.16em; margin-left:5px; margin-right:5px;"
+						logo_click="iframe_action('https://www.instagram.com/alster.clinic/');"
+						
+						title_height="50"
+						title_width="100%"
+						title_bgcolor="0xa0b404"
+						title_bgshadow="2 2 4  0x000000 0.6"
+						title_text_1="Навигация"
+						title_text_2="Меню"
+						title_css="font-family:Tahoma; font-style:bold; font-size:18px; color:#FFFFFF; text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.8); text-align:center; margin-left:10px; letter-spacing: 0.16em; margin-right:10px;"
+						title_onover_color="0x20cbaf"
+
+						group_indicator_height="0"
+			  
+						head_step_V="2"
+						head_width="100%"
+						head_height="55"
+						head_bgcolor="0x4fb3a4"
+						head_bgalpha="0.5"
+						head_bgborder="0,0,0,0 0xFFFFFF 0.6"
+						head_bgroundedge="0 0 0 0"
+						head_bgshadow="0 0 0  0x1D1D1D 0.4"
+						head_line_css="font-family:Tahoma; font-weight:normal; font-size:17px; text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.8); color:#FFFFFF; letter-spacing: 0.08em; margin-left:15px; margin-right:15px;"
+						head_onover_color="0xFFFFFF"
+						
+						line_step_V="2"
+						line_width="100%"
+						line_height="55"
+						line_bgcolor="0x4fb3a4"
+						line_bgalpha="0.5"
+						line_onover_color="0xa0b404"
+						line_bgborder="0,0,0,0 0xFFFFFF 0.6"						
+						line_bgroundedge="0 0 0 0"
+						line_bgshadow="0 0 0  0x1D1D1D 0.4"
+						line_css="font-family:Tahoma; font-weight:normal; font-size:17px; text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.8); color:#FFFFFF; letter-spacing: 0.08em; margin-left:15px; margin-right:15px; "	
+			  
+						thumbnail_bgborder="0,0,0,0 0x436eb3 0.0"						
+						thumbnail_bgroundedge="0 0 0 0"
+						thumbnail_width="90%"
+						thumbnail_height="150"
+						thumbnail_step_V="8"
+						thumbnail_css="font-family:Tahoma; font-style:normal; font-size:14px; color:#FFFFFF; text-align:center; margin-left:5px; margin-right:5px;"
+						
+						picture_line=""
+						picture_alpha="1"
+						picture_crop="0|80|273|80"
+						picture_onower="set(crop,0|0|273|80);"
+						picture_onout="set(crop,0|80|273|80);"
+						
+						icon_style_line="height:25px;vertical-align:middle; margin-right:30px;"
+						icon_style_head="height:25px;vertical-align:middle; margin-right:30px;"
+						
+						bottom_height="0"
+						menu_generator="true"
+						loadscene_flags="MERGE"
+					/>
+						<!-- lang_1="EN"
+						lang_2="RU" 0x436eb3-->
+						
+						
+		<!-- menu/image/butt2.jpg -->
+		
+	<!-- /////////////////////////////////////     ШАПКА  /////////////////////////////////////// -->
+	<!-- Контейнер меню  в ШАПКЕ -->         		   
+	<style  name="cont_title" style="Line_menu" align="bottom" edge="top"  height="get:menu_sm.title_height" handcursor="true" enabled="true" maskchildren="false"
+				width="get:menu_sm.title_width" 
+				bgcolor="get:menu_sm.title_bgcolor"  
+				bgalpha="0.0"  
+				bgcapture="true"  
+				bgborder="0,0,0,0 0x777777 1"
+				bgshadow="2 2 3 0 0x1D1D1D 0.6" 
+				bgroundedge="" 
+				onover="set(bgcolor,get:menu_sm.title_onover_color);" 
+				onout="set(bgcolor,get:menu_sm.title_bgcolor);" 
+		/>
+	<!-- Текст в ШАПКЕ -->         		   
+	<style  name="txt_title" style="txt_head" align="center"    handcursor="true" enabled="true"  
+				background="false"
+				bgalpha="1" 
+				bgroundedge="0" 
+				bgborder="0 0x000000 0"
+				bgbordercolor="0x2D3E50" 
+				bgborderwidth="0" 
+				bgshadow="get:menu_sm.title_bgshadow"
+				css="font-family:Arial; font-style:italic; font-size:18px; color:#FFFFFF; text-align:center; margin-left:30px; margin-right:30px;" 
+				vcenter="true"
+				bgcolor="get:menu_sm.title_bgcolor" 
+				onover="set(bgcolor,get:menu_sm.title_onover_color);" 
+				onout="set(bgcolor,get:menu_sm.head_bgcolor);" />
+			
+	<!-- //////////////////////////////////////////////     HEAD    /////////////////////////////////////////////////////////// --> 
+	<!-- Стиль контейнера ЗАГОЛОВКА-->
+    <style  name="line_head"  type="container"  keep="true"  enabled="true" visible="true" alpha="1" align="top"   maskchildren="true" 
+				width="get:menu_sm.head_width" height="get:menu_sm.head_height"
+				bgcapture="true"  bgcolor="get:menu_sm.head_bgcolor"  bgalpha="get:menu_sm.head_bgalpha"  bgborder="get:menu_sm.head_bgborder"
+				bgshadow="get:menu_sm.head_bgshadow" bgroundedge="get:menu_sm.head_bgroundedge" 
+				onover="set(bgcolor,get:menu_sm.head_onover_color);" onout="set(bgcolor,get:menu_sm.head_bgcolor);"
+		/>	
+	<!-- Текст ЗАГОЛОВКА -->         		   
+	<style  name="txt_head" type="text" keep="true" enabled="false"  width="100%"  height="100%" align="left" zorder="51"  
+				css="get:menu_sm.head_line_css" 
+				background="false" 	bgcolor="0x777777" bgalpha="0.7" roundedge="2"    			   
+				border="false" bordercolor="0xFFFFFF" borderalpha="0.8" borderwidth="1.0" 
+				shadow="5.0"  shadowrange="3.0"  shadowangle="45"  shadowcolor="0x2D3E50" shadowalpha="0"
+				txtshadow="1 1 0 0x000000 0.5"  wordwrap="true" padding="0 5 0 50"  vcenter="true" 
+		/>
+	<!-- маркер ЗАГОЛОВКА -->
+	<style 	name="marker_m" type="image" keep="true" url="plugins/icon/next-red.png" enabled="false" align="right" alpha="1"  zorder="60" 
+				height="calc:menu_sm.line_height * 0.3" width="prop" x="20" />
+	
+	
+	<!-- //////////////////////////////////////////////     LINE    /////////////////////////////////////////////////////////// --> 
+	<!-- Стиль контейнера СТРОКИ bgcolor="get:menu_sm.line_bgcolor"-->
+    <style  name="Line_menu"  type="container"  keep="true"  enabled="true" visible="true" alpha="1" align="top"  maskchildren="true"
+				width="get:menu_sm.line_width" height="get:menu_sm.line_height"
+				bgcapture="true"   bgcolor="get:menu_sm.line_bgcolor"  bgalpha="get:menu_sm.line_bgalpha"  bgborder="get:menu_sm.line_bgborder"
+				bgshadow="get:menu_sm.line_bgshadow" bgroundedge="get:menu_sm.line_bgroundedge" 
+				onover="set(bgcolor,get:menu_sm.line_onover_color);"  onout="set(bgcolor,get:menu_sm.line_bgcolor);"
+		/>
+	<!-- Текст СТРОКИ -->         		   
+	<style  name="txt_line" style="txt_head" css="get:menu_sm.line_css"   />
+	
+	
+	<!-- //////////////////////////////////// 	THUMBNAIL   ///////////////////////////////////////////  -->	
+	<!-- контейнера миниатюр -->
+    <style  name="Line_menu_thumbnail"  style="Line_menu"  maskchildren="true" width="get:menu_sm.thumbnail_width" height="get:menu_sm.thumbnail_height"	
+				bgcapture="true"  bgcolor="get:menu_sm.line_bgcolor"  bgalpha="0.8"  
+				bgborder="get:menu_sm.thumbnail_bgborder"  bgshadow="2 2 3 0 0x1D1D1D 0.5" bgroundedge="get:menu_sm.thumbnail_bgroundedge" 
+				onover="" 	onout=""
+		/>
+	<!-- Текст миниатюр -->         		   
+	<style  name="txt_menu_thumbnail" style="txt_head" height="35" align="bottom" enabled="false"  
+				css="get:menu_sm.thumbnail_css" 
+				background="true" bgcolor="0x1B5861" bgalpha="0.3" 
+				border="false" bordercolor="0xFFFFFF" borderalpha="0.8" borderwidth="1.0" roundedge="0"    
+				shadow="0.0"  shadowrange="0.0"  shadowangle="45"  shadowcolor="0x2D3E50" shadowalpha="0"
+				txtshadow="1 1 2 0x000000 0.9"  wordwrap="true" padding="0 5 0 50"  vcenter="true" 
+				onover="set(bgalpha,0.7); set(bgcolor,get(menu_sm.line_onover_color); " 
+				onout="set(bgalpha,0.3); set(bgcolor,get(menu_sm.line_bgcolor);"
+	    />
+	<!-- Стиль миниатюр -->
+    <style  name="menu_thumbnail"  type="image" keep="true" alpha="1" align="center" enabled="false" url=""  
+				width="100%" height="prop"
+		/>	
+		
+	<!-- //////////////////////////////******   PICTURE  ******************** ////////////////////////////-->
+	<!-- Стиль PICTURE -->
+    <style  name="menu_picture"  type="image" keep="true"  align="center" enabled="true" url="get:menu_sm.picture_line" zorder="10"  crop="get:menu_sm.picture_crop"
+				alpha="get:menu_sm.picture_alpha"
+				width="100%"  height="100%"
+				onover="get:menu_sm.picture_onower"  onout="get:menu_sm.picture_onout"
+		/>	
+
+
+
+	<!-- //////////////////////////////******   СВОИ СТИЛИ  ******************** ////////////////////////////-->
+
+	<!-- Стиль контейнера 2 -->
+    <style  name="Line_menu_2" type="container"  keep="true"  enabled="true" visible="true" alpha="1" align="top"  width="150"  height="150" 
+				bgcapture="true"   bgcolor="0x2D007A" bgalpha="0.5"  bgborder="2,2,2,2 0xFFFF00 1" bgshadow="2 2 3 0 0x1D1D1D 0.6"  bgroundedge="20 20 20 20" 
+				onover="set(bgcolor,0x8c0000);" onout="set(bgcolor,0x2D007A);"
+		/>
+	<!-- Текст меню -->         		   
+	<style  name="txt_menu_3" type="text" keep="true" enabled="false"  width="100%"  height="50%" align="center" zorder="51"  
+				css="font-family:Arial; font-style:italic; font-size:20px; color:#FBFF00; text-align:center; margin-left:5px; margin-right:5px;" 
+				background="true" 
+				bgcolor="0x2EC2C0" 
+				bgalpha="0.5"			   
+				border="true" 
+				bordercolor="0xFFFFFF" 
+				borderalpha="1" 
+				borderwidth="1.0" 
+				roundedge="10"    
+				shadow="5.0"  shadowrange="3.0"  shadowangle="45"  shadowcolor="0x000000" shadowalpha="0.5"
+				txtshadow="1 1 0 0x000000 0.5"  wordwrap="true" padding="5 5 5 5"  vcenter="true" 
+		/>	
+		<!-- Стиль PICTURE -->
+    <style  name="button_pict_l"  type="image" keep="true"  align="center" enabled="true" url="" zorder="10"  alpha="1" crop=""
+				width="100%" 
+				height="100%"
+				onover="" 
+				onout=""
+		/>
+	<!-- Стиль контейнера 3 -->
+    <style  name="castom_3" type="container"  keep="true"  enabled="true" visible="true" alpha="1" align="top"  width="200"  height="200" 
+				bgcapture="true"   bgcolor="0x2D007A" bgalpha="0.5"  bgborder="0,0,0,0 0xFFFF00 1" bgshadow="2 2 3 0 0x1D1D1D 0.6"  bgroundedge="5 5 5 5" 
+				onover="set(bgcolor,0x8c0000);" onout="set(bgcolor,0x2D007A);"
+		/>		
+	<!-- Текст  -->         		   
+	<style  name="txt_4" style="txt_head" width="90%" height="90%"  align="center" 
+				css="font-family:Impact;  font-size:24px;  color:#09d4c8; text-align:center; margin-left:5px; margin-right:5px;" 
+				txtshadow="3 3 4 0x000000 0.7" 	padding="0 5 0 5"  vcenter="true" 
+				background="true" 	bgcolor="0x000000" bgalpha="0.2" border="false" bordercolor="0xFFFFFF" borderalpha="0.8" 	borderwidth="1.0" roundedge="5"    />
+	
+	<!-- Стиль  контейнера PICTURE -->
+    <style  name="button_pict" type="container"  keep="true"  enabled="true" visible="true" alpha="1" align="top" maskchildren="true"
+				width="get:menu_sm.thumbnail_width" 
+				height=""
+				bgcolor="0x2D007A"  
+				bgalpha="0"  
+				bgcapture="true"  
+				bgborder="get:menu_sm.picture_bgborder"
+				bgshadow="3 3 5  0x1D1D1D 0.5" 
+				bgroundedge="get:menu_sm.picture_bgroundedge" 
+				onover="" 
+				onout=""
+		/>	
+		
+
+	 <!-- /////////////////////////////////////////////     показать/спрятать меню   /////////////////////////////////////////////////////  -->
+
+	<!-- кнопка показать/спрятать меню
+    <layer  name="butt_m_cont" type="container"  keep="true"  enabled="true" visible="true" alpha="1"  align="get:menu_sm.menu_align" width="37"  height="30" x="10" y="10" 
+		      bgcolor="get:menu_sm.line_bgcolor" bgalpha="0.5" bgcapture="true" zorder="51"  parent="" 
+			bgroundedge="0 0 0 0" bgshadow="2 2 3 0 0x1D1D1D 0.0"  
+			onover="set(bgcolor,get(menu_sm.line_onover_color)); set(bgalpha,0.5);" 
+			onout="set(bgcolor,get:menu_sm.line_bgcolor);  if(open_m, set(bgalpha,0));" 
+			onclick="if(open_m, hide_m();,shou_m();  );"  
+		/>
+	-->
+	<!--     анимированный крестик кнопки  
+    <style  name="butt_m"  type="container"  keep="true"  enabled="false" visible="true" alpha="1" align="center" zorder="51" parent="butt_m_cont"
+				width="17"  height="2"  bgcolor="0xFFFFFF"  bgalpha="1"  bgcapture="false"  bgroundedge="2 2 2 2"/>   
+	-->
+	<!-- палочки кнопки меню 
+	<layer  name="cross_1" style="butt_m" rotate="0" y="-6" width="17" />	
+	<layer  name="cross_2" style="butt_m" rotate="0"   y="0"  width="17" />	
+	<layer  name="cross_3" style="butt_m" rotate="0"  y="6"  width="17" />		
+	 -->
+	<!-- спрятать меню
+	<action name="hide_m" > 
+					set(open_m,false);
+					calc(hideVmen, menu_sm.menu_width * -1 - 10);
+					tween(layer[osnovn_cont_menu].x,get(hideVmen),0.4); 
+					tween(layer[cross_1].rotate|layer[cross_1].y,0|-6,0.2);
+					tween(layer[cross_2].width,17,0.2); 
+					tween(layer[cross_3].rotate|layer[cross_3].y,0|6,0.2);
+					tween(layer[butt_m_cont].x|layer[butt_m_cont].y|layer[butt_m_cont].bgalpha,10|10|0.5,0.4); 
+	</action>  -->
+	<!-- открыть меню
+	<action name="shou_m" > 
+					set(open_m,true);
+					tween(layer[osnovn_cont_menu].x,get(menu_sm.menu_x),0.4);
+					tween(layer[cross_1].rotate|layer[cross_1].y,-45|0,0.2);
+					tween(layer[cross_3].rotate|layer[cross_3].y,45|0,0.2);
+					tween(layer[cross_2].width,2,0.2);  
+					calc(but_hide, menu_sm.menu_width - 39);
+					calc(x_clos,menu_sm.menu_width + menu_sm.menu_x - 37);
+					tween(layer[butt_m_cont].x, get(x_clos),0.4);
+					tween(layer[butt_m_cont].y|layer[butt_m_cont].bgalpha,0|0,0.4); 
+	</action>  -->
+	
+	 <!-- Открыть изображение openPhotoSM(menu/image/nature1.jpg,true,'Nature', 100); -->
+  <settingsViewP
+			CloseClickBg="true"
+			CloseClickPhoto="true"			
+			bgalpha="0.3"
+			bgcolor="0x000000" 
+			bgborder="10 0xFFFFFF 1" 
+			bgshadow="7 7 20 0x000000 0.5" 
+			bgroundedge="5"	
+			textBgAlpha="0.3"
+			textBgcolor="0x000000"
+			css="font-family:Comic Sans MS, Comic Sans, cursive, Arial; color:#FFFFFF; font-size:20px; text-align:center " 
+			blur="30"
+			height_photo="80"
+		/>
+	
+	
+	 <!-- ///////////////////////////////////                   БЛОК ФРЕЙМ HTML                   /////////////////////////////////////////////////////////////////////// -->
+	
+	
+	<style name="frame_html2" alpha="1" keep="true" align="righttop"  width="80%" height="100%"   zorder="52" url="textfield.swf" interactivecontent="true" 
+		   bgborder="0 0xFFFFFF 0" bgcolor="0x000000"  bgalpha="0.5" />	
+	<!-- close_freim_url   Кнопка закрыть -->	   
+	<layer name="close_freim_url_men"  keep="true" align="righttop" x="35"  y="23" url="plugins/icon/close.png" zorder="51" 
+	        width="20" height="prop" alpha="1" edge="center" visible="false" bgcapture="true" handcursor="true" onclick="" />		
+	<!-- Закрыть кнопку назад, что бы не перезагруало сцену и просто закрывало окно -->
+	<action name="zakryty_nazad">
+			callwith(layer[close_freim_url_men], onclick); 
+			set(layer[nazad].alpha, 0);
+			set(layer[nazad].enabled, false);
+	</action>
+		<!-- Окно HTML  https://krpano.com/forum/wbb/index.php?page=Thread&postID=70787#post70787  -->
+	<action name="iframe_action">
+	removelayer(actionW); 
+	set(layer[close_freim_url_men].visible,false);
+		addlayer(actionW);
+		layer[actionW].loadstyle(frame_html2);
+		set(layer[close_freim_url_men].parent, actionW);
+		set(layer[close_freim_url_men].onclick, set(visible,false);	removelayer(actionW); );
+		set(layer[close_freim_url_men].visible, true);
+	 txtadd(iframecode,'[iframe  id="krpano_iframe_actionW',
+						  '" width="100%" height="100%" allowtransparency="true" src="',%1,'" frameborder="0" allow-same-origin allowfullscreen][/iframe]');
+					copy(layer[actionW].html, iframecode);
+					set(layer[actionW].onloaded, iframe_resize(actionW); );
+	</action>	
+	<action name="iframe_resize" type="Javascript" devices="html5"><![CDATA[
+			document.querySelector("#krpano_iframe_"+args[1]).parentNode.style.height="100%";]]>
+	</action>	
+		
+</krpano>

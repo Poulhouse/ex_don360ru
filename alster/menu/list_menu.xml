@@ -1,0 +1,67 @@
+<krpano>
+	<menu_v name="menu_1" 
+			title_1="Ресепшн" 
+			click="if(get(scene[get(xml.scene)].name) != scene_0004, 
+					loadscene(scene_0004, null, KEEPVIEW, BLEND(0.5));
+					lookto(166.36, 14.96, 120, tween( linear, 2.0 ));
+					,
+					lookto(166.36, 14.96, 120, tween( easeincubic, 1.5 ));
+				); 
+			"/>
+	<menu_v name="menu_2" 
+			title_1="Ортодонтия"
+			click="if(get(scene[get(xml.scene)].name) != scene_0010_2, 
+					loadscene(scene_0010_2, null, KEEPVIEW, BLEND(0.5));
+					lookto(139.6, 29.8, 120, tween( linear, 2.0 )); 
+					,
+					lookto(139.6, 29.8, 120, tween( easeincubic, 1.5 ));
+				);
+			"/>
+	
+	<menu_v name="menu_3" 
+			title_1="Хирургия"
+			click="if(get(scene[get(xml.scene)].name) != scene_0011, 
+					loadscene(scene_0011, null, KEEPVIEW, BLEND(0.5));
+					lookto(190.86, 41.4, 120, tween( linear, 2.0 )); 
+					,
+					lookto(190.86, 41.4, 120, tween( easeincubic, 1.5 ));
+				);
+			"/>
+	<menu_v name="menu_4" 
+			title_1="Стерилизационная"
+			click="if(get(scene[get(xml.scene)].name) != scene_0012, 
+					loadscene(scene_0012, null, KEEPVIEW, BLEND(0.5));
+					lookto(74.42, 25.15, 120, tween( linear, 2.0 )); 
+					,
+					lookto(74.42, 25.15, 120, tween( easeincubic, 1.5 ));
+				);
+			"/>
+	<menu_v name="menu_5" 
+			title_1="Рентген-кабинет"
+			click="if(get(scene[get(xml.scene)].name) != scene_0015, 
+					loadscene(scene_0015, null, KEEPVIEW, BLEND(0.5));
+					lookto(136.33, 31.56, 120, tween( linear, 2.0 )); 
+					,
+					lookto(136.33, 31.56, 120, tween( easeincubic, 1.5 ));
+				);
+			"/>
+	<menu_v name="menu_6" 
+			title_1="Терапия"
+			click="if(get(scene[get(xml.scene)].name) != scene_0014, 
+					loadscene(scene_0014, null, KEEPVIEW, BLEND(0.5));
+					lookto(17.65, 20.01, 120, tween( linear, 2.0 )); 
+					,
+					lookto(17.65, 20.01, 120, tween( easeincubic, 1.5 ));
+				);
+			"/>	
+	<menu_v name="menu_7" 
+			title_1="Ортопедия"
+			click="if(get(scene[get(xml.scene)].name) != scene_0013, 
+					loadscene(scene_0013, null, KEEPVIEW, BLEND(0.5));
+					lookto(-191.34, 28.04, 120, tween( linear, 2.0 )); 
+					,
+					lookto(-191.34, 28.04, 120, tween( easeincubic, 1.5 ));
+				);
+			"/>	
+	
+</krpano>
