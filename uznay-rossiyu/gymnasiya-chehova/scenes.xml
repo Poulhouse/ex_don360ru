@@ -1,0 +1,417 @@
+<krpano>
+	
+	<scene name="scene_0011" title="0011" onstart="" thumburl="panos/0011.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-132.24" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0011.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0011.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0011.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0011.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0011.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0012" title="0012" onstart="" thumburl="panos/0012.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-44.51" vlookat="-19.08" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0012.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0012.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0012.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0012.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0012.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0013" title="0013" onstart="" thumburl="panos/0013.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-158.74" vlookat="30.21" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0013.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0013.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0013.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0013.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0013.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0014" title="0014" onstart="" thumburl="panos/0014.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-111.52" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0014.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0014.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0014.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0014.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0014.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-45" atv="10" linkedscene="scene_0014_2" />
+		<hotspot name="spot2" style="skin_hotspotstyle"  ath="45" atv="10" linkedscene="scene_0014_3" />
+	</scene>
+
+	<scene name="scene_0014_2" title="0014_2" onstart="" thumburl="panos/0014_2.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-61.61" vlookat="28.43" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0014_2.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0014_2.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0014_2.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0014_2.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0014_2.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-45" atv="10" linkedscene="scene_0014" />
+		<hotspot name="spot2" style="skin_hotspotstyle"  ath="45" atv="10" linkedscene="scene_0014_3" />
+
+	</scene>
+
+	<scene name="scene_0014_3" title="0014_3" onstart="" thumburl="panos/0014_3.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="9.64" vlookat="6.07" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0014_3.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0014_3.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0014_3.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0014_3.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0014_3.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-45" atv="10" linkedscene="scene_0014" />
+		<hotspot name="spot2" style="skin_hotspotstyle"  ath="45" atv="10" linkedscene="scene_0014_2" />
+
+	</scene>
+
+	<scene name="scene_0015" title="0015" onstart="" thumburl="panos/0015.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0015.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0015.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0015.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0015.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0015.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-45" atv="10" linkedscene="scene_0015_2" />
+
+	</scene>
+
+	<scene name="scene_0015_2" title="0015_2" onstart="" thumburl="panos/0015_2.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-89.21" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0015_2.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0015_2.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0015_2.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0015_2.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0015_2.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-45" atv="10" linkedscene="scene_0015" />
+
+	</scene>
+
+	<scene name="scene_0016" title="0016" onstart="" thumburl="panos/0016.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="121.78" vlookat="15.27" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0016.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0016.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0016.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0016.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0016.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-45" atv="10" linkedscene="scene_0016_2" />
+
+	</scene>
+
+	<scene name="scene_0016_2" title="0016_2" onstart="" thumburl="panos/0016_2.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="110.92" vlookat="4.88" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0016_2.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0016_2.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0016_2.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0016_2.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0016_2.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-45" atv="10" linkedscene="scene_0016_3" />
+		<hotspot name="spot2" style="skin_hotspotstyle"  ath="45" atv="10" linkedscene="scene_0016" />
+
+	</scene>
+
+	<scene name="scene_0016_3" title="0016_3" onstart="" thumburl="panos/0016_3.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="100.0" vlookat="5.83" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0016_3.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0016_3.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0016_3.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0016_3.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0016_3.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="45" atv="10" linkedscene="scene_0016_2" />
+
+	</scene>
+
+	<scene name="scene_0017" title="0017" onstart="" thumburl="panos/0017.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-27.52" vlookat="2.99" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0017.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0017.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0017.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0017.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0017.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0018" title="0018" onstart="" thumburl="panos/0018.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="121.63" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0018.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0018.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0018.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0018.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0018.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="45" atv="10" linkedscene="scene_0018_2" />
+
+	</scene>
+
+	<scene name="scene_0018_2" title="0018_2" onstart="" thumburl="panos/0018_2.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-90.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0018_2.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0018_2.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0018_2.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0018_2.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0018_2.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="45" atv="10" linkedscene="scene_0018" />
+
+	</scene>
+
+	<scene name="scene_0019" title="0019" onstart="" thumburl="panos/0019.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-1.42" vlookat="1.06" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0019.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0019.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0019.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0019.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0019.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="45" atv="10" linkedscene="scene_0019_2" />
+
+	</scene>
+
+	<scene name="scene_0019_2" title="0019_2" onstart="" thumburl="panos/0019_2.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="5.76" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0019_2.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0019_2.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0019_2.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0019_2.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0019_2.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="45" atv="10" linkedscene="scene_0019" />
+
+	</scene>
+	
+	
+	
+
+	<!-- the action for dragging the hotspot - call it once in the ondown event -->
+	<action name="draghotspot">
+		spheretoscreen(ath, atv, hotspotcenterx, hotspotcentery, calc(mouse.stagex LT stagewidth/2 ? 'l' : 'r'));
+		sub(drag_adjustx, mouse.stagex, hotspotcenterx);
+		sub(drag_adjusty, mouse.stagey, hotspotcentery);
+		asyncloop(pressed,
+			sub(dx, mouse.stagex, drag_adjustx);
+			sub(dy, mouse.stagey, drag_adjusty);
+			screentosphere(dx, dy, ath, atv);
+			print_hotspot_pos();
+		  );
+	</action>
+	
+	<!-- show the xml code of the hotspot position -->
+	<action name="print_hotspot_pos">
+		<![CDATA[
+			copy(print_ath, ath);
+			copy(print_atv, atv);
+			roundval(print_ath, 3);
+			roundval(print_atv, 3);
+			calc(layer[hotspot_pos_info].html, '&lt;hotspot name="' + name + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ath="' + print_ath + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;atv="' + print_atv + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;');
+		]]>
+	</action>
+	
+</krpano>
