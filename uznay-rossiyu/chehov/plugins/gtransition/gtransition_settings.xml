@@ -1,0 +1,22 @@
+<krpano>
+
+<!-- plugin settings -->
+<gtransition_settings 
+	transition_depth = "500"
+	transition_speed = "0.5"
+	blending_delay   = "-0.5"
+	loadscene_blend  = "BLEND(0.7, easeInQuart)"
+	loadscene_flags  = "KEEPVIEW"
+	show_contextmenu = "true"
+	transition_direction_correction = "0"
+/>
+
+<!-- important settings! this will overwrite krpano defaults -->
+<skin_settings 
+	loadscene_flags="get:gtransition_settings.loadscene_flags"
+	loadscene_blend="get:gtransition_settings.loadscene_blend"
+	webvr_gyro_keeplookingdirection="true"
+/>
+
+</krpano>
+

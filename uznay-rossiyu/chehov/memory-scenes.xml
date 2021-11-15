@@ -1,0 +1,336 @@
+<krpano>
+
+	<scene name="scene_0031__" title="38. ПАМЯТНИК А.П. Чехову в ТАГАНРОГЕ" number="[b]- 38 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/__0031.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="302.8125931266111" vlookat="-23.02238875081714" fovtype="MFOV" fov="38.77542964527296" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../memory-places-chehova/panos/__0031.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../memory-places-chehova/panos/__0031.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../memory-places-chehova/panos/__0031.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../memory-places-chehova/panos/__0031.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../memory-places-chehova/panos/__0031.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0032__" title="39. ЧЕЛОВЕК В ФУТЛЯРЕ" number="[b]- 39 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0032__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="43.355559155934586" vlookat="10.649909084539981" fovtype="MFOV" fov="68.80423266280138" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../memory-places-chehova/panos/0032__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../memory-places-chehova/panos/0032__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../memory-places-chehova/panos/0032__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../memory-places-chehova/panos/0032__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../memory-places-chehova/panos/0032__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="181.295" atv="10" linkedscene="scene_0032_2" /> 
+
+	</scene>
+
+	<scene name="scene_0032_2" title="40. РОМАН С КАНТРОБАСОМ" number="[b]- 40 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0032_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="29.23139997899974" vlookat="10.242710218560026" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../memory-places-chehova/panos/0032_2+.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../memory-places-chehova/panos/0032_2+.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../memory-places-chehova/panos/0032_2+.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../memory-places-chehova/panos/0032_2+.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../memory-places-chehova/panos/0032_2+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="163.22" atv="10" linkedscene="scene_0032__" /> 
+
+	</scene>
+
+	<scene name="scene_0033+" title="41. КАШТАНКА" number="[b]- 41 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0033+.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-72.59408437918682" vlookat="28.717519736959325" fovtype="MFOV" fov="51.67626309983378" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../memory-places-chehova/panos/0033+.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../memory-places-chehova/panos/0033+.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../memory-places-chehova/panos/0033+.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../memory-places-chehova/panos/0033+.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../memory-places-chehova/panos/0033+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0034__" title="42. БИБЛИОТЕКА" number="[b]- 42 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0034__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-48.833917635538235" vlookat="-43.94831071530859" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../memory-places-chehova/panos/0034__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../memory-places-chehova/panos/0034__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../memory-places-chehova/panos/0034__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../memory-places-chehova/panos/0034__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../memory-places-chehova/panos/0034__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0035+" title="43. БИБЛИОТЕКА" number="[b]- 43 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0035+.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-52.29224242894421" vlookat="-38.58146019947564" fovtype="MFOV" fov="67.37384494503401" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../memory-places-chehova/panos/0035+.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../memory-places-chehova/panos/0035+.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../memory-places-chehova/panos/0035+.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../memory-places-chehova/panos/0035+.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../memory-places-chehova/panos/0035+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0036__" title="44. ХУДОЖЕСТВЕННЫЙ МУЗЕЙ" number="[b]- 44 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0036__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-40.40379445362246" vlookat="-26.101143611032107" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../memory-places-chehova/panos/0036__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../memory-places-chehova/panos/0036__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../memory-places-chehova/panos/0036__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../memory-places-chehova/panos/0036__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../memory-places-chehova/panos/0036__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="86.123" atv="10" linkedscene="scene_0036_2__" />
+
+	</scene>
+
+	<scene name="scene_0036_2__" title="45. МУЗЕЙ А.А. ДУРОВА" number="[b]- 45 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0036_2__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-32.130255027812396" vlookat="0.5933893784176818" fovtype="MFOV" fov="71.77554067026628" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../memory-places-chehova/panos/0036_2__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../memory-places-chehova/panos/0036_2__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../memory-places-chehova/panos/0036_2__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../memory-places-chehova/panos/0036_2__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../memory-places-chehova/panos/0036_2__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-88.20" atv="10" linkedscene="scene_0036__" />
+
+	</scene>
+
+	<scene name="scene_0037+" title="46. ПАМЯТНИК ПЕТРУ ПЕРВОМУ" number="[b]- 46 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0037+.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-30.068222019490776" vlookat="-9.817379998469159" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../memory-places-chehova/panos/0037+.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../memory-places-chehova/panos/0037+.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../memory-places-chehova/panos/0037+.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../memory-places-chehova/panos/0037+.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../memory-places-chehova/panos/0037+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0038__" title="47. Кафе ФРЕКЕН БОК" number="[b]- 47 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0038__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-30.04003570472217" vlookat="1.6569861426316792" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../memory-places-chehova/panos/0038__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../memory-places-chehova/panos/0038__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../memory-places-chehova/panos/0038__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../memory-places-chehova/panos/0038__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../memory-places-chehova/panos/0038__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-99.02" atv="10" linkedscene="scene_0038_2__" />
+
+	</scene>
+
+	<scene name="scene_0038_2__" title="48. Кафе ФРЕКЕН БОК" number="[b]- 48 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0038_2__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-30.04003570472217" vlookat="1.6569861426316792" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../memory-places-chehova/panos/0038_2__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../memory-places-chehova/panos/0038_2__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../memory-places-chehova/panos/0038_2__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../memory-places-chehova/panos/0038_2__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../memory-places-chehova/panos/0038_2__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="79.967" atv="10" linkedscene="scene_0038__" />
+
+	</scene>
+
+	<scene name="scene_0039" title="49. Литературный МУЗЕЙ А.П.ЧЕХОВА" number="[b]- 49 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0039+.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-20.18430181175564" vlookat="-19.635810007631402" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../memory-places-chehova/panos/0039+.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../memory-places-chehova/panos/0039+.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../memory-places-chehova/panos/0039+.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../memory-places-chehova/panos/0039+.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../memory-places-chehova/panos/0039+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="74.81" atv="10" linkedscene="scene_0039_2" />
+
+	</scene>
+
+	<scene name="scene_0039_2" title="50. Драматический ТЕАТР А.П.ЧЕХОВА" number="[b]- 50 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0039_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-46.4332322342111" vlookat="-26.728098534962133" fovtype="MFOV" fov="57.723325939274375" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../memory-places-chehova/panos/0039_2+.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../memory-places-chehova/panos/0039_2+.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../memory-places-chehova/panos/0039_2+.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../memory-places-chehova/panos/0039_2+.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../memory-places-chehova/panos/0039_2+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-77.29" atv="10" linkedscene="scene_0039" />
+
+	</scene>
+	
+	
+
+	<!-- the action for dragging the hotspot - call it once in the ondown event -->
+	<action name="draghotspot">
+		spheretoscreen(ath, atv, hotspotcenterx, hotspotcentery, calc(mouse.stagex LT stagewidth/2 ? 'l' : 'r'));
+		sub(drag_adjustx, mouse.stagex, hotspotcenterx);
+		sub(drag_adjusty, mouse.stagey, hotspotcentery);
+		asyncloop(pressed,
+			sub(dx, mouse.stagex, drag_adjustx);
+			sub(dy, mouse.stagey, drag_adjusty);
+			screentosphere(dx, dy, ath, atv);
+			print_hotspot_pos();
+		  );
+	</action>
+	
+	<!-- show the xml code of the hotspot position -->
+	<action name="print_hotspot_pos">
+		<![CDATA[
+			copy(print_ath, ath);
+			copy(print_atv, atv);
+			roundval(print_ath, 3);
+			roundval(print_atv, 3);
+			calc(layer[hotspot_pos_info].html, '&lt;hotspot name="' + name + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ath="' + print_ath + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;atv="' + print_atv + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;');
+		]]>
+	</action>
+	
+</krpano>

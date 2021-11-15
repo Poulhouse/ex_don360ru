@@ -1,0 +1,306 @@
+<krpano>
+	
+	<!--<scene name="scene_0001" title="ул. Чехова" onstart="" thumburl="../domik-chehova/panos/0001.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-124.36" vlookat="-78.19" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../domik-chehova/panos/0001.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../domik-chehova/panos/0001.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../domik-chehova/panos/0001.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../domik-chehova/panos/0001.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../domik-chehova/panos/0001.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>-->
+
+	<scene name="scene_0002__" title="[b]1.[/b] ДОМИК ЧЕХОВА" number="[b]- 1 -[/b]" onstart="" thumburl="../domik-chehova/panos/0002__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-120" vlookat="-47.78" fovtype="MFOV" fov="40" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../domik-chehova/panos/0002__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../domik-chehova/panos/0002__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../domik-chehova/panos/0002__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../domik-chehova/panos/0002__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../domik-chehova/panos/0002__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0003+" title="[b]2.[/b] ДОМИК ЧЕХОВА" number="[b]- 2 -[/b]" onstart="" thumburl="../domik-chehova/panos/0003+.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-34.09" vlookat="20.61" fovtype="MFOV" fov="27.61" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../domik-chehova/panos/0003+.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../domik-chehova/panos/0003+.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../domik-chehova/panos/0003+.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../domik-chehova/panos/0003+.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../domik-chehova/panos/0003+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0004+" title="[b]3.[/b] ДОМИК ЧЕХОВА" number="[b]- 3 -[/b]" onstart="" thumburl="../domik-chehova/panos/0004+.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-7.53" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../domik-chehova/panos/0004+.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../domik-chehova/panos/0004+.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../domik-chehova/panos/0004+.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../domik-chehova/panos/0004+.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../domik-chehova/panos/0004+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0005+" title="4. ДОМИК ЧЕХОВА" number="[b]- 4 -[/b]" onstart="" thumburl="../domik-chehova/panos/0005+.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="157.77407376518198" vlookat="31.65719097386762" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../domik-chehova/panos/0005+.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../domik-chehova/panos/0005+.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../domik-chehova/panos/0005+.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../domik-chehova/panos/0005+.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../domik-chehova/panos/0005+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="infospot2" 
+				 style="skin_infospot_left" 
+				 ath="-97.84199720821618" atv="-11.9748237565593" 
+				 onclick="popup('html', get(data[mama].content), 600, 600, true);" 
+		/>
+		<!--'%CURRENTXML%/skin/infospot/pictures/mama.jpg');" -->
+		<data name="mama"><![CDATA[
+
+		<div style="padding:10px;">
+			<img src="skin/infospot/pictures/mama.jpg" />
+			<h2>Евгения Яковлевна Чехова</h2>
+			<hr style="border:0;border-top:1px solid white;">
+			(урождённая Морозова)<br>
+			
+			Евгения Яковлевна Чехова (урождённая Морозова) – мать А.П. Чехова. сыграла значительную роль в формировании характеров своих детей. От нее Антон Павлович унаследовал мягкость и отзывчивость. Именно она поддерживала и укрепляла взгляды своего мужа, Павла Егоровича, на образование детей<br>
+			<br>
+
+		</div>
+
+	]]></data>
+		
+
+	</scene>
+	
+	<scene name="scene_0006-7" title="5. ДОМИК ЧЕХОВА" number="[b]- 5 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7+.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="73.96525428874695" vlookat="28.319564115166088" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../domik-chehova/panos/0006-7+.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../domik-chehova/panos/0006-7+.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../domik-chehova/panos/0006-7+.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../domik-chehova/panos/0006-7+.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../domik-chehova/panos/0006-7+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-177.70" atv="10" linkedscene="scene_0006-7_2" />
+
+	</scene>
+
+	<scene name="scene_0006-7_2" title="6. ДОМИК ЧЕХОВА" number="[b]- 6 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="159.6454971749426" vlookat="18.21733762788555" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../domik-chehova/panos/0006-7_2+.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../domik-chehova/panos/0006-7_2+.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../domik-chehova/panos/0006-7_2+.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../domik-chehova/panos/0006-7_2+.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../domik-chehova/panos/0006-7_2+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="69.22" atv="10" linkedscene="scene_0006-7" />
+		<hotspot name="spot2" style="skin_hotspotstyle"  ath="158.86" atv="10" linkedscene="scene_0006-7_3" />
+
+	</scene>
+
+	<scene name="scene_0006-7_3" title="7. ДОМИК ЧЕХОВА" number="[b]- 7 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7_3+.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="339.25884352079646" vlookat="35.39174796981571" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../domik-chehova/panos/0006-7_3+.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../domik-chehova/panos/0006-7_3+.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../domik-chehova/panos/0006-7_3+.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../domik-chehova/panos/0006-7_3+.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../domik-chehova/panos/0006-7_3+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-82.0" atv="10" linkedscene="scene_0006-7_2" />
+
+	</scene>
+
+	<scene name="scene_0008+" title="8. ДОМИК ЧЕХОВА" number="[b]- 8. -[/b]" onstart="" thumburl="../domik-chehova/panos/0008+.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-135.52073798811486" vlookat="25.028886470424034" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../domik-chehova/panos/0008+.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../domik-chehova/panos/0008+.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../domik-chehova/panos/0008+.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../domik-chehova/panos/0008+.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../domik-chehova/panos/0008+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0009_2__" title="9. ЛАВКА ЧЕХОВЫХ" number="[b]- 9 -[/b]" onstart="" thumburl="../domik-chehova/panos/0009_2__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-80.45" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../domik-chehova/panos/0009_2__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../domik-chehova/panos/0009_2__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../domik-chehova/panos/0009_2__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../domik-chehova/panos/0009_2__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../domik-chehova/panos/0009_2__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0009+" title="10. ЛАВКА ЧЕХОВЫХ" number="[b]- 10 -[/b]" onstart="" thumburl="../domik-chehova/panos/0009+.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-127.95" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="../domik-chehova/panos/0009+.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="../domik-chehova/panos/0009+.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="../domik-chehova/panos/0009+.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="../domik-chehova/panos/0009+.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="../domik-chehova/panos/0009+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+	
+
+	<!-- the action for dragging the hotspot - call it once in the ondown event -->
+	<action name="draghotspot">
+		spheretoscreen(ath, atv, hotspotcenterx, hotspotcentery, calc(mouse.stagex LT stagewidth/2 ? 'l' : 'r'));
+		sub(drag_adjustx, mouse.stagex, hotspotcenterx);
+		sub(drag_adjusty, mouse.stagey, hotspotcentery);
+		asyncloop(pressed,
+			sub(dx, mouse.stagex, drag_adjustx);
+			sub(dy, mouse.stagey, drag_adjusty);
+			screentosphere(dx, dy, ath, atv);
+			print_hotspot_pos();
+		  );
+	</action>
+	
+	<!-- show the xml code of the hotspot position -->
+	<action name="print_hotspot_pos">
+		<![CDATA[
+			copy(print_ath, ath);
+			copy(print_atv, atv);
+			roundval(print_ath, 3);
+			roundval(print_atv, 3);
+			calc(layer[hotspot_pos_info].html, '&lt;hotspot name="' + name + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ath="' + print_ath + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;atv="' + print_atv + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;');
+		]]>
+	</action>
+	
+</krpano>
