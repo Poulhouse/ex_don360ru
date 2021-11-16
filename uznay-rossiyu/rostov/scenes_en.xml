@@ -1,0 +1,1189 @@
+<krpano>
+
+	<scene name="scene_0032" title="[b]1.[/b] Pushkinskaya Street" number="[b]- 1 -[/b]" onstart="" thumburl="panos/0000__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0000__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0000__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0000__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0000__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0000__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Pushkinskaya Street</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Pushkinskaya Street first appeared in the plan of the city of Rostov in 1870. Its original name is
+				Kuznetskaya. In 1885, the city council decided to rename it, naming it after Alexander Sergeevich
+				Pushkin.<br>
+				Many of the more than two and a half thousand Rostov streets are named after writers. Only a few
+				streets that existed before 1917 have preserved their original names after the classic writers - Pushkin,
+				Lermontov, Tolstoy, Griboyedov and Derzhavin.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0001" title="[b]2.[/b] Bronze Lions" number="[b]- 2 -[/b]" onstart="" thumburl="panos/0001__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="120.42104884668728" vlookat="-3.900143716255469" fovtype="MFOV" fov="37.149093720934026" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0001__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0001__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0001__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0001__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0001__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Bronze Lions</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				We invite you in a tour along the most «literary» street of Rostov-on-Don.
+				Along Pushkinskaya Street...<br>
+				Our tour begins with four bronze lions located at four corners of the pedestrian alley of Pushkinskaya
+				Street at the intersection with Semashko Lane. Their belonging to the street bearing the name of
+				Pushkin is indicated by bronze figurines in the paws of lions - fairy-tale characters from the works of
+				A.S. Pushkin, such as «Goldfish», «Swan Princess», «Frog Princess» and «Little Squirrel» from «The Tale
+				of Tsar Saltan». The sculptor is David Rubenovich Begalov.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0002" title="[b]3.[/b] Bronze Lions" number="[b]- 3 -[/b]" onstart="" thumburl="panos/0002__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-34.347168704734024" vlookat="0.9222558756731402" fovtype="MFOV" fov="51.045295277031094 " maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0002__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0002__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0002__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0002__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0002__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0004" title="[b]4.[/b] House of Ivan Zvorykin" number="[b]- 4 -[/b]" onstart="" thumburl="panos/0004__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="165.63074606141217" vlookat="-41.73081488542492" fovtype="MFOV" fov="80.93435188051627" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0004__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0004__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0004__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0004__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0004__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>House of Ivan Zvorykin</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				The house of Ivan Zvorykin (House of Zaslavskaya) was built in 1914 by the architect Vasily Popov. In
+				pre-revolutionary times, the house was occupied by the mayor of Rostov, Major General Ivan
+				Nikolaevich Zvorykin, and the administration of Rostov-on-Don was located there. After the arrival of
+				the Soviet power, the house was nationalized. There were various offices, residential apartments and a
+				hostel of the school for training Soviet government and Communist Party workers. Some of the original
+				decorative components has been lost.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0005" title="[b]5.[/b] Kirshon’s House" number="[b]- 5 -[/b]" onstart="" thumburl="panos/0005__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="180.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0005__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0005__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0005__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0005__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0005__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Kirshon’s House</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				The three-storey building occupies the corner of the block, its front facades overlook Pushkinskaya
+				Street and Semashko Lane. The house was built in the Art Nouveau style with Gothic elements.
+				From 1923 to 1926, the Soviet playwright Vladimir Mikhailovich Kirshon lived in the house. Among
+				other things, he is the author of the script for one of the first Soviet espionage-adventure films «Struggle
+				for the Ultimatum». He is known to many people as the author of the poem «I’ve asked an ash tree»
+				which sounds in the movie «The Irony of Fate or Enjoy Your Bath» set to the music of Mikael
+				Tariverdiev.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0003" title="[b]6.[/b] Alexander Fadeev" number="[b]- 6 -[/b]" onstart="" thumburl="panos/0003.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="141.94" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0003.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0003.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0003.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0003.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0003.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Alexander Fadeev</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Vladimir Kirshon organized the Rostov and North Caucasian Association of Proletarian Writers. And
+				in the fall of 1924, it was in this building that Alexander Fadeev read to Kirshon the manuscript of the
+				novel «The Rout». It must be said that «The Rout» was mainly written by Fadeev in Rostov. The young
+				writer lived and worked there from October 1924 to October 1926. The first excerpt from the novel first
+				appeared in print in July 1925 in the «Sovetsky Yug» newspaper, where Fadeev was employed, and two
+				more excerpts appeared in the «Lava» magazine of which he was one of the founders and editors. He
+				left Rostov as a mature writer, author of a popular novel, «godfather» of many Don writers.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0006" title="[b]7.[/b] memorial plaque of F.V. Tumilevich" number="[b]- 7 -[/b]" onstart="" thumburl="panos/0006.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="163.70" vlookat="-23.37" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0006.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0006.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0006.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0006.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0006.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Memorial plaque of F.V. Tumilevich</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				The second memorial plaque was installed in 1997 and was dedicated to the famous Don folklorist,
+				scientist and writer Fyodor Viktorovich Tumilevich.<br>
+				Fyodor Viktorovich and his wife Tamara Ivanovna have been collecting and researching the culture of
+				the Nekrasov Cossacks for many years.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0007" title="[b]8.[/b] Monument to A.S. Pushkin" number="[b]- 8 -[/b]" onstart="" thumburl="panos/0007__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-90.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0007__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0007__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0007__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0007__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0007__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Monument to A.S. Pushkin</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				At the intersection of Pushkinskaya Street and Voroshilovsky
+				Avenue, there is a monument to Alexander Sergeevich Pushkin which was opened on 11 August 1959.
+				The monument is an object of cultural heritage of regional significance and the first monument in
+				Rostov-on-Don dedicated to literary themes...<br>
+				Alexander Sergeevich Pushkin first visited Rostov-on-Don in 1820. Then, having gone to southern
+				exile, he fell ill in Yekaterinoslav (now Dnepropetrovsk) and was allowed to go to the Caucasian
+				Mineral Waters and to the Crimea for treatment, together with the family of General Raevsky who
+				was heading there.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0008" title="[b]9.[/b] Monument to A.S. Pushkin" number="[b]- 9 -[/b]" onstart="" thumburl="panos/0008__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="102.94879757603441" vlookat="-25.647165987671407" fovtype="MFOV" fov="85.84091571234315" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0008__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0008__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0008__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0008__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0008__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Monument to A.S. Pushkin</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				The poet also passed the Don region in 1829, when without
+				permission he went from St. Petersburg to the theatre of military operations in the Transcaucasus.
+				During the journey, the poet’s interest in topics that later became the main ones in his work was
+				formed, i.e. the military history of Russia, the reign of Catherine II and Peter, the history of the
+				Cossacks, the characters of Stepan Razin and Emelyan Pugachev.<br>
+				Rostov and the fortress located nearby gave the poet new, in many ways brighter and equally
+				unforgettable impressions.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0009" title="[b]10.[/b] Monument to A.S. Pushkin" number="[b]- 10 -[/b]" onstart="" thumburl="panos/0009__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-44.2905850182712" vlookat="-65.06769066542081" fovtype="MFOV" fov="40.719347863883385" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0009__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0009__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0009__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0009__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0009__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Monument to A.S. Pushkin</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Alexander Sergeevich’s trip to the Don region was rich in
+				impressions. In 1829, the Don sparkling with its splendour inspired the poet to write the following
+				lines:<br><br>
+				Shining amid wide fields,<br>
+				There it flows!.. Hello, the Don!<br>
+				From your distant sons<br>
+				I brought you a bow.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0010" title="[b]11.[/b] Public Assembly" number="[b]- 11 -[/b]" onstart="" thumburl="panos/0010.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="19.60" vlookat="-14.45" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0010.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0010.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0010.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0010.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0010.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Public Assembly</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				The mansion was built by Pavel Ivanovich Kramer around 1914. He was a successful banker, but he
+				took place in the history of the city as a collector of paintings. His collection of paintings is still kept in
+				the Regional Art Museum.<br>
+				The mansion adjoined the Kramer’s tenement house built a decade earlier.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0011" title="[b]12.[/b] Public Assembly" number="[b]- 12 -[/b]" onstart="" thumburl="panos/0011__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="48.68" vlookat="-11.30" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0011__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0011__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0011__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0011__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0011__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Public Assembly</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				The two-storey mansion is located in the depths of the site and has a U-shape. The façade is designed
+				in a neoclassical style. The centre of the façade is decorated with an arched bay window. On the sides,
+				there are extended «wings» opposite each other.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0012" title="[b]13.[/b] Public Assembly" number="[b]- 13 -[/b]" onstart="" thumburl="panos/0012.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="20.57" vlookat="-36.01" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0012.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0012.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0012.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0012.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0012.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Public Assembly</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				During the Civil War, Kramer left Rostov and the Kramer’s mansion was nationalized. Since the 1920s,
+				it has been under the jurisdiction of the district health department. After the Great Patriotic War, the
+				mansion housed a regional medical institution
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0013" title="[b]14.[/b] Public Assembly" number="[b]- 14 -[/b]" onstart="" thumburl="panos/0013.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="106.52" vlookat="-3.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0013.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0013.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0013.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0013.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0013.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Public Assembly</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				In 1982, after reconstruction, the building was transferred to the House of Writers and Composers.
+				Now the building has been transferred to the Rostov Public Assembly.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0014" title="[b]15.[/b] Monument to A.P. Chekhov" number="[b]- 15 -[/b]" onstart="" thumburl="panos/0014.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-110.38" vlookat="-10.12" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0014.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0014.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0014.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0014.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0014.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Monument to A.P. Chekhov</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				The monument to Anton Pavlovich Chekhov, a native of Taganrog, is located at the intersection of
+				Pushkinskaya Street and Chekhov Street, it was installed in January 2010 to the 150th anniversary of
+				the writer. For 26 years of creative work, Anton Pavlovich wrote about 900 different works, many of
+				which have become the classics of the world literature.<br>
+				The author of the monument is the Rostov sculptor Anatoly Sknarin.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0015" title="[b]16.[/b] Monument to A.P. Chekhov" number="[b]- 16 -[/b]" onstart="" thumburl="panos/0015__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-88.73" vlookat="49.73" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0015__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0015__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0015__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0015__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0015__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Monument to A.P. Chekhov</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				There are two places in the city associated with the writer. This is Maksimov’s house on Semashko
+				Avenue, where there was once a shop in which the writer’s father, Pavel Yegorovich, served as a
+				salesman. Chekhov’s father met his future wife, Yevgenia Yakovlevna Morozova, Chekhov’s mother, in
+				Rostov-on-Don. There, in Rostov, his brothers were born. Chekhov stayed at the house of his school
+				friend, at the intersection of Stanislavsky Street and Gazetny Lane. One of the first productions of «The
+				Cherry Orchard» in Russia was staged at the Rostov Theatre.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0016" title="[b]17.[/b] The SFedU Library" number="[b]- 17 -[/b]" onstart="" thumburl="panos/0016__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-59.83" vlookat="11.06" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0016__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0016__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0016__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0016__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0016__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>The SFedU Library</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				This building is one of the main architectural gems of Rostov-on-Don. Now it is the regional
+				library of the Southern Federal University.<br>
+				The mansion was built in 1914 according to the project of Leonid Fyodorovich Eberg (who later became
+				the author of Landvorets and the Rostov Hotel). The mansion of Nikolai Paramonov, the son of the
+				famous merchant Elpidifor Paramonov, who owned mills, steamers, grain warehouses, was built for
+				his beloved and according to another version for his daughter.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0017" title="[b]18.[/b] The SFedU Library" number="[b]- 18 -[/b]" onstart="" thumburl="panos/0017__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="82.18450371247023" vlookat="-39.91339672029836" fovtype="MFOV" fov="23.442196858050668" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0017__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0017__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0017__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0017__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0017__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>The SFedU Library</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				However, the mansion was used by its owners not for long – only for four years. In late
+				February - early March 1918, the mansion houses the headquarters of the Rostov-Nakhichevan
+				Revolutionary Committee, in fact, the headquarters of the Red Army in Rostov. A few months later, the
+				headquarters of the White Army was located in the same building, where prominent leaders of the
+				White Movement met such as Lavr Kornilov, Anton Denikin and Mikhail Alekseev, one of the main
+				ideologists of the White Movement, i.e. personalities of historical proportions.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0018" title="[b]19.[/b] The SFedU Library" number="[b]- 19 -[/b]" onstart="" thumburl="panos/0018__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="8.279622172078653" vlookat="15.93087625898984" fovtype="MFOV" fov="58.79898526756067" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0018__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0018__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0018__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0018__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0018__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>The SFedU Library</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				At the end of 1918, a fire broke out in Paramonov’s house. In 1923 the building was restored.
+				It housed a builders’ club and then a blood transfusion institute. In the 1930s, the mansion housed the
+				Regional Museum of Local History.<br>
+				During the Great Patriotic War, the building burned, however, the walls and colonnades were not
+				significantly damaged. In 1947, it was decided to restore and transfer the building to the library of
+				Rostov State University. The reconstruction with architectural replanning was supervised by Eberg.
+				In 1957, the university was headed by Yuri Andreevich Zhdanov, under whose leadership the university
+				was transformed from a provincial university into a leading educational institution in the country.
+				In 2011, a bust to Yuri Andreevich Zhdanov was solemnly unveiled in front of the library building.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0019" title="[b]20.[/b] Alley of Veteran Writers" number="[b]- 20 -[/b]" onstart="" thumburl="panos/0019.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-76.5" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0019.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0019.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0019.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0019.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0019.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Alley of Veteran Writers</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				In memory of the great compatriots, an alley of veteran writers appeared in the centre of
+				Rostov-on-Don. The monument to the Don veteran writers was opened in Rostov-on-Don on the
+				occasion of the 71st anniversary of the Great Victory. Three bronze busts: Mikhail Sholokhov, Vitaly
+				Zakrutkin and Anatoly Kalinin were installed next to the Public Library on Pushkinskaya Street.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0020" title="[b]21.[/b] Alley of Veteran Writers" number="[b]- 21 -[/b]" onstart="" thumburl="panos/0020__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="167.14" vlookat="-49.80" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0020__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0020__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0020__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0020__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0020__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Alley of Veteran Writers</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Each of the writers went through the harsh roads of the Great Patriotic War and left a living
+				memory of those years in his work. During the Great Patriotic War, Mikhail Sholokhov was a war
+				correspondent of the Soviet Information Bureau, newspapers «Pravda» and «Krasnaya Zvezda», he gave
+				his Stalin Prize for «Quietly Flows the Don» to the needs of the front. The war correspondent Sholokhov
+				was at the forefront of all seven fronts and took part in the Battle of Stalingrad. Its events became the
+				basis for the novel «They Fought for Their Motherland».
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0021" title="[b]22.[/b] Alley of Veteran Writers" number="[b]- 22 -[/b]" onstart="" thumburl="panos/0021__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-91.20528082251766" vlookat="2.028997319311233" fovtype="MFOV" fov="71.5064610053981" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0021__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0021__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0021__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0021__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0021__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Alley of Veteran Writers</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				The future author of the «Gypsy» Anatoly Kalinin marched from the Terek to the Danube as
+				part of the Fifth Don Cossack Corps. He was also a war correspondent, wrote for «Komsomolskaya
+				Pravda».
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0022" title="[b]23.[/b] Alley of Veteran Writers" number="[b]- 23 -[/b]" onstart="" thumburl="panos/0022__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-100.2517490940582" vlookat="-5.711313224151801" fovtype="MFOV" fov="91.2201709176009" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0022__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0022__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0022__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0022__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0022__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Alley of Veteran Writers</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Another war correspondent, Vitaly Zakrutkin published two books of battle essays and about
+				100 works of fiction about the heroes of the war during the war years. He took part in the battles for
+				Rostov-on-Don, the liberation of Prague, the storming of Berlin. Vitaly Zakrutkin volunteered for the
+				front as a war correspondent for the 56th Army newspaper «For Our Motherland». He took part in the
+				battle for the Caucasus, in the battles for Rostov-on-Don, the liberation of Prague, the storming of
+				Berlin. During the war, he published two books of battle essays, published over 100 works of fiction
+				about the heroes of the war.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0023" title="[b]24.[/b] Don Public Library" number="[b]- 24 -[/b]" onstart="" thumburl="panos/0023__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-160.0828961081224" vlookat="-10.905666214681608" fovtype="MFOV" fov="76.41605774076314" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0023__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0023__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0023__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0023__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0023__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Don Public Library</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				The first public library in Rostov-on-Don opened on 7 January 1886. From 1921 to 1994, the library
+was located in Velikanova’s mansion on Serafimovich Street.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0024" title="[b]25.[/b] Don Public Library" number="[b]- 25 -[/b]" onstart="" thumburl="panos/0024__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-111.07383580214902" vlookat="-18.29194358498884" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0024__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0024__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0024__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0024__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0024__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Don Public Library</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				In 1974, the construction of a new library building began on Pushkinskaya Street. It was designed by
+the architect Yan Zanis and the engineer Boris Sidelkovsky. On 25 May 1994, the library moved to a
+new location.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0025" title="[b]26.[/b] Don Public Library" number="[b]- 26 -[/b]" onstart="" thumburl="panos/0025__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-178.60465499254803" vlookat="-22.493830634208553" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0025__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0025__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0025__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0025__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0025__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Don Public Library</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				The buildings of the library are located perpendicular to each other. The main sculptural accent of the
+16-storey monolithic concrete building is the relief framing the upper corner of the book depository
+facade.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0026" title="[b]27.[/b] Don Public Library" number="[b]- 27 -[/b]" onstart="" thumburl="panos/0026__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-160.91770249543322" vlookat="-43.151310715814134" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0026__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0026__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0026__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0026__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0026__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Don Public Library</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Moscow monumental artists Vladimir Lemport and Nikolai Silis created a stylized set of images-signs,
+including images of the “faces of the geniuses of mankind” between the book pages.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0027" title="[b]28.[/b] Don Public Library" number="[b]- 28 -[/b]" onstart="" thumburl="panos/0027__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-111.92072606863876" vlookat="-17.67372158530794" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0027__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0027__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0027__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0027__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0027__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Don Public Library</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Three months after the opening, in September 1994, the library hosted a meeting of the writer
+Alexander Solzhenitsin with the readers and the public of the city. In 1995, the library was given the
+status of the Central Library of the Rostov Region.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0028" title="[b]29.[/b] Don Public Library" number="[b]- 29 -[/b]" onstart="" thumburl="panos/0028.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-1.290668705875798" vlookat="-22.3197612133342" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0028.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0028.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0028.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0028.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0028.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Don Public Library</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				The reading rooms occupy the three-storey blocks built in the same architectural style.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0029" title="[b]30.[/b] Don Public Library" number="[b]- 30 -[/b]" onstart="" thumburl="panos/0029.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-114.03878140908643" vlookat="-30.55650147798602" fovtype="MFOV" fov="76.3635173363375" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0029.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0029.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0029.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0029.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0029.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Don Public Library</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				The deliberate restraint of the external appearance of the library buildings is combined with the
+diversity in the library’s interior. The walls are finished with white granite and marble.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0030" title="[b]31.[/b] Don Public Library" number="[b]- 31 -[/b]" onstart="" thumburl="panos/0030__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-96.80200706744562" vlookat="51.65719097386783" fovtype="MFOV" fov="76.41516856815723" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0030__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0030__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0030__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0030__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0030__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Don Public Library</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				The halls are decorated with cascades of waterfalls and pools. All this is complemented by an
+abundance of greenery and various sculptural compositions.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0031" title="[b]32.[/b] Don Public Library" number="[b]- 32 -[/b]" onstart="" thumburl="panos/0031__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-134.31195915582543" vlookat="3.4003508061437047" fovtype="MFOV" fov="47.42820493198889" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0031__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0031__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0031__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0031__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0031__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Don Public Library</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Cities are like people: each has its own appearance, its own biography. The architecture of the city of
+Rostov-on-Don can be read as a chronicle of the development of our state since the 18th century, or it
+can be read as a fascinating book, created with the participation of many writers and poets associated
+with the Don region, who glorified or visited it.
+			</div>
+
+		]]></data>
+
+	</scene>
+	
+	
+
+	<!-- the action for dragging the hotspot - call it once in the ondown event -->
+	<action name="draghotspot">
+		spheretoscreen(ath, atv, hotspotcenterx, hotspotcentery, calc(mouse.stagex LT stagewidth/2 ? 'l' : 'r'));
+		sub(drag_adjustx, mouse.stagex, hotspotcenterx);
+		sub(drag_adjusty, mouse.stagey, hotspotcentery);
+		asyncloop(pressed,
+			sub(dx, mouse.stagex, drag_adjustx);
+			sub(dy, mouse.stagey, drag_adjusty);
+			screentosphere(dx, dy, ath, atv);
+			print_hotspot_pos();
+		  );
+	</action>
+	
+	<!-- show the xml code of the hotspot position -->
+	<action name="print_hotspot_pos">
+		<![CDATA[
+			copy(print_ath, ath);
+			copy(print_atv, atv);
+			roundval(print_ath, 3);
+			roundval(print_atv, 3);
+			calc(layer[hotspot_pos_info].html, '&lt;hotspot name="' + name + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ath="' + print_ath + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;atv="' + print_atv + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;');
+		]]>
+	</action>
+	
+</krpano>

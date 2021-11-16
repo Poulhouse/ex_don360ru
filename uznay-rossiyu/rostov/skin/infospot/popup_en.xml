@@ -1,0 +1,256 @@
+<krpano>
+		   
+	
+	<style 	name="skin_infospot" 
+			type="image" 
+			url="../infospot__image.png" 
+			scale="0.36" 
+			edge="center" 
+			distorted="false" 
+			zoom="false"
+			tooltip=""
+			linkedscene=""
+			linkedscene_lookat=""
+			onover="tween(scale,0.4);"
+			onout="tween(scale,0.36);"
+	/>
+	<action name="popup" scope="private:POPUP" args="type, content, width, height, scrollbars, classname, position">
+		<![CDATA[
+			if(popup, break(); );
+			
+			addlayer('popup_bg', popup_bg);
+			set(popup_bg,
+				type=container,
+				align=lefttop, width=100%, height=100%,
+				//zorder=99,
+				handcursor=false,
+				bgcapture=true,
+				capture=false
+				//bgcolor=0x123456, onloaded='tween(bgalpha,0.3,1.0);',	// optional: colorize the background
+				//ondown='popup_close()'
+			);
+				
+			
+			addlayer('popup', popup);
+			set(popup,
+				type=container,
+				parent='popup_bg',
+				bgborder='0 0xFFFFFF 1',
+				bgcolor=0xFFFFFF,
+				bgalpha=0.9,
+				bgroundedge=3,
+				bgshadow='0 10 20 0x000000 0.5',
+				bgcapture=true,
+				maskchildren=false,
+				capture=true,
+				handcursor=false,
+				alpha=0
+			);
+			
+			
+			
+			// optional: add a close button
+			addlayer('popup_close_x__container', close__x);
+			set(close__x, 
+				parent='popup',
+				type=container, 
+				bgcolor=0xFFFFFF, 
+				bgcapture=true,  
+				bgroundedge=3,
+				bgshadow=0 0 0 0x000000 0.0, 
+				bgborder=0,
+				width=38,
+				height=38,
+				edge=leftbottom,
+				zorder=100,
+				onover='set(layer[popup_close_x].crop, 1707|137|64|64); set(bgborder,2 0x901518);',
+				onout='set(layer[popup_close_x].crop, 1707|0|64|64); set(bgborder,0); ',
+				onclick='popup_close();'
+			);
+			
+			addlayer('popup_close_x', closex);
+			set(closex,
+				url='skin/player/vskin.png',
+				crop=1707|0|64|64,
+				parent='popup_close_x__container',
+				align=center,
+				scale=0.36,
+				edge=center, 
+				distorted=false, 
+				visible=true, 
+				enabled=false
+			);
+			if(position == 'center_mobile',
+				set(popup,
+					align=center,
+					y=0,
+					width=calc(global.stagewidth),
+					height=calc(global.stageheight)
+				);
+				set(close__x, 
+					x=43, y=43,
+					bgalpha=0.0, 
+					align=righttop
+				);
+				set(popup_bg, 
+					zorder=99,
+				);
+			  ,position == 'center_desktop',
+				set(popup,
+					align=center,
+					width=calc(min(width,global.stagewidth*0.9)),
+					height=calc(min(height,global.stageheight*0.8))
+				);
+				set(close__x, 
+					x=43, y=43,
+					bgalpha=0.0, 
+					align=righttop
+				);
+			  ,position == 'bottom_desktop',
+				set(popup,
+					align=bottom,
+					y=calc(10+25),
+					width=calc(global.stagewidth-38-35-38-35),
+					height=calc(min(height,global.stageheight*0.8))
+				);
+				set(close__x, 
+					x=38, y=38,
+					bgalpha=0.0, 
+					align=righttop
+				);
+			  ,position == 'bottom_mobile',
+				set(popup,
+					align=bottom,
+					y=calc(10+25),
+					width=calc(global.stagewidth-38-10-38-10),
+					height=calc(min(height,global.stageheight*0.8))
+				);
+				set(close__x, 
+					x=38, y=38,
+					bgalpha=0.0, 
+					align=righttop
+				);
+			);
+			if(type == 'html',
+				copy(popup.datacontent, content);
+				calc(popup.onloaded, 'add_html_code(get(datacontent),'+scrollbars+','+classname+');');
+
+			  ,type == 'iframe',
+				calc(popup.datacontent, '<iframe style="position:absolute;width:100%;height:100%;top:0px;left:0px;" src="'+content+'" frameborder="0" allowfullscreen></iframe>');
+				calc(popup.onloaded, 'add_html_code(get(datacontent),'+scrollbars+','+classname+');');
+
+			  ,type == 'image',
+				set(popup,
+					bgcolor=0xFFFFFF,
+					bgalpha=1,
+				);
+				addlayer("popup_image", img);
+				set(img,
+					url=get(content),
+					align=center,
+					width=-20, height=-20,
+					parent=get(popup.name),
+					onloaded='popup_imageloaded()'
+				);
+			);
+
+			tween(global.plugin[pp_blur].range, 0.0);
+			delayedcall(0.2, tween(global.layer[popup].alpha, 1.0); );
+
+			//set(global.events[popup].onclick, popup_close() );
+			set(global.events[popup].onremovepano, popup_close() );
+			
+		]]>
+	</action>
+	
+	
+	<action name="popup_close">
+		set(global.plugin[popup_bg].enabled, false);
+		set(global.events[popup].name, null);
+		tween(global.plugin[pp_blur].range, 0.0);
+		tween(global.layer[popup_bg].bgalpha, 0.0, 0.25);
+		tween(global.layer[popup].alpha, 0.0, 0.25, default,
+			removelayer('popup_bg', true);
+			scope(private:POPUP, delete(popup); );
+		);
+		
+		<!--jsget(enablepopup, localStorage.getItem('enablepopup'));-->
+		if(layer[btn_texttype_turnon].visible == false,
+			enable_popup('N'); 
+			set(layer[btn_texttype_turnon].visible, true); 
+			set(layer[btn_texttype_turnoff].visible, false);		
+		);
+		<!--, 
+			enable_popup('Y');
+			set(layer[btn_texttype_turnon].visible, false); 
+			set(layer[btn_texttype_turnoff].visible, true);  
+			set(layer[btn_texttype_container].onclick, popup_close() );
+		);-->
+		
+	</action>
+
+
+	<action name="popup_imageloaded" scope="private:POPUP">
+		calc(imgw, caller.imagewidth + 20);
+		calc(imgh, caller.imageheight + 20);
+		calc(maxw, global.stagewidth*0.9);
+		calc(maxh, global.stageheight*0.8);
+		if(imgw GT maxw,
+			calc(imgh, round(imgh * maxw / imgw));
+			copy(imgw, maxw);
+		);
+		if(imgh GT maxh,
+			calc(imgw, round(imgw * maxh / imgh));
+			copy(imgh, maxh);
+		);
+
+		set(global.layer[get(caller.parent)], width=get(imgw), height=get(imgh) );
+	</action>
+
+
+
+	<!-- arguments: 1=htmlcode, 2=scrollbars, 3=classname -->
+	<action name="add_html_code" type="Javascript"><![CDATA[
+		var div = document.createElement("div");
+
+		// basic styles to fit into the layer size and allow scrolling:
+		div.style.width = "100%";
+		div.style.height = "100%";
+		div.style.boxSizing = "border-box";
+		div.style.overflow = args[2] == "true" ? "auto" : "hidden";
+
+		// allow text selection (optional):
+		div.style.webkitUserSelect =
+		div.style.MozUserSelect =
+		div.style.msUserSelect =
+		div.style.userSelect = "text";
+
+		function stopPropagation(e){ e.stopPropagation(); }
+		function preventDefault(e){ e.preventDefault(); }
+
+		// enable browsed-based mouse-wheel and touch-scrolling support:
+		div.addEventListener("wheel", stopPropagation, true);
+		div.addEventListener("mousewheel", stopPropagation, true);
+		div.addEventListener("DOMMouseScroll", stopPropagation, true);
+		div.addEventListener("touchstart", function(event){ if(krpano.device.ios && window.innerHeight == krpano.display.htmltarget.offsetHeight){ /* avoid the iOS 'overscrolling' for fullpage viewers */ var bs = document.body.parentNode.style; bs.position="fixed"; bs.top=0; bs.left=0; bs.right=0; bs.bottom=0; } krpano.control.preventTouchEvents = false; event.stopPropagation(); }, true);
+		div.addEventListener("touchend", function(event){ krpano.control.preventTouchEvents = true; event.stopPropagation(); }, true);
+		div.addEventListener("gesturestart", preventDefault, true);
+
+		// add the html code:
+		div.innerHTML = args[1];
+
+		// add the div to the layer element:
+		caller.sprite.appendChild(div);
+		caller.sprite.className = args[3];
+		
+		
+	]]></action>
+	<action name="enable_popup" type="Javascript"><![CDATA[
+	
+		var krpano = document.getElementById("krpanoSWFObject");
+		var enablepopup = krpano.get("global.layer[popup].enabled");
+		localStorage.setItem("enablepopup", args[1]);
+		console.log('enablepopup = ', args[1]);
+	
+	]]></action>
+</krpano>
