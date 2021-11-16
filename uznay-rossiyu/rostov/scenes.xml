@@ -1,0 +1,765 @@
+<krpano>
+
+	<scene name="scene_0032" title="[b]1.[/b] Улица Пушкинская" number="[b]- 1 -[/b]" onstart="" thumburl="panos/0000__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0000__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0000__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0000__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0000__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0000__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0001" title="[b]2.[/b] Бронзовые львы" number="[b]- 2 -[/b]" onstart="" thumburl="panos/0001__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="120.42104884668728" vlookat="-3.900143716255469" fovtype="MFOV" fov="37.149093720934026" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0001__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0001__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0001__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0001__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0001__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0002" title="[b]3.[/b] Бронзовые львы" number="[b]- 3 -[/b]" onstart="" thumburl="panos/0002__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-34.347168704734024" vlookat="0.9222558756731402" fovtype="MFOV" fov="51.045295277031094 " maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0002__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0002__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0002__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0002__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0002__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0004" title="[b]4.[/b] Дом Ивана Зворыкина" number="[b]- 4 -[/b]" onstart="" thumburl="panos/0004__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="165.63074606141217" vlookat="-41.73081488542492" fovtype="MFOV" fov="80.93435188051627" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0004__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0004__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0004__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0004__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0004__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0005" title="[b]5.[/b] Киршон В.М." number="[b]- 5 -[/b]" onstart="" thumburl="panos/0005__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="180.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0005__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0005__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0005__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0005__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0005__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0003" title="[b]6.[/b] Фадеев А.А." number="[b]- 6 -[/b]" onstart="" thumburl="panos/0003.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="141.94" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0003.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0003.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0003.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0003.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0003.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0006" title="[b]7.[/b] Ф.В. Тумилевич" number="[b]- 7 -[/b]" onstart="" thumburl="panos/0006.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="163.70" vlookat="-23.37" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0006.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0006.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0006.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0006.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0006.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0007" title="[b]8.[/b] Памятник Пушкину" number="[b]- 8 -[/b]" onstart="" thumburl="panos/0007__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-90.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0007__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0007__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0007__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0007__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0007__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0008" title="[b]9.[/b] Памятник Пушкину" number="[b]- 9 -[/b]" onstart="" thumburl="panos/0008__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="102.94879757603441" vlookat="-25.647165987671407" fovtype="MFOV" fov="85.84091571234315" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0008__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0008__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0008__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0008__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0008__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0009" title="[b]10.[/b] Памятник Пушкину" number="[b]- 10 -[/b]" onstart="" thumburl="panos/0009__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-44.2905850182712" vlookat="-65.06769066542081" fovtype="MFOV" fov="40.719347863883385" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0009__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0009__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0009__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0009__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0009__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0010" title="[b]11.[/b] Общественное собрание" number="[b]- 11 -[/b]" onstart="" thumburl="panos/0010.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="19.60" vlookat="-14.45" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0010.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0010.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0010.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0010.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0010.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0011" title="[b]12.[/b] Общественное собрание" number="[b]- 12 -[/b]" onstart="" thumburl="panos/0011__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="48.68" vlookat="-11.30" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0011__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0011__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0011__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0011__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0011__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0012" title="[b]13.[/b] Общественное собрание" number="[b]- 13 -[/b]" onstart="" thumburl="panos/0012.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="20.57" vlookat="-36.01" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0012.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0012.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0012.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0012.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0012.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0013" title="[b]14.[/b] Общественное собрание" number="[b]- 14 -[/b]" onstart="" thumburl="panos/0013.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="106.52" vlookat="-3.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0013.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0013.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0013.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0013.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0013.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0014" title="[b]15.[/b] Памятник Чехову" number="[b]- 15 -[/b]" onstart="" thumburl="panos/0014.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-110.38" vlookat="-10.12" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0014.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0014.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0014.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0014.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0014.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0015" title="[b]16.[/b] Памятник Чехову" number="[b]- 16 -[/b]" onstart="" thumburl="panos/0015__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-88.73" vlookat="49.73" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0015__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0015__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0015__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0015__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0015__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0016" title="[b]17.[/b] Библиотека ЮФУ" number="[b]- 17 -[/b]" onstart="" thumburl="panos/0016__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-59.83" vlookat="11.06" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0016__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0016__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0016__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0016__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0016__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0017" title="[b]18.[/b] Библиотека ЮФУ" number="[b]- 18 -[/b]" onstart="" thumburl="panos/0017__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="82.18450371247023" vlookat="-39.91339672029836" fovtype="MFOV" fov="23.442196858050668" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0017__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0017__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0017__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0017__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0017__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0018" title="[b]19.[/b] Библиотека ЮФУ" number="[b]- 19 -[/b]" onstart="" thumburl="panos/0018__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="8.279622172078653" vlookat="15.93087625898984" fovtype="MFOV" fov="58.79898526756067" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0018__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0018__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0018__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0018__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0018__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0019" title="[b]20.[/b] Аллея писателей–фронтовиков" number="[b]- 20 -[/b]" onstart="" thumburl="panos/0019.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-76.5" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0019.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0019.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0019.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0019.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0019.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0020" title="[b]21.[/b] Аллея писателей–фронтовиков" number="[b]- 21 -[/b]" onstart="" thumburl="panos/0020__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="167.14" vlookat="-49.80" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0020__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0020__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0020__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0020__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0020__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0021" title="[b]22.[/b] Аллея писателей–фронтовиков" number="[b]- 22 -[/b]" onstart="" thumburl="panos/0021__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-91.20528082251766" vlookat="2.028997319311233" fovtype="MFOV" fov="71.5064610053981" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0021__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0021__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0021__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0021__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0021__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0022" title="[b]23.[/b] Аллея писателей–фронтовиков" number="[b]- 23 -[/b]" onstart="" thumburl="panos/0022__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-100.2517490940582" vlookat="-5.711313224151801" fovtype="MFOV" fov="91.2201709176009" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0022__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0022__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0022__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0022__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0022__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0023" title="[b]24.[/b] Донская Публичная Библиотека" number="[b]- 24 -[/b]" onstart="" thumburl="panos/0023__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-160.0828961081224" vlookat="-10.905666214681608" fovtype="MFOV" fov="76.41605774076314" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0023__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0023__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0023__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0023__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0023__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0024" title="[b]25.[/b] Донская Публичная Библиотека" number="[b]- 25 -[/b]" onstart="" thumburl="panos/0024__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-111.07383580214902" vlookat="-18.29194358498884" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0024__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0024__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0024__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0024__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0024__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0025" title="[b]26.[/b] Донская Публичная Библиотека" number="[b]- 26 -[/b]" onstart="" thumburl="panos/0025__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-178.60465499254803" vlookat="-22.493830634208553" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0025__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0025__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0025__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0025__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0025__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0026" title="[b]27.[/b] Донская Публичная Библиотека" number="[b]- 27 -[/b]" onstart="" thumburl="panos/0026__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-160.91770249543322" vlookat="-43.151310715814134" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0026__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0026__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0026__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0026__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0026__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0027" title="[b]28.[/b] Донская Публичная Библиотека" number="[b]- 28 -[/b]" onstart="" thumburl="panos/0027__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-111.92072606863876" vlookat="-17.67372158530794" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0027__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0027__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0027__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0027__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0027__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0028" title="[b]29.[/b] Донская Публичная Библиотека" number="[b]- 29 -[/b]" onstart="" thumburl="panos/0028.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-1.290668705875798" vlookat="-22.3197612133342" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0028.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0028.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0028.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0028.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0028.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0029" title="[b]30.[/b] Донская Публичная Библиотека" number="[b]- 30 -[/b]" onstart="" thumburl="panos/0029.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-114.03878140908643" vlookat="-30.55650147798602" fovtype="MFOV" fov="76.3635173363375" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0029.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0029.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0029.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0029.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0029.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0030" title="[b]31.[/b] Донская Публичная Библиотека" number="[b]- 31 -[/b]" onstart="" thumburl="panos/0030__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-96.80200706744562" vlookat="51.65719097386783" fovtype="MFOV" fov="76.41516856815723" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0030__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0030__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0030__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0030__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0030__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+
+	<scene name="scene_0031" title="[b]32.[/b] Донская Публичная Библиотека" number="[b]- 32 -[/b]" onstart="" thumburl="panos/0031__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-134.31195915582543" vlookat="3.4003508061437047" fovtype="MFOV" fov="47.42820493198889" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0031__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0031__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0031__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0031__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0031__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+
+	</scene>
+	
+	
+
+	<!-- the action for dragging the hotspot - call it once in the ondown event -->
+	<action name="draghotspot">
+		spheretoscreen(ath, atv, hotspotcenterx, hotspotcentery, calc(mouse.stagex LT stagewidth/2 ? 'l' : 'r'));
+		sub(drag_adjustx, mouse.stagex, hotspotcenterx);
+		sub(drag_adjusty, mouse.stagey, hotspotcentery);
+		asyncloop(pressed,
+			sub(dx, mouse.stagex, drag_adjustx);
+			sub(dy, mouse.stagey, drag_adjusty);
+			screentosphere(dx, dy, ath, atv);
+			print_hotspot_pos();
+		  );
+	</action>
+	
+	<!-- show the xml code of the hotspot position -->
+	<action name="print_hotspot_pos">
+		<![CDATA[
+			copy(print_ath, ath);
+			copy(print_atv, atv);
+			roundval(print_ath, 3);
+			roundval(print_atv, 3);
+			calc(layer[hotspot_pos_info].html, '&lt;hotspot name="' + name + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ath="' + print_ath + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;atv="' + print_atv + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;');
+		]]>
+	</action>
+	
+</krpano>

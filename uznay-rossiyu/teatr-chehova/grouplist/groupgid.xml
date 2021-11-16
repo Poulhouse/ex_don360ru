@@ -1,0 +1,48 @@
+<krpano>
+	<include url="actions.xml" />
+
+	<group_v name="level_0" enabled="true" voice="20.mp3">
+		<group name="object_1"  value="scene_0020" />
+	</group_v>
+	
+	<group_v name="level_1" enabled="false" voice="21.mp3">
+		<group name="object_1"  value="scene_0021" />
+	</group_v>
+	
+	<group_v name="level_2" enabled="false" voice="22.mp3">
+		<group name="object_1"  value="scene_0022" />
+	</group_v>
+	
+	<group_v name="level_3" enabled="false" voice="23.mp3">
+		<group name="object_1"  value="scene_0023" />
+	</group_v>
+	
+	<group_v name="level_4" enabled="false" voice="24.mp3">
+		<group name="object_1"  value="scene_0024" />
+	</group_v>
+	
+	<group_v name="level_5" enabled="false" voice="25.mp3">
+		<group name="object_1"  value="scene_0025" />
+	</group_v>
+	
+	<group_v name="level_6" enabled="false" voice="26.mp3">
+		<group name="object_1"  value="scene_0026" />
+	</group_v>
+	
+	<group_v name="level_7" enabled="false" voice="27.mp3">
+		<group name="object_1"  value="scene_0027" />
+	</group_v>
+	
+	<group_v name="level_8" enabled="false" voice="28.mp3">
+		<group name="object_1"  value="scene_0028" />
+	</group_v>
+	
+	<group_v name="level_9" enabled="false" voice="29.mp3">
+		<group name="object_1"  value="scene_0029" />
+	</group_v>
+	
+	<group_v name="level_10" enabled="false" voice="30.mp3">
+		<group name="object_1"  value="scene_0030" />
+	</group_v>
+	
+</krpano>
