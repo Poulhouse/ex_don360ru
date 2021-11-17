@@ -14,7 +14,7 @@
     	<link href='https://fonts.googleapis.com/css2?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css2?family=Open+Sans' rel='stylesheet' type='text/css'>
     
-   <style>
+    <style>
 		.u-section-1 .u-image-1 {
 			  background-image: url("../assets/images/chehov.jpg");
 			  background-position: 50% 50%;
@@ -246,6 +246,7 @@
 }
 .g-btn span {
     position: relative;
+    letter-spacing: 1px;
 }
 .g-btn.type_outline:before {
     display: block;
@@ -311,6 +312,9 @@
 		margin-bottom: 20px;
 		width: 100%;
 	}
+	.body img {
+		position: relative !important;
+	}
 	#centerLayer > img {
 		width: 100% !important;
 		height: auto !important;
@@ -326,9 +330,24 @@
 	#centerLayer {
 		position: relative;
 		width: 100%;
+		margin-bottom: -8px;
+		margin-top: -8px;
+	}
+	#footer {
+		position: relative;
 	}
 	.w-actionbox-h {
 		display: block !important;
+	}
+	.image_first {
+		width: 180px;
+	}
+	.l-submain {
+		padding: 15px 10px;
+	}
+	.l-submain h1 {
+		margin-top:0;
+		font-size: 18px !important;
 	}
 }
 	</style>
@@ -348,7 +367,7 @@
   </head>
   
 <body class="body " style="">
-	<img src="../assets/images/fond_black.png" width="300" style="position: absolute; left: 0; top: 0; z-index: 2;"/>
+	<img src="../assets/images/fond_black.png" class="image_first" width="300" style="position: absolute; left: 0; top: 0; z-index: 2;"/>
 	<div id="centerLayer">
 		
 		<img src="../assets/images/kalinin.jpeg" width="500" style="position: absolute;width: auto;height: calc(100vh - 200px); 
@@ -362,14 +381,14 @@
 					<div class="full-width">
 						<div class="w-actionbox color_primary controls_aside">
 							<div class="w-actionbox-h">
-								<div class="w-actionbox-text"><h1>Виртуальный тур по Раздорскому этнографическому музею-заповеднику</h1><p>Экскурсия по музею-заповеднику в сопровождении аудиогида</p></div>
+								<div class="w-actionbox-text"><h1>Виртуальный тур по Раздорскому этнографическому музею-заповеднику.</h1><p>Экскурсия в сопровождении аудиогида</p></div>
 								<div class="w-actionbox-controls at_right">
-									<a class="w-actionbox-button g-btn size_big type_outline" href="tour.php?audiogid=1">
-										<span>Запустить аудиогид</span>
+									<a class="w-actionbox-button g-btn size_big type_default " href="tour.php?audiogid=0">
+										<span>Запустить&nbsp;&nbsp;аудиогид</span>
 									</a>
-									<a class="w-actionbox-button g-btn size_big type_default" href="tour.php?audiogid=0">
+									<!--<a class="w-actionbox-button g-btn size_big type_outline" href="tour.php?audiogid=0">
 										<span>Самостоятельный просмотр</span>
-									</a>
+									</a>-->
 								</div>
 							</div>
 						</div>
@@ -378,7 +397,6 @@
 			</div>
 		</div>
 		<div class="copyright" style="background-color: #ffffff;">
-			<span>&copy; при поддержке Фонда Президентских Грантов</span>
 			<a href="https://don360.ru/">Студия виртуальных туров: DON360.RU</a>
 			
 			
