@@ -1,0 +1,207 @@
+<krpano version="1.20" title="Virtual Tour" logkey="false" showerrors="false">
+	<include url="skin/vtourskin.xml" />
+	<include url="skin/arrows/arrows.xml" />
+	<include url="skin/player/player_skin_en.xml" />
+	<include url="skin/infospot/popup_en.xml" />
+	
+	
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="false"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               gyro="true"
+	               webvr="true"
+	               webvr_gyro_keeplookingdirection="false"
+	               webvr_prev_next_hotspots="true"
+	               littleplanetintro="false"
+	               title="false"
+	               thumbs="true"
+	               thumbs_width.desktop="170" thumbs_height.desktop="80" thumbs_padding.desktop="9" thumbs_crop="0|50|240|120"
+	               thumbs_width.handheld="80" thumbs_height.handheld="80" thumbs_padding.handheld="9"
+	               thumbs_opened="true"
+	               thumbs_text="true"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="true"
+	               thumbs_loop="true"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, easeInQuart)"
+	               loadscene_blend_prev="OPENBLEND(0.5, 0.0, 0.75, 0.05, easeInQuart)"
+	               loadscene_blend_next="OPENBLEND(0.5, 0.0, 0.75, 0.05, easeInQuart)"
+	               loadingtext="Загрузка..."
+	               layout_width="100%"
+	               layout_maxwidth="100%"
+				   layout_padding="5"
+	               controlbar_width="-2"
+	               controlbar_height="0"
+	               controlbar_offset="0"
+	               controlbar_offset_closed="-100"
+	               controlbar_overlap.no-fractionalscaling="0"
+	               controlbar_overlap.fractionalscaling="0"
+	               design_skin_images="vtourskin.png"
+	               design_bgcolor="0xFDF5ED"
+	               design_bgalpha="0.5"
+	               design_bgborder="6 0x0A0A0A 0.0"
+	               design_bgroundedge="0"
+	               design_bgshadow="0 0 0 0x000000 0.0"
+	               design_thumbborder_bgborder="4 0x901518 1.0"
+	               design_thumbborder_padding="4"
+	               design_thumbborder_bgroundedge="3"
+	               design_text_css="color:#FFFFFF; font-family:Open Sans; text-shadow: 1px 1px 1px #000000;"
+	               design_text_shadow="0"
+	               />
+				   
+				   <!-- 0xd5ba90  0xd2b485-->
+	<!--<events onclick="showlog(); trace(get(view.hlookat)); trace(get(view.vlookat)); trace(get(view.fov));" />-->
+	<events name="audiogidState" keep="true" enabled="false" soundd="false" />
+	
+	<events name="skin_events2" keep="true"	      
+			onblendcomplete="if(events[audiogidState].enabled === true, 
+					jssession();  
+					set(layer[btn_left_container].visible, false);
+					set(layer[btn_right_container].visible, false);
+					hideskin(); 
+					set(layer[btn_hide_show].visible, false); 
+					lookto(get(view.hlookat), get(view.vlookat), get(view.fov));
+				, 
+					jssession();
+					lookto(get(view.hlookat), get(view.vlookat), get(view.fov)); 
+					set(layer[btn_right_container].bgborder, 0);
+					set(layer[btn_right_container].bgcolor, 0xFFFFFF);	
+					set(layer[btn_right].crop, 1439|0|64|64);
+					
+				); 
+				if(device.normal,
+					jsget(enablepopup, localStorage.getItem('enablepopup'));
+					trace('global.layer[popup].enabled = ', get(enablepopup)  );
+					if(enablepopup,
+						popup('html', get(data[text1].content), 400, 500, true, 'leftposition', calc(device.normal ? 'topright' : 'center')); set(layer[btn_texttype_container].onclick, popup_close() );
+						set(layer[btn_texttype_turnon].visible, false); 
+						set(layer[btn_texttype_turnoff].visible, true);
+					);
+				);"
+			onxmlcomplete="getscenename();"
+	        onenterfullscreen.fullscreensupport="set(layer[btn_fs2_out].visible, true);set(layer[btn_fs2_in].visible, false); hideskin(); mediaHide(); playerHide();"
+	        onexitfullscreen.fullscreensupport="set(layer[btn_fs2_in].visible, true);set(layer[btn_fs2_out].visible, false); hideskin(); mediaHide(); playerHide();"
+	/>
+	<action name="resetSession" type="Javascript">
+	<![CDATA[
+		localStorage.removeItem("grouplevelrostovmanual");
+		localStorage.removeItem("grouplevelchehovmanual");
+		localStorage.removeItem("grouplevelrostovauto");
+		localStorage.removeItem("grouplevelchehovauto");
+		localStorage.removeItem("grouplevel");
+		localStorage.removeItem("enablepopup");
+	]]>
+	</action>
+	<action name="jssession" type="Javascript">
+	<![CDATA[
+		var krpano = document.getElementById("krpanoSWFObject");
+		var group_v_count = krpano.get("group_v.count");
+		for (i = 0; i < group_v_count; i++) {
+			krpano.call( "getLevelGroup(" + i + ");" );
+			var curscenename = krpano.get("scene[get(xml.scene)].name");
+			krpano.set("currentscene", curscenename);
+			var group_count = krpano.get("group_v[get(level)].group.count");
+			for (ii = 1; ii <= group_count; ii++) {
+				krpano.call( "txtadd(object_4_html,'object_'," + ii + ");");
+				var groupvalue = krpano.get("group_v[get(level)].group[get(object_4_html)].value");
+				if(groupvalue === curscenename ){
+					var level = krpano.get("level");
+					krpano.call("trace(" + level + ");");
+					
+					if(localStorage.getItem("grouplevelchehovmanual") != level){
+						krpano.call("changegroup();");
+						localStorage.setItem("grouplevelchehovmanual", level);
+					} else {						
+						//alert( "grouplevelchehovmanual = " + localStorage.getItem("grouplevelchehovmanual") );
+					}					
+				}
+			}
+			
+		}
+	]]>
+	</action>
+	
+	<!-- startup action - load the first scene -->
+	<action name="startup" autorun="onstart">
+		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
+		loadscene(get(startscene), null, MERGE);
+		if(startactions !== null, startactions() );
+		set(layer[skin_control_bar_buttons].visible, false);
+		preloadsound('bgsound_lite4.mp3');
+		createsound(audiobackground, 'bgsound_lite4.mp3', false); 
+		set(sound[audiobackground].loop, true);
+		set(layer[layout_container].mainsound , 'pause'); 
+		resetSession();	
+		bgsoundlevel();
+		toggleHotspotVisibility(0);
+		<!--set(layer[btn_map_container].alpha, 0.8);
+		set(layer[btn_map_container].enabled, false);-->
+		<!--set(layer[btn_info_container].alpha, 0.8);
+		set(layer[btn_info_container].enabled, false);-->
+		if(events[audiogidState].enabled === true, 
+			trace(get(events[audiogidState].enabled), ' включен аудиогид'); 
+			hideskin();
+			set(layer[btn_hide_show].visible, false);
+			jssession();  
+			set(layer[btn_left_container].visible, false);
+			set(layer[btn_right_container].visible, false);
+			playerShowHide(); 
+			layer[btn_play].onhover(); 
+			layer[btn_play].onover(); 
+			set(sound[audiobackground].muted, true ); 
+			getVolumeLevel();
+		, 
+			trace(get(events[audiogidState].enabled), ' выключен аудиогид');  
+			jssession(); 
+			hideskin();
+			krpano.setattribute(fullscreen, true);
+			set(layer[btn_left_container].visible, false); 
+			playerShowHide(); 
+			layer[btn_play].onhover(); 
+			layer[btn_play].onover(); 
+			set(sound[audiobackground].muted, true ); 
+			getVolumeLevel();
+		); 
+		jsget(enablepopup, localStorage.getItem('enablepopup'));
+		trace('global.layer[popup].enabled = ', get(enablepopup) );
+		
+	</action>
+	
+	<!--<include url="skin/vtourskin_design_black_new.xml"       />-->
+	
+	<include url="domik-scenes_en.xml" />
+	<include url="gymnasiya-scenes_en.xml" />
+	<include url="teatr-scenes_en.xml" />
+	<include url="memory-scenes_en.xml" />
+	
+	
+	
+	<action name="circlepos" scope="localonly" args="pos, total">
+		calc(caller.ox, -100 * cos((pos-1)/total * Math.PI * 2.0) );
+		calc(caller.oy, -100 * sin((pos-1)/total * Math.PI * 2.0) );
+	</action>
+	
+	
+	<include url="../plugins/screenshot/screenshot.xml" />
+	<include url="../plugins/showtext.xml" />
+	
+	<include url="../plugins/gtransition/gtransition_settings.xml"/>
+	<include url="../plugins/gtransition/gtransition.xml"/>
+	
+	<include url="../plugins/garrows/garrows_settings.xml"/>
+	<include url="../plugins/garrows/garrows.xml"/>
+
+	<include url="grouplist/groupgid_en.xml" />
+	
+	<!--<include url="plugins/google/garrows.xml" />-->
+</krpano>

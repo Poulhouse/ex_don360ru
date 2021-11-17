@@ -19,7 +19,7 @@
 			<level tiledimagewidth="4096" tiledimageheight="4096">
 				<cube url="../domik-chehova/panos/0001.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
-		</image>
+		</image> 
 
 	</scene>-->
 
@@ -115,7 +115,7 @@
 		<hotspot name="infospot2" 
 				 style="skin_infospot_left" 
 				 ath="-97.84199720821618" atv="-11.9748237565593" 
-				 onclick="popup('html', get(data[mama].content), 600, 600, true);" 
+				 onclick="popup2('html', get(data[mama].content), 600, 600, true);" 
 		/>
 		<!--'%CURRENTXML%/skin/infospot/pictures/mama.jpg');" -->
 		<data name="mama"><![CDATA[

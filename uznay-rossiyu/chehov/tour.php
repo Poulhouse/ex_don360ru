@@ -21,7 +21,17 @@
 	<link href='https://fonts.googleapis.com/css2?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<style>
 		@-ms-viewport { width:device-width; }
-		@media only screen and (min-device-width:800px) { html { overflow:hidden; } }
+		@media only screen and (min-device-width:800px) { 
+			html { overflow:hidden; } 
+			leftposition {
+				/* height: 205px !important; */
+				/*bottom: 35px; */
+				/* width: calc(100% - 146px) !important; */
+				/* left: calc(38px + 35px); */
+				/* transform: inherit !important; */
+			} 
+		}
+		@media only screen and (max-device-width:799px) {.leftposition {height: auto;} }
 		html { height:100%; }
 		body { height:100%; overflow:hidden; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; background-color:#000000; }
 		#panel_thumbs {z-index:9; position: fixed; bottom: 0; left: 0;}
@@ -48,11 +58,16 @@
 	
 	<script type="text/javascript">
 	$(document).ready(function(){
-		<?php if($_GET['audiogid'] == 1){?>
-			embedpano({xml:'tour_2.xml', target:'pano', html5:'auto', mobilescale:1.0, consolelog:true, passQueryParameters:true, onready:krpano_onready_callback});
-		<?php } else { ?>
-			embedpano({xml:'tour.xml', target:'pano', html5:'auto', mobilescale:1.0, consolelog:true, passQueryParameters:true, onready:krpano_onready_callback});
-		<?php };?>
+		
+		<?php if($_GET['lang'] == 'ru'){?>
+			embedpano({xml:'tour_ru.xml', target:'pano', html5:'auto', mobilescale:1.0, consolelog:true, passQueryParameters:true, onready:krpano_onready_callback});
+			//embedpano({xml:'tour_2.xml', target:'pano', html5:'auto', mobilescale:1.0, consolelog:true, passQueryParameters:true, onready:krpano_onready_callback });
+		<?php } elseif($_GET['lang'] == 'en') { ?>
+			embedpano({xml:'tour_en.xml', target:'pano', html5:'auto', mobilescale:1.0, consolelog:true, passQueryParameters:true, onready:krpano_onready_callback});			
+		<?php } elseif($_GET['lang'] == 'ch') {?>
+			embedpano({xml:'tour_ch.xml', target:'pano', html5:'auto', mobilescale:1.0, consolelog:true, passQueryParameters:true, onready:krpano_onready_callback});			
+		<?php }; ?>
+		
 	});
 	</script>
 	

@@ -1,0 +1,168 @@
+<krpano>
+	<include url="actions.xml" />
+
+	<!--<group_v name="level_0" enabled="true" voice="1.mp3">
+		<group name="object_1"  value="scene_0001" />
+	</group_v>-->
+	
+	<group_v name="level_0" enabled="true">
+		<group name="object_1"  value="scene_0002__" />
+	</group_v>
+	
+	<group_v name="level_1" enabled="false">
+		<group name="object_1"  value="scene_0003+" />
+	</group_v>
+	
+	<group_v name="level_2" enabled="false">
+		<group name="object_1"  value="scene_0004+" />
+	</group_v>
+	
+	<group_v name="level_3" enabled="false">
+		<group name="object_1"  value="scene_0005+" />
+	</group_v>
+	
+	<group_v name="level_4" enabled="false">
+		<group name="object_1"  value="scene_0006-7" state="false" />
+		<group name="object_2"  value="scene_0006-7_2" state="false" />
+		<group name="object_3"  value="scene_0006-7_3" state="false" />
+	</group_v>
+	
+	<group_v name="level_5" enabled="false">
+		<group name="object_1"  value="scene_0008+" />
+	</group_v>
+	
+	<group_v name="level_6" enabled="false">
+		<group name="object_1"  value="scene_0009_2__" />
+	</group_v>
+	
+	<group_v name="level_7" enabled="false">
+		<group name="object_1"  value="scene_0009+" />
+	</group_v>
+	
+	<group_v name="level_8" enabled="false">
+		<group name="object_1"  value="scene_0011+" />
+	</group_v>
+	
+	<group_v name="level_9" enabled="false">
+		<group name="object_1"  value="scene_0012__" />
+	</group_v>
+	
+	<group_v name="level_10" enabled="false">
+		<group name="object_1"  value="scene_0013+" />
+	</group_v>
+	
+	<group_v name="level_11" enabled="false">
+		<group name="object_1"  value="scene_0014" />
+		<group name="object_2"  value="scene_0014_2" />
+		<group name="object_3"  value="scene_0014_3" />
+	</group_v>
+	
+	<group_v name="level_12" enabled="false">
+		<group name="object_1"  value="scene_0015" />
+		<group name="object_2"  value="scene_0015_2" />
+	</group_v>
+	
+	<group_v name="level_13" enabled="false">
+		<group name="object_1"  value="scene_0016" />
+		<group name="object_2"  value="scene_0016_2" />
+		<group name="object_3"  value="scene_0016_3" />
+	</group_v>
+	
+	<group_v name="level_14" enabled="false">
+		<group name="object_1"  value="scene_0017+" />
+	</group_v>
+	
+	<group_v name="level_15" enabled="false">
+		<group name="object_1"  value="scene_0018" />
+		<group name="object_2"  value="scene_0018_2" />
+	</group_v>
+	
+	<group_v name="level_16" enabled="false">
+		<group name="object_1"  value="scene_0019" />
+		<group name="object_2"  value="scene_0019_2" />
+	</group_v>
+	
+	<group_v name="level_17" enabled="false">
+		<group name="object_1"  value="scene_0020+" />
+	</group_v>
+	
+	<group_v name="level_18" enabled="false">
+		<group name="object_1"  value="scene_0021+" />
+	</group_v>
+	
+	<group_v name="level_19" enabled="false">
+		<group name="object_1"  value="scene_0022+" />
+	</group_v>
+	
+	<group_v name="level_20" enabled="false">
+		<group name="object_1"  value="scene_0023+" />
+	</group_v>
+	
+	<group_v name="level_21" enabled="false">
+		<group name="object_1"  value="scene_0024+" />
+	</group_v>
+	
+	<group_v name="level_22" enabled="false">
+		<group name="object_1"  value="scene_0025+" />
+	</group_v>
+	
+	<group_v name="level_23" enabled="false">
+		<group name="object_1"  value="scene_0026+" />
+	</group_v>
+	
+	<group_v name="level_24" enabled="false">
+		<group name="object_1"  value="scene_0027+" />
+	</group_v>
+	
+	<group_v name="level_25" enabled="false">
+		<group name="object_1"  value="scene_0028+" />
+	</group_v>
+	
+	<group_v name="level_26" enabled="false">
+		<group name="object_1"  value="scene_0029+" />
+	</group_v>
+	
+	<group_v name="level_27" enabled="false">
+		<group name="object_1"  value="scene_0030+" />
+	</group_v>
+	
+	<group_v name="level_28" enabled="false">
+		<group name="object_1"  value="scene_0031__" />
+	</group_v>
+	
+	<group_v name="level_29" enabled="false">
+		<group name="object_1"  value="scene_0032__" />
+		<group name="object_2"  value="scene_0032_2" />
+	</group_v>
+	
+	<group_v name="level_30" enabled="false">
+		<group name="object_1"  value="scene_0033+" />
+	</group_v>
+	
+	<group_v name="level_31" enabled="false">
+		<group name="object_1"  value="scene_0034__" />
+	</group_v>
+	
+	<group_v name="level_32" enabled="false">
+		<group name="object_1"  value="scene_0035+" />
+	</group_v>
+	
+	<group_v name="level_33" enabled="false">
+		<group name="object_1"  value="scene_0036__" />
+		<group name="object_2"  value="scene_0036_2__" />
+	</group_v>
+	
+	<group_v name="level_34" enabled="false">
+		<group name="object_1"  value="scene_0037+" />
+	</group_v>
+	
+	<group_v name="level_35" enabled="false">
+		<group name="object_1"  value="scene_0038__" />
+		<group name="object_2"  value="scene_0038_2__" />
+	</group_v>
+	
+	<group_v name="level_36" enabled="false">
+		<group name="object_1"  value="scene_0039" />
+		<group name="object_2"  value="scene_0039_2" />
+	</group_v>
+</krpano>
