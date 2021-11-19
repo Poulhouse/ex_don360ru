@@ -181,8 +181,7 @@
 				<div class="col-12 lang_wrapper d-block d-lg-none">
 					
 					<?php if($_GET['lang'] == 'ru' || $_GET['lang'] == ''){ ?>
-					
-						<!--<span class="title_lang">Выберите язык</span>-->			
+									
 						<div class="lang_wrap">
 							<a href="?lang=ru" class="active">
 								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
@@ -199,8 +198,7 @@
 						</div>
 						
 					<?} elseif($_GET['lang'] == 'en'){?>
-					
-						<!--<span class="title_lang">Choose language</span>-->
+						
 						<div class="lang_wrap">
 							<a href="?lang=ru">
 								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
@@ -219,7 +217,6 @@
 					
 					<?} elseif($_GET['lang'] == 'ch'){?>
 					
-						<!--<span class="title_lang">选择语言</span>-->
 						<div class="lang_wrap">
 							<a href="?lang=ru">
 								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />

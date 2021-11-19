@@ -246,6 +246,28 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<script class="u-script" type="text/javascript" src="../assets/js/nicepage.js" defer=""></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+	
+	<script>
+		$(document).ready(function() {
+			$h_footer = $('#footer').outerHeight();	
+			if($h_footer != 160) {
+					$('#centerLayer').css('padding-bottom', $h_footer+40);
+				} else {
+					$('#centerLayer').css('padding-bottom', 0);					
+				}	
+			
+			$(window).on('resize', function(){
+				$h_footer2 = $('#footer').outerHeight();	
+				console.log($h_footer2);
+				if($h_footer2 != 160) {
+					
+					$('#centerLayer').css('padding-bottom', $h_footer+40);
+				} else {
+					$('#centerLayer').css('padding-bottom', 0);					
+				}					
+			})			
+		});
+	</script>
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript" >
 	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
