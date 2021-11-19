@@ -1,3 +1,8 @@
+<?php
+	$url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+	$url = explode('?', $url);
+	$currentUrl = $url[0];
+?>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>
@@ -6,17 +11,17 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
-		<title>History</title>
+		<title>Литературный проект «Узнай Россию» | Виртуальная онлайн-экскурсия по литературным местам Ростовской области | DON360.RU</title>
 		<link href='https://fonts.googleapis.com/css2?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css2?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link href='css/style.css?v=1.0.0' rel='stylesheet' type='text/css'>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">    
     <script type="application/ld+json">{"@context": "http://schema.org","@type": "Organization","name": "","url": "https://fiveday.ru/tour_new/rostov/"}</script>				
-		<meta property="og:title" content="Виртуальный тур по улице Пушкинской в Ростове-на-Дону">
+		<meta property="og:title" content="Литературный проект «Узнай Россию» | Виртуальная онлайн-экскурсия по литературным местам Ростовской области | DON360.RU">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#478ac9">
-    <link rel="canonical" href="https://fiveday.ru/tour_new/rostov/">
-    <meta property="og:url" content="https://fiveday.ru/tour_new/rostov/">
+    <link rel="canonical" href="<? echo $currentUrl;?>">
+    <meta property="og:url" content="<? echo $currentUrl;?>">
   </head>
  <body class="body " style="">
  
