@@ -77,6 +77,14 @@
 					set(layer[btn_right_container].bgborder, 0);
 					set(layer[btn_right_container].bgcolor, 0xFFFFFF);	
 					set(layer[btn_right].crop, 1439|0|64|64);
+					
+					if(hotspot[infospot2].count == 0,
+						set(layer[btn_info_container].alpha, 0.8);
+						set(layer[btn_info_container].enabled, false);
+					,
+						set(layer[btn_info_container].alpha, 1.0);
+						set(layer[btn_info_container].enabled, true);
+					);
 				); "
 			onxmlcomplete="getscenename();"
 	        onenterfullscreen.fullscreensupport="set(layer[btn_fs2_out].visible, true);set(layer[btn_fs2_in].visible, false); hideskin(); mediaHide(); playerHide();"
@@ -156,6 +164,10 @@
 			layer[btn_play].onover(); 
 			set(sound[audiobackground].muted, true ); 
 			getVolumeLevel();
+			if(hotspot[infospot2].count == 0, 
+				set(layer[btn_info_container].alpha, 0.8);
+				set(layer[btn_info_container].enabled, false);
+			);
 		); 
 		
 	</action>

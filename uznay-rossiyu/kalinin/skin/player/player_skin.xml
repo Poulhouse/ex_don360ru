@@ -122,17 +122,17 @@
 		
 		<layer name="leftpanel" type="container" width="38" height="100%" x="5" y="0" align="left" maskchildren="false" visible="true" bgcapture="false" zorder="2">
 		
-			<layer name="btn_menu_container" type="container" style="skin_bg4" align="topleft" x="0" y.desktop="5" y.mobile.or.tablet="48" onclick="menuShowHide();" onover="tooltipIn();" onhover="if(layer[btn_menu_close].visible === false, set(layer[btn_menu].crop, 1172|137|64|64); showtext(Показать меню, btn_description);, set(layer[btn_menu_close].crop, 1707|137|64|64); showtext(Скрыть меню, btn_description);); set(bgborder,2 0x901518); tooltipIn2(); " onout="set(layer[btn_menu].crop, 1172|0|64|64); set(layer[btn_menu_close].crop, 1707|0|64|64); set(bgborder,0); tooltipIn();" >
-				<layer name="btn_menu" url="vskin.png" crop="1172|0|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" visible="true" onclick="" enabled="false"/>
-				<layer name="btn_menu_close" url="vskin.png" crop="1707|0|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" visible="false" onclick="" enabled="false"/>
+			<layer name="btn_menu_container" type="container" style="skin_bg4" align="topleft" x="0" y.desktop="5" y.mobile.or.tablet="48" onclick="openurl(index.php, _self);" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_home].crop, 1104|137|64|64); showtext(Вернуться на главную, btn_description); set(bgborder,2 0x901518);" onout="set(layer[btn_home].crop, 1104|0|64|64); set(bgborder,0); tooltipIn();" >
+				<layer name="btn_home" url="vskin.png" crop="1104|0|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" visible="true" onclick="" enabled="false" />
+				<!--<layer name="btn_menu" url="vskin.png" crop="1104|0|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" visible="true" onclick="" enabled="false"/>
+				<layer name="btn_menu_close" url="vskin.png" crop="1707|0|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" visible="false" onclick="" enabled="false"/>-->
 			</layer>
-			
+			<!--
 			<layer name="menu_panel_container" type="container" style="skin_bg5" width="38" height="76" align="topleft" x="0" y="-76" visible="true" zorder="2" hidden="true">
 				
-				<layer name="btn_home_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="0" onclick="openurl(index.php, _self);"  onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_home].crop, 1104|137|64|64); showtext(Вернуться на главную, btn_description);" onout="set(layer[btn_home].crop, 1104|69|64|64); tooltipIn();" >
+				<layer name="btn_home_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="0" onclick="openurl(index.php, _self);"  onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_home].crop, 1104|137|64|64); showtext(Go back to the main page, btn_description);" onout="set(layer[btn_home].crop, 1104|69|64|64); tooltipIn();" >
 					<layer name="btn_home" url="vskin.png" crop="1104|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" visible="true" enabled="false" />
 				</layer>
-				
 				<layer name="btn_switch_container" type="container" style="" bgcapture="true" width="38" height="38" align="topleft" x="0" y="38" onclick="" onover="tooltipIn();" onhover="tooltipIn2(); if(events[audiogidState].enabled === true, showtext(Включить самостоятельный просмотор, btn_description);,showtext(Включить аудиогид, btn_description); ); " onout=" tooltipIn();" >
 					
 					<layer 	name="btn_switch_on" url="vskin.png" crop="968|69|64|64" align="center" scale="0.36" edge="center" distorted="false" 
@@ -152,14 +152,14 @@
 					/>
 					
 				</layer>
-				
 			</layer>
+			-->
 			
 			<layer 	name="btn_player_container" type="container" style="skin_bg4" align="bottomleft" x="0" y="111" onclick="playerShowHide();" onover="tooltipIn();" onhover="set(layer[btn_player].crop, 288|137|64|64); set(bgborder,2 0x901518); tooltipIn2(); showtext(Показать плеер, btn_description);" onout="set(layer[btn_player].crop, 288|0|64|64); set(bgborder,0); tooltipIn();" >
 				<layer 	name="btn_player" url="vskin.png" crop="288|0|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true" enabled="false" />
 			</layer>
 			
-			<layer name="player_panel_container" type="container" style="skin_bg5" width="38" height="208" align="bottomleft" x="0" y="-208"  visible="true" zorder="2" hidden="true">
+			<layer name="player_panel_container" type="container" style="skin_bg5" width="38" height="170" align="bottomleft" x="0" y="-170"  visible="true" zorder="2" hidden="true">
 				
 				<layer name="btn_play_container" type="container" style="" width="38" height="38" align="topleft" x="0" y="0" onhover="" onout="" >
 					<layer name="btn_play" url="vskin.png" crop="356|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_play].crop, 356|137|64|64); if(events[audiogidState].enabled === true, showtext(Запустить аудиогид, btn_description);, showtext(Включить аудиогид, btn_description););" onclick=" play();" onout="set(layer[btn_play].crop, 356|69|64|64); tooltipIn();" visible="true" />
@@ -258,10 +258,10 @@
 					<layer name="btn_vol_minus" url="vskin.png" crop="560|69|64|64" align="center" scale="0.36" edge="center" onhover="" onclick="setVolumeMinus();" visible="true" />
 				</layer>
 				
-				<layer name="btn_sound_container" type="container" bgcapture="true" width="38" height="38" zorder="4" align="top" x="0" y="170" onloaded="" onover="tooltipIn();" onhover="tooltipIn2(); showtext(Приглушить звук, btn_description);" onout="tooltipIn();" >
-					<layer name="btn_sound_icon" url="vskin.png" crop="628|69|64|64" x="0" y="0" zorder="5" align="center" scale="0.36" onclick="switchsound();" visible="true" onover="set(crop, 628|137|64|64);" onout="set(crop, 628|69|64|64);" onloaded="getVolumeLevel();" />
+				<!--<layer name="btn_sound_container" type="container" bgcapture="true" width="38" height="38" zorder="4" align="top" x="0" y="170" onloaded="" onover="tooltipIn();" onhover="tooltipIn2(); showtext(Приглушить звук, btn_description);" onout="tooltipIn();" >
+					<layer name="btn_sound_icon" url="vskin.png" crop="628|69|64|64" x="0" y="0" zorder="5" align="center" scale="0.36" onclick="switchsound();" visible="false" onover="set(crop, 628|137|64|64);" onout="set(crop, 628|69|64|64);" onloaded="getVolumeLevel();" />
 					<layer name="btn_sound_icon_mute" url="vskin.png" crop="1574|69|64|64" x="0" y="0" zorder="5" align="center" scale="0.36" onclick="switchsound();" visible="false" onover="set(crop, 1574|137|64|64);" onout="set(crop, 1574|69|64|64);" onloaded="getVolumeLevel();" />
-				</layer>
+				</layer>-->
 				
 			</layer>
 			
@@ -284,11 +284,11 @@
 					<layer name="btn_screenshot" url="vskin.png" crop="764|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true" enabled="false"/>
 				</layer>
 				
-				<layer name="btn_map_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="38" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_map].crop, 832|137|64|64); showtext(Показать карту, btn_description);" onout="set(layer[btn_map].crop, 832|69|64|64);  tooltipIn();"  >
+				<layer name="btn_map_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="38" onclick="if(layer[btn_hide_icon].visible == false, showskin();, hideskin();)" onover="tooltipIn();" onhover="tooltipIn2(); if(layer[btn_hide_icon].visible == false, showtext(Показать навигацию, btn_description);, showtext(Скрыть навигацию, btn_description);); " onout="tooltipIn();"  >
 					<layer name="btn_map" url="vskin.png" crop="832|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true"  enabled="false"/>
 				</layer>
-			
-				<layer name="btn_info_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="76" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_info].crop, 900|137|64|64); showtext(Помощь / Справка, btn_description);" onout="set(layer[btn_info].crop, 900|69|64|64); tooltipIn();" >
+				
+				<layer name="btn_info_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="76" onclick="if(hotspot[infospot2].visible == true , toggleHotspotVisibility(0); , toggleHotspotVisibility(1); );" onover="tooltipIn();" onhover="tooltipIn2(); if(hotspot[infospot2].visible == true,  showtext(Скрыть инфо-точки, btn_description);, showtext(Показать инфо-точки, btn_description);); " onout="tooltipIn();" >
 					<layer name="btn_info" url="vskin.png" crop="900|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true"  enabled="false"/>
 				</layer>
 				
@@ -327,6 +327,19 @@
 		,
 			openurl(tour.php?audiogid=1, _self); 
 		);
+	</action>
+	<action name="toggleHotspotVisibility">
+				 
+		
+		for(set(i,0), i LT hotspot.count, inc(i),
+			if(hotspot.style == 'skin_infospot',
+				set(hotspot[get(i)].visible, %1);
+			);
+		);
+		
+		
+		if(%1 == 1, set(layer[btn_info].crop, 900|137|64|64); , set(layer[btn_info].crop, 900|69|64|64); );
+
 	</action>
 	<action name="group_scenename_go" scope="local" args="indexadd">
 	
@@ -562,6 +575,11 @@
 		
 		set(sound[audiobackground].onplay, bgsound_onplay(); );			
 		set(sound[audiobackground].onpause, bgsound_onpause(); );
+			set(layer[btn_play].visible, false); 
+			set(layer[btn_play].enabled, false); 
+			set(layer[btn_pause].visible, true);  
+			set(layer[btn_pause].enabled, true);
+			rotate_turnon();
 	</action>
 	<action name="play">
 		trace('Запуск звука');
@@ -569,9 +587,13 @@
 		getLevelGroup(%1);
 		set(sound[audiobackground].muted, false ); 
 		getVolumeLevel();
-		bgsound_play();
+		bgsound_play(); <!-- включить фоновую музыку  -->
 		if(layer[btn_media_container].status_start === true, mediaShowHide(); set(layer[btn_media_container].status_start, false); );
 		rotate_turnon();
+		trace(group_v[get(level)].name);
+		if(group_v[get(level)].name == 'level_21',		
+			rotate_turnoff();
+		);
 		<!--	
 		if(events[audiogidState].enabled === true, 
 			trace(get(events[audiogidState].enabled), ' включен аудиогид');
@@ -640,8 +662,8 @@
 			
 			trace('ссылка на плей = ', get(layer[btn_play].onclick));
 			trace('ссылка на паузу = ', get(layer[btn_pause].onclick));
-			<!--if(events[audiogidState].enabled === true,
-				if(layer[layout_container].mainsound === 'play', bgsound_onplay();, bgsound_onpause(); );
+			if(events[audiogidState].enabled === true,
+				<!--if(layer[layout_container].mainsound === 'play', bgsound_onplay();, bgsound_onpause(); );
 				
 				set(group_v[get(oldlevel)].enabled, false);
 				trace('Предыдущую группу ', get(oldlevel) ,' автогида деактивируем'); 
@@ -654,18 +676,18 @@
 				
 				trace(get(events[audiogidState].enabled), ' включен аудиогид'); 
 				trace('nextnum = ', get(nextnum));
-				autogid( get(nextnum) );
-			, -->
+				autogid( get(nextnum) );-->
+			,
 				if(layer[layout_container].mainsound === 'play', bgsound_onplay();, bgsound_onpause(); );
 				set(events[audiogidState].soundd, true); 
 				
 				createsound(get(level), get(group_v[get(level)].voice),false);				
 								
-				set(layer[btn_play].visible, true); 
+				<!--set(layer[btn_play].visible, true); 
 				set(layer[btn_play].enabled, true);	
 				set(layer[btn_pause].visible, false);
-				set(layer[btn_pause].enabled, false);
-			<!--);-->
+				set(layer[btn_pause].enabled, false);-->
+			);
 		
 		);
 	</action>	
@@ -687,6 +709,7 @@
 			trace(get(events[audiogidState].enabled), ' выключен аудиогид');
 			set(events[audiogidState].soundd, false);
 			rotate_turnoff();
+			bgsound_pause();
 		);
 		
 	</action>
@@ -698,7 +721,6 @@
 	
 		set(layer[btn_play].visible, true); 
 		set(layer[btn_play].enabled, true); 
-		
 		set(layer[btn_pause].visible, false);
 		set(layer[btn_pause].enabled, false);		
 	</action>
@@ -868,7 +890,7 @@
 				tween(layer[player_panel_container].y, calc(- get(layer[player_panel_container].height)), get(hidetime)); 
 				set(layer[player_panel_container].hidden, true);
 			, <!--если закрыт плеер-->
-				tween(layer[btn_player_container].y, 324, get(hidetime)); 
+				tween(layer[btn_player_container].y, 286, get(hidetime)); 
 				tween(layer[player_panel_container].y, 111, get(hidetime));
 				set(layer[player_panel_container].hidden, false);
 			);
@@ -878,7 +900,7 @@
 				tween(layer[player_panel_container].y, calc(- get(layer[player_panel_container].height)), get(hidetime)); 
 				set(layer[player_panel_container].hidden, true);
 			, <!--если закрыт плеер-->
-				tween(layer[btn_player_container].y, 218, get(hidetime)); 
+				tween(layer[btn_player_container].y, 180, get(hidetime)); 
 				tween(layer[player_panel_container].y, 5, get(hidetime)); 
 				set(layer[player_panel_container].hidden, false);
 			);
@@ -916,6 +938,8 @@
 		);
 	</action>
 	<action name="mediaShowHide">
+		set(layer[btn_media_container].status_start, false);
+		
 		if(layer[btn_show_icon].visible === false, <!--если открыта нижняя панель-->
 			if(layer[media_panel_container].hidden === false, <!--если открыт плеер-->
 				tween(layer[btn_media_container].y, 111, get(hidetime)); 
@@ -939,7 +963,7 @@
 		);
 	</action>
 	<action name="hideskin" scope="local" args="hidetimemode">
-		
+		set(layer[btn_map].crop, 832|69|64|64);		
 		calc(hidetime, hidetimemode == 'instant' ? 0.0 : 0.5);
 		
 		callwith(layer[btn_hide_show],   skin_calc_opened_closed() );
@@ -959,7 +983,7 @@
 			set(layer[player_panel_container].hidden, true);
 		);
 		if(layer[player_panel_container].hidden === false, 
-			tween(layer[btn_player_container].y, 213, get(hidetime)); 
+			tween(layer[btn_player_container].y, 180, get(hidetime)); 
 			tween(layer[player_panel_container].y, 5, get(hidetime));
 			set(layer[player_panel_container].hidden, false);
 		);
@@ -984,6 +1008,7 @@
 		set(layer[btn_show_icon].visible, true);
 	</action>
 	<action name="showskin">
+		set(layer[btn_map].crop, 832|137|64|64);
 		tween(layer[btn_hide_show  ].y, get(layer[btn_hide_show  ].y_opened));
 		tween(layer[player_skin_control_bar  ].y, get(layer[player_skin_control_bar  ].y_opened));
 		tween(layer[skin_scroll_window  ].y, get(layer[skin_scroll_window  ].y_opened));
@@ -992,7 +1017,7 @@
 			tween(layer[btn_player_container].y, 111, get(hidetime));
 		);
 		if(layer[player_panel_container].hidden === false, 
-			tween(layer[btn_player_container].y, 324, get(hidetime)); 
+			tween(layer[btn_player_container].y, 286, get(hidetime)); 
 			tween(layer[player_panel_container].y, 111, get(hidetime));
 		);
 		

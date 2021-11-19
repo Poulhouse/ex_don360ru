@@ -23,14 +23,14 @@
 	
 	<link href='https://fonts.googleapis.com/css2?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css2?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../assets/css/nicepage.css" media="screen">
-	<link rel="stylesheet" href="../assets/css/main.css" media="screen">
-	<link href='../assets/css/style.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/css/nicepage.css';?>" media="screen">
+	<link rel="stylesheet" href="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/css/main.css';?>" media="screen">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<link href="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/css/style.css?v=1.0.0';?>" rel='stylesheet' type='text/css'>
     
     <style>
 		#centerLayer .image {
-			background-image: url(../assets/images/pushkin.jpg);
+			background-image: url(<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/pushkin.jpg';?>);
 		}
 	</style>
     
@@ -53,121 +53,83 @@
 	
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#478ac9">
-    <link rel="canonical" href="https://fiveday.ru/tour_new/rostov/">
-    <meta property="og:url" content="https://fiveday.ru/tour_new/rostov/">
+    <link rel="canonical" href="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/rostov/';?>">
+    <meta property="og:url" content="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/rostov/';?>">
   </head>
- <body class="body " style="">
- 
-	<header>
-		<div class="container header_wrapper">
-			<div class="row align-items-center justify-content-between">
-				<div class="col-auto me-auto">
-					<img src="../assets/images/fond_black.png" class="image_first"/>
-				</div>
-				<div class="col-auto lang_wrapper d-none d-lg-block">
-					
-					<?php if($_GET['lang'] == 'ru' || $_GET['lang'] == ''){ ?>
-					
-						<!--<span class="title_lang">Выберите язык</span>-->			
+
+	<body class="body " style="">
+		<header id="header">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container header_wrapper">
+					<div class="col-auto me-auto">
+						<?php if($_GET['lang'] == 'ru' || $_GET['lang'] == ''){ ?>
+							<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/images/fond_black_ru.svg';?>" class="image_first"/>
+						<?} elseif($_GET['lang'] == 'en'){?>
+							<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/images/fond_black_en.svg';?>" class="image_first"/>
+						<?} elseif($_GET['lang'] == 'ch'){?>
+							<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/images/fond_black_ch.svg';?>" class="image_first"/>
+						<?}?>
+					</div>
+					<div class="col-auto lang_wrapper d-none d-lg-block">										
 						<div class="lang_wrap">
-							<a href="?lang=ru" class="active">
-								<img src="../assets/images/rus.jpg" class="lang_img" />
+							<a href="?lang=ru" class="<?php if($_GET['lang'] == 'ru' || $_GET['lang'] == ''){ ?> active <?}?>">
+								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
 								<p class="small_text">Русский</p>
 							</a>
-							<a href="?lang=en">
-								<img src="../assets/images/eng.jpg" class="lang_img" />
-								<p class="small_text">Английский</p>
-							</a>
-							<a href="?lang=ch">
-								<img src="../assets/images/china.jpg" class="lang_img" />
-								<p class="small_text">Китайский</p>
-							</a>
-						</div>
-						
-					<?} elseif($_GET['lang'] == 'en'){?>
-					
-						<!--<span class="title_lang">Choose language</span>-->
-						<div class="lang_wrap">
-							<a href="?lang=ru">
-								<img src="../assets/images/rus.jpg" class="lang_img" />
-								<p class="small_text">Russian</p>
-							</a>
-							<a href="?lang=en"  class="active">
-								<img src="../assets/images/eng.jpg" class="lang_img" />
+							<a href="?lang=en" class="<?php if($_GET['lang'] == 'en' || $_GET['lang'] == ''){ ?> active <?}?>">
+								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/eng.jpg';?>" class="lang_img" />
 								<p class="small_text">English</p>
 							</a>
-							<a href="?lang=ch">
-								<img src="../assets/images/china.jpg" class="lang_img" />
-								<p class="small_text">Chinese</p>
-							</a>
-						</div>
-					
-					
-					<?} elseif($_GET['lang'] == 'ch'){?>
-					
-						<!--<span class="title_lang">选择语言</span>-->
-						<div class="lang_wrap">
-							<a href="?lang=ru">
-								<img src="../assets/images/rus.jpg" class="lang_img" />
-								<p class="small_text">俄语</p>
-							</a>
-							<a href="?lang=en">
-								<img src="../assets/images/eng.jpg" class="lang_img" />
-								<p class="small_text">英语</p>
-							</a>
-							<a href="?lang=ch"  class="active">
-								<img src="../assets/images/china.jpg" class="lang_img" />
+							<a href="?lang=ch" class="<?php if($_GET['lang'] == 'ch' || $_GET['lang'] == ''){ ?> active <?}?>">
+								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/china.jpg';?>" class="lang_img" />
 								<p class="small_text">中国人</p>
 							</a>
-						</div>				
-					
-					<?}?>
-					
-				</div>
-			</div><!-- /.row -->
-		</div><!-- /.container -->	
-	</header>
+						</div>
+					</div>			
+				</div><!-- /.container -->	
+			</nav>
+		</header>
 	
-	<section id="centerLayer">
-		<div class="container main_wrapper">
-			<div class="row align-items-center">
-				<div class="col-12 col-xxl-4 col-xl-5 col-lg-4 col-md-12">
-					<div class="image"></div> 
-				</div>
-				<div class="col-12 col-xxl-8 col-xl-7 col-lg-12 col-md-12">
-					<div class="desc">
-					
-					<?php if($_GET['lang'] == 'ru' || $_GET['lang'] == ''){ ?>
-					
-						<p class="small_text">Изготовлено в рамках реализации проекта</p>
-						<h2>«Узнай Россию: гении слова, рождённые на Дону»</h2> 
-						<p class="small_text">(руководитель - Леонид Шафиров, оператор - Общероссийская Ассоциация почётных граждан, настанвиков и талантливой молодёжи) при поддержке членов Общественной палаты Российской Федерации, Общественной палаты Ростовской области.</p>
-						<p class="default_text">Благодарим за совместную работу Донскую государственную публичную библиотеку (<a href="http://www.dspl.ru/" target="_blank">http://www.dspl.ru/</a>), МБУ ДО города Ростова-на-Дону "Центр детского и юношеского туризма и экскурсий (юных туристов)" (<a href="https://rostovturcenter.ru/" target="_blank">https://rostovturcenter.ru/</a>) и методиста Центра Наталью Ратушную</p>
-						<p class="small_text">Разработка и изготовление виртуального тура: <a href="https://don360.ru/">Студия DON360.RU</a></p>
-						
-					<?} elseif($_GET['lang'] == 'en'){?>
-
-						<p class="small_text">Made as part of the project</p>
-						<h2>"Get to know Russia: geniuses of the word, born on the Don"</h2> 
-						<p class="small_text">(head - Leonid Shafirov, operator - All-Russian Association of Honorary Citizens, Nastanviks and Talented Youth) with the support of members of the Public Chamber of the Russian Federation, the Public Chamber of the Rostov Region.</p>
-						<p class="default_text">Thank you for the joint work of the Don State Public Library (<a href="http://www.dspl.ru/" target="_blank">http://www.dspl.ru/</a>), MBU DO of the city of Rostov-on-Don "Center for children and youth tourism and excursions (young tourists)" (<a href="https://rostovturcenter.ru/" target="_blank">https://rostovturcenter.ru/</a>) and methodologist of the Center Natalia Ratushnaya</p>
-						<p class="small_text">Virtual Tour Creator: <a href="https://don360.ru/">Studio DON360.RU</a></p>
-
-					<?} elseif($_GET['lang'] == 'ch'){?>
-						
-						<p class="small_text">作为项目的一部分制作</p>
-						<h2>了解俄罗斯：这个词的天才，出生在顿河</h2> 
-						<p class="small_text">（负责人 - 列昂尼德·沙菲罗夫，运营商 - 全俄罗斯荣誉公民、纳斯坦维克和才华横溢的青年协会）在俄罗斯联邦公共商会、罗斯托夫州公共商会成员的支持下</p>
-						<p class="default_text">感谢唐州立公共图书馆的共同工作 (<a href="http://www.dspl.ru/" target="_blank">http://www.dspl.ru/</a>), 顿河畔罗斯托夫市的 MBU DO“儿童和青少年旅游和远足中心（年轻游客）” (<a href="https://rostovturcenter.ru/" target="_blank">https://rostovturcenter.ru/</a>) 和 Natalia Ratushnaya 中心的方法论者</p>
-						<p class="small_text">虚拟旅游创作者： <a href="https://don360.ru/">工作室 DON360.RU</a></p>
-					
-					<?}?>
-					
+		<section id="centerLayer">
+			<div class="container main_wrapper">
+				<div class="row align-items-center mt-5">
+					<div class="col-12 col-xxl-4 col-xl-5 col-lg-4 col-md-12">
+						<div class="image"></div> 
 					</div>
-				</div>
-			</div><!-- /.row -->
-		</div><!-- /.container -->	
-	</section>
+					<div class="col-12 col-xxl-8 col-xl-7 col-lg-12 col-md-12">
+						<div class="desc">
+						
+						<?php if($_GET['lang'] == 'ru' || $_GET['lang'] == ''){ ?>
+						
+							<p class="small_text">Изготовлено в рамках реализации проекта</p>
+							<h2>«Узнай Россию: гении слова, рождённые на Дону»</h2> 
+							<p class="small_text">(руководитель - Леонид Шафиров, оператор - Общероссийская Ассоциация почётных граждан, настанвиков и талантливой молодёжи) при поддержке членов Общественной палаты Российской Федерации, Общественной палаты Ростовской области.</p>
+							<p class="default_text">Благодарим за совместную работу Донскую государственную публичную библиотеку (<a href="http://www.dspl.ru/" target="_blank">http://www.dspl.ru/</a>), МБУ ДО города Ростова-на-Дону "Центр детского и юношеского туризма и экскурсий (юных туристов)" (<a href="https://rostovturcenter.ru/" target="_blank">https://rostovturcenter.ru/</a>) и методиста Центра Наталью Ратушную</p>
+							<p class="small_text">Разработка и изготовление виртуального тура: <a href="https://don360.ru/">Студия DON360.RU</a></p>
+							
+						<?} elseif($_GET['lang'] == 'en'){?>
+
+							<p class="small_text">Made as part of the project</p>
+							<h2>"Get to know Russia: geniuses of the word, born on the Don"</h2> 
+							<p class="small_text">(head - Leonid Shafirov, operator - All-Russian Association of Honorary Citizens, Nastanviks and Talented Youth) with the support of members of the Public Chamber of the Russian Federation, the Public Chamber of the Rostov Region.</p>
+							<p class="default_text">Thank you for the joint work of the Don State Public Library (<a href="http://www.dspl.ru/" target="_blank">http://www.dspl.ru/</a>), MBU DO of the city of Rostov-on-Don "Center for children and youth tourism and excursions (young tourists)" (<a href="https://rostovturcenter.ru/" target="_blank">https://rostovturcenter.ru/</a>) and methodologist of the Center Natalia Ratushnaya</p>
+							<p class="small_text">Virtual Tour Creator: <a href="https://don360.ru/">Studio DON360.RU</a></p>
+
+						<?} elseif($_GET['lang'] == 'ch'){?>
+							
+							<p class="small_text">作为项目的一部分制作</p>
+							<h2>了解俄罗斯：这个词的天才，出生在顿河</h2> 
+							<p class="small_text">（负责人 - 列昂尼德·沙菲罗夫，运营商 - 全俄罗斯荣誉公民、纳斯坦维克和才华横溢的青年协会）在俄罗斯联邦公共商会、罗斯托夫州公共商会成员的支持下</p>
+							<p class="default_text">感谢唐州立公共图书馆的共同工作 (<a href="http://www.dspl.ru/" target="_blank">http://www.dspl.ru/</a>), 顿河畔罗斯托夫市的 MBU DO“儿童和青少年旅游和远足中心（年轻游客）” (<a href="https://rostovturcenter.ru/" target="_blank">https://rostovturcenter.ru/</a>) 和 Natalia Ratushnaya 中心的方法论者</p>
+							<p class="small_text">虚拟旅游创作者： <a href="https://don360.ru/">工作室 DON360.RU</a></p>
+						
+						<?}?>
+						
+						</div>
+					</div>
+				</div><!-- /.row -->
+			</div><!-- /.container -->	
+		</section>
 	
 	<footer id="footer" class="position-fixed bottom-0 start-50 translate-middle-x color_primary" >
 		<div class="container">
@@ -218,15 +180,15 @@
 						<!--<span class="title_lang">Выберите язык</span>-->			
 						<div class="lang_wrap">
 							<a href="?lang=ru" class="active">
-								<img src="../assets/images/rus.jpg" class="lang_img" />
+								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
 								<p class="small_text">Русский</p>
 							</a>
 							<a href="?lang=en">
-								<img src="../assets/images/eng.jpg" class="lang_img" />
+								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/eng.jpg';?>" class="lang_img" />
 								<p class="small_text">Английский</p>
 							</a>
 							<a href="?lang=ch">
-								<img src="../assets/images/china.jpg" class="lang_img" />
+								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/china.jpg';?>" class="lang_img" />
 								<p class="small_text">Китайский</p>
 							</a>
 						</div>
@@ -236,15 +198,15 @@
 						<!--<span class="title_lang">Choose language</span>-->
 						<div class="lang_wrap">
 							<a href="?lang=ru">
-								<img src="../assets/images/rus.jpg" class="lang_img" />
+								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
 								<p class="small_text">Russian</p>
 							</a>
 							<a href="?lang=en"  class="active">
-								<img src="../assets/images/eng.jpg" class="lang_img" />
+								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/eng.jpg';?>" class="lang_img" />
 								<p class="small_text">English</p>
 							</a>
 							<a href="?lang=ch">
-								<img src="../assets/images/china.jpg" class="lang_img" />
+								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/china.jpg';?>" class="lang_img" />
 								<p class="small_text">Chinese</p>
 							</a>
 						</div>
@@ -255,15 +217,15 @@
 						<!--<span class="title_lang">选择语言</span>-->
 						<div class="lang_wrap">
 							<a href="?lang=ru">
-								<img src="../assets/images/rus.jpg" class="lang_img" />
+								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
 								<p class="small_text">俄语</p>
 							</a>
 							<a href="?lang=en">
-								<img src="../assets/images/eng.jpg" class="lang_img" />
+								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/eng.jpg';?>" class="lang_img" />
 								<p class="small_text">英语</p>
 							</a>
 							<a href="?lang=ch"  class="active">
-								<img src="../assets/images/china.jpg" class="lang_img" />
+								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/china.jpg';?>" class="lang_img" />
 								<p class="small_text">中国人</p>
 							</a>
 						</div>				

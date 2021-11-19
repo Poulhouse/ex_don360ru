@@ -284,11 +284,11 @@
 					<layer name="btn_screenshot" url="vskin.png" crop="764|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true" enabled="false"/>
 				</layer>
 				
-				<layer name="btn_map_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="38" onclick="if(layer[btn_hide_icon].visible == false, showskin();, hideskin();)" onover="tooltipIn();" onhover="tooltipIn2(); if(layer[btn_hide_icon].visible == false, set(layer[btn_map].crop, 832|137|64|64); showtext(Показать навигацию, btn_description);, set(layer[btn_map].crop, 832|69|64|64); showtext(Скрыть навигацию, btn_description);); " onout="if(layer[btn_hide_icon].visible == false, set(layer[btn_map].crop, 832|69|64|64); , set(layer[btn_map].crop, 832|137|64|64); );  tooltipIn();"  >
+				<layer name="btn_map_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="38" onclick="if(layer[btn_hide_icon].visible == false, showskin();, hideskin();)" onover="tooltipIn();" onhover="tooltipIn2(); if(layer[btn_hide_icon].visible == false, showtext(Показать навигацию, btn_description);, showtext(Скрыть навигацию, btn_description);); " onout="tooltipIn();"  >
 					<layer name="btn_map" url="vskin.png" crop="832|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true"  enabled="false"/>
 				</layer>
 				
-				<layer name="btn_info_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="76" onclick="if(hotspot[0].visible == true , toggleHotspotVisibility(0); , toggleHotspotVisibility(1); );" onover="tooltipIn();" onhover="tooltipIn2(); if(hotspot[0].visible == true , set(layer[btn_info].crop, 900|69|64|64); showtext(Скрыть инфо-точки, btn_description);, set(layer[btn_info].crop, 900|137|64|64); showtext(Показать инфо-точки, btn_description);); " onout="if(hotspot[0].visible == true , set(layer[btn_info].crop, 900|137|64|64);, set(layer[btn_info].crop, 900|69|64|64); ); tooltipIn();" >
+				<layer name="btn_info_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="76" onclick="if(hotspot[infospot2].visible == true , toggleHotspotVisibility(0); , toggleHotspotVisibility(1); );" onover="tooltipIn();" onhover="tooltipIn2(); if(hotspot[infospot2].visible == true,  showtext(Скрыть инфо-точки, btn_description);, showtext(Показать инфо-точки, btn_description);); " onout="tooltipIn();" >
 					<layer name="btn_info" url="vskin.png" crop="900|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true"  enabled="false"/>
 				</layer>
 				
@@ -330,7 +330,7 @@
 	</action>
 	<action name="toggleHotspotVisibility">
 
-		for(set(i,0), i LT hotspot.count, inc(i),
+		for(set(i,0), i LT hotspot[infospot2].count, inc(i),
 			set(hotspot[get(i)].visible, %1);
 		);
 		
@@ -959,7 +959,7 @@
 		);
 	</action>
 	<action name="hideskin" scope="local" args="hidetimemode">
-		
+		set(layer[btn_map].crop, 832|69|64|64);		
 		calc(hidetime, hidetimemode == 'instant' ? 0.0 : 0.5);
 		
 		callwith(layer[btn_hide_show],   skin_calc_opened_closed() );
@@ -1004,6 +1004,7 @@
 		set(layer[btn_show_icon].visible, true);
 	</action>
 	<action name="showskin">
+		set(layer[btn_map].crop, 832|137|64|64);
 		tween(layer[btn_hide_show  ].y, get(layer[btn_hide_show  ].y_opened));
 		tween(layer[player_skin_control_bar  ].y, get(layer[player_skin_control_bar  ].y_opened));
 		tween(layer[skin_scroll_window  ].y, get(layer[skin_scroll_window  ].y_opened));

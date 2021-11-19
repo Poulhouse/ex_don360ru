@@ -61,7 +61,8 @@
 										<h5 class="card-title">Виртуальная экскурсия в сопровождении аудиогида по улице Пушкинской в Ростове-на-Дону</h5>
 									</div>
 									<div class="card-footer">
-										<a href="https://fiveday.ru/tour_new/rostov/?lang=ru" class="btn btn-primary">Просмотреть</a>
+										<a href="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/rostov/?lang=ru';?>" class="btn btn-primary">Просмотреть</a>
+										
 									</div>
 								</div>
 							</div>
@@ -73,7 +74,7 @@
 										<h5 class="card-title">Виртуальная экскурсия в сопровождении аудиогида «На родине А.П. Чехова»</h5>
 									</div>
 									<div class="card-footer">
-										<a href="https://fiveday.ru/tour_new/chehov/?lang=ru" class="btn btn-primary">Просмотреть</a>
+										<a href="<? echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/chehov/?lang=ru';?>" class="btn btn-primary">Просмотреть</a>
 									</div>
 								</div>
 							</div>
@@ -85,7 +86,7 @@
 										<h5 class="card-title">Виртуальная экскурсия в сопровождении аудиогида по Раздорскому этнографическому музею-заповеднику</h5>
 									</div>
 									<div class="card-footer">
-										<a href="https://fiveday.ru/tour_new/kalinin/?lang=ru" class="btn btn-primary">Просмотреть</a>
+										<a href="<? echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/kalinin/?lang=ru'; ?>" class="btn btn-primary">Просмотреть</a>
 									</div>
 								</div>
 							</div>
@@ -99,7 +100,7 @@
 										<h5 class="card-title">Virtual tour of Pushkinskaya street in Rostov-on-Don</h5>
 									</div>
 									<div class="card-footer">
-										<a href="https://fiveday.ru/tour_new/rostov/?lang=en" class="btn btn-primary">Go View</a>
+										<a href="<? echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/rostov/?lang=en';?>" class="btn btn-primary">Go View</a>
 									</div>
 								</div>
 							</div>
@@ -111,7 +112,7 @@
 										<h5 class="card-title">Virtual tour in the homeland of A.P. Chekhov in Taganrog</h5>
 									</div>
 									<div class="card-footer">
-										<a href="https://fiveday.ru/tour_new/chehov/?lang=en" class="btn btn-primary">Go View</a>
+										<a href="<? echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/chehov/?lang=en';?>" class="btn btn-primary">Go View</a>
 									</div>
 								</div>
 							</div>
@@ -124,7 +125,7 @@
 										<h5 class="card-title">顿河畔罗斯托夫普希金大街的虚拟之旅</h5>
 									</div>
 									<div class="card-footer">
-										<a href="https://fiveday.ru/tour_new/rostov/?lang=ch" class="btn btn-primary">Go View</a>
+										<a href="<? echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/rostov/?lang=ch';?>" class="btn btn-primary">Go View</a>
 									</div>
 								</div>
 							</div>
@@ -136,7 +137,7 @@
 										<h5 class="card-title">塔甘罗格 A.P. Chekhov 故乡的虚拟之旅</h5>
 									</div>
 									<div class="card-footer">
-										<a href="https://fiveday.ru/tour_new/chehov/?lang=ch" class="btn btn-primary">Go View</a>
+										<a href="<? echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/chehov/?lang=ch';?>" class="btn btn-primary">Go View</a>
 									</div>
 								</div>
 							</div>
