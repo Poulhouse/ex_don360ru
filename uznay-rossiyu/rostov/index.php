@@ -23,19 +23,19 @@
 	
 	<link href='https://fonts.googleapis.com/css2?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css2?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/css/nicepage.css';?>" media="screen">
-	<link rel="stylesheet" href="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/css/main.css';?>" media="screen">
+    <link rel="stylesheet" href="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/css/nicepage.css';?>" media="screen">
+	<link rel="stylesheet" href="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/css/main.css';?>" media="screen">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-	<link href="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/css/style.css?v=1.0.0';?>" rel='stylesheet' type='text/css'>
+	<link href="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/css/style.css?v=1.1.0';?>" rel='stylesheet' type='text/css'>
     
     <style>
 		#centerLayer .image {
-			background-image: url(<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/pushkin.jpg';?>);
+			background-image: url(<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/pushkin.jpg';?>);
 		}
 	</style>
     
     
-    <script type="application/ld+json">{"@context": "http://schema.org","@type": "Organization","name": "","url": "https://fiveday.ru/tour_new/rostov/"}</script>
+    <script type="application/ld+json">{"@context": "http://schema.org","@type": "Organization","name": "Don360","url": "https://don360.ru/"}</script>
 	
 	<?php if($_GET['lang'] == 'ru' || $_GET['lang'] == ''){ ?>
 				
@@ -53,8 +53,8 @@
 	
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#478ac9">
-    <link rel="canonical" href="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/rostov/';?>">
-    <meta property="og:url" content="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/rostov/';?>">
+    <link rel="canonical" href="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/rostov/';?>">
+    <meta property="og:url" content="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/rostov/';?>">
   </head>
 
 	<body class="body " style="">
@@ -63,25 +63,25 @@
 				<div class="container header_wrapper">
 					<div class="col-auto me-auto">
 						<?php if($_GET['lang'] == 'ru' || $_GET['lang'] == ''){ ?>
-							<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/images/fond_black_ru.svg';?>" class="image_first"/>
+							<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/images/fond_black_ru.svg';?>" class="image_first"/>
 						<?} elseif($_GET['lang'] == 'en'){?>
-							<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/images/fond_black_en.svg';?>" class="image_first"/>
+							<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/images/fond_black_en.svg';?>" class="image_first"/>
 						<?} elseif($_GET['lang'] == 'ch'){?>
-							<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/images/fond_black_ch.svg';?>" class="image_first"/>
+							<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/images/fond_black_ch.svg';?>" class="image_first"/>
 						<?}?>
 					</div>
 					<div class="col-auto lang_wrapper d-none d-lg-block">										
 						<div class="lang_wrap">
 							<a href="?lang=ru" class="<?php if($_GET['lang'] == 'ru' || $_GET['lang'] == ''){ ?> active <?}?>">
-								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
+								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
 								<p class="small_text">Русский</p>
 							</a>
 							<a href="?lang=en" class="<?php if($_GET['lang'] == 'en' || $_GET['lang'] == ''){ ?> active <?}?>">
-								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/eng.jpg';?>" class="lang_img" />
+								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/eng.jpg';?>" class="lang_img" />
 								<p class="small_text">English</p>
 							</a>
 							<a href="?lang=ch" class="<?php if($_GET['lang'] == 'ch' || $_GET['lang'] == ''){ ?> active <?}?>">
-								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/china.jpg';?>" class="lang_img" />
+								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/china.jpg';?>" class="lang_img" />
 								<p class="small_text">中国人</p>
 							</a>
 						</div>
@@ -180,15 +180,15 @@
 						<!--<span class="title_lang">Выберите язык</span>-->			
 						<div class="lang_wrap">
 							<a href="?lang=ru" class="active">
-								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
+								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
 								<p class="small_text">Русский</p>
 							</a>
 							<a href="?lang=en">
-								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/eng.jpg';?>" class="lang_img" />
+								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/eng.jpg';?>" class="lang_img" />
 								<p class="small_text">Английский</p>
 							</a>
 							<a href="?lang=ch">
-								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/china.jpg';?>" class="lang_img" />
+								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/china.jpg';?>" class="lang_img" />
 								<p class="small_text">Китайский</p>
 							</a>
 						</div>
@@ -198,15 +198,15 @@
 						<!--<span class="title_lang">Choose language</span>-->
 						<div class="lang_wrap">
 							<a href="?lang=ru">
-								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
+								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
 								<p class="small_text">Russian</p>
 							</a>
 							<a href="?lang=en"  class="active">
-								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/eng.jpg';?>" class="lang_img" />
+								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/eng.jpg';?>" class="lang_img" />
 								<p class="small_text">English</p>
 							</a>
 							<a href="?lang=ch">
-								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/china.jpg';?>" class="lang_img" />
+								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/china.jpg';?>" class="lang_img" />
 								<p class="small_text">Chinese</p>
 							</a>
 						</div>
@@ -217,15 +217,15 @@
 						<!--<span class="title_lang">选择语言</span>-->
 						<div class="lang_wrap">
 							<a href="?lang=ru">
-								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
+								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
 								<p class="small_text">俄语</p>
 							</a>
 							<a href="?lang=en">
-								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/eng.jpg';?>" class="lang_img" />
+								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/eng.jpg';?>" class="lang_img" />
 								<p class="small_text">英语</p>
 							</a>
 							<a href="?lang=ch"  class="active">
-								<img src="<?echo 'http://'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/china.jpg';?>" class="lang_img" />
+								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/china.jpg';?>" class="lang_img" />
 								<p class="small_text">中国人</p>
 							</a>
 						</div>				
