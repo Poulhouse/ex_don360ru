@@ -16,7 +16,7 @@
 		<link href='https://fonts.googleapis.com/css2?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link href='css/style.css?v=1.0.0' rel='stylesheet' type='text/css'>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">    
-    <script type="application/ld+json">{"@context": "http://schema.org","@type": "Organization","name": "","url": "https://fiveday.ru/tour_new/rostov/"}</script>				
+    <script type="application/ld+json">{"@context": "http://schema.org","@type": "Organization","name": "Don360","url": "https://don360.ru/"}</script>				
 		<meta property="og:title" content="Литературный проект «Узнай Россию» | Виртуальная онлайн-экскурсия по литературным местам Ростовской области | DON360.RU">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#478ac9">
