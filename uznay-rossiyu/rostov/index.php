@@ -1,3 +1,8 @@
+<?php
+	$url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+	$url = explode('?', $url);
+	$currentUrl = $url[0];
+?>
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>
@@ -53,8 +58,8 @@
 	
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#478ac9">
-    <link rel="canonical" href="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/rostov/';?>">
-    <meta property="og:url" content="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/rostov/';?>">
+    <link rel="canonical" href="<? echo $currentUrl;?>">
+    <meta property="og:url" content="<? echo $currentUrl;?>">
   </head>
 
 	<body class="body " style="">
