@@ -77,6 +77,13 @@
 					set(layer[btn_right_container].bgborder, 0);
 					set(layer[btn_right_container].bgcolor, 0xFFFFFF);	
 					set(layer[btn_right].crop, 1439|0|64|64);
+					if(get(hotspot[infospot2].visible) == false,
+						set(layer[btn_info_container].alpha, 0.8);
+						set(layer[btn_info_container].enabled, false);
+					,
+						set(layer[btn_info_container].alpha, 1.0);
+						set(layer[btn_info_container].enabled, true);
+					);
 					
 				);
 				trace('enablepopup 1 = ', get(enablepopup)  );
@@ -141,7 +148,7 @@
 		set(layer[layout_container].mainsound , 'pause'); 
 		resetSession();	
 		bgsoundlevel();
-		toggleHotspotVisibility(0);
+		toggleHotspotVisibility(1);
 		<!--set(layer[btn_map_container].alpha, 0.8);
 		set(layer[btn_map_container].enabled, false);-->
 		<!--set(layer[btn_info_container].alpha, 0.8);

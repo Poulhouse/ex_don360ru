@@ -77,8 +77,7 @@
 					set(layer[btn_right_container].bgborder, 0);
 					set(layer[btn_right_container].bgcolor, 0xFFFFFF);	
 					set(layer[btn_right].crop, 1439|0|64|64);
-					
-					if(hotspot[infospot2].count == 0,
+					if(get(hotspot[infospot2].visible) == false,
 						set(layer[btn_info_container].alpha, 0.8);
 						set(layer[btn_info_container].enabled, false);
 					,
@@ -140,6 +139,7 @@
 		set(layer[layout_container].mainsound , 'pause'); 
 		resetSession();	
 		bgsoundlevel();
+		toggleHotspotVisibility(1);
 		
 		if(events[audiogidState].enabled === true, 
 			trace(get(events[audiogidState].enabled), ' включен аудиогид'); 
@@ -164,10 +164,6 @@
 			layer[btn_play].onover(); 
 			set(sound[audiobackground].muted, true ); 
 			getVolumeLevel();
-			if(hotspot[infospot2].count == 0, 
-				set(layer[btn_info_container].alpha, 0.8);
-				set(layer[btn_info_container].enabled, false);
-			);
 		); 
 		
 	</action>
