@@ -1,7 +1,26 @@
 ﻿<krpano version="1.20" title="Virtual Tour" logkey="false" showerrors="false">
+
+	<arrowsxmlpath url="/" />
+	
+	<autorotate enabled="false" waittime="1.0" speed="3.0" horizon="0.0" tofov="100.0" interruptionevents=""/>
+	
+	<plugin name="soundinterface"
+			url.html5="plugins/soundinterface.js"
+			url.flash="plugins/soundinterface.swf"
+			preload="true"
+			rootpath="voices/"
+			volume="0.04"
+			mute="false"
+			panningmodel="simple"
+			waittime="0.0"
+			worldscale="1.0"
+			autopause="true"
+			autounlock="false"
+	/>
+
 	<include url="skin/vtourskin.xml" />
 	<include url="skin/arrows/arrows.xml" />
-	<include url="skin/player/player_skin.xml" />
+	<include url="../player/player_skin.xml" />
 	<include url="skin/infospot/popup.xml" />
 	
 	
@@ -77,12 +96,15 @@
 					set(layer[btn_right_container].bgborder, 0);
 					set(layer[btn_right_container].bgcolor, 0xFFFFFF);	
 					set(layer[btn_right].crop, 1439|0|64|64);
-					if(get(hotspot[infospot2].visible) == false,
-						set(layer[btn_info_container].alpha, 0.8);
-						set(layer[btn_info_container].enabled, false);
-					,
+					if(hotspot[infospot2].visible == true,
+						toggleHotspotVisibility(1);
 						set(layer[btn_info_container].alpha, 1.0);
 						set(layer[btn_info_container].enabled, true);
+						
+					,
+						toggleHotspotVisibility(0);
+						set(layer[btn_info_container].alpha, 0.8);
+						set(layer[btn_info_container].enabled, false);
 					);
 				); "
 			onxmlcomplete="getscenename();"
@@ -139,7 +161,15 @@
 		set(layer[layout_container].mainsound , 'pause'); 
 		resetSession();	
 		bgsoundlevel();
-		toggleHotspotVisibility(1);
+		
+		if(hotspot[infospot2].visible == true , toggleHotspotVisibility(1); , toggleHotspotVisibility(0); );
+		if(hotspot[infospot2].count == 0, 
+			set(layer[btn_info_container].alpha, 0.8);
+			set(layer[btn_info_container].enabled, false);
+		,
+			set(layer[btn_info_container].alpha, 1.0);
+			set(layer[btn_info_container].enabled, true);
+		);
 		
 		if(events[audiogidState].enabled === true, 
 			trace(get(events[audiogidState].enabled), ' включен аудиогид'); 

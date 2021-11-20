@@ -17,8 +17,8 @@
 			autopause="true"
 			autounlock="false"
 	/>
-	
--->			
+-->	
+			
 	<style 	name="skin_bg" keep="true" width="48" height="calc:skin_settings.thumbs_height - 2*skin_settings.design_thumbborder_padding" />	
 	
 	<style 	name="btnbg" type="container" width="48" height="48" zorder="1" maskchildren="true"	/>
