@@ -21,7 +21,7 @@
 	<include url="skin/vtourskin.xml" />
 	<include url="skin/arrows/arrows.xml" />
 	<include url="../player/player_skin.xml" />
-	<include url="skin/infospot/popup.xml" />
+	<include url="../infospot/popup.xml" />
 	
 	
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->

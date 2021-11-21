@@ -288,7 +288,7 @@
 					<layer name="btn_map" url="vskin.png" crop="832|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true"  enabled="false"/>
 				</layer>
 				
-				<layer name="btn_info_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="76" onclick="if(get(hotspot[infospot2].visible) == true, toggleHotspotVisibility(0); , toggleHotspotVisibility(1); );" onover="tooltipIn();" onhover="tooltipIn2(); if(get(hotspot[infospot2].visible) == true,  showtext(Скрыть инфо-точки, btn_description);, showtext(Показать инфо-точки, btn_description);); " onout="tooltipIn();" >
+				<layer name="btn_info_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="76" onclick="if(get(hotspot[infospot2].visible) == true AND get(hotspot[infospot2].visible) == true, toggleHotspotVisibility(0); , toggleHotspotVisibility(1); );" onover="tooltipIn();" onhover="tooltipIn2(); if(get(hotspot[infospot2].visible) == true,  showtext(Скрыть инфо-точки, btn_description);, showtext(Показать инфо-точки, btn_description);); " onout="tooltipIn();" >
 					<layer name="btn_info" url="vskin.png" crop="900|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true"  enabled="false"/>
 				</layer>
 				

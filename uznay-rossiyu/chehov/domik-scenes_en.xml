@@ -43,6 +43,21 @@
 				<cube url="../domik-chehova/panos/0002__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Pushkinskaya Street</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Pushkinskaya Street first appeared in the plan of the city of Rostov in 1870. Its original name is
+				Kuznetskaya. In 1885, the city council decided to rename it, naming it after Alexander Sergeevich
+				Pushkin.<br>
+				Many of the more than two and a half thousand Rostov streets are named after writers. Only a few
+				streets that existed before 1917 have preserved their original names after the classic writers - Pushkin,
+				Lermontov, Tolstoy, Griboyedov and Derzhavin.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -66,6 +81,21 @@
 				<cube url="../domik-chehova/panos/0003+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Pushkinskaya Street</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Pushkinskaya Street first appeared in the plan of the city of Rostov in 1870. Its original name is
+				Kuznetskaya. In 1885, the city council decided to rename it, naming it after Alexander Sergeevich
+				Pushkin.<br>
+				Many of the more than two and a half thousand Rostov streets are named after writers. Only a few
+				streets that existed before 1917 have preserved their original names after the classic writers - Pushkin,
+				Lermontov, Tolstoy, Griboyedov and Derzhavin.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -89,6 +119,21 @@
 				<cube url="../domik-chehova/panos/0004+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Pushkinskaya Street</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Pushkinskaya Street first appeared in the plan of the city of Rostov in 1870. Its original name is
+				Kuznetskaya. In 1885, the city council decided to rename it, naming it after Alexander Sergeevich
+				Pushkin.<br>
+				Many of the more than two and a half thousand Rostov streets are named after writers. Only a few
+				streets that existed before 1917 have preserved their original names after the classic writers - Pushkin,
+				Lermontov, Tolstoy, Griboyedov and Derzhavin.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -117,6 +162,21 @@
 				 ath="-97.84199720821618" atv="-11.9748237565593" 
 				 onclick="popup2('html', get(data[mama].content), 600, 600, true);" 
 		/>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Pushkinskaya Street</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Pushkinskaya Street first appeared in the plan of the city of Rostov in 1870. Its original name is
+				Kuznetskaya. In 1885, the city council decided to rename it, naming it after Alexander Sergeevich
+				Pushkin.<br>
+				Many of the more than two and a half thousand Rostov streets are named after writers. Only a few
+				streets that existed before 1917 have preserved their original names after the classic writers - Pushkin,
+				Lermontov, Tolstoy, Griboyedov and Derzhavin.
+			</div>
+
+		]]></data>
 		<!--'%CURRENTXML%/skin/infospot/pictures/mama.jpg');" -->
 		<data name="mama"><![CDATA[
 
@@ -157,6 +217,21 @@
 			</level>
 		</image>
 		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-177.70" atv="10" linkedscene="scene_0006-7_2" />
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Pushkinskaya Street</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Pushkinskaya Street first appeared in the plan of the city of Rostov in 1870. Its original name is
+				Kuznetskaya. In 1885, the city council decided to rename it, naming it after Alexander Sergeevich
+				Pushkin.<br>
+				Many of the more than two and a half thousand Rostov streets are named after writers. Only a few
+				streets that existed before 1917 have preserved their original names after the classic writers - Pushkin,
+				Lermontov, Tolstoy, Griboyedov and Derzhavin.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -229,6 +304,21 @@
 				<cube url="../domik-chehova/panos/0008+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Pushkinskaya Street</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Pushkinskaya Street first appeared in the plan of the city of Rostov in 1870. Its original name is
+				Kuznetskaya. In 1885, the city council decided to rename it, naming it after Alexander Sergeevich
+				Pushkin.<br>
+				Many of the more than two and a half thousand Rostov streets are named after writers. Only a few
+				streets that existed before 1917 have preserved their original names after the classic writers - Pushkin,
+				Lermontov, Tolstoy, Griboyedov and Derzhavin.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -252,6 +342,21 @@
 				<cube url="../domik-chehova/panos/0009_2__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Pushkinskaya Street</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Pushkinskaya Street first appeared in the plan of the city of Rostov in 1870. Its original name is
+				Kuznetskaya. In 1885, the city council decided to rename it, naming it after Alexander Sergeevich
+				Pushkin.<br>
+				Many of the more than two and a half thousand Rostov streets are named after writers. Only a few
+				streets that existed before 1917 have preserved their original names after the classic writers - Pushkin,
+				Lermontov, Tolstoy, Griboyedov and Derzhavin.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -275,6 +380,21 @@
 				<cube url="../domik-chehova/panos/0009+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; color:#000000;">
+				<h2>Pushkinskaya Street</h2>
+				<hr style="border:0;border-top:1px solid white;">
+				Pushkinskaya Street first appeared in the plan of the city of Rostov in 1870. Its original name is
+				Kuznetskaya. In 1885, the city council decided to rename it, naming it after Alexander Sergeevich
+				Pushkin.<br>
+				Many of the more than two and a half thousand Rostov streets are named after writers. Only a few
+				streets that existed before 1917 have preserved their original names after the classic writers - Pushkin,
+				Lermontov, Tolstoy, Griboyedov and Derzhavin.
+			</div>
+
+		]]></data>
 
 	</scene>
 	
