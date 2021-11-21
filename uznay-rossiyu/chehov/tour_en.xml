@@ -20,7 +20,7 @@
 	<include url="skin/vtourskin.xml" />
 	<include url="skin/arrows/arrows.xml" />
 	<include url="../player/player_skin_en.xml" />
-	<include url="skin/infospot/popup_en.xml" />
+	<include url="../infospot/popup_en.xml" />
 	
 	
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
@@ -166,8 +166,8 @@
 		loadscene(get(startscene), null, MERGE);
 		if(startactions !== null, startactions() );
 		set(layer[skin_control_bar_buttons].visible, false);
-		preloadsound('bgsound_lite4.mp3');
-		createsound(audiobackground, 'bgsound_lite4.mp3', false); 
+		preloadsound('_bgsound.mp3');
+		createsound(audiobackground, '_bgsound.mp3', false); 
 		set(sound[audiobackground].loop, true);
 		set(layer[layout_container].mainsound , 'pause'); 
 		resetSession();	

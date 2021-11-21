@@ -1,5 +1,5 @@
 <krpano>
-
+	<!--
 	<arrowsxmlpath url="../../" />
 	
 	<autorotate enabled="false" waittime="1.0" speed="3.0" horizon="0.0" tofov="100.0" interruptionevents=""/>
@@ -17,7 +17,7 @@
 			autopause="true"
 			autounlock="false"
 	/>
-	
+	-->
 			
 	<style 	name="skin_bg" keep="true" width="48" height="calc:skin_settings.thumbs_height - 2*skin_settings.design_thumbborder_padding" />	
 	
@@ -293,7 +293,12 @@
 							enable_popup('Y');
 							set(layer[btn_texttype_turnon].visible, false); 
 							set(layer[btn_texttype_turnoff].visible, true);
-							if(layer[btn_hide_icon].visible == true, popup('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile')); set(global.layer[popup].y, calc(111 + 10 + 25));,popup('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile')););
+							if(layer[btn_hide_icon].visible == true, 
+								popup('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile')); 
+								set(global.layer[popup].y, calc(111 + 10 + 25));
+							,
+								popup('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile'));
+							);
 							
 						);" 
 					   onover="tooltipIn();" 
@@ -312,7 +317,7 @@
 					<layer name="btn_map" url="vskin.png" crop="832|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true"  enabled="false"/>
 				</layer>
 			
-				<layer name="btn_info_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="116" onclick="if(hotspot[infospot2].visible == true , toggleHotspotVisibility(0); , toggleHotspotVisibility(1); );" onover="tooltipIn();" onhover="tooltipIn2(); showtext(Points of prompt, btn_description);" onout="tooltipIn();" >
+				<layer name="btn_info_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="116" onclick="if(get(hotspot[infospot2].visible) == true, toggleHotspotVisibility(0); , toggleHotspotVisibility(1); );" onover="tooltipIn();" onhover="tooltipIn2(); if(get(hotspot[infospot2].visible) == true,  showtext(Hide points of prompt, btn_description);, showtext(Show points of prompt, btn_description);); " onout="tooltipIn();" >
 					<layer name="btn_info" url="vskin.png" crop="900|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true"  enabled="false"/>
 				</layer>
 				
