@@ -64,7 +64,159 @@
 	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
 	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
 	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+	<events name="skin_events_vertical" keep="true"
+						onxmlcomplete="set(events[skin_events_vertical].onxmlcomplete,null); skin_vertical_startup();"
+						onnewpano="skin_showloading(true); skin_update_scene_infos(); skin_deeplinking_update_url();"
+						onremovepano="skin_showloading(true);"
+						onloadcomplete="skin_showloading(false);"
+						onidle="skin_deeplinking_update_url();"
+						onresize="skin_onresize();"
+						onenterfullscreen.fullscreensupport="set(layer[skin_btn_fs].crop, '64|576|64|64');"
+						onexitfullscreen.fullscreensupport="set(layer[skin_btn_fs].crop, '0|576|64|64');"
+						onkeydown="skin_keydown_event();"
+						/>
+						
+	<!-- skin actions -->
+	<action name="skin_vertical_startup" scope="local">
 
+		<!-- apply skin settings on startup -->
+		if(skin_settings.thumbs,
+			if(skin_settings.thumbs_opened,
+				set(layer[skin_thumbs].state, 'opened');
+				set(layer[skin_thumbs_container].visible, true);
+			);
+			copy(layer[skin_thumbs].draggable, skin_settings.thumbs_dragging);
+			if(skin_settings.thumbs_onhoverscrolling AND device.mouse,
+				set(layer[skin_thumbs].draggable, false);
+				set(layer[skin_thumbs].onhover_autoscrolling, true);
+			);
+		);
+
+		if(skin_settings.gyro AND !device.desktop AND device.html5,
+			copy(plugin[skin_gyro].url, plugin[skin_gyro].html5_url);
+		);
+
+		if(skin_settings.webvr AND device.html5 AND device.webgl,
+			copy(plugin[webvr].url, plugin[webvr].pluginurl);
+		);
+
+		if(skin_settings.maps == true,
+			set(layer[skin_btn_map].visible, true);
+
+			if(device.flash,
+				copy(layer[skin_map].key, skin_settings.maps_bing_api_key);
+				set(layer[skin_map].url, '%SWFPATH%/plugins/bingmaps.swf');
+			  ,
+				if(skin_settings.maps_type == 'bing',
+					copy(layer[skin_map].key, skin_settings.maps_bing_api_key);
+					set(layer[skin_map].url, '%SWFPATH%/plugins/bingmaps.js');
+				  ,
+				 	copy(layer[skin_map].key, skin_settings.maps_google_api_key);
+					set(layer[skin_map].url, '%SWFPATH%/plugins/googlemaps.js');
+				);
+			);
+		);
+
+		if(skin_settings.littleplanetintro AND !global.startactions AND (device.webgl OR device.flash),
+			skin_setup_littleplanetintro();
+		);
+
+		skin_addthumbs_without_title();
+		skin_onresize();
+		skin_updatescroll();
+
+		set(layer[skin_layer].visible, true);
+	</action>
+	<action name="skin_addthumbs_without_title" scope="local">
+		for(set(i,0), i LT scene.count, inc(i),
+			if(get(scene[get(i)].title) != '',
+				calc(scene_without_title_count, + i);
+			);
+		);
+
+		if(skin_settings.thumbs == false,
+			set(layer[skin_btn_thumbs].visible,false);
+		  ,
+			copy(thumbwidth, skin_settings.thumbs_width);
+			copy(thumbheight, skin_settings.thumbs_height);
+			copy(thumbpadding, skin_settings.thumbs_padding);
+			copy(thumbcrop, skin_settings.thumbs_crop);
+
+			calc(thumbyoffset, thumbheight + thumbpadding);
+			calc(thumbxoffset, thumbwidth + thumbpadding);
+			calc(thumbycenter, thumbyoffset * 0.5);
+			calc(thumbxcenter, thumbxoffset * 0.5);
+			calc(thumbbarwidth, thumbxoffset * scene_without_title_count + thumbpadding);
+			calc(thumbbarheight, thumbpadding + thumbheight + thumbpadding);
+
+			if(skin_settings.thumbs_scrollindicator,
+				copy(layer[skin_thumbs_scrollindicator].x, thumbbarwidth);
+				add(thumbbarwidth, layer[skin_thumbs_scrollindicator].width);
+			);
+
+			set(layer[skin_thumbs], width=get(thumbbarwidth), height=get(thumbbarheight) );
+
+			calc(layer[skin_thumbs_scrollleft].y, thumbbarheight * 0.5);
+			calc(layer[skin_thumbs_scrollright].y, thumbbarheight * 0.5);
+
+
+
+			for(set(i,0), i LT scene_without_title_count, inc(i),
+				trace(get(scene[get(i)].title));
+				if(get(scene[get(i)].title) != '',
+					calc(thumbname, 'skin_thumb_' + i);
+					addlayer(get(thumbname));
+					
+					set(layer[get(thumbname)],
+						url=get(scene[get(i)].thumburl),
+						keep=true,
+						parent='skin_thumbs',
+						align='lefttop',
+						crop=get(thumbcrop),
+						width=get(thumbwidth),
+						height=get(thumbheight),
+						x=calc(thumbpadding + i*thumbxoffset),
+						y=get(thumbpadding),
+						linkedscene=get(scene[get(i)].name),
+						onclick='copy(layer[skin_thumbborder].parent, name); skin_loadscene(get(linkedscene),get(skin_settings.loadscene_blend));'
+					);
+					
+					set(scene[get(i)], 
+						thumbx=calc(thumbpadding + i*thumbxoffset + thumbxcenter),
+						thumby=get(thumbpadding)
+					);
+					
+					if(skin_settings.tooltips_thumbs,
+						set(layer[get(thumbname)].tooltip, get(scene[get(i)].title) );
+						layer[get(thumbname)].loadstyle(skin_tooltips);
+					);
+					if(skin_settings.thumbs_text,
+						calc(thumbtext, 'skin_thumbtext_' + i);
+						addlayer(get(thumbtext));
+						layer[get(thumbtext)].loadstyle(skin_thumbtext_style);
+						set(layer[get(thumbtext)], keep=true, parent=get(thumbname), html=get(scene[get(i)].title) );
+					);
+				);
+				<!--trace(get(i));-->
+			 );
+
+			if(scene_without_title_count == 1,
+				set(layer[skin_thumbs].align, 'lefttop');
+			);
+		);
+	</action>
+	<style name="skin_bg4" 
+			bgcolor="0xFFFFFF" 
+			bgalpha="0.66" 
+			bgcapture="true"  
+			bgroundedge="3"
+			bgshadow="0 0 0 0x000000 0.0" 
+			bgborder="0"
+			width.desktop="38" 
+			height.desktop="38" 
+			width.handheld="38"
+			height.handheld="38"
+	/>
 
 	<!-- startup action - load the first scene -->
 	<action name="startup" autorun="onstart">
@@ -85,17 +237,16 @@
 			<cube url="panos/0001.tiles/pano_%s.jpg" />
 		</image>
 
-	</scene>
-
-	<scene name="scene_N0001" title="N0001" onstart="" thumburl="panos/N0001.tiles/thumb.jpg" lat="" lng="" heading="">
-
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
-		<preview url="panos/N0001.tiles/preview.jpg" />
-
-		<image>
-			<cube url="panos/N0001.tiles/pano_%s.jpg" />
-		</image>
+		<layer name="kpl_menu" type="container" align="top" width="100%" maxwidth="814" height="100" maskchildren="true" visible="true" bgcapture="false" zorder="1">
+			<layer name="toogle_thumbs_container" type="container" align="lefttop" width="100%" height="100%" visible="true">
+				<layer name="btn_left_container" type="container" style="skin_bg4" bgborder="2" align="top" width="100" height="38" x="-100" y="50" onclick="loadscene(scene_0001, null, KEEPVIEW);" zorder="2">
+					<layer name="toogle_thumbs_left" type="text" html="Было" x="0" y="0" bg="false" align="center" vcenter="true" css="text-align:center; color:0x6786c1; font-family:Arial; font-weight:bold; font-size:20px;" distorted="false" enabled="false"/>
+				</layer>
+				<layer name="btn_right_container" type="container" style="skin_bg4" align="top" width="100" height="38" x="100" y="50" onclick="loadscene(scene_N0001, null, KEEPVIEW);" zorder="2">
+					<layer name="toogle_thumbs_right" type="text" html="Стало" x="0" y="0" bg="false" align="center" vcenter="true" css="text-align:center; color:0x6786c1; font-family:Arial; font-weight:bold; font-size:20px;" distorted="false" enabled="false"/>
+				</layer>					
+			</layer>
+		</layer>
 
 	</scene>
 
@@ -264,6 +415,29 @@
 		<image>
 			<cube url="panos/0015.tiles/pano_%s.jpg" />
 		</image>
+
+	</scene>
+
+	<scene name="scene_N0001" title="" onstart="" thumburl="" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/N0001.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/N0001.tiles/pano_%s.jpg" />
+		</image>
+
+		<layer name="kpl_menu" type="container" align="top" width="100%" maxwidth="814" height="100" maskchildren="true" visible="true" bgcapture="false" zorder="1">
+			<layer name="toogle_thumbs_container" type="container" align="lefttop" width="100%" height="100%" visible="true">
+				<layer name="btn_left_container" type="container" style="skin_bg4" align="top" width="100" height="38" x="-100" y="50" onclick="loadscene(scene_0001, null, KEEPVIEW);" zorder="2">
+					<layer name="toogle_thumbs_left" type="text" html="Было" x="0" y="0" bg="false" align="center" vcenter="true" css="text-align:center; color:0x6786c1; font-family:Arial; font-weight:bold; font-size:20px;" distorted="false" enabled="false"/>
+				</layer>
+				<layer name="btn_right_container" type="container" style="skin_bg4" bgborder="2" align="top" width="100" height="38" x="100" y="50" onclick="loadscene(scene_N0001, null, KEEPVIEW);" zorder="2">
+					<layer name="toogle_thumbs_right" type="text" html="Стало" x="0" y="0" bg="false" align="center" vcenter="true" css="text-align:center; color:0x6786c1; font-family:Arial; font-weight:bold; font-size:20px;" distorted="false" enabled="false"/>
+				</layer>					
+			</layer>
+		</layer>
 
 	</scene>
 
