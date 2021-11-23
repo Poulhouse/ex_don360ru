@@ -1,6 +1,6 @@
 <krpano>
 	
-	<scene name="scene_0020+" title="27. ТЕАТР имени А.П. ЧЕХОВА" number="[b]- 27 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0020+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0020+" title="27. Theatre by Chehov" number="[b]- 27 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0020+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-41.66" vlookat="-13.42" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -31,7 +31,7 @@
 
 	</scene>
 
-	<scene name="scene_0021+" title="28. ТЕАТР имени А.П. ЧЕХОВА" number="[b]- 28 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0021+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0021+" title="28. Theatre by Chehov" number="[b]- 28 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0021+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-25.81" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -62,7 +62,7 @@
 
 	</scene>
 
-	<scene name="scene_0022+" title="29. ТЕАТР имени А.П. ЧЕХОВА" number="[b]- 29 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0022+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0022+" title="29. Theatre by Chehov" number="[b]- 29 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0022+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -93,7 +93,7 @@
 
 	</scene>
 
-	<scene name="scene_0023+" title="30. ТЕАТР имени А.П. ЧЕХОВА" number="[b]- 30 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0023+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0023+" title="30. Theatre by Chehov" number="[b]- 30 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0023+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="180" vlookat="6.604395517372959" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -124,7 +124,7 @@
 
 	</scene>
 
-	<scene name="scene_0024+" title="31. ТЕАТР имени А.П. ЧЕХОВА" number="[b]- 31 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0024+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0024+" title="31. Theatre by Chehov" number="[b]- 31 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0024+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-23.55" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -155,7 +155,7 @@
 
 	</scene>
 
-	<scene name="scene_0025+" title="32. ТЕАТР имени А.П. ЧЕХОВА" number="[b]- 32 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0025+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0025+" title="32. Theatre by Chehov" number="[b]- 32 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0025+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="88.41" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -186,7 +186,7 @@
 
 	</scene>
 
-	<scene name="scene_0026+" title="33. ТЕАТР имени А.П. ЧЕХОВА" number="[b]- 33 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0026+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0026+" title="33. Theatre by Chehov" number="[b]- 33 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0026+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="155.77923514543528" vlookat="-9.994148869789022" fovtype="MFOV" fov="81.04339997530613" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -217,7 +217,7 @@
 
 	</scene>
 
-	<scene name="scene_0027+" title="34. ТЕАТР имени А.П. ЧЕХОВА" number="[b]- 34 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0027+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0027+" title="34. Theatre by Chehov" number="[b]- 34 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0027+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="178.55" vlookat="-53.03" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -248,7 +248,7 @@
 
 	</scene>
 
-	<scene name="scene_0028+" title="35. ТЕАТР имени А.П. ЧЕХОВА" number="[b]- 35 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0028+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0028+" title="35. Theatre by Chehov" number="[b]- 35 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0028+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-47.5804878379853" vlookat="3.101464883219672" fovtype="MFOV" fov="58.8474964577744" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -279,7 +279,7 @@
 
 	</scene>
 
-	<scene name="scene_0029+" title="36. ТЕАТР имени А.П. ЧЕХОВА" number="[b]- 36 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0029+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0029+" title="36. Theatre by Chehov" number="[b]- 36 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0029+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-43.98" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -310,7 +310,7 @@
 
 	</scene>
 
-	<scene name="scene_0030+" title="37. ТЕАТР имени А.П. ЧЕХОВА" number="[b]- 37 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0030+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0030+" title="37. Theatre by Chehov" number="[b]- 37 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0030+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="90.0" vlookat="-89.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 

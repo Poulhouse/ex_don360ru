@@ -23,7 +23,7 @@
 
 	</scene>-->
 
-	<scene name="scene_0002__" title="[b]1.[/b] ДОМИК ЧЕХОВА" number="[b]- 1 -[/b]" onstart="" thumburl="../domik-chehova/panos/0002__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0002__" title="[b]1.[/b] Chehov's House" number="[b]- 1 -[/b]" onstart="" thumburl="../domik-chehova/panos/0002__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-120" vlookat="-47.78" fovtype="MFOV" fov="40" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -54,7 +54,7 @@
 
 	</scene>
 
-	<scene name="scene_0003+" title="[b]2.[/b] ДОМИК ЧЕХОВА" number="[b]- 2 -[/b]" onstart="" thumburl="../domik-chehova/panos/0003+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0003+" title="[b]2.[/b] Chehov's House" number="[b]- 2 -[/b]" onstart="" thumburl="../domik-chehova/panos/0003+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-34.09" vlookat="20.61" fovtype="MFOV" fov="27.61" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -85,7 +85,7 @@
 
 	</scene>
 
-	<scene name="scene_0004+" title="[b]3.[/b] ДОМИК ЧЕХОВА" number="[b]- 3 -[/b]" onstart="" thumburl="../domik-chehova/panos/0004+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0004+" title="[b]3.[/b] Chehov's House" number="[b]- 3 -[/b]" onstart="" thumburl="../domik-chehova/panos/0004+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-7.53" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -116,7 +116,7 @@
 
 	</scene>
 
-	<scene name="scene_0005+" title="4. ДОМИК ЧЕХОВА" number="[b]- 4 -[/b]" onstart="" thumburl="../domik-chehova/panos/0005+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0005+" title="[b]4.[/b] Chehov's House" number="[b]- 4 -[/b]" onstart="" thumburl="../domik-chehova/panos/0005+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="157.77407376518198" vlookat="31.65719097386762" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -166,7 +166,7 @@
 
 	</scene>
 	
-	<scene name="scene_0006-7" title="5. ДОМИК ЧЕХОВА" number="[b]- 5 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0006-7" title="[b]5.[/b] Chehov's House" number="[b]- 5 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="73.96525428874695" vlookat="28.319564115166088" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -198,7 +198,7 @@
 
 	</scene>
 
-	<scene name="scene_0006-7_2" title="6. ДОМИК ЧЕХОВА" number="[b]- 6 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0006-7_2" title="6. Chehov's House" number="[b]- 6 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="159.6454971749426" vlookat="18.21733762788555" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -224,7 +224,7 @@
 
 	</scene>
 
-	<scene name="scene_0006-7_3" title="7. ДОМИК ЧЕХОВА" number="[b]- 7 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7_3+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0006-7_3" title="7. Chehov's House" number="[b]- 7 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7_3+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="339.25884352079646" vlookat="35.39174796981571" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -248,7 +248,7 @@
 
 	</scene>
 
-	<scene name="scene_0008+" title="8. ДОМИК ЧЕХОВА" number="[b]- 8. -[/b]" onstart="" thumburl="../domik-chehova/panos/0008+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0008+" title="8. Chehov's House" number="[b]- 8. -[/b]" onstart="" thumburl="../domik-chehova/panos/0008+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-135.52073798811486" vlookat="25.028886470424034" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -279,7 +279,7 @@
 
 	</scene>
 
-	<scene name="scene_0009_2__" title="9. ЛАВКА ЧЕХОВЫХ" number="[b]- 9 -[/b]" onstart="" thumburl="../domik-chehova/panos/0009_2__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0009_2__" title="9. Chehov's Store" number="[b]- 9 -[/b]" onstart="" thumburl="../domik-chehova/panos/0009_2__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-80.45" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -310,7 +310,7 @@
 
 	</scene>
 
-	<scene name="scene_0009+" title="10. ЛАВКА ЧЕХОВЫХ" number="[b]- 10 -[/b]" onstart="" thumburl="../domik-chehova/panos/0009+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0009+" title="10. Chehov's Store" number="[b]- 10 -[/b]" onstart="" thumburl="../domik-chehova/panos/0009+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-127.95" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 

@@ -1,6 +1,6 @@
 <krpano>
 	
-	<scene name="scene_0011+" title="11. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 11 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0011+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0011+" title="11. Taganrog gymnasium - Museum" number="[b]- 11 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0011+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-75.03472470789946" vlookat="1.226573757216566" fovtype="MFOV" fov="47.34747771604827" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -31,7 +31,7 @@
 
 	</scene>
 
-	<scene name="scene_0012__" title="12. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 12 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0012__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0012__" title="12. Taganrog gymnasium - Museum" number="[b]- 12 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0012__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-16.842170447796626" vlookat="-28.562284490959787" fovtype="MFOV" fov="43.447655257072114" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -62,7 +62,7 @@
 
 	</scene>
 
-	<scene name="scene_0013+" title="13. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 13 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0013+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0013+" title="13. Taganrog gymnasium - Museum" number="[b]- 13 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0013+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-229.58617751275034" vlookat="28.319564115166088" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -93,7 +93,7 @@
 
 	</scene>
 
-	<scene name="scene_0014" title="14. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 14 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0014+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0014" title="14. Taganrog gymnasium - Museum" number="[b]- 14 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0014+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-111.52" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -124,7 +124,7 @@
 		<hotspot name="spot1" style="skin_hotspotstyle"  ath="0" atv="10" linkedscene="scene_0014_2" />
 	</scene>
 
-	<scene name="scene_0014_2" title="15. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 15 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0014_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0014_2" title="15. Taganrog gymnasium - Museum" number="[b]- 15 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0014_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-61.61" vlookat="28.43" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -149,7 +149,7 @@
 
 	</scene>
 
-	<scene name="scene_0014_3" title="16. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 16 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0014_3+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0014_3" title="16. Taganrog gymnasium - Museum" number="[b]- 16 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0014_3+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="45.04604673063283" vlookat="0.706219472650333" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -173,7 +173,7 @@
 
 	</scene>
 
-	<scene name="scene_0015" title="17. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 17 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0015+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0015" title="17. Taganrog gymnasium - Museum" number="[b]- 17 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0015+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -206,7 +206,7 @@
 
 	</scene>
 
-	<scene name="scene_0015_2" title="18. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 18 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0015_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0015_2" title="18. Taganrog gymnasium - Museum" number="[b]- 18 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0015_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-89.21" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -231,7 +231,7 @@
 
 	</scene>
 
-	<scene name="scene_0016" title="19. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 19 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0016+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0016" title="19. Taganrog gymnasium - Museum" number="[b]- 19 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0016+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="121.78" vlookat="15.27" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -264,7 +264,7 @@
 
 	</scene>
 
-	<scene name="scene_0016_2" title="20. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 20 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0016_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0016_2" title="20. Taganrog gymnasium - Museum" number="[b]- 20 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0016_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="110.92" vlookat="4.88" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -290,7 +290,7 @@
 
 	</scene>
 
-	<scene name="scene_0016_3" title="21. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 21 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0016_3+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0016_3" title="21. Taganrog gymnasium - Museum" number="[b]- 21 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0016_3+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="100.0" vlookat="5.83" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -314,7 +314,7 @@
 
 	</scene>
 
-	<scene name="scene_0017+" title="22. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 22 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0017+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0017+" title="22. Taganrog gymnasium - Museum" number="[b]- 22 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0017+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-27.52" vlookat="2.99" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -345,7 +345,7 @@
 
 	</scene>
 
-	<scene name="scene_0018" title="23. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 23 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0018+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0018" title="23. Taganrog gymnasium - Museum" number="[b]- 23 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0018+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="121.63" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -377,7 +377,7 @@
 
 	</scene>
 
-	<scene name="scene_0018_2" title="24. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 24 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0018_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0018_2" title="24. Taganrog gymnasium - Museum" number="[b]- 24 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0018_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-90.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -401,7 +401,7 @@
 
 	</scene>
 
-	<scene name="scene_0019" title="25. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 25 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0019+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0019" title="25. Taganrog gymnasium - Museum" number="[b]- 25 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0019+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-1.42" vlookat="1.06" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -433,7 +433,7 @@
 
 	</scene>
 
-	<scene name="scene_0019_2" title="26. ГИМНАЗИЯ - литературный МУЗЕЙ" number="[b]- 26 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0019_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0019_2" title="26. Taganrog gymnasium - Museum" number="[b]- 26 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0019_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="0.0" vlookat="5.76" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 

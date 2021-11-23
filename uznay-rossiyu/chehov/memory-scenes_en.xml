@@ -1,6 +1,6 @@
 <krpano>
 
-	<scene name="scene_0031__" title="38. ПАМЯТНИК А.П. Чехову в ТАГАНРОГЕ" number="[b]- 38 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/__0031.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0031__" title="38. Monument to A.P. Chekhov in Taganrog" number="[b]- 38 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/__0031.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="302.8125931266111" vlookat="-23.02238875081714" fovtype="MFOV" fov="38.77542964527296" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -31,7 +31,7 @@
 
 	</scene>
 
-	<scene name="scene_0032__" title="39. ЧЕЛОВЕК В ФУТЛЯРЕ" number="[b]- 39 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0032__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0032__" title="39. MAN IN CASE" number="[b]- 39 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0032__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="43.355559155934586" vlookat="10.649909084539981" fovtype="MFOV" fov="68.80423266280138" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -63,7 +63,7 @@
 
 	</scene>
 
-	<scene name="scene_0032_2" title="40. РОМАН С КАНТРОБАСОМ" number="[b]- 40 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0032_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0032_2" title="40. Romance with Double-Bass" number="[b]- 40 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0032_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="29.23139997899974" vlookat="10.242710218560026" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -87,7 +87,7 @@
 
 	</scene>
 
-	<scene name="scene_0033+" title="41. КАШТАНКА" number="[b]- 41 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0033+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0033+" title="41. Kashtanka" number="[b]- 41 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0033+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-72.59408437918682" vlookat="28.717519736959325" fovtype="MFOV" fov="51.67626309983378" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -118,7 +118,7 @@
 
 	</scene>
 
-	<scene name="scene_0034__" title="42. БИБЛИОТЕКА" number="[b]- 42 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0034__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0034__" title="42. Library" number="[b]- 42 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0034__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-48.833917635538235" vlookat="-43.94831071530859" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -149,7 +149,7 @@
 
 	</scene>
 
-	<scene name="scene_0035+" title="43. БИБЛИОТЕКА" number="[b]- 43 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0035+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0035+" title="43. Library" number="[b]- 43 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0035+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-52.29224242894421" vlookat="-38.58146019947564" fovtype="MFOV" fov="67.37384494503401" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -180,7 +180,7 @@
 
 	</scene>
 
-	<scene name="scene_0036__" title="44. ХУДОЖЕСТВЕННЫЙ МУЗЕЙ" number="[b]- 44 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0036__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0036__" title="44. Art Museum" number="[b]- 44 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0036__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-40.40379445362246" vlookat="-26.101143611032107" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -212,7 +212,7 @@
 
 	</scene>
 
-	<scene name="scene_0036_2__" title="45. МУЗЕЙ А.А. ДУРОВА" number="[b]- 45 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0036_2__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0036_2__" title="45. Museum by Durov" number="[b]- 45 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0036_2__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-32.130255027812396" vlookat="0.5933893784176818" fovtype="MFOV" fov="71.77554067026628" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -236,7 +236,7 @@
 
 	</scene>
 
-	<scene name="scene_0037+" title="46. ПАМЯТНИК ПЕТРУ ПЕРВОМУ" number="[b]- 46 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0037+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0037+" title="46. Monument to Peter the Great" number="[b]- 46 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0037+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-30.068222019490776" vlookat="-9.817379998469159" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -267,7 +267,7 @@
 
 	</scene>
 
-	<scene name="scene_0038__" title="47. Кафе ФРЕКЕН БОК" number="[b]- 47 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0038__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0038__" title="47. Cafe FRECKEN BOK" number="[b]- 47 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0038__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-30.04003570472217" vlookat="1.6569861426316792" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -299,7 +299,7 @@
 
 	</scene>
 
-	<scene name="scene_0038_2__" title="48. Кафе ФРЕКЕН БОК" number="[b]- 48 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0038_2__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0038_2__" title="48. Cafe FRECKEN BOK" number="[b]- 48 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0038_2__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-30.04003570472217" vlookat="1.6569861426316792" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -323,7 +323,7 @@
 
 	</scene>
 
-	<scene name="scene_0039" title="49. Литературный МУЗЕЙ А.П.ЧЕХОВА" number="[b]- 49 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0039+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0039" title="49. Chehov Literary Museum" number="[b]- 49 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0039+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-20.18430181175564" vlookat="-19.635810007631402" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -355,7 +355,7 @@
 
 	</scene>
 
-	<scene name="scene_0039_2" title="50. Драматический ТЕАТР А.П.ЧЕХОВА" number="[b]- 50 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0039_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0039_2" title="50. Drama theatre Chehov" number="[b]- 50 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0039_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-46.4332322342111" vlookat="-26.728098534962133" fovtype="MFOV" fov="57.723325939274375" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
