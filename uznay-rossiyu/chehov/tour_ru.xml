@@ -156,8 +156,8 @@
 		loadscene(get(startscene), null, MERGE);
 		if(startactions !== null, startactions() );
 		set(layer[skin_control_bar_buttons].visible, false);
-		preloadsound('bgsound_lite4.mp3');
-		createsound(audiobackground, 'bgsound_lite4.mp3', false); 
+		preloadsound('bgsound__.mp3');
+		createsound(audiobackground, 'bgsound__.mp3', false); 
 		set(sound[audiobackground].loop, true);
 		set(layer[layout_container].mainsound , 'pause'); 
 		resetSession();	

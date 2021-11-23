@@ -57,7 +57,7 @@
 	               loadingtext="Загрузка..."
 	               layout_width="100%"
 	               layout_maxwidth="100%"
-				   layout_padding="5"
+				   			 layout_padding="5"
 	               controlbar_width="-2"
 	               controlbar_height="0"
 	               controlbar_offset="0"
@@ -165,12 +165,13 @@
 	
 	<!-- startup action - load the first scene -->
 	<action name="startup" autorun="onstart">
+		var krpano = document.getElementById("krpanoSWFObject");
 		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
 		loadscene(get(startscene), null, MERGE);
 		if(startactions !== null, startactions() );
 		set(layer[skin_control_bar_buttons].visible, false);
-		preloadsound('_bgsound.mp3');
-		createsound(audiobackground, '_bgsound.mp3', false); 
+		preloadsound('bgsound__.mp3');
+		createsound(audiobackground, 'bgsound__.mp3', false); 
 		set(sound[audiobackground].loop, true);
 		set(layer[layout_container].mainsound , 'pause'); 
 		resetSession();	
@@ -201,7 +202,7 @@
 			trace(get(events[audiogidState].enabled), ' выключен аудиогид');  
 			jssession(); 
 			hideskin();
-			krpano.setattribute(fullscreen, true);
+			krpano.set(fullscreen, true);
 			set(layer[btn_left_container].visible, false); 
 			playerShowHide(); 
 			layer[btn_play].onhover(); 
