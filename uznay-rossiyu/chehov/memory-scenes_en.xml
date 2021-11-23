@@ -20,6 +20,14 @@
 				<cube url="../memory-places-chehova/panos/__0031.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				In memory of Chekhov, his museums were opened and monuments were erected; geographical objects, theatres, libraries, ships, astronomical objects were named; coins, postage stamps were issued.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -43,6 +51,14 @@
 				<cube url="../memory-places-chehova/panos/0032__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				Surely, the fellow countrymen of the great writer did not stand aside either. At the Museum Chekhov’s Store you can see the same Fat and Thin, at the gymnasium there is the figure of Belikov, the Man in the Case, on Pushkinskaya Embankment the heroine of the short story Romance with Double-Bass carefully peeps out of the case of double-bass.
+			</div>
+
+		]]></data>
 		<hotspot name="spot1" style="skin_hotspotstyle"  ath="181.295" atv="10" linkedscene="scene_0032_2" /> 
 
 	</scene>
@@ -91,6 +107,14 @@
 				<cube url="../memory-places-chehova/panos/0033+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				And near the city community centre there is the famous “Egyptian pyramid” from Kashtanka.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -114,6 +138,14 @@
 				<cube url="../memory-places-chehova/panos/0034__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				Chekhov loved his small homeland with all his heart and as an active person he did a lot to transform the city. He constantly sent books to the local library where he himself was once a reader.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -137,6 +169,14 @@
 				<cube url="../memory-places-chehova/panos/0035+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				In his memory, the famous metropolitan architect Fyodor Shekhtel designed the library and the museum building free of charge for the city.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -160,6 +200,14 @@
 				<cube url="../memory-places-chehova/panos/0036__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				Thanks to Chekhov’s ability, a museum appeared in the city. Today it is already a reserve museum with several museums.
+			</div>
+
+		]]></data>
 		<hotspot name="spot1" style="skin_hotspotstyle"  ath="86.123" atv="10" linkedscene="scene_0036_2__" />
 
 	</scene>
@@ -208,6 +256,14 @@
 				<cube url="../memory-places-chehova/panos/0037+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				Separate words should be given to the monument to Peter the Great, the founder of the city, whose statue for the city was also made by Anton Pavlovich’s acquaintance - the famous sculptor Pavel Antokolsky.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -231,6 +287,14 @@
 				<cube url="../memory-places-chehova/panos/0038__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				And every year in January Taganrog celebrates Chekhov’s week when theatrical excursions and performances are held in almost all Chekhov’s memorial buildings.
+			</div>
+
+		]]></data>
 		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-99.02" atv="10" linkedscene="scene_0038_2__" />
 
 	</scene>
@@ -279,6 +343,14 @@
 				<cube url="../memory-places-chehova/panos/0039+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				This city also had Chekhov festivals - book, theatre, cinematographic festivals. And the place in the gallery in the local theatre, which young Chekhov usually occupied, hiding from the gymnasium inspectors, is marked with a memorial plaque.
+			</div>
+
+		]]></data>
 		<hotspot name="spot1" style="skin_hotspotstyle"  ath="74.81" atv="10" linkedscene="scene_0039_2" />
 
 	</scene>

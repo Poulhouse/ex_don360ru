@@ -110,7 +110,7 @@
 							<p class="small_text">Изготовлено в рамках реализации проекта</p>
 							<h2>«Узнай Россию: гении слова, рождённые на Дону»</h2> 
 							<p class="small_text">(руководитель - Леонид Шафиров, оператор - Общероссийская Ассоциация почётных граждан, настанвиков и талантливой молодёжи) при поддержке членов Общественной палаты Российской Федерации, Общественной палаты Ростовской области.</p>
-							<p class="default_text">Благодарим за совместную работу Донскую государственную публичную библиотеку (<a href="http://www.dspl.ru/" target="_blank">http://www.dspl.ru/</a>), МБУ ДО города Ростова-на-Дону "Центр детского и юношеского туризма и экскурсий (юных туристов)" (<a href="https://rostovturcenter.ru/" target="_blank">https://rostovturcenter.ru/</a>) и методиста Центра Наталью Ратушную</p>
+							<p class="default_text">Благодарим за совместную работу Таганрогский государственный литературный и историко-архитектурный музей -заповедник (<a href="https://tgliamz.ru/" target="_blank">https://tgliamz.ru/</a>), Таганрогский Ордена "Знак почёта" театр им. А.П. Чехова" (<a href="http://www.chehovsky.ru/" target="_blank">http://www.chehovsky.ru/</a>), журналиста , автора сайта "Живой Ростов" (<a href="http://werawolw.ru/" target="_blank">http://werawolw.ru/</a>) Веру Волошинову.</p>
 							<p class="small_text">Разработка и изготовление виртуального тура: <a href="https://don360.ru/">Студия DON360.RU</a></p>
 							
 						<?} elseif($_GET['lang'] == 'en'){?>
@@ -118,7 +118,7 @@
 							<p class="small_text">Made as part of the project</p>
 							<h2>"Get to know Russia: geniuses of the word, born on the Don"</h2> 
 							<p class="small_text">(head - Leonid Shafirov, operator - All-Russian Association of Honorary Citizens, Nastanviks and Talented Youth) with the support of members of the Public Chamber of the Russian Federation, the Public Chamber of the Rostov Region.</p>
-							<p class="default_text">Thank you for the joint work of the Don State Public Library (<a href="http://www.dspl.ru/" target="_blank">http://www.dspl.ru/</a>), MBU DO of the city of Rostov-on-Don "Center for children and youth tourism and excursions (young tourists)" (<a href="https://rostovturcenter.ru/" target="_blank">https://rostovturcenter.ru/</a>) and methodologist of the Center Natalia Ratushnaya</p>
+							<p class="default_text">Thank you for the joint work Taganrog State Literary and Historical-Architectural Museum-Reserve (<a href="https://tgliamz.ru/" target="_blank">https://tgliamz.ru/</a>), Taganrog Order "Sign of Honor" Theater. A.P. Chekhov" (<a href="http://www.chehovsky.ru/" target="_blank">http://www.chehovsky.ru/</a>), journalist, author of the site "Living Rostov" (<a href="http://werawolw.ru/" target="_blank">http://werawolw.ru/</a>) Vera Voloshinova.</p>
 							<p class="small_text">Virtual Tour Creator: <a href="https://don360.ru/">Studio DON360.RU</a></p>
 
 						<?} elseif($_GET['lang'] == 'ch'){?>
@@ -126,7 +126,7 @@
 							<p class="small_text">作为项目的一部分制作</p>
 							<h2>了解俄罗斯：这个词的天才，出生在顿河</h2> 
 							<p class="small_text">（负责人 - 列昂尼德·沙菲罗夫，运营商 - 全俄罗斯荣誉公民、纳斯坦维克和才华横溢的青年协会）在俄罗斯联邦公共商会、罗斯托夫州公共商会成员的支持下</p>
-							<p class="default_text">感谢唐州立公共图书馆的共同工作 (<a href="http://www.dspl.ru/" target="_blank">http://www.dspl.ru/</a>), 顿河畔罗斯托夫市的 MBU DO“儿童和青少年旅游和远足中心（年轻游客）” (<a href="https://rostovturcenter.ru/" target="_blank">https://rostovturcenter.ru/</a>) 和 Natalia Ratushnaya 中心的方法论者</p>
+							<p class="default_text">感谢您与塔甘罗格国家文学和历史建筑博物馆-保护区 (<a href="https://tgliamz.ru/" target="_blank">https://tgliamz.ru/</a>)塔甘罗格勋章“荣誉勋章”剧院的合作。 美联社 (<a href="http://www.chehovsky.ru/" target="_blank">http://www.chehovsky.ru/</a>)记者，网站 “Living Rostov” (<a href="http://werawolw.ru/" target="_blank">http://werawolw.ru/</a>) 的作者Vera Voloshinova。</p>
 							<p class="small_text">虚拟旅游创作者： <a href="https://don360.ru/">工作室 DON360.RU</a></p>
 						
 						<?}?>

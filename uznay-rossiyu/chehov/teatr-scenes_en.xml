@@ -20,6 +20,14 @@
 				<cube url="../teatr-chehova/panos/0020+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				In the autumn of 1873, a new phase in the life of young Chekhov began in Taganrog - the theatre.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -43,6 +51,14 @@
 				<cube url="../teatr-chehova/panos/0021+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				The people of Taganrog were rightfully proud of their theatre which hosted famous actors of that time; famous theatre companies from Moscow, St. Petersburg and foreign countries performed on its stage.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -66,6 +82,14 @@
 				<cube url="../teatr-chehova/panos/0022+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				The theatre building was built in 1866. It is small, well-planned inside, and it has excellent acoustics. A cosy parterre is surrounded by boxes and a gallery. The gymnasium student Anton Chekhov watched immortal plays, listened to the music of great composers from this spacious gallery, and a ticket cost 40 kopecks in silver.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -89,6 +113,14 @@
 				<cube url="../teatr-chehova/panos/0023+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				The passion for theatre was widespread. But it was especially popular among young people, gymnasium students. The latter were strictly forbidden to visit the theatre, a permission was given only in exceptional cases for good academic performance and good behaviour.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -112,6 +144,14 @@
 				<cube url="../teatr-chehova/panos/0024+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				The first performance that the Chekhov brothers got to see was “Beautiful Helena”. As it was written in the posters, it was a fantastic comic opera in three acts by Halevy and Meilhac reworked from the French language by Valiano, music by Jacques Offenbach. The performance made an amazing impression on the teenagers.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -135,6 +175,14 @@
 				<cube url="../teatr-chehova/panos/0025+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				Anton Chekhov turned out to be a passionate fan of the theatre. He tried all the means invented by gymnasium students for secret entry into theatre: he changed into civilian clothes, put on make-up, glued on moustache, beard, and slipped “invisibly” past the controller.<br>And on his return from the theatre, Anton could not wait to convey the whole performance in person to his family.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -158,6 +206,14 @@
 				<cube url="../teatr-chehova/panos/0026+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				Very soon, his directorial energy required a new dimension. In the house of his school friend Andrei Drossi there were opportunities for that. Several rooms were allocated there for performances.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -181,6 +237,14 @@
 				<cube url="../teatr-chehova/panos/0027+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				Everything was like in a real theatre: the “theatre” lamps were lit, the cretonne curtain with parrots and a firebird pasted on it parted, there was a theatrical wardrobe and stage props. The audience - the owners and servants of the house - were given numbered tickets. Anton picked up the troupe from among the inveterate theatregoers.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -204,6 +268,14 @@
 				<cube url="../teatr-chehova/panos/0028+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				Many biographers of A.P. Chekhov are surprised at how quickly his writing talent manifested itself; how the yesterday’s schoolboy turned out to have erudition which allowed him almost immediately upon his arrival from provincial Taganrog to Moscow to appear in print not only with humorous stories but also with serious theatre reviews. And this phenomenon can be explained as follows: a passion for theatre led to a serious passion for reading.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -227,6 +299,14 @@
 				<cube url="../teatr-chehova/panos/0029+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				The first play by Chekhov played at the Taganrog Theatre was The Seagull. It was staged in 1896 and was an exceptional success. On 25 October 1903, Uncle Vanya and The Wedding were staged, in March 1904 – The Cherry Orchard.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -250,6 +330,14 @@
 				<cube url="../teatr-chehova/panos/0030+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				In 1944, by the resolution of the Council of People’s Commissars of the USSR “On measures to perpetuate the memory of Anton Pavlovich Chekhov in connection with the 40th anniversary of his death”, the Taganrog Theatre was named after Anton Pavlovich Chekhov.
+			</div>
+
+		]]></data>
 
 	</scene>
 	

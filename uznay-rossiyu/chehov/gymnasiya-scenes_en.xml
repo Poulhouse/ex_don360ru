@@ -20,6 +20,14 @@
 				<cube url="../gymnasiya-chehova/panos/0011+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				Certainly, the Alma Mater of the genius was not his father’s grocery store but the Taganrog gymnasium - today it is the only “school museum” in the south of the country which has retained both the form and the spirit of the old educational institution of the second half of the 19th century. It has retained a classroom, old desks, a blackboard with chalks that are already beginning to be forgotten in modern schools, a ceremonial assembly hall, a lobby.<br>And the “exemplary project” of the architect Boffo, according to which the building was built in the traditions of classicism, will not leave lovers of graceful forms indifferent.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -43,6 +51,14 @@
 				<cube url="../gymnasiya-chehova/panos/0012__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				On the wall of the gymnasium you can see the world’s only high relief to Chekhov as the school student: where else could it be?! Another monument to Chekhov was erected in the park in Taganrog, obviously, named after the writer on the day of the centenary of the classical author.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -66,6 +82,14 @@
 				<cube url="../gymnasiya-chehova/panos/0013+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				In the last years of his studies, the future genius of Russian literature was listed among the “no lunchers” (that is, those who were left without lunch) for unlearned lessons. He was also familiar with the punishment cell of the gymnasium, where they offered inattentive students to think about life.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -89,6 +113,14 @@
 				<cube url="../gymnasiya-chehova/panos/0014+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				But try to study at the age of 17 and at the same time earn a livelihood for yourself and your parents by lessons: Pavel Yegorovich was declared bankrupt, and the family was fleeing from creditors in Moscow! Perhaps it was precisely the circumstance that tempered the character of the future writer, who more and more became the breadwinner for his large family.
+			</div>
+
+		]]></data>
 		<hotspot name="spot1" style="skin_hotspotstyle"  ath="0" atv="10" linkedscene="scene_0014_2" />
 	</scene>
 
@@ -162,6 +194,14 @@
 			</level>
 		</image>
 		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				His vision of the world, his love of books and theatre were formed in the gymnasium; here he received his first literary pseudonym – “Chekhonte” which was given to him by Fyodor Platonovich Pokrovsky, teacher of the Law of God; here his first literary and stage experiments began.
+			</div>
+
+		]]></data>
+		
 		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-90" atv="10" linkedscene="scene_0015_2" />
 
 	</scene>
@@ -211,6 +251,14 @@
 				<cube url="../gymnasiya-chehova/panos/0016+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				And he began to write early. There was a legend in the Chekhov family that Anton published his first short story in order to earn money for a birthday cake for his mother. There is some truth in this legend: Chekhov loved his mother dearly and, as one of the family’s friends, journalist Vladimir Gilyarovsky said, “the fact that Anton Pavlovich became a writer is a great merit of his mother Yevgenia Yakovlevna ...”.<br>But young Anton did not dare to think about devoting his life to literature. Hardships forced him to choose another field - medicine, which at that time brought a good income and allowed him to make his way in life.
+			</div>
+
+		]]></data>
 		
 		<hotspot name="spot1" style="skin_hotspotstyle"  ath="48.98" atv="10" linkedscene="scene_0016_2" />
 
@@ -286,6 +334,14 @@
 				<cube url="../gymnasiya-chehova/panos/0017+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				In 1879, A.P. Chekhov moved from Taganrog to Moscow, entered the Faculty of Medicine at Moscow University, graduating with a diploma of “doctor and district doctor”. Unlike the gymnasium, Chekhov had only two “satisfactory” marks during his student years.
+			</div>
+
+		]]></data>
 
 	</scene>
 
@@ -309,6 +365,14 @@
 				<cube url="../gymnasiya-chehova/panos/0018+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				He spends his student holidays in his hometown, being - neither more nor less! - under the secret supervision of gendarmes, who, apparently, saw every student as a potential rebel. This is described in the reports of the gendarme administration which can still be found in the Rostov State Archives.
+			</div>
+
+		]]></data>
 		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-87.79" atv="10" linkedscene="scene_0018_2" />
 
 	</scene>
@@ -357,6 +421,14 @@
 				<cube url="../gymnasiya-chehova/panos/0019+.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
 			</level>
 		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:40px; color:#000000;">
+				And many years later, in 2014 Moscow University will open a monument to one of its most famous graduates. And all the other cities - Serpukhov, Lopasnya (now the city of Chekhov, Moscow region) and others, where the writer worked as a “doctor”, will erect monuments to him both as a writer and as a district doctor.
+			</div>
+
+		]]></data>
 		<hotspot name="spot1" style="skin_hotspotstyle"  ath="-9.72" atv="10" linkedscene="scene_0019_2" />
 
 	</scene>
