@@ -1,25 +1,10 @@
-<krpano>
-		   
-	
-	<style 	name="skin_infospot" 
-			type="image" 
-			url="../infospot__image.png" 
-			scale="0.36" 
-			edge="center" 
-			distorted="false" 
-			zoom="false"
-			tooltip=""
-			linkedscene=""
-			linkedscene_lookat=""
-			onover="tween(scale,0.4);"
-			onout="tween(scale,0.36);"
-	/>
-	<action name="popup" scope="private:POPUP" args="type, content, width, height, scrollbars, classname, position">
+<krpano> 
+  <action name="POPUP_TEXT" scope="private:POPUP_TEXT" args="type, content, width, height, scrollbars, classname, position">
 		<![CDATA[
-			if(popup, break(); ); 
-
-			addlayer('popup_bg', popup_bg);
-			set(popup_bg,
+			if(POPUP_TEXT, break(); );
+			
+			addlayer('POPUP_TEXT_bg', POPUP_TEXT_bg);
+			set(POPUP_TEXT_bg,
 				type=container,
 				align=lefttop, width=100%, height=100%,
 				//zorder=99,
@@ -27,14 +12,14 @@
 				bgcapture=true,
 				capture=false
 				//bgcolor=0x123456, onloaded='tween(bgalpha,0.3,1.0);',	// optional: colorize the background
-				//ondown='popup_close()'
+				//ondown='POPUP_TEXT_close()'
 			);
 				
 			
-			addlayer('popup', popup);
-			set(popup,
+			addlayer('POPUP_TEXT', POPUP_TEXT);
+			set(POPUP_TEXT,
 				type=container,
-				parent='popup_bg',
+				parent='POPUP_TEXT_bg',
 				bgborder='0 0xFFFFFF 1',
 				bgcolor=0xFFFFFF,
 				bgalpha=0.9,
@@ -50,9 +35,9 @@
 			
 			
 			// optional: add a close button
-			addlayer('popup_close_x__container', close__x);
+			addlayer('POPUP_TEXT_close_x__container', close__x);
 			set(close__x, 
-				parent='popup',
+				parent='POPUP_TEXT',
 				type=container, 
 				bgcolor=0xFFFFFF, 
 				bgcapture=true,  
@@ -63,16 +48,16 @@
 				height=38,
 				edge=leftbottom,
 				zorder=100,
-				onover='set(layer[popup_close_x].crop, 1707|137|64|64); set(bgborder,2 0x901518);',
-				onout='set(layer[popup_close_x].crop, 1707|0|64|64); set(bgborder,0); ',
-				onclick='popup_close();'
+				onover='set(layer[POPUP_TEXT_close_x].crop, 1707|137|64|64); set(bgborder,2 0x901518);',
+				onout='set(layer[POPUP_TEXT_close_x].crop, 1707|0|64|64); set(bgborder,0); ',
+				onclick='POPUP_TEXT_close();'
 			);
 			
-			addlayer('popup_close_x', closex);
+			addlayer('POPUP_TEXT_close_x', closex);
 			set(closex,
 				url='skin/player/vskin.png',
 				crop=1707|0|64|64,
-				parent='popup_close_x__container',
+				parent='POPUP_TEXT_close_x__container',
 				align=center,
 				scale=0.36,
 				edge=center, 
@@ -81,7 +66,7 @@
 				enabled=false
 			);
 			if(position == 'center_mobile',
-				set(popup,
+				set(POPUP_TEXT,
 					align=center,
 					y=0,
 					width=calc(global.stagewidth),
@@ -92,22 +77,22 @@
 					bgalpha=0.0, 
 					align=righttop
 				);
-				set(popup_bg, 
+				set(POPUP_TEXT_bg, 
 					zorder=99,
 				);
 			  ,position == 'center_desktop',
-				set(popup,
+				set(POPUP_TEXT,
 					align=center,
 					width=calc(min(width,global.stagewidth*0.9)),
 					height=calc(min(height,global.stageheight*0.8))
 				);
 				set(close__x, 
-					x=43, y=43,
+				x=43, y=43,
 					bgalpha=0.0, 
 					align=righttop
 				);
 			  ,position == 'bottom_desktop',
-				set(popup,
+				set(POPUP_TEXT,
 					align=bottom,
 					y=calc(10+25),
 					width=calc(global.stagewidth-38-35-38-35),
@@ -119,7 +104,7 @@
 					align=righttop
 				);
 			  ,position == 'bottom_mobile',
-				set(popup,
+				set(POPUP_TEXT,
 					align=bottom,
 					y=calc(10+25),
 					width=calc(global.stagewidth-38-10-38-10),
@@ -132,68 +117,73 @@
 				);
 			);
 			if(type == 'html',
-				copy(popup.datacontent, content);
-				calc(popup.onloaded, 'add_html_code(get(datacontent),'+scrollbars+','+classname+');');
+				copy(POPUP_TEXT.datacontent, content);
+				calc(POPUP_TEXT.onloaded, 'add_html_code(get(datacontent),'+scrollbars+','+classname+');');
 
 			  ,type == 'iframe',
-				calc(popup.datacontent, '<iframe style="position:absolute;width:100%;height:100%;top:0px;left:0px;" src="'+content+'" frameborder="0" allowfullscreen></iframe>');
-				calc(popup.onloaded, 'add_html_code(get(datacontent),'+scrollbars+','+classname+');');
+				calc(POPUP_TEXT.datacontent, '<iframe style="position:absolute;width:100%;height:100%;top:0px;left:0px;" src="'+content+'" frameborder="0" allowfullscreen></iframe>');
+				calc(POPUP_TEXT.onloaded, 'add_html_code(get(datacontent),'+scrollbars+','+classname+');');
 
 			  ,type == 'image',
-				set(popup,
+				set(POPUP_TEXT,
 					bgcolor=0xFFFFFF,
 					bgalpha=1,
 				);
-				addlayer("popup_image", img);
+				addlayer("POPUP_TEXT_image", img);
 				set(img,
 					url=get(content),
 					align=center,
 					width=-20, height=-20,
-					parent=get(popup.name),
-					onloaded='popup_imageloaded()'
+					parent=get(POPUP_TEXT.name),
+					onloaded='POPUP_TEXT_imageloaded()'
 				);
 			);
 
 			tween(global.plugin[pp_blur].range, 0.0);
-			delayedcall(0.2, tween(global.layer[popup].alpha, 1.0); );
+			delayedcall(0.2, tween(global.layer[POPUP_TEXT].alpha, 1.0); );
 
-			//set(global.events[popup].onclick, popup_close() );
-			set(global.events[popup].onremovepano, popup_close() );
-
-			set(layer[btn_texttype_turnon].visible, false); 
-			set(layer[btn_texttype_turnoff].visible, true);
+			//set(global.events[POPUP_TEXT].onclick, POPUP_TEXT_close() );
+			set(global.events[POPUP_TEXT].onremovepano, scope(private:POPUP_TEXT, delete(POPUP_TEXT); ); );
+			//set(global.layer[POPUP_TEXT].enabled, true);
+			//enable_POPUP_TEXT();
 			
 		]]>
 	</action>
 	
 	
-	<action name="popup_close">
-		set(global.plugin[popup_bg].enabled, false);
-		set(global.events[popup].name, null);
+	<action name="POPUP_TEXT_close">
+		set(global.plugin[POPUP_TEXT_bg].enabled, false);
+		set(global.events[POPUP_TEXT].name, null);
 		tween(global.plugin[pp_blur].range, 0.0);
-		tween(global.layer[popup_bg].bgalpha, 0.0, 0.25);
-		tween(global.layer[popup].alpha, 0.0, 0.25, default,
-			removelayer('popup_bg', true);
-			scope(private:POPUP, delete(popup); );
+		tween(global.layer[POPUP_TEXT_bg].bgalpha, 0.0, 0.25);
+		tween(global.layer[POPUP_TEXT].alpha, 0.0, 0.25, default,
+			removelayer('POPUP_TEXT_bg', true);
+			scope(private:POPUP_TEXT, delete(POPUP_TEXT); );
+		);
+
+		<!--jsget(enablePOPUP_TEXT, localStorage.getItem('enablePOPUP_TEXT'));-->
+		if(layer[btn_texttype_turnon].visible == false,
+		<!--set(layer[btn_texttype_container].onclick, 
+			POPUP_TEXT('html', get(data[text1].content), 400, 500, true, 'leftposition', calc(device.normal ? 'topright' : 'center')); 
+			set(layer[btn_texttype_container].onclick, POPUP_TEXT_close(); );
 		);
 		
-		<!--jsget(enablepopup, localStorage.getItem('enablepopup'));-->
-		if(layer[btn_texttype_turnon].visible == false,
-			enable_popup('N'); 
+		trace('global.layer[POPUP_TEXT].enabled = ', get(global.layer[POPUP_TEXT].enabled));-->
+			enable_POPUP_TEXT('N');
 			set(layer[btn_texttype_turnon].visible, true); 
 			set(layer[btn_texttype_turnoff].visible, false);		
 		);
 		<!--, 
-			enable_popup('Y');
+			enable_POPUP_TEXT('Y');
 			set(layer[btn_texttype_turnon].visible, false); 
 			set(layer[btn_texttype_turnoff].visible, true);  
-			set(layer[btn_texttype_container].onclick, popup_close() );
-		);-->
+			set(layer[btn_texttype_container].onclick, POPUP_TEXT_close() );
+		);-->		
 		
 	</action>
 
-
-	<action name="popup_imageloaded" scope="private:POPUP">
+ 
+	<action name="POPUP_TEXT_imageloaded" scope="private:POPUP_TEXT">
 		calc(imgw, caller.imagewidth + 20);
 		calc(imgh, caller.imageheight + 20);
 		calc(maxw, global.stagewidth*0.9);
@@ -248,12 +238,12 @@
 		
 		
 	]]></action>
-	<action name="enable_popup" type="Javascript"><![CDATA[
+	<action name="enable_POPUP_TEXT" type="Javascript"><![CDATA[
 	
 		var krpano = document.getElementById("krpanoSWFObject");
-		var enablepopup = krpano.get("global.layer[popup].enabled");
-		localStorage.setItem("enablepopup", args[1]);
-		console.log('enablepopup = ', args[1]);
+		var enablePOPUP_TEXT = krpano.get("global.layer[POPUP_TEXT].enabled");
+		localStorage.setItem("enable_POPUP_TEXT", args[1]);
+		console.log('enable_POPUP_TEXT = ', args[1]);
 	
 	]]></action>
 </krpano>

@@ -115,7 +115,7 @@
 		<hotspot name="infospot2" 
 				 style="skin_infospot_left" 
 				 ath="-97.84199720821618" atv="-11.9748237565593" 
-				 onclick="popup('html', get(data[mama].content), 600, 600, true);" 
+				 onclick="POPUP_INFOSPOT('html', get(data[mama].content), 600, 600, true);" 
 		/>
 		<!--'%CURRENTXML%/skin/infospot/pictures/mama.jpg');" -->
 		<data name="mama"><![CDATA[

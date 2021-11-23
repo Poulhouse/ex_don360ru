@@ -282,22 +282,22 @@
 			
 				<layer name="btn_texttype_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="0" 
 					   onclick="
-					   jsget(enablepopup, localStorage.getItem('enablepopup'));
-					   trace('WTF? enablepopup ', enablepopup);
-					   if( get(enablepopup) == 'Y',
-							enable_popup('N');
+					   jsget(enable_POPUP_TEXT, localStorage.getItem('enable_POPUP_TEXT'));
+					   trace('WTF? enable_POPUP_TEXT ', enable_POPUP_TEXT);
+					   if( get(enable_POPUP_TEXT) == 'Y',
+							enable_POPUP_TEXT('N');
 							set(layer[btn_texttype_turnon].visible, true); 
 							set(layer[btn_texttype_turnoff].visible, false);
-							popup_close();
+							popup_text_close();
 						, 
-							enable_popup('Y');
+							enable_POPUP_TEXT('Y');
 							set(layer[btn_texttype_turnon].visible, false); 
 							set(layer[btn_texttype_turnoff].visible, true);
 							if(layer[btn_hide_icon].visible == true, 
-								popup('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile')); 
-								set(global.layer[popup].y, calc(111 + 10 + 25));
+								POPUP_TEXT('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile')); 
+								set(global.layer[POPUP_TEXT].y, calc(111 + 10 + 25));
 							,
-								popup('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile'));
+								POPUP_TEXT('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile'));
 							);
 							
 						);" 
@@ -614,10 +614,15 @@
 		<!--if(group_v[get(level)].name == 'level_21',		
 			rotate_turnoff();
 		);-->
-		jsget(enablepano, localStorage.getItem('enablepano'));
-		if(get(enablepano) != 'Y',
-			enable_popup('Y'); 
-			if(layer[btn_hide_icon].visible == true, popup('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile')); set(global.layer[popup].y, calc(111 + 10 + 25));,popup('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile')););
+		jsget(enable_POPUP_TEXT, localStorage.getItem('enable_POPUP_TEXT'));
+		if(get(enable_POPUP_TEXT) != 'Y',
+			enable_POPUP_TEXT('Y'); 
+			if(layer[btn_hide_icon].visible == true, 
+				POPUP_TEXT('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile')); 
+				set(global.layer[POPUP_TEXT].y, calc(111 + 10 + 25));
+			,
+				POPUP_TEXT('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile'));
+			);
 			set(layer[btn_texttype_turnon].visible, false); 
 			set(layer[btn_texttype_turnoff].visible, true);
 		);
@@ -1002,7 +1007,7 @@
 	</action>
 	<action name="hideskin" scope="local" args="hidetimemode">
 		set(layer[btn_map].crop, 832|69|64|64);
-		tween(global.layer[popup].y, calc(10 + 25));
+		tween(global.layer[POPUP_TEXT].y, calc(10 + 25));
 		
 		calc(hidetime, hidetimemode == 'instant' ? 0.0 : 0.5);
 		
@@ -1050,7 +1055,7 @@
 	<action name="showskin">
 		
 		set(layer[btn_map].crop, 832|137|64|64);
-		tween(global.layer[popup].y, calc(111 + 10 + 25));
+		tween(global.layer[POPUP_TEXT].y, calc(111 + 10 + 25));
 		
 		tween(layer[btn_hide_show  ].y, get(layer[btn_hide_show  ].y_opened));
 		tween(layer[player_skin_control_bar  ].y, get(layer[player_skin_control_bar  ].y_opened));

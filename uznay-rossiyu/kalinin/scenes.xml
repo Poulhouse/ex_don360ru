@@ -25,7 +25,7 @@
 		<hotspot name="infospot2" 
 				 style="skin_infospot" 
 				 ath="-12" atv="6.0" 
-				 onclick="popup('image', '%CURRENTXML%/skin/infospot/pictures/infospot2.jpg');" 
+				 onclick="POPUP_INFOSPOT('image', '%CURRENTXML%/skin/infospot/pictures/infospot2.jpg');" 
 				 visible="true"
 		/>
 
