@@ -1,0 +1,1021 @@
+<krpano>
+
+	<scene name="scene_0032" title="[b]1.[/b] 普希金大街" number="[b]- 1 -[/b]" onstart="" thumburl="panos/0000__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0000__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0000__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0000__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0000__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0000__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				普希金大街于1870年首次出现在罗斯托夫市的规划中，原名库兹涅茨大街。 1885 年，市议会决定重新命名，以亚历山大·谢尔盖耶维奇·普希金的名字命名。<br> 超过两千五万条罗斯托夫街道中有许多以作家的名字命名。 只有少数 1917 年之前存在的街道保留了以经典作家的名字命名的原名——普希金、莱蒙托夫、托尔斯泰、格里博耶多夫和德尔扎文。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0001" title="[b]2.[/b] 青铜狮子" number="[b]- 2 -[/b]" onstart="" thumburl="panos/0001__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="120.42104884668728" vlookat="-3.900143716255469" fovtype="MFOV" fov="37.149093720934026" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0001__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0001__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0001__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0001__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0001__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				我们邀请您游览顿河畔罗斯托夫最“文学”的街道。 沿着普希金斯卡亚街......
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0002" title="[b]3.[/b] 青铜狮子" number="[b]- 3 -[/b]" onstart="" thumburl="panos/0002__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-34.347168704734024" vlookat="0.9222558756731402" fovtype="MFOV" fov="51.045295277031094 " maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0002__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0002__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0002__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0002__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0002__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">我们的旅行从位于普希金斯卡亚街步行街与 Semashko 巷交叉口的四个角落的四只青铜狮子开始。 他们属于以普希金的名字命名的街道，由狮子爪中的青铜小雕像表示——这是 A.S. 作品中的童话人物。 普希金，如《沙皇萨尔坦的故事》中的《金鱼》、《天鹅公主》、《青蛙公主》和《小松鼠》。 雕塑家是大卫·鲁宾诺维奇·贝加洛夫。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0004" title="[b]4.[/b] 伊万·兹沃雷金之家" number="[b]- 4 -[/b]" onstart="" thumburl="panos/0004__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="165.63074606141217" vlookat="-41.73081488542492" fovtype="MFOV" fov="80.93435188051627" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0004__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0004__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0004__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0004__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0004__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				Ivan Zvorykin 的房子（House of Zaslavskaya）由建筑师 Vasily Popov 于 1914 年建造。 在革命前的时代，这座房子由罗斯托夫市长伊万·尼古拉耶维奇·兹沃雷金少将居住，顿河畔罗斯托夫的行政机构也设在那里。 苏维埃政权到来后，房子被收归国有。 有各种办公室、住宅公寓和培训苏维埃政府和共产党工作人员的学校宿舍。 一些原来的装饰部件已经丢失。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0005" title="[b]5.[/b] 克尔雄之家" number="[b]- 5 -[/b]" onstart="" thumburl="panos/0005__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="180.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0005__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0005__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0005__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0005__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0005__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				这座三层楼的建筑占据了街区的一角，它的正面可以俯瞰普希金斯卡亚街和塞马什科巷。 这座房子以新艺术运动风格建造，带有哥特式元素。 1923年至1926年间，苏联剧作家弗拉基米尔·米哈伊洛维奇·基尔雄住在这所房子里。 除此之外，他还是苏联第一部间谍冒险电影《为最后通牒而奋斗》的剧本作者。 许多人都知道他是《我问了一棵白蜡树》这首诗的作者，这首诗在以 Mikael Tariverdiev 的音乐为背景的电影《命运的讽刺或享受沐浴》中发声。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0003" title="[b]6.[/b] 亚历山大·法捷耶夫" number="[b]- 6 -[/b]" onstart="" thumburl="panos/0003.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="141.94" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0003.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0003.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0003.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0003.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0003.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				Vladimir Kirshon 组织了罗斯托夫和北高加索无产阶级作家协会。 1924 年秋天，亚历山大·法捷耶夫在这座建筑中向基尔雄朗读了小说《溃败》的手稿。 不得不说，《溃败》主要是法捷耶夫在罗斯托夫写的。 这位年轻的作家从 1924 年 10 月到 1926 年 10 月在那里生活和工作。小说的第一部摘录于 1925 年 7 月首次出现在法捷耶夫受雇的《苏维埃斯基》报纸上，另外两部摘录出现在《熔岩》中 他是该杂志的创始人和编辑之一。 他离开了罗斯托夫，成为一名成熟的作家，是一本通俗小说的作者，是许多顿河作家的“教父”。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0006" title="[b]7.[/b] 图米列维奇纪念牌匾" number="[b]- 7 -[/b]" onstart="" thumburl="panos/0006.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="163.70" vlookat="-23.37" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0006.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0006.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0006.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0006.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0006.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				第二块纪念牌匾安装于 1997 年，是献给著名的顿河民俗学家、科学家和作家费奥多尔·维克托罗维奇·图米列维奇的。<br> 费奥多尔·维克托罗维奇和他的妻子塔玛拉·伊万诺夫娜多年来一直在收集和研究涅克拉索夫哥萨克人的文化。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0007" title="[b]8.[/b] 纪念碑普希金" number="[b]- 8 -[/b]" onstart="" thumburl="panos/0007__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-90.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0007__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0007__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0007__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0007__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0007__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				在普希金大街和伏罗希洛夫斯基大街的交汇处，有一座亚历山大·谢尔盖耶维奇·普希金纪念碑，于 1959 年 8 月 11 日开放。该纪念碑是具有地区意义的文化遗产，也是顿河畔罗斯托夫的第一座致力于文学的纪念碑 主题...<br> 亚历山大·谢尔盖耶维奇·普希金 (Alexander Sergeevich Pushkin) 于 1820 年首次访问了顿河畔罗斯托夫。然后，在流放南部之后，他在叶卡捷琳诺斯拉夫（现在的第聂伯罗彼得罗夫斯克）生病，并获准前往高加索矿泉水和 克里米亚接受治疗，以及前往那里的拉耶夫斯基将军的家人。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0008" title="[b]9.[/b] 纪念碑普希金" number="[b]- 9 -[/b]" onstart="" thumburl="panos/0008__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="102.94879757603441" vlookat="-25.647165987671407" fovtype="MFOV" fov="85.84091571234315" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0008__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0008__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0008__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0008__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0008__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				这位诗人还在 1829 年经过顿河地区，当时他未经许可就从圣彼得堡前往外高加索的军事行动区。 在旅途中，诗人对后来成为其作品主要话题的兴趣形成了，即俄罗斯的军事历史、叶卡捷琳娜二世和彼得的统治、哥萨克历史、斯捷潘·拉辛和埃梅利安·普加乔夫的人物 .<br> 罗斯托夫和附近的堡垒给了诗人新的、在许多方面更明亮、同样令人难忘的印象。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0009" title="[b]10.[/b] 纪念碑普希金" number="[b]- 10 -[/b]" onstart="" thumburl="panos/0009__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-44.2905850182712" vlookat="-65.06769066542081" fovtype="MFOV" fov="40.719347863883385" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0009__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0009__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0009__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0009__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0009__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				亚历山大·谢尔盖耶维奇 (Alexander Sergeevich) 的顿河地区之行给人留下了深刻的印象。 1829 年，波光粼粼的唐河启发了诗人写下以下诗句：<br><br> 在广阔的田野中闪耀，<br> 流淌在那里！.. 你好，唐河！<br> 来自你远方的儿子们 <br> 我给你带来了鞠躬。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0010" title="[b]11.[/b] 公众集会" number="[b]- 11 -[/b]" onstart="" thumburl="panos/0010.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="19.60" vlookat="-14.45" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0010.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0010.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0010.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0010.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0010.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				这座豪宅由帕维尔·伊万诺维奇·克莱默 (Pavel Ivanovich Kramer) 于 1914 年左右建造。他是一位成功的银行家，但他作为一名画作收藏家在这座城市的历史上占有一席之地。 他的画作收藏仍保存在地区艺术博物馆中。<br>这座豪宅毗邻克莱默十年前建造的唐楼。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0011" title="[b]12.[/b] 公众集会" number="[b]- 12 -[/b]" onstart="" thumburl="panos/0011__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="48.68" vlookat="-11.30" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0011__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0011__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0011__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0011__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0011__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				两层楼的豪宅位于场地深处，呈U形。 外墙采用新古典主义风格设计。 立面的中央装饰有拱形凸窗。 在侧面，有彼此相对的延伸“翅膀”。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0012" title="[b]13.[/b] 公众集会" number="[b]- 13 -[/b]" onstart="" thumburl="panos/0012.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="20.57" vlookat="-36.01" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0012.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0012.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0012.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0012.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0012.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				内战期间，克莱默离开罗斯托夫，克莱默的豪宅被收归国有。 自1920年代以来，它一直由区卫生部门管辖。 卫国战争结束后，这座豪宅内设地方医疗机构
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0013" title="[b]14.[/b] 公众集会" number="[b]- 14 -[/b]" onstart="" thumburl="panos/0013.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="106.52" vlookat="-3.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0013.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0013.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0013.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0013.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0013.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				1982年，重建后，该建筑被转移到作家和作曲家之家。 现在该建筑已转移到罗斯托夫公共议会。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0014" title="[b]15.[/b] 契诃夫纪念碑" number="[b]- 15 -[/b]" onstart="" thumburl="panos/0014.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-110.38" vlookat="-10.12" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0014.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0014.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0014.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0014.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0014.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				塔甘罗格人安东·巴甫洛维奇·契诃夫的纪念碑位于普希金大街和契诃夫大街的交汇处，于2010年1月为作家诞辰150周年而立。 在 26 年的创作生涯中，安东·帕夫洛维奇创作了大约 900 部不同的作品，其中许多作品已成为世界文学的经典。<br> 纪念碑的作者是罗斯托夫雕塑家阿纳托利·斯卡纳林。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0015" title="[b]16.[/b] 契诃夫纪念碑" number="[b]- 16 -[/b]" onstart="" thumburl="panos/0015__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-88.73" vlookat="49.73" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0015__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0015__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0015__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0015__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0015__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				城市中有两个地方与作家有关。 这是马克西莫夫在 Semashko 大街上的房子，那里曾经有一家商店，作家的父亲帕维尔·叶戈罗维奇 (Pavel Yegorovich) 曾在那里担任推销员。 契诃夫的父亲在顿河畔罗斯托夫遇到了他未来的妻子、契诃夫的母亲叶夫根尼娅·雅科夫列夫娜·莫罗佐娃（Yevgenia Yakovlevna Morozova）。 在那里，在罗斯托夫，他的兄弟们出生了。 契诃夫住在他学校朋友的家里，在斯坦尼斯拉夫斯基街和加泽特尼巷的交汇处。 俄罗斯《樱桃园》的首批作品之一在罗斯托夫剧院上演。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0016" title="[b]17.[/b] SFedU 图书馆" number="[b]- 17 -[/b]" onstart="" thumburl="panos/0016__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-59.83" vlookat="11.06" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0016__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0016__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0016__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0016__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0016__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				这座建筑是顿河畔罗斯托夫的主要建筑瑰宝之一。 现在它是南方联邦大学的地区图书馆。<br> 这座豪宅建于 1914 年，是根据列昂尼德·费奥多罗维奇·埃伯格（Leonid Fyodorovich Eberg）（后来成为 Landvorets 和 Rostov Hotel 的作者）的项目建造的。 尼古拉·帕拉莫诺夫 (Nikolai Paramonov) 的豪宅是著名商人 Elpidifor Paramonov 的儿子，他拥有磨坊、轮船、粮食仓库，是为他心爱的人建造的，另一种版本是为他的女儿建造的。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0017" title="[b]18.[/b] SFedU 图书馆" number="[b]- 18 -[/b]" onstart="" thumburl="panos/0017__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="82.18450371247023" vlookat="-39.91339672029836" fovtype="MFOV" fov="23.442196858050668" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0017__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0017__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0017__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0017__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0017__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+			然而，这座豪宅被主人使用的时间并不长——只使用了四年。 1918 年 2 月下旬至 3 月上旬，这座豪宅是罗斯托夫-纳希切万革命委员会的总部，实际上是罗斯托夫红军的总部。 几个月后，白军总部就在同一栋楼里，在那里会见了拉夫尔·科尔尼洛夫、安东·邓尼金和米哈伊尔·阿列克谢耶夫等白人运动的著名领导人，白人运动的主要思想家之一，即白人运动的人物。 历史比例。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0018" title="[b]19.[/b] SFedU 图书馆" number="[b]- 19 -[/b]" onstart="" thumburl="panos/0018__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="8.279622172078653" vlookat="15.93087625898984" fovtype="MFOV" fov="58.79898526756067" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0018__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0018__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0018__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0018__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0018__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				1918年底，帕拉莫诺夫的房子发生了火灾。 1923年，该建筑得到修复。 它设有一个建设者俱乐部，然后是一个输血研究所。 在 1930 年代，这座豪宅内设地方历史博物馆。<br> 在卫国战争期间，这座建筑被烧毁，但墙壁和柱廊并未受到严重损坏。 1947年，决定将该建筑恢复并转移到罗斯托夫国立大学图书馆。 建筑重新规划的重建由埃伯格监督。 1957 年，该大学由尤里·安德烈耶维奇·日丹诺夫 (Yuri Andreevich Zhdanov) 领导，在他的领导下，该大学从一所省级大学转变为该国领先的教育机构。 2011 年，尤里·安德烈耶维奇·日丹诺夫 (Yuri Andreevich Zhdanov) 的半身像在图书馆大楼前隆重揭幕。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0019" title="[b]20.[/b] 资深作家胡同" number="[b]- 20 -[/b]" onstart="" thumburl="panos/0019.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-76.5" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0019.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0019.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0019.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0019.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0019.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				为纪念伟大的同胞，顿河畔罗斯托夫市中心出现了一条老作家胡同。 在伟大胜利 71 周年之际，顿河畔罗斯托夫 (Rostov-on-Don) 为顿河老作家纪念碑揭幕。 三尊青铜半身像：Mikhail Sholokhov、Vitaly Zakrutkin 和 Anatoly Kalinin 安装在 Pushkinskaya 街的公共图书馆旁边。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0020" title="[b]21.[/b] 资深作家胡同" number="[b]- 21 -[/b]" onstart="" thumburl="panos/0020__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="167.14" vlookat="-49.80" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0020__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0020__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0020__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0020__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0020__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				每位作家都走过卫国战争的艰辛道路，在作品中留下了对那些岁月的鲜活记忆。 伟大卫国战争期间，米哈伊尔·肖洛霍夫是苏联新闻局、《真理报》和《红星报》的战地记者，他将斯大林奖授予前线需要的《静静地流淌着顿河》。 战地记者肖洛霍夫站在所有七条战线的最前沿，并参加了斯大林格勒战役。 它的事件成为小说《他们为祖国而战》的基础。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0021" title="[b]22.[/b] 资深作家胡同" number="[b]- 22 -[/b]" onstart="" thumburl="panos/0021__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-91.20528082251766" vlookat="2.028997319311233" fovtype="MFOV" fov="71.5064610053981" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0021__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0021__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0021__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0021__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0021__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				《吉普赛》的未来作者阿纳托利·加里宁作为顿河哥萨克第五军的一部分从捷列克河行军到多瑙河。 他还是一名战地记者，为《共青团真理报》撰稿。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0022" title="[b]23.[/b] 资深作家胡同" number="[b]- 23 -[/b]" onstart="" thumburl="panos/0022__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-100.2517490940582" vlookat="-5.711313224151801" fovtype="MFOV" fov="91.2201709176009" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0022__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0022__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0022__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0022__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0022__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				另一位战地记者维塔利·扎克鲁特金 (Vitaly Zakrutkin) 出版了两本战斗散文集和大约 100 部关于战争年代战争英雄的小说作品。 他参加了顿河畔罗斯托夫战役、解放布拉格和攻占柏林。 维塔利·扎克鲁特金 (Vitaly Zakrutkin) 作为第 56 军报纸《为了我们的祖国》的战地记者自愿加入前线。 他参加了高加索战役、顿河畔罗斯托夫战役、解放布拉格和攻占柏林。 抗战期间，他出版了两部战斗散文集，出版了100多部关于战争英雄的小说作品。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0023" title="[b]24.[/b] 唐公共图书馆" number="[b]- 24 -[/b]" onstart="" thumburl="panos/0023__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-160.0828961081224" vlookat="-10.905666214681608" fovtype="MFOV" fov="76.41605774076314" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0023__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0023__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0023__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0023__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0023__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				顿河畔罗斯托夫的第一家公共图书馆于 1886 年 1 月 7 日开放。从 1921 年到 1994 年，图书馆位于 Velikanova 位于 Serafimovich 街的豪宅内。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0024" title="[b]25.[/b] 唐公共图书馆" number="[b]- 25 -[/b]" onstart="" thumburl="panos/0024__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-111.07383580214902" vlookat="-18.29194358498884" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0024__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0024__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0024__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0024__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0024__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				1974 年，在普希金斯卡亚街开始建造一座新的图书馆大楼。 它由建筑师 Yan Zanis 和工程师 Boris Sidelkovsky 设计。 1994 年 5 月 25 日，图书馆搬到了新的地点。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0025" title="[b]26.[/b] 唐公共图书馆" number="[b]- 26 -[/b]" onstart="" thumburl="panos/0025__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-178.60465499254803" vlookat="-22.493830634208553" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0025__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0025__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0025__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0025__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0025__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				图书馆的建筑物相互垂直。 这座 16 层高的整体混凝土建筑的主要雕塑重点是书库上角的浮雕框架
+facade.
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0026" title="[b]27.[/b] 唐公共图书馆" number="[b]- 27 -[/b]" onstart="" thumburl="panos/0026__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-160.91770249543322" vlookat="-43.151310715814134" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0026__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0026__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0026__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0026__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0026__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				莫斯科不朽的艺术家弗拉基米尔·莱姆波特 (Vladimir Lemport) 和尼古拉·西利斯 (Nikolai Silis) 创造了一套程式化的图像标志，包括书页之间的“人类天才面孔”的图像。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0027" title="[b]28.[/b] 唐公共图书馆" number="[b]- 28 -[/b]" onstart="" thumburl="panos/0027__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-111.92072606863876" vlookat="-17.67372158530794" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0027__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0027__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0027__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0027__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0027__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				开放三个月后，即 1994 年 9 月，图书馆举办了作家亚历山大·索尔仁尼钦与读者和城市公众的会议。 1995 年，图书馆被授予罗斯托夫地区中央图书馆的地位。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0028" title="[b]29.[/b] 唐公共图书馆" number="[b]- 29 -[/b]" onstart="" thumburl="panos/0028.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-1.290668705875798" vlookat="-22.3197612133342" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0028.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0028.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0028.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0028.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0028.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				阅览室占据了以相同建筑风格建造的三层楼。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0029" title="[b]30.[/b] 唐公共图书馆" number="[b]- 30 -[/b]" onstart="" thumburl="panos/0029.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-114.03878140908643" vlookat="-30.55650147798602" fovtype="MFOV" fov="76.3635173363375" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0029.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0029.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0029.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0029.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0029.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				图书馆建筑外观的刻意约束与图书馆内部的多样性相结合。 墙壁以白色花岗岩和大理石装饰。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0030" title="[b]31.[/b] 唐公共图书馆" number="[b]- 31 -[/b]" onstart="" thumburl="panos/0030__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-96.80200706744562" vlookat="51.65719097386783" fovtype="MFOV" fov="76.41516856815723" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0030__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0030__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0030__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0030__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0030__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				大厅装饰有瀑布和水池。 所有这一切都得到了丰富的绿色植物和各种雕塑作品的补充。
+			</div>
+
+		]]></data>
+
+	</scene>
+
+	<scene name="scene_0031" title="[b]32.[/b] 唐公共图书馆" number="[b]- 32 -[/b]" onstart="" thumburl="panos/0031__.tiles/thumb.jpg" lat="" lng="" heading="">
+
+		<view hlookat="-134.31195915582543" vlookat="3.4003508061437047" fovtype="MFOV" fov="47.42820493198889" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
+
+		<preview url="panos/0031__.tiles/preview.jpg" />
+
+		<image type="CUBE" multires="true" tilesize="512">
+			<level tiledimagewidth="512" tiledimageheight="512">
+				<cube url="panos/0031__.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="1024" tiledimageheight="1024">
+				<cube url="panos/0031__.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="2048" tiledimageheight="2048">
+				<cube url="panos/0031__.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
+			</level>
+			<level tiledimagewidth="4096" tiledimageheight="4096">
+				<cube url="panos/0031__.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
+			</level>
+		</image>
+		
+		<data name="text1"><![CDATA[
+
+			<div style="padding:10px; padding-right:40px; color:#000000;">
+				城市就像人：每个城市都有自己的面貌，自己的传记。 顿河畔罗斯托夫市的建筑可以被视为我们国家自 18 世纪以来发展的编年史，也可以被视为一本引人入胜的书，由与 唐地区，谁赞美或访问它。
+			</div>
+
+		]]></data>
+
+	</scene>
+	
+	
+
+	<!-- the action for dragging the hotspot - call it once in the ondown event -->
+	<action name="draghotspot">
+		spheretoscreen(ath, atv, hotspotcenterx, hotspotcentery, calc(mouse.stagex LT stagewidth/2 ? 'l' : 'r'));
+		sub(drag_adjustx, mouse.stagex, hotspotcenterx);
+		sub(drag_adjusty, mouse.stagey, hotspotcentery);
+		asyncloop(pressed,
+			sub(dx, mouse.stagex, drag_adjustx);
+			sub(dy, mouse.stagey, drag_adjusty);
+			screentosphere(dx, dy, ath, atv);
+			print_hotspot_pos();
+		  );
+	</action>
+	
+	<!-- show the xml code of the hotspot position -->
+	<action name="print_hotspot_pos">
+		<![CDATA[
+			copy(print_ath, ath);
+			copy(print_atv, atv);
+			roundval(print_ath, 3);
+			roundval(print_atv, 3);
+			calc(layer[hotspot_pos_info].html, '&lt;hotspot name="' + name + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ath="' + print_ath + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;atv="' + print_atv + '"[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...[br]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/&gt;');
+		]]>
+	</action>
+	
+</krpano>

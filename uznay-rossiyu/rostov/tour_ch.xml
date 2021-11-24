@@ -5,8 +5,8 @@
 	<autorotate enabled="false" waittime="1.0" speed="3.0" horizon="0.0" tofov="100.0" interruptionevents=""/>
 	
 	<plugin name="soundinterface"
-			url.html5="plugins/soundinterface.js"
-			url.flash="plugins/soundinterface.swf"
+			url.html5="../plugins/soundinterface.js"
+			url.flash="../plugins/soundinterface.swf"
 			preload="true"
 			rootpath="voices/"
 			volume="0.04"
@@ -19,7 +19,7 @@
 	/>
 	<include url="skin/vtourskin.xml" />
 	<include url="skin/arrows/arrows.xml" />
-	<include url="../player/player_skin_en.xml" />
+	<include url="../player/player_skin_ch.xml" />
 	<include url="../infospot/popup_en.xml" />
 	
 	
@@ -95,7 +95,6 @@
 					set(layer[btn_right_container].bgborder, 0);
 					set(layer[btn_right_container].bgcolor, 0xFFFFFF);	
 					set(layer[btn_right].crop, 1439|0|64|64);
-					
 					if(hotspot[infospot2].visible == true,
 						toggleHotspotVisibility(1);
 						set(layer[btn_info_container].alpha, 1.0);
@@ -108,13 +107,19 @@
 					);
 					
 				);
-				trace('enablepopup 1 = ', get(enablepopup)  );
-				jsget(enablepopup, localStorage.getItem('enablepopup'));
-				trace('enablepopup 2 = ', get(enablepopup)  );
-					enable_popup('Y');
-					if(layer[btn_hide_icon].visible == true, popup('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile')); set(global.layer[popup].y, calc(111 + 10 + 25));,popup('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile'));)
+				jsget(enable_POPUP_TEXT, localStorage.getItem('enable_POPUP_TEXT'));
+				trace('enable_POPUP_TEXT = ', get(enable_POPUP_TEXT)  );
+				if(get(enable_POPUP_TEXT) == 'Y',
+					enable_POPUP_TEXT('Y'); 
+					if(layer[btn_hide_icon].visible == true, 
+						POPUP_TEXT('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile')); 
+						set(global.layer[POPUP_TEXT].y, calc(111 + 10 + 25));
+					,
+						POPUP_TEXT('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile'));
+					);
 					set(layer[btn_texttype_turnon].visible, false); 
-					set(layer[btn_texttype_turnoff].visible, true);"
+					set(layer[btn_texttype_turnoff].visible, true);
+				);"
 			onxmlcomplete="getscenename();"
 	        onenterfullscreen.fullscreensupport="set(layer[btn_fs2_out].visible, true);set(layer[btn_fs2_in].visible, false); hideskin(); mediaHide(); playerHide();"
 	        onexitfullscreen.fullscreensupport="set(layer[btn_fs2_in].visible, true);set(layer[btn_fs2_out].visible, false); hideskin(); mediaHide(); playerHide();"
@@ -126,7 +131,7 @@
 		localStorage.removeItem("grouplevelrostovauto");
 		localStorage.removeItem("grouplevelchehovauto");
 		localStorage.removeItem("grouplevel");
-		localStorage.removeItem("enablepopup");
+		localStorage.removeItem("enable_POPUP_TEXT");
 	]]>
 	</action>
 	<action name="jssession" type="Javascript">
@@ -160,6 +165,7 @@
 	
 	<!-- startup action - load the first scene -->
 	<action name="startup" autorun="onstart">
+		var krpano = document.getElementById("krpanoSWFObject");
 		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
 		loadscene(get(startscene), null, MERGE);
 		if(startactions !== null, startactions() );
@@ -170,7 +176,6 @@
 		set(layer[layout_container].mainsound , 'pause'); 
 		resetSession();	
 		bgsoundlevel();
-		
 		if(hotspot[infospot2].visible == true,
 			toggleHotspotVisibility(1);
 			set(layer[btn_info_container].alpha, 1.0);
@@ -181,10 +186,6 @@
 			set(layer[btn_info_container].alpha, 0.8);
 			set(layer[btn_info_container].enabled, false);
 		);
-		<!--set(layer[btn_map_container].alpha, 0.8);
-		set(layer[btn_map_container].enabled, false);-->
-		<!--set(layer[btn_info_container].alpha, 0.8);
-		set(layer[btn_info_container].enabled, false);-->
 		if(events[audiogidState].enabled === true, 
 			trace(get(events[audiogidState].enabled), ' включен аудиогид'); 
 			hideskin();
@@ -201,7 +202,7 @@
 			trace(get(events[audiogidState].enabled), ' выключен аудиогид');  
 			jssession(); 
 			hideskin();
-			krpano.setattribute(fullscreen, true);
+			krpano.set(fullscreen, true);
 			set(layer[btn_left_container].visible, false); 
 			playerShowHide(); 
 			layer[btn_play].onhover(); 
@@ -214,7 +215,7 @@
 	
 	<!--<include url="skin/vtourskin_design_black_new.xml"       />-->
 	
-	<include url="scenes_en.xml" />
+	<include url="scenes_ch.xml" />
 	
 	
 	

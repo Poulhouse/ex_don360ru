@@ -1,0 +1,1090 @@
+<krpano>
+			
+	<style 	name="skin_bg" keep="true" width="48" height="calc:skin_settings.thumbs_height - 2*skin_settings.design_thumbborder_padding" />	
+	
+	<style 	name="btnbg" type="container" width="48" height="48" zorder="1" maskchildren="true"	/>
+	
+	<style 	name="backurl" url="vtour_skin.png" scale="1.0" edge="center" crop="0|0|48|48" bgroundedge="3" distorted="false" onover="set(crop, 0|48|48|48);" onout="set(crop, 0|0|48|48);" />
+	
+	<style 	name="btn__fs" x="0" y="0" crop="0|0|48|48" align="center" bgroundedge="3" scale="1.0" edge="center" distorted="false" onover="set(crop, 0|48|48|48);" onout="set(crop, 0|0|48|48);" />
+	
+	<style 	name="full_screen_in" x="0" y="0" crop="1240|0|64|64" align="center" bgroundedge="3" scale="0.36" edge="center" distorted="false" />
+	
+	<style 	name="full_screen_out" x="0" y="0" crop="1305|0|64|64" align="center" bgroundedge="3" scale="0.36" edge="center" distorted="false" />
+	
+	<style name="startstop" url="assets/img/play.png" />	
+				   
+   <style name="skin_thumbtext_style" type="text" align="top" width="100%" y="4" enabled="false" bg="true" bgborder="false" bgcolor="0x0A0A0A" bgalpha="0.5" css.desktop="calc:skin_settings.design_text_css + ' text-align:center; font-size:14px;'" css.handheld="calc:skin_settings.design_text_css + ' text-align:center; font-size:9px;'" textshadow="get:skin_settings.design_text_shadow" />
+   
+	<style name="button" type="text"
+	       css="text-align:center; font-size:18px;"
+	       padding="4 8"
+	       mergedalpha="false"
+	       bgborder="0 0xFFFFFF 1"
+	       bgroundedge="1"
+	       bgshadow="0 1 4 0x000000 1.0"
+	       onover="set(bgcolor, 0xC7E4FC);"
+	       onout="calc(bgcolor, pressed ? 0x90CAF9 : 0xFFFFFF);"
+	       ondown="set(bgcolor, 0x90CAF9);"
+	       onup="calc(bgcolor, hovering ? 0xC7E4FC : 0xFFFFFF);"
+	       />
+
+	<style name="button_selected" css="text-align:center; text-decoration:underline; font-size:18px;" />	
+			
+	<style name="skin_bg3" 
+			bgcolor="0x0A0A0A" 
+			bgalpha="0.5" 
+			bgcapture="true"
+			bgshadow="0 0 0 0x000000 0.0"
+	/>		
+			
+	<style name="skin_bg4" 
+			bgcolor="0xFFFFFF" 
+			bgalpha="0.66" 
+			bgcapture="true"  
+			bgroundedge="3"
+			bgshadow="0 0 0 0x000000 0.0" 
+			bgborder="0"
+			width.desktop="38" 
+			height.desktop="38" 
+			width.handheld="38"
+			height.handheld="38"
+	/>
+		
+	<style name="skin_bg5" 
+			bgcolor="0x0A0A0A" 
+			bgalpha="0.5" 
+			bgcapture="true" 
+			bgroundedge="3"
+			bgshadow="0 0 0 0x000000 0.0" 
+			bgborder="0"
+	/>	
+	
+	<style name="skin_glow3" ondown="copy(skin_lockglow,name); if(ondown2, ondown2() );"
+	       onover="if(skin_lockglow === null, copy(skin_lockglow,name);  ); if(onover2, onover2() );"
+	       onout="if(skin_lockglow === name AND !pressed, delete(skin_lockglow); ); if(onout2, onout2() );"
+	       onup="if(onup2, onup2());"
+	/>			
+	
+	<textstyle name="btn_description" origin="right" edge="right" vcenter="true" height="22"
+			   font="Open Sans" fontsize.no-mobile="12" fontsize.mobile="12" bold="false"
+			   background="true" backgroundcolor="0x0A0A0A" backgroundalpha="0.5"
+			   border="false"
+			   textalign="center"
+			   roundedge="3"
+			   padding="3 7"
+			   textcolor="0xFFFFFF"
+			   xoffset="-44"
+			   yoffset.no-touch="0"
+			   yoffset.touch="0"
+			   css="line-height: 1; text-transform:uppercase;"
+			   parent=""
+	/>		
+			
+	<layer name="layout_container" keep="true" type="container" align="top" width="100%" maxwidth="100%" height="100%" maskchildren="true" visible="true" bgcapture="false" zorder="1" shevron="tricks.png" mainsound="pause">
+			
+		<layer name="top_container" type="container" align="topcenter" style="" x="0" y="5"  width.desktop="calc:38 + 30 + 320 + 30 + 38" width.mobile.or.tablet="-10" height="38" zorder="2">
+			
+			<layer name="info_container" type="container" style="skin_bg4" align="center" x="0" y="0" height="38" width="100%" >
+			
+				<layer name="btn_left_container" type="container" style="skin_bg4" width="38" height="38" align="topleft" x="0" y="0" onover="group_scenename_title(-1); set(layer[btn_left].crop, 1371|137|64|64);  set(bgborder,2 0x901518);" onhover="" onout="default_tooltip(); set(layer[btn_left].crop, 1371|0|64|64); set(bgborder,0);" onclick="group_scenename_go(-1);">
+					<layer name="btn_left" url="vskin.png" crop="1371|0|64|64" align="center" scale="0.25" edge="center" distorted="false" visible="true" enabled="false"/>
+				</layer>
+				
+					<layer name="info" type="text" html="wtf" zorder="1" height="34" vcenter="true" align="center" x="0" y="0" css="font-family: Open Sans; text-transform: uppercase; padding:0px 30px; color:#0A0A0A; font-weight: 600; text-align: center; font-size:14px; text-shadow: 1px 1px 2px #FFFFFF;" enabled="false" bgalpha="0.0" bgborder="0" onloaded="skin_nextgroup();" />
+				
+				<layer name="btn_right_container" type="container" style="skin_bg4" width="38" height="38" align="topright" x="0" y="0" onover="group_scenename_title(+1); set(layer[btn_right].crop, 1439|137|64|64); set(bgborder,2 0x901518);" onout="default_tooltip(); set(layer[btn_right].crop, 1439|0|64|64); set(bgborder,0);" onclick="group_scenename_go(+1);" >
+					<layer name="btn_right" url="vskin.png" crop="1439|0|64|64" align="center" scale="0.25" edge="center" distorted="false"  visible="true" enabled="false"/>
+				</layer>
+				
+			</layer>
+			
+		</layer>
+		
+		<layer name="leftpanel" type="container" width="38" height="100%" x="5" y="0" align="left" maskchildren="false" visible="true" bgcapture="false" zorder="2">
+		
+			<layer name="btn_menu_container" type="container" style="skin_bg4" align="topleft" x="0" y.desktop="5" y.mobile.or.tablet="48" onclick="openurl(index.php?lang=ch, _self);" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_home].crop, 1104|137|64|64); showtext(Go back to the main page, btn_description); set(bgborder,2 0x901518);" onout="set(layer[btn_home].crop, 1104|0|64|64); set(bgborder,0); tooltipIn();" >
+				<layer name="btn_home" url="vskin.png" crop="1104|0|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" visible="true" onclick="" enabled="false" />
+			</layer>
+
+			<layer 	name="btn_player_container" type="container" style="skin_bg4" align="bottomleft" x="0" y="111" onclick="playerShowHide();" onover="tooltipIn();" onhover="set(layer[btn_player].crop, 288|137|64|64); set(bgborder,2 0x901518); tooltipIn2(); showtext(Show player, btn_description);" onout="set(layer[btn_player].crop, 288|0|64|64); set(bgborder,0); tooltipIn();" >
+				<layer 	name="btn_player" url="vskin.png" crop="288|0|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true" enabled="false" />
+			</layer>
+			
+			<layer name="player_panel_container" type="container" style="skin_bg5" width="38" height="193" align="bottomleft" x="0" y="-194"  visible="true" zorder="2" hidden="true">
+				
+				<layer name="btn_play_container" type="container" style="" width="38" height="38" align="topleft" x="0" y="0" onhover="" onout="" >
+					<layer name="btn_play" url="vskin.png" crop="356|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_play].crop, 356|137|64|64); if(events[audiogidState].enabled === true, showtext(Launch audio guide, btn_description);, showtext(Enable audio guide, btn_description););" onclick=" play();" onout="set(layer[btn_play].crop, 356|69|64|64); tooltipIn();" visible="true" />
+					
+					<layer name="btn_pause" url="vskin.png" crop="1506|137|64|64" align="center" scale="0.36" edge="center" distorted="false" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_pause].crop, 1506|69|64|64); if(events[audiogidState].enabled === true, showtext(Pause, btn_description);, showtext(Turn off audio guide, btn_description););" onout="set(layer[btn_pause].crop, 1506|137|64|64); tooltipIn(); " onclick="pause();" visible="false" />
+				</layer>				
+				
+				<layer name="btn_vol_plus_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="38" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_vol_plus].crop, 492|137|64|64); showtext(Vol +, btn_description);" onout="set(layer[btn_vol_plus].crop, 492|69|64|64); tooltipIn();" >
+					<layer name="btn_vol_plus" url="vskin.png" crop="492|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="setVolumePlus();" visible="true" />
+				</layer>
+				
+				<layer name="btn_vol_container" type="container" style="" width="38" height="56.06" align="top" x="0" y="76">
+					<layer name="player_vol" url="vskin.png" crop="147|105|39|96" align="bottom" width="23" height="56.06" x="0" y="0" scale="1.0" onloaded="getVolumeLevel();" />
+					
+					<layer 	name="btn_vol_6"
+							type="container"  
+							onclick="set(plugin[soundinterface].volume, 0.96); getVolumeLevel();" 
+							onover="set(layer[player_vol].crop, 245|105|39|96);"
+							onout="getVolumeLevel();"
+							width="23" height="5.75" 
+							x="0" y="0"
+							align="top"
+							bgcolor="0x000000"
+							bgalpha="0.0"
+							bgborder="0 0x000000 0.0" 
+							bgcapture="true" 
+					/>
+					<layer 	name="btn_vol_5"
+							type="container" 
+							onclick="set(plugin[soundinterface].volume, 0.8); getVolumeLevel();" 
+							onover="set(layer[player_vol].crop, 196|105|39|96);"
+							onout="getVolumeLevel();"
+							width="23" height="10.06" 
+							x="0" y="10.06"
+							align="top"
+							bgcolor="0x000000"
+							bgalpha="0.0"
+							bgborder="0 0x000000 0.0" 
+							bgcapture="true" 
+					/>
+					<layer 	name="btn_vol_4"
+							type="container"  
+							onclick="set(plugin[soundinterface].volume, 0.64); getVolumeLevel();" 
+							onover="set(layer[player_vol].crop, 147|105|39|96);"
+							onout="getVolumeLevel();"
+							width="23" height="10.06" 
+							x="0" y="20.13"
+							align="top"
+							bgcolor="0x000000"
+							bgalpha="0.0"
+							bgborder="0 0x000000 0.0" 
+							bgcapture="true" 
+					/>
+					<layer 	name="btn_vol_3"
+							type="container"  
+							onclick="set(plugin[soundinterface].volume, 0.48); getVolumeLevel();" 
+							onover="set(layer[player_vol].crop, 98|105|39|96);"
+							onout="getVolumeLevel();"
+							width="23" height="10.06" 
+							x="0" y="30.19"
+							align="top"
+							bgcolor="0x000000"
+							bgalpha="0.0"
+							bgborder="0 0x000000 0.0" 
+							bgcapture="true" 
+					/>
+					<layer 	name="btn_vol_2"
+							type="container" 
+							onclick="set(plugin[soundinterface].volume, 0.20); getVolumeLevel();" 
+							onover="set(layer[player_vol].crop, 49|105|39|96);"
+							onout="getVolumeLevel();"
+							width="23" height="10.06" 
+							x="0" y="40.25"
+							align="top"
+							bgcolor="0x000000"
+							bgalpha="0.0"
+							bgborder="0 0x000000 0.0" 
+							bgcapture="true" 
+					/>
+					<layer 	name="btn_vol_1"
+							type="container" 
+							onclick="set(plugin[soundinterface].volume, 0.04); getVolumeLevel();" 
+							onover="set(layer[player_vol].crop, 0|105|39|96);"
+							onout="getVolumeLevel();"
+							width="23" height="10.06" 
+							x="0" y="50.31"
+							align="top"
+							bgcolor="0x000000"
+							bgalpha="0.0"
+							bgborder="0 0x000000 0.0" 
+							bgcapture="true" 
+					/>
+				</layer>
+				
+				<layer name="btn_vol_minus_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="132" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_vol_minus].crop, 560|137|64|64); showtext(Vol -, btn_description);" onout="set(layer[btn_vol_minus].crop, 560|69|64|64); tooltipIn();" >
+					<layer name="btn_vol_minus" url="vskin.png" crop="560|69|64|64" align="center" scale="0.36" edge="center" onhover="" onclick="setVolumeMinus();" visible="true" />
+				</layer>
+				
+				<!--<layer name="btn_sound_container" type="container" bgcapture="true" width="38" height="38" zorder="4" align="top" x="0" y="170" onloaded="" onover="tooltipIn();" onhover="tooltipIn2(); showtext(Приглушить звук, btn_description);" onout="tooltipIn();" >
+					<layer name="btn_sound_icon" url="vskin.png" crop="628|69|64|64" x="0" y="0" zorder="5" align="center" scale="0.36" onclick="switchsound();" visible="false" onover="set(crop, 628|137|64|64);" onout="set(crop, 628|69|64|64);" onloaded="getVolumeLevel();" />
+					<layer name="btn_sound_icon_mute" url="vskin.png" crop="1574|69|64|64" x="0" y="0" zorder="5" align="center" scale="0.36" onclick="switchsound();" visible="false" onover="set(crop, 1574|137|64|64);" onout="set(crop, 1574|69|64|64);" onloaded="getVolumeLevel();" />
+				</layer>-->
+				
+			</layer>
+			
+		</layer>
+		
+		<layer name="rightpanel" type="container" width="38" height="100%" x="5" y="0" align="right" maskchildren="false" visible="true" bgcapture="false" zorder="3">
+		
+			<layer name="btn_container2" type="container" style="skin_bg4" align="topright" x="0" y.desktop="5" y.mobile.or.tablet="48" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_fs2_in].crop, 1240|137|64|64);  set(bgborder,2 0x901518); showtext(Fullscreen, btn_description);" onout="set(layer[btn_fs2_in].crop, 1240|0|64|64);  set(bgborder,0); tooltipIn();">
+				<layer name="btn_fs2_in" url="vskin.png" style="full_screen_in" onclick="switch(fullscreen);" devices="fullscreensupport" visible="true"/>
+				<layer name="btn_fs2_out" url="vskin.png" style="full_screen_out" onclick="switch(fullscreen);" devices="fullscreensupport" visible="false"/>
+			</layer>
+			
+			<layer name="btn_media_container" type="container" style="skin_bg4" align="bottomright" x="0" y="111" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_media].crop, 696|137|64|64);  set(bgborder,2 0x901518); showtext(Show / Hide menu, btn_description);" onout="set(layer[btn_media].crop, 696|0|64|64);  set(bgborder,0); tooltipIn();" onclick="mediaShowHide();" status_start="true">
+				<layer name="btn_media" url="vskin.png" crop="696|0|64|64" align="center" scale="0.36" edge="center" distorted="false" onclick="" visible="true" enabled="false"/>
+			</layer>
+			
+			<layer name="media_panel_container" type="container" style="skin_bg5" width="38" height="193" align="bottomright" x="0" y="-194" visible="true" zorder="2" hidden="true">
+			
+				<layer name="btn_texttype_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="0" 
+					   onclick="
+					   jsget(enable_POPUP_TEXT, localStorage.getItem('enable_POPUP_TEXT'));
+					   trace('WTF? enable_POPUP_TEXT ', enable_POPUP_TEXT);
+					   if( get(enable_POPUP_TEXT) == 'Y',
+							enable_POPUP_TEXT('N');
+							set(layer[btn_texttype_turnon].visible, true); 
+							set(layer[btn_texttype_turnoff].visible, false);
+							popup_text_close();
+						, 
+							enable_POPUP_TEXT('Y');
+							set(layer[btn_texttype_turnon].visible, false); 
+							set(layer[btn_texttype_turnoff].visible, true);
+							if(layer[btn_hide_icon].visible == true, 
+								POPUP_TEXT('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile')); 
+								set(global.layer[POPUP_TEXT].y, calc(111 + 10 + 25));
+							,
+								POPUP_TEXT('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile'));
+							);
+							
+						);" 
+					   onover="tooltipIn();" 
+					   onhover="tooltipIn2(); showtext(Description, btn_description);" 
+					   onout="tooltipIn();"  
+				>
+					<layer name="btn_texttype_turnon" url="vskin.png" crop="1771|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true" enabled="false"/>
+					<layer name="btn_texttype_turnoff" url="vskin.png" crop="1771|137|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="false" enabled="false"/>
+				</layer>
+				
+				<layer name="btn_screenshot_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="38" onclick="makescreenshot();" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_screenshot].crop, 764|137|64|64); showtext(Screenshot, btn_description);" onout="set(layer[btn_screenshot].crop, 764|69|64|64); tooltipIn();"  >
+					<layer name="btn_screenshot" url="vskin.png" crop="764|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true" enabled="false"/>
+				</layer>
+				
+				<layer name="btn_map_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="76" onclick="if(layer[btn_hide_icon].visible == false, showskin();, hideskin();)" onover="tooltipIn();" onhover="tooltipIn2(); if(layer[btn_hide_icon].visible == false, showtext(Show navigate, btn_description);, showtext(Hide navigate, btn_description);); " onout="tooltipIn();"  >
+					<layer name="btn_map" url="vskin.png" crop="832|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true"  enabled="false"/>
+				</layer>
+			
+				<layer name="btn_info_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="116" onclick="if(get(hotspot[infospot2].visible) == true, toggleHotspotVisibility(0); , toggleHotspotVisibility(1); );" onover="tooltipIn();" onhover="tooltipIn2(); if(get(hotspot[infospot2].visible) == true,  showtext(Hide points of prompt, btn_description);, showtext(Show points of prompt, btn_description);); " onout="tooltipIn();" >
+					<layer name="btn_info" url="vskin.png" crop="900|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true"  enabled="false"/>
+				</layer>
+				
+				<layer name="btn_restore_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="154" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_restore_on].crop, 1642|137|64|64); if(autorotate.enabled === false, autorotate_turnon();, autorotate_turnoff(); );" onout="tooltipIn();" onloaded="">
+					
+					<layer name="btn_restore_turnon" url="vskin.png" crop="1642|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="rotate_turnon();" visible="true"/>
+					<layer name="btn_restore_turnoff" url="vskin.png" crop="1642|137|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="rotate_turnoff();" visible="false"/>
+					
+				</layer>
+			</layer>			
+			
+		</layer>
+			
+		<layer 	name="skin_thumbs_scrollleft" type="container" style="skin_bg3|skin_glow3" bgroundedge="3 0 0 3" onover="set(layer[thumbs_scrollleft].crop, 1371|137|64|64);" onout="set(layer[thumbs_scrollleft].crop, 1371|69|64|64);" width="32" height="calc:skin_settings.thumbs_height + 2*skin_settings.design_thumbborder_padding + 24" align="leftbottom" edge="left" zorder="2" x="0" y="0" alpha="1.0" visible="true"  ondown2="asyncloop(pressed, layer[skin_thumbs].scrollby(+2,0));" maskchildren="true"> 
+			<layer name="thumbs_scrollleft" url="vskin.png" crop="1371|69|64|64" x="calc:30/2" y="calc:(skin_settings.thumbs_height + 2*skin_settings.design_thumbborder_padding + 20)/2 " edge="center" scale="0.5" enabled="false"/> 
+		</layer>
+		
+		<layer name="btn_hide_show" keep="true" type="container" style="btnbg" bgcolor="0x0A0A0A" bgalpha="0.5" width="50" height="25" bgroundedge="100 100 0 0" align="bottom" x="0" y="106" onloaded="skin_calc_opened_closed();" onover="set(bgcolor, 0x0A0A0A);" onout="set(bgcolor, 0x0A0A0A);"> 
+			<layer name="btn_hide_icon" url="vskin.png" edge="center" distorted="false" crop="1429|69|64|64" scale="0.25" rotate="90" align="center" x="0" y="0" visible="true" onclick="hideskin()"  />
+			<layer name="btn_show_icon" url="vskin.png" crop="1369|69|64|64" scale="0.25" rotate="90" align="center"  x="0" y="0" visible="false" onclick="showskin()" />
+		</layer>
+		
+		<layer 	name="skin_thumbs_scrollright" type="container" style="skin_bg3|skin_glow3" bgroundedge="0 3 3 0" onover="set(layer[thumbs_scrollright].crop, 1439|137|64|64);" onout="set(layer[thumbs_scrollright].crop, 1439|69|64|64);" width="32" height="calc:skin_settings.thumbs_height + 2*skin_settings.design_thumbborder_padding + 24" align="rightbottom" edge="right" zorder="2" x="0" y="0" alpha="1.0" visible="true" ondown2="asyncloop(pressed, layer[skin_thumbs].scrollby(-2,0));" maskchildren="true"> 
+			<layer 	name="thumbs_scrollright" url="vskin.png" crop="1439|69|64|64" x="calc:30/2" y="calc:(skin_settings.thumbs_height + 2*skin_settings.design_thumbborder_padding + 20)/2 " edge="center" scale="0.5" enabled="false"/>
+		</layer>
+	</layer>
+	
+	<action name="switch_audiogid">		
+		switch(layer[btn_switch_on].visible); 
+		switch(layer[btn_switch_on].enabled); 
+		switch(layer[btn_switch_off].visible); 
+		switch(layer[btn_switch_off].enabled); 
+		
+		if(events[audiogidState].enabled === true, 
+			openurl(tour.php?audiogid=0, _self);
+		,
+			openurl(tour.php?audiogid=1, _self); 
+		);
+	</action>
+	<action name="toggleHotspotVisibility">
+
+		for(set(i,0), i LT hotspot[infospot2].count, inc(i),
+			set(hotspot[get(i)].visible, %1);
+		);
+		
+		if(%1 == 1, set(layer[btn_info].crop, 900|137|64|64); , set(layer[btn_info].crop, 900|69|64|64); );
+
+	</action>
+	<action name="group_scenename_go" scope="local" args="indexadd">
+	
+		trace(' ------- start group_scenename ------- ');	
+		
+		set(currentscene, get(scene[get(xml.scene)].name));
+		set(group_v.enabled, false);
+		trace('Деактивируем все группы');
+		
+		for(set(c,0), c LE group_v.count, inc(c),
+			getLevelGroup(get(c));
+			trace('ШАГ №', get(c));
+			
+			<!--if(events[audiogidState].enabled === true, 
+				trace('Аудиогид включен');
+				if(group_v[get(level)].enabled === true,
+					trace( 'group_v index = ', get(group_v[get(oldlevel)].index) );
+					add(newgroupindex, group_v[get(oldlevel)].index, indexadd);
+					trace('newgroupindex = ', get(newgroupindex) );
+					
+					sub(lastgroupindex, group_v.count, 1);
+					trace('lastgroupindex = ', get(lastgroupindex) );
+					
+					if(newgroupindex LT 0, copy(newgroupindex,lastgroupindex));
+					if(newgroupindex GT lastgroupindex, set(newgroupindex,0));
+					
+					for(set(q,1), q LE group_v[get(oldlevel)].group.count, inc(q),
+				
+						txtadd(object_4_html,'object_',get(q));	
+						
+						if(group_v[get(oldlevel)].group[get(object_4_html)].value === currentscene,
+							copy(sceneindex, scene[get(group_v[get(newgroupindex)].group[0].value)].index);
+							layer[skin_thumbs].scrolltocenter(get(scene[get(sceneindex)].thumbx), get(scene[get(sceneindex)].thumby));
+							loadscene(get(scene[get(sceneindex)].name), null, MERGE, OPENBLEND(0.5, 0.0, 0.75, 0.05, easeInQuart)); 
+							trace('Деактивируем все группы'); 
+							set(group_v.enabled, false);
+							exitcall(group_scenename_go);
+						);
+					);
+					
+					
+				);
+			,-->
+				trace('Аудиогид вЫключен');
+				if(group_v[get(level)].enabled === true,
+					trace('Активная группа = ', get(level));
+					trace( 'group_v index = ', group_v[get(level)].index );
+					add(newgroupindex, group_v[get(level)].index, indexadd);
+					trace('newgroupindex = ', get(newgroupindex) );
+					
+					sub(lastgroupindex, group_v.count, 1);
+					trace('lastgroupindex = ', get(lastgroupindex) );
+					
+					if(newgroupindex LT 0, copy(newgroupindex,lastgroupindex));
+					if(newgroupindex GT lastgroupindex, set(newgroupindex,0));
+					
+					for(set(q,1), q LE group_v[get(level)].group.count, inc(q),
+				
+						txtadd(object_5_html,'object_',get(q));	
+						
+						if(group_v[get(level)].group[get(object_5_html)].value === currentscene,
+							copy(sceneindex, scene[get(group_v[get(newgroupindex)].group[0].value)].index);
+						
+						
+							layer[skin_thumbs].scrolltocenter(get(scene[get(sceneindex)].thumbx), get(scene[get(sceneindex)].thumby));
+							loadscene(get(scene[get(sceneindex)].name), null, MERGE, OPENBLEND(0.5, 0.0, 0.75, 0.05, easeInQuart)); 
+							trace('Деактивируем все группы'); 
+							set(group_v.enabled, false);
+							exitcall(group_scenename_go);
+						);
+						
+					);
+					
+				);
+			<!--);-->
+			
+			
+		);
+		trace('------- end group_scenename ------- ');
+	</action>
+	<action name="group_scenename_title" scope="local" args="indexadd">
+	
+		trace(' ------- start group_scenename ------- ');	
+		trace('Деактивируем все группы');
+		set(group_v.enabled, false);
+		set(currentscene, get(scene[get(xml.scene)].name));
+		
+		for(set(c,0), c LE group_v.count, inc(c),
+			getLevelGroup(get(c));
+			trace('ШАГ №', get(c));
+			
+			<!--if(events[audiogidState].enabled === true, 
+				trace('Аудиогид включен');
+				if(group_v[get(level)].enabled === true,
+					trace( 'group_v index = ', get(group_v[get(oldlevel)].index) );
+					add(newgroupindex, group_v[get(oldlevel)].index, indexadd);
+					trace('newgroupindex = ', get(newgroupindex) );
+					
+					sub(lastgroupindex, group_v.count, 1);
+					trace('lastgroupindex = ', get(lastgroupindex) );
+					
+					if(newgroupindex LT 0, copy(newgroupindex,lastgroupindex));
+					if(newgroupindex GT lastgroupindex, set(newgroupindex,0));
+					
+					for(set(q,1), q LE group_v[get(oldlevel)].group.count, inc(q),
+				
+						txtadd(object_4_html,'object_',get(q));	
+						
+						if(group_v[get(oldlevel)].group[get(object_4_html)].value === currentscene,
+							trace('Активируем группу = ', get(oldlevel));
+							set(group_v[get(oldlevel)].enabled, true);
+							
+							copy(tooltip, scene[get(group_v[get(newgroupindex)].group[0].value)].title);
+							
+							copy(layer[info].html, tooltip);
+							set(layer[info].visible, calc(webvr.isenabled ? false : true));
+							set(layer[info2].visible, false);
+							set(layer[info].css, font-family: Open Sans; text-transform: uppercase; padding:0px 20px; color:#901518; font-weight: 600; text-align: center; font-size:14px;);
+							exitcall(group_scenename_title);
+						);
+						
+					);
+					
+					
+				);
+			,-->
+				trace('Аудиогид вЫключен');
+				if(group_v[get(level)].enabled === true,
+					trace('Активная группа = ', get(level));
+					trace( 'group_v index = ', group_v[get(level)].index ); 
+					add(newgroupindex, group_v[get(level)].index, indexadd);
+					trace('newgroupindex = ', get(newgroupindex) );
+					
+					sub(lastgroupindex, group_v.count, 1);
+					trace('lastgroupindex = ', get(lastgroupindex) );
+					
+					if(newgroupindex LT 0, copy(newgroupindex,lastgroupindex));
+					if(newgroupindex GT lastgroupindex, set(newgroupindex,0));
+					
+					for(set(q,1), q LE group_v[get(level)].group.count, inc(q),
+				
+						txtadd(object_5_html,'object_',get(q));	
+						
+						
+						if(group_v[get(level)].group[get(object_5_html)].value === currentscene,
+							trace( get(object_5_html) );
+							trace('Активируем группу = ', get(level));
+							set(group_v[get(level)].enabled, true);
+							
+							copy(tooltip, scene[get(group_v[get(newgroupindex)].group[0].value)].title);
+							
+							copy(layer[info].html, tooltip);
+							set(layer[info].visible, calc(webvr.isenabled ? false : true));
+							set(layer[info2].visible, false);
+							set(layer[info].css, font-family: Open Sans; text-transform: uppercase; padding:0px 20px; color:#901518; font-weight: 600; text-align: center; font-size:14px;);
+							exitcall(group_scenename_title);
+						);
+						
+					);
+					
+				);
+			<!--);-->
+			
+			
+		);
+		trace('------- end group_scenename ------- ');
+	</action>	
+		
+	<action name="default_tooltip">
+		copy(default_tooltip,scene[get(xml.scene)].title); 
+		copy(layer[info].html, default_tooltip); 
+		set(crop, 0|0|200|90); 
+		set(layer[info].bgborder, 0); 
+		set(layer[info2].visible,false); 
+		set(layer[info].visible, true); 
+		set(layer[info].css, font-family: Open Sans; text-transform: uppercase; padding:0px 30px; color:#0A0A0A; font-weight: 600; text-align: center; font-size:14px;);
+	</action>	
+	<action name="getscenename" >
+		set(titlescene, get(scene[get(xml.scene)].title));
+		if(titlescene == '', set(layer[info].visible, false);,set(layer[info].visible, true);calc(layer[info].html, titlescene););
+	</action>	
+	<action name="autorotate_turnon">
+		showtext(Enable auto rotation, btn_description);
+	</action>	
+	<action name="rotate_turnon">					
+		trace('Включили вращение');
+		set(layer[btn_restore_turnon].visible, false); 
+		set(layer[btn_restore_turnon].enable, false);
+		
+		set(layer[btn_restore_turnoff].visible, true); 
+		set(layer[btn_restore_turnoff].enable, true); 
+
+		set(autorotate.enabled, true); 
+	</action>		
+	<action name="autorotate_turnoff">
+		showtext(Disable auto-rotation, btn_description);
+	</action>	
+	<action name="rotate_turnoff">				
+		trace('Выключили вращение');
+		set(layer[btn_restore_turnoff].visible, false); 
+		set(layer[btn_restore_turnoff].enable, false); 
+		
+		set(layer[btn_restore_turnon].visible, true); 
+		set(layer[btn_restore_turnon].enable, true); 
+		
+		set(autorotate.enabled, false);
+	</action>
+	<action name="bgsound_onpause">
+		set(layer[layout_container].mainsound, 'pause');
+		if(events[audiogidState].enabled === true, 
+			set(layer[btn_play].visible, true); 
+			set(layer[btn_play].enabled, true);	
+			set(layer[btn_pause].visible, false);
+			set(layer[btn_pause].enabled, false); 
+		);
+		
+	</action>	
+	<action name="bgsound_onplay"> 
+		set(layer[layout_container].mainsound, 'play');
+		if(events[audiogidState].enabled === true, 
+			set(layer[btn_play].visible, false); 
+			set(layer[btn_play].enabled, false); 
+			set(layer[btn_pause].visible, true);  
+			set(layer[btn_pause].enabled, true);
+			getVolumeLevel();
+		);
+	</action>	
+	<action name="bgsound_play">
+		trace('Запуск фона');		
+		sound[audiobackground].play();
+		set(layer[layout_container].mainsound, 'play');	
+		getVolumeLevel();
+		
+		set(sound[audiobackground].onplay, bgsound_onplay(); );			
+		set(sound[audiobackground].onpause, bgsound_onpause(); );
+	</action>
+	<action name="play">
+		trace('Запуск звука');
+		
+		getLevelGroup(%1);
+		set(sound[audiobackground].muted, false ); 
+		getVolumeLevel();
+		bgsound_play(); <!-- включить фоновую музыку  -->
+		if(layer[btn_media_container].status_start === true, mediaShowHide(); set(layer[btn_media_container].status_start, false); );
+		rotate_turnon();
+		trace(group_v[get(level)].name);
+		<!--if(group_v[get(level)].name == 'level_21',		
+			rotate_turnoff();
+		);-->
+		jsget(enable_POPUP_TEXT, localStorage.getItem('enable_POPUP_TEXT'));
+		if(get(enable_POPUP_TEXT) != 'Y',
+			enable_POPUP_TEXT('Y'); 
+			if(layer[btn_hide_icon].visible == true, 
+				POPUP_TEXT('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile')); 
+				set(global.layer[POPUP_TEXT].y, calc(111 + 10 + 25));
+			,
+				POPUP_TEXT('html', get(data[text1].content), 400, 205, true, 'leftposition', calc(device.normal ? 'bottom_desktop' : 'bottom_mobile'));
+			);
+			set(layer[btn_texttype_turnon].visible, false); 
+			set(layer[btn_texttype_turnoff].visible, true);
+		);
+		<!--	
+		if(events[audiogidState].enabled === true, 
+			trace(get(events[audiogidState].enabled), ' включен аудиогид');
+			
+			
+		, 
+			trace(get(events[audiogidState].enabled), ' выключен аудиогид');
+			if(layer[btn_media_container].status_start === true, mediaShowHide(); set(layer[btn_media_container].status_start, false); );
+			rotate_turnon();
+		);
+		-->
+		getVolumeLevel();
+		trace('Имя предыдущей группы ', get(oldlevel));
+		trace('Имя группы ', get(level));
+		trace('Имя следующей группы ', get(newlevel));
+				
+				
+		trace('Если звук диктора ', get(level) , ' не создан, но группа ', get(level), 'активна'); 
+		
+		set(group_v[get(oldlevel)].enabled, false);
+		set(group_v[get(level)].enabled, true);
+		
+		set(layer[btn_play].visible, false); 
+		set(layer[btn_play].enabled, false); 
+		set(layer[btn_pause].visible, true);  
+		set(layer[btn_pause].enabled, true);
+		
+		<!--set(layer[btn_play].onclick, bgsound_play() );
+		set(layer[btn_pause].onclick, bgsound_pause() );-->
+		<!--
+		sound[get(level)].play();
+		-->
+		set(events[audiogidState].soundd, true);
+		<!--
+		trace('Запускаем диктора - ', get(level));
+		set(sound[get(level)].onplay, 
+			trace('Воспроизводится звук с именем ', get(level) , ' в play'); 
+			set(layer[btn_play].visible, false); 
+			set(layer[btn_play].enabled, false); 
+			set(layer[btn_pause].visible, true);  
+			set(layer[btn_pause].enabled, true);
+		);
+		
+		set(sound[get(level)].onpause, 
+			set(layer[btn_play].visible, true); 
+			set(layer[btn_play].enabled, true); 
+			set(layer[btn_pause].visible, false);
+			set(layer[btn_pause].enabled, false); 
+		);
+		
+		set(sound[get(level)].oncomplete,				
+			trace('Воспроизведение диктора завершилось');
+			
+			set(layer[btn_play].onclick, bgsound_play() );
+			set(layer[btn_pause].onclick, bgsound_pause() );
+			
+			set(layer[btn_right_container].visible, true);
+			
+			set(layer[btn_right_container].bgborder, 0);
+			set(layer[btn_right_container].bgcolor, 0x901518);							
+			set(layer[btn_right].crop, 1439|69|64|64);
+			
+			set(layer[btn_right_container].onout,
+				default_tooltip(); 
+				set(layer[btn_right].crop, 1439|69|64|64); 
+				set(bgborder,0); 
+				set(bgalpha, 0.66);
+			);
+			
+			set(layer[btn_right_container].onover, 
+				group_scenename_title(+1); 							
+				set(layer[btn_right].crop, 1439|69|64|64); 
+				set(bgborder, 2 0x901518); 
+				set(bgalpha, 1.0);
+			);
+			
+			trace('ссылка на плей = ', get(layer[btn_play].onclick));
+			trace('ссылка на паузу = ', get(layer[btn_pause].onclick));
+			if(events[audiogidState].enabled === true,
+				if(layer[layout_container].mainsound === 'play', bgsound_onplay();, bgsound_onpause(); );
+				
+				set(group_v[get(oldlevel)].enabled, false);
+				trace('Предыдущую группу ', get(oldlevel) ,' автогида деактивируем'); 
+				
+				set(group_v[get(level)].enabled, false);
+				trace('Текущую группу ', get(level) ,' автогида деактивируем'); 
+				
+				set(group_v[get(newlevel)].enabled, true);
+				trace('Следующую группу ', get(newlevel) ,' автогида активируем'); 
+				
+				trace(get(events[audiogidState].enabled), ' включен аудиогид'); 
+				trace('nextnum = ', get(nextnum));
+				autogid( get(nextnum) );
+			,
+				if(layer[layout_container].mainsound === 'play', bgsound_onplay();, bgsound_onpause(); );
+				set(events[audiogidState].soundd, true); 
+				
+				createsound(get(level), get(group_v[get(level)].voice),false);				
+								
+				set(layer[btn_play].visible, true); 
+				set(layer[btn_play].enabled, true);	
+				set(layer[btn_pause].visible, false);
+				set(layer[btn_pause].enabled, false);
+			);
+			-->
+		
+		);
+	</action>	
+	<action name="pause">
+		getLevelGroup(%1);
+		
+		set(group_v[get(oldlevel)].enabled, false);
+		set(group_v[get(level)].enabled, true);
+		set(group_v[get(newlevel)].enabled, false);
+		
+		sound[get(level)].pause();
+		trace('Ставим на паузу диктора - ', get(level));
+		
+		if(events[audiogidState].enabled === true, 
+			trace(get(events[audiogidState].enabled), ' включен аудиогид'); 
+			rotate_turnoff();
+			bgsound_pause();
+		, 
+			trace(get(events[audiogidState].enabled), ' выключен аудиогид');
+			set(events[audiogidState].soundd, false);
+			rotate_turnoff();
+			bgsound_pause();
+		);
+		
+	</action>
+	<action name="bgsound_pause">
+		sound[audiobackground].pause();
+		set(layer[layout_container].mainsound, 'pause');
+		trace('Ставим на паузу фон - audiobackground');
+		rotate_turnoff();
+	
+		set(layer[btn_play].visible, true); 
+		set(layer[btn_play].enabled, true); 
+		set(layer[btn_pause].visible, false);
+		set(layer[btn_pause].enabled, false);		
+	</action>
+	<action name="restoresound">
+		set(scenename, get(scene[get(xml.scene)].name));
+		if(sound[get(scenename)].onplay,
+			stopsound(get(scenename));
+			sound[get(scenename)].play();
+			set(layer[btn_play].onclick, playsound(get(scenename)); set(scene[get(xml.scene)].soundd, start); );
+			set(sound[get(scenename)].onplay, set(layer[btn_play].visible, false); set(layer[btn_pause].visible, true); );
+			set(sound[get(scenename)].onpause, set(layer[btn_play].visible, true); set(layer[btn_pause].visible, false););
+			set(sound[get(scenename)].oncomplete,
+				set(layer[btn_play].visible, true); 
+				set(layer[btn_pause].visible, false);
+				createsound(get(scenename),get(voice[get(scenename)].url),false); 
+				set(scene[get(xml.scene)].soundd, end);
+			);
+		,
+			stopsound(get(scenename));
+			sound[get(scenename)].play();
+			set(layer[btn_play].onclick, playsound(get(scenename)); set(scene[get(xml.scene)].soundd, start); );
+			set(sound[get(scenename)].onplay, set(layer[btn_play].visible, false); set(layer[btn_pause].visible, true); );
+			set(sound[get(scenename)].onpause, set(layer[btn_play].visible, true); set(layer[btn_pause].visible, false););
+			set(sound[get(scenename)].oncomplete,
+				set(layer[btn_play].visible, true); 
+				set(layer[btn_pause].visible, false);
+				createsound(get(scenename),get(voice[get(scenename)].url),false); 
+				set(scene[get(xml.scene)].soundd, end);
+			);
+		);
+	</action>
+	
+	<action name="bgsoundlevel" type="Javascript">
+	<![CDATA[
+		var krpano = document.getElementById("krpanoSWFObject");
+		var levelsound = krpano.get("plugin[soundinterface].volume");
+		localStorage.setItem("levelsound", levelsound);
+		console.log('Громкость = ', levelsound);
+	]]>
+	</action>
+	
+	<action name="setVolumePlus">
+		set(currentvolumelevel, get(plugin[soundinterface].volume));
+		if (currentvolumelevel === 0.04, set(plugin[soundinterface].volume, 0.20 ) );
+		if (currentvolumelevel === 0.20, set(plugin[soundinterface].volume, 0.48 ) );
+		if (currentvolumelevel === 0.48, set(plugin[soundinterface].volume, 0.64 ) );
+		if (currentvolumelevel === 0.64, set(plugin[soundinterface].volume, 0.8 ) );
+		if (currentvolumelevel === 0.8, set(plugin[soundinterface].volume, 0.96 ) );
+		getVolumeLevel();
+	</action>
+	<action name="setVolumeMinus">
+		set(currentvolumelevel, get(plugin[soundinterface].volume));
+		if (currentvolumelevel === 0.20, set(plugin[soundinterface].volume, 0.04 ) );
+		if (currentvolumelevel === 0.48, set(plugin[soundinterface].volume, 0.20 ) );
+		if (currentvolumelevel === 0.64, set(plugin[soundinterface].volume, 0.48 ) );
+		if (currentvolumelevel === 0.8, set(plugin[soundinterface].volume, 0.64 ) );
+		if (currentvolumelevel === 0.96, set(plugin[soundinterface].volume, 0.8 ) );
+		 getVolumeLevel();
+	</action>
+	<action name="switchsound">
+		if(layer[btn_sound_icon].visible === true, <!-- если звук включен -->
+			if(events[audiogidState].enabled === true,
+				set(plugin[soundinterface].volume, 0.04);
+				getVolumeLevel();
+			,
+				set(sound[audiobackground].muted, true);
+				sound[audiobackground].pause();
+				set(layer[layout_container].mainsound, 'pause');
+				trace('Ставим на паузу фон - audiobackground');
+			);				
+			set(layer[btn_sound_icon_mute].crop, 1574|69|64|64); 
+			set(layer[btn_sound_icon_mute].visible,true); 
+			set(layer[btn_sound_icon].visible, false);
+			
+		, <!-- если звук выключен -->
+			jsget(levelsound, localStorage.getItem("levelsound"));
+			trace( "levelsound в switchsound = ", levelsound);
+			set(plugin[soundinterface].volume, get(levelsound) );
+			
+			if(events[audiogidState].enabled === true,
+				getVolumeLevel();
+			,
+				set(sound[audiobackground].muted, false);							
+				
+				trace('Запуск фона');		
+				sound[audiobackground].play();
+				set(layer[layout_container].mainsound, 'play');	
+			);
+				
+			set(layer[btn_sound_icon].crop, 628|69|64|64); 
+			set(layer[btn_sound_icon].visible,true); 
+			set(layer[btn_sound_icon_mute].visible, false);
+		);
+		
+	</action>
+	<action name="getVolumeLevel">		
+		set(currentvolumelevel, get(plugin[soundinterface].volume));
+		set(currentmute, get(sound[audiobackground].muted) );
+		bgsoundlevel();
+		jsget(levelsound, localStorage.getItem("levelsound")); 
+		trace( "levelsound = ", levelsound);
+		if (currentvolumelevel === 0.04, set(layer[player_vol].crop, 0|105|39|96) );
+		if (currentvolumelevel === 0.20, set(layer[player_vol].crop, 49|105|39|96) );
+		if (currentvolumelevel === 0.48, set(layer[player_vol].crop, 98|105|39|96) );
+		if (currentvolumelevel === 0.64, set(layer[player_vol].crop, 147|105|39|96) );
+		if (currentvolumelevel === 0.8, set(layer[player_vol].crop, 196|105|39|96) );
+		if (currentvolumelevel === 0.96, set(layer[player_vol].crop, 245|105|39|96) );
+		if (currentvolumelevel === 0.04, 
+			set(layer[btn_sound_icon_mute].crop, 1574|69|64|64); 
+			set(layer[btn_sound_icon_mute].visible,true); 
+			set(layer[btn_sound_icon].visible, false);
+		,
+			set(layer[btn_sound_icon].crop, 628|69|64|64); 
+			set(layer[btn_sound_icon].visible,true); 
+			set(layer[btn_sound_icon_mute].visible, false);
+		);
+		<!--
+		if(events[audiogidState].enabled === true, 
+			if (currentvolumelevel === 0.04, 
+				set(layer[btn_sound_icon_mute].crop, 1574|69|64|64); 
+				set(layer[btn_sound_icon_mute].visible,true); 
+				set(layer[btn_sound_icon].visible, false);
+			,
+				set(layer[btn_sound_icon].crop, 628|69|64|64); 
+				set(layer[btn_sound_icon].visible,true); 
+				set(layer[btn_sound_icon_mute].visible, false);
+			);
+		,
+			if(currentmute === true, 
+				set(layer[btn_sound_icon_mute].crop, 1574|69|64|64); 
+				set(layer[btn_sound_icon_mute].visible,true); 
+				set(layer[btn_sound_icon].visible, false);
+				sound[audiobackground].pause();
+				set(layer[layout_container].mainsound, 'pause');
+				trace('Ставим на паузу фон - audiobackground');
+			,
+				set(layer[btn_sound_icon].crop, 628|69|64|64); 
+				set(layer[btn_sound_icon].visible,true); 
+				set(layer[btn_sound_icon_mute].visible, false);				
+				
+				trace('Запуск фона');		
+				sound[audiobackground].play();
+				set(layer[layout_container].mainsound, 'play');
+			);
+		);-->
+	</action>	
+	
+	<action name="playerHide">
+		if(layer[btn_show_icon].visible === false, 
+			if(layer[player_panel_container].hidden === false, <!--если открыт плеер-->
+				tween(layer[btn_player_container].y, 111, get(hidetime)); 
+				tween(layer[player_panel_container].y, calc(- get(layer[player_panel_container].height)), get(hidetime)); 
+				set(layer[player_panel_container].hidden, true);
+			);
+		,
+			if(layer[player_panel_container].hidden === false, <!--если открыт плеер-->
+				tween(layer[btn_player_container].y, 5, get(hidetime)); 
+				tween(layer[player_panel_container].y, calc(- get(layer[player_panel_container].height)), get(hidetime)); 
+				set(layer[player_panel_container].hidden, true);
+			);
+		);
+	</action>
+	<action name="playerShowHide">
+		if(layer[btn_show_icon].visible === false, <!--если открыта нижняя панель-->
+			if(layer[player_panel_container].hidden === false, <!--если открыт плеер-->
+				tween(layer[btn_player_container].y, 111, get(hidetime)); 
+				tween(layer[player_panel_container].y, calc(- get(layer[player_panel_container].height)), get(hidetime)); 
+				set(layer[player_panel_container].hidden, true);
+			, <!--если закрыт плеер-->
+				tween(layer[btn_player_container].y, 309, get(hidetime)); 
+				tween(layer[player_panel_container].y, 111, get(hidetime));
+				set(layer[player_panel_container].hidden, false);
+			);
+		, <!--если закрыта нижняя панель-->
+			if(layer[player_panel_container].hidden === false, <!--если открыт плеер-->
+				tween(layer[btn_player_container].y, 5, get(hidetime)); 
+				tween(layer[player_panel_container].y, calc(- get(layer[player_panel_container].height)), get(hidetime)); 
+				set(layer[player_panel_container].hidden, true);
+			, <!--если закрыт плеер-->
+				tween(layer[btn_player_container].y, 203, get(hidetime)); 
+				tween(layer[player_panel_container].y, 5, get(hidetime)); 
+				set(layer[player_panel_container].hidden, false);
+			);
+		);
+	</action>
+	<action name="menuShowHide">
+		if(layer[menu_panel_container].hidden === false, <!--если открыт плеер-->	
+			set(layer[btn_menu].visible, true);
+			set(layer[btn_menu_close].visible, false);
+			tween(layer[btn_menu_container].y, 5, get(hidetime)); 
+			tween(layer[menu_panel_container].y, calc(- get(layer[menu_panel_container].height)), get(hidetime)); 
+			set(layer[menu_panel_container].hidden, true);
+		, <!--если закрыт плеер-->
+			set(layer[btn_menu].visible, false);
+			set(layer[btn_menu_close].visible, true);
+			tween(layer[btn_menu_container].y, 86, get(hidetime)); 
+			tween(layer[menu_panel_container].y, 5, get(hidetime)); 
+			set(layer[menu_panel_container].hidden, false);
+		);
+	</action>
+	
+	<action name="mediaHide">
+		if(layer[btn_show_icon].visible === false, 
+			if(layer[media_panel_container].hidden === false, <!--если открыт плеер-->
+				tween(layer[btn_media_container].y, 111, get(hidetime)); 
+				tween(layer[media_panel_container].y, calc(- get(layer[media_panel_container].height)), get(hidetime)); 
+				set(layer[media_panel_container].hidden, true);
+			);
+		,
+			if(layer[media_panel_container].hidden === false, <!--если открыт плеер-->
+				tween(layer[btn_media_container].y, 5, get(hidetime)); 
+				tween(layer[media_panel_container].y, calc(- get(layer[media_panel_container].height)), get(hidetime)); 
+				set(layer[media_panel_container].hidden, true);
+			);
+		);
+	</action>
+	<action name="mediaShowHide">
+		set(layer[btn_media_container].status_start, false);
+		
+		if(layer[btn_show_icon].visible === false, <!--если открыта нижняя панель-->
+			if(layer[media_panel_container].hidden === false, <!--если открыт плеер-->
+				tween(layer[btn_media_container].y, 111, get(hidetime)); 
+				tween(layer[media_panel_container].y, calc(- get(layer[media_panel_container].height)), get(hidetime)); 
+				set(layer[media_panel_container].hidden, true);
+			, <!--если закрыт плеер-->
+				tween(layer[btn_media_container].y, 309, get(hidetime)); 
+				tween(layer[media_panel_container].y, 111, get(hidetime));
+				set(layer[media_panel_container].hidden, false);
+			);
+		, <!--если закрыта нижняя панель-->
+			if(layer[media_panel_container].hidden === false, <!--если открыт плеер-->
+				tween(layer[btn_media_container].y, 5, get(hidetime)); 
+				tween(layer[media_panel_container].y, calc(- get(layer[media_panel_container].height)), get(hidetime)); 
+				set(layer[media_panel_container].hidden, true);
+			, <!--если закрыт плеер-->
+				tween(layer[btn_media_container].y, 203, get(hidetime)); 
+				tween(layer[media_panel_container].y, 5, get(hidetime)); 
+				set(layer[media_panel_container].hidden, false);
+			);
+		);
+	</action>
+	<action name="hideskin" scope="local" args="hidetimemode">
+		set(layer[btn_map].crop, 832|69|64|64);
+		tween(global.layer[POPUP_TEXT].y, calc(10 + 25));
+		
+		calc(hidetime, hidetimemode == 'instant' ? 0.0 : 0.5);
+		
+		callwith(layer[btn_hide_show],   skin_calc_opened_closed() );
+		callwith(layer[player_skin_control_bar],   skin_calc_opened_closed() );
+		callwith(layer[skin_scroll_window],   skin_calc_opened_closed() );
+		
+
+		tween(layer[btn_hide_show].y,  calc( get(layer[btn_hide_show  ].y_closed) - 6), get(hidetime));
+		<!--tween(layer[player_skin_control_bar].y,   get(layer[player_skin_control_bar  ].y_closed), get(hidetime));-->
+		tween(layer[skin_scroll_window].y,   calc(get(layer[skin_scroll_window  ].y_closed) - 6), get(hidetime));
+		
+		
+		
+		if(layer[player_panel_container].hidden === true, 
+			tween(layer[btn_player_container].y, 5, get(hidetime));
+			tween(layer[player_panel_container].y, calc(- get(layer[player_panel_container].height)), get(hidetime)); 
+			set(layer[player_panel_container].hidden, true);
+		);
+		if(layer[player_panel_container].hidden === false, 
+			tween(layer[btn_player_container].y, 203, get(hidetime)); 
+			tween(layer[player_panel_container].y, 5, get(hidetime));
+			set(layer[player_panel_container].hidden, false);
+		);
+		
+		
+		
+		if(layer[media_panel_container].hidden === true, 
+			tween(layer[btn_media_container].y, 5, get(hidetime));
+			tween(layer[media_panel_container].y, calc(- get(layer[media_panel_container].height)), get(hidetime)); 
+			set(layer[media_panel_container].hidden, true);
+		);
+		if(layer[media_panel_container].hidden === false, 
+			tween(layer[btn_media_container].y, 203, get(hidetime)); 
+			tween(layer[media_panel_container].y, 5, get(hidetime));
+			set(layer[media_panel_container].hidden, false);
+		);
+		
+		tween(layer[skin_thumbs_scrollleft].y, calc(-112/2), 0.5);
+		tween(layer[skin_thumbs_scrollright].y, calc(-112/2), 0.5);
+		
+		set(layer[btn_hide_icon].visible, false);
+		set(layer[btn_show_icon].visible, true);
+	</action>
+	<action name="showskin">
+		
+		set(layer[btn_map].crop, 832|137|64|64);
+		tween(global.layer[POPUP_TEXT].y, calc(111 + 10 + 25));
+		
+		tween(layer[btn_hide_show  ].y, get(layer[btn_hide_show  ].y_opened));
+		tween(layer[player_skin_control_bar  ].y, get(layer[player_skin_control_bar  ].y_opened));
+		tween(layer[skin_scroll_window  ].y, get(layer[skin_scroll_window  ].y_opened));
+		
+		if(layer[player_panel_container].hidden === true, 
+			tween(layer[btn_player_container].y, 111, get(hidetime));
+		);
+		if(layer[player_panel_container].hidden === false, 
+			tween(layer[btn_player_container].y, 309, get(hidetime)); 
+			tween(layer[player_panel_container].y, 111, get(hidetime));
+		);
+		
+		if(layer[media_panel_container].hidden === true, 
+			tween(layer[btn_media_container].y, 111, get(hidetime));
+		);
+		if(layer[media_panel_container].hidden === false, 
+			tween(layer[btn_media_container].y, 309, get(hidetime)); 
+			tween(layer[media_panel_container].y, 111, get(hidetime));
+		);
+		
+		tween(layer[skin_thumbs_scrollleft].y, calc(112/2 - 6), 0.5);
+		tween(layer[skin_thumbs_scrollright].y, calc(112/2 - 6), 0.5);
+		
+		set(layer[btn_hide_icon].visible, true);
+		set(layer[btn_show_icon].visible, false);
+	</action>	
+	<action name="tooltipIn">
+		set(layerparentname, get(name));
+		<!--calc(newnametooltip, layerparentname + '_trick');-->
+		
+		if(layer[get(layerparentname)].align === 'topright' OR layer[get(layerparentname)].align === 'bottomright' OR layer[get(layerparentname)].align === 'right',
+			set(new_align, left);
+			set(new_x, -10);
+			set(new_rotate, 0);
+		);
+		if(layer[get(layerparentname)].align === 'topleft' OR layer[get(layerparentname)].align === 'bottomleft' OR layer[get(layerparentname)].align === 'left',
+			set(new_align, right);
+			set(new_x, -5);
+			set(new_rotate, 180);
+		);
+		<!--
+		if(!layer[get(newnametooltip)], 
+			addlayer(get(newnametooltip));
+			set(layer[get(newnametooltip)],
+				rotate = get(new_rotate),
+				align = get(new_align), 
+				edge = get(new_align), 
+				visible = "true", 
+				enabled = "false", 
+				x = get(new_x)
+			);
+			set(layer[get(newnametooltip)].url, calc('skin/player/' + get(layer[layout_container].shevron)));
+			set(layer[get(newnametooltip)].visible, true);
+		, 
+			if(layer[get(newnametooltip)].visible === true,
+				set(layer[get(newnametooltip)].visible, false);
+			,
+				set(layer[get(newnametooltip)].visible, true);
+			);
+		);
+		-->
+	</action>
+	<action name="tooltipIn2">
+		set(layerparentname, get(name));
+		set(textstyle[btn_description].parent, get(name));
+		
+		if(layer[get(layerparentname)].align === 'topright' OR layer[get(layerparentname)].align === 'bottomright' OR layer[get(layerparentname)].align === 'right',
+			set(textstyle[btn_description].origin, "right"); 
+			set(textstyle[btn_description].edge, "right" ); 
+			set(textstyle[btn_description].xoffset, -44);
+		);
+		if(layer[get(layerparentname)].align === 'topleft' OR layer[get(layerparentname)].align === 'bottomleft' OR layer[get(layerparentname)].align === 'left',
+			set(textstyle[btn_description].origin, "left"); 
+			set(textstyle[btn_description].edge, "left" ); 
+			set(textstyle[btn_description].xoffset, 44);
+		);
+		
+	</action>
+</krpano>
