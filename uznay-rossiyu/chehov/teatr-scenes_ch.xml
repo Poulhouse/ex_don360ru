@@ -1,6 +1,6 @@
 <krpano>
 	
-	<scene name="scene_0020+" title="27. Theatre by Chehov" number="[b]- 27 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0020+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0020+" title="27. 契诃夫的戏剧" number="[b]- 27 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0020+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-41.66" vlookat="-13.42" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -24,14 +24,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				In the autumn of 1873, a new phase in the life of young Chekhov began in Taganrog - the theatre.
+				1873 年秋天，年轻的契诃夫生活的新阶段在塔甘罗格开始了——剧院。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0021+" title="28. Theatre by Chehov" number="[b]- 28 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0021+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0021+" title="28. 契诃夫的戏剧" number="[b]- 28 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0021+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-25.81" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -55,14 +55,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				The people of Taganrog were rightfully proud of their theatre which hosted famous actors of that time; famous theatre companies from Moscow, St. Petersburg and foreign countries performed on its stage.
+				塔甘罗格的人民为他们的剧院感到自豪，因为那里有当时著名的演员。 来自莫斯科、圣彼得堡和国外的著名剧团在其舞台上演出。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0022+" title="29. Theatre by Chehov" number="[b]- 29 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0022+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0022+" title="29. 契诃夫的戏剧" number="[b]- 29 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0022+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -86,14 +86,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				The theatre building was built in 1866. It is small, well-planned inside, and it has excellent acoustics. A cosy parterre is surrounded by boxes and a gallery. The gymnasium student Anton Chekhov watched immortal plays, listened to the music of great composers from this spacious gallery, and a ticket cost 40 kopecks in silver.
+				剧院大楼建于1866年，规模不大，内部布局合理，音响效果极佳。 舒适的花坛四周环绕着包厢和画廊。 体育馆学生安东·契诃夫在这个宽敞的画廊里观看了不朽的戏剧，聆听了伟大作曲家的音乐，票价为 40 戈比银币。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0023+" title="30. Theatre by Chehov" number="[b]- 30 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0023+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0023+" title="30. 契诃夫的戏剧" number="[b]- 30 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0023+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="180" vlookat="6.604395517372959" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -117,14 +117,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				The passion for theatre was widespread. But it was especially popular among young people, gymnasium students. The latter were strictly forbidden to visit the theatre, a permission was given only in exceptional cases for good academic performance and good behaviour.
+				对戏剧的热情是普遍的。 但它在年轻人，体育生中尤其受欢迎。 后者被严格禁止参观剧院，只有在学术表现良好和行为良好的特殊情况下才允许。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0024+" title="31. Theatre by Chehov" number="[b]- 31 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0024+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0024+" title="31. 契诃夫的戏剧" number="[b]- 31 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0024+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-23.55" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -148,14 +148,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				The first performance that the Chekhov brothers got to see was “Beautiful Helena”. As it was written in the posters, it was a fantastic comic opera in three acts by Halevy and Meilhac reworked from the French language by Valiano, music by Jacques Offenbach. The performance made an amazing impression on the teenagers.
+				契诃夫兄弟的第一场演出是《美丽的海伦娜》。 正如海报上写的那样，这是一部精彩的喜剧歌剧，由 Halevy 和 Meilhac 创作的三幕喜剧由 Valiano 从法语改编而成，音乐由雅克·奥芬巴赫 (Jacques Offenbach) 创作。 表演给青少年留下了深刻的印象。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0025+" title="32. Theatre by Chehov" number="[b]- 32 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0025+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0025+" title="32. 契诃夫的戏剧" number="[b]- 32 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0025+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="88.41" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -179,14 +179,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				Anton Chekhov turned out to be a passionate fan of the theatre. He tried all the means invented by gymnasium students for secret entry into theatre: he changed into civilian clothes, put on make-up, glued on moustache, beard, and slipped “invisibly” past the controller.<br>And on his return from the theatre, Anton could not wait to convey the whole performance in person to his family.
+				安东·契诃夫 (Anton Chekhov) 原来是剧院的狂热粉丝。 他尝试了所有体育学生发明的秘密进入剧院的方法：他换上便服，化妆，粘上小胡子和胡须，然后“隐形”地溜过控制器。<br>在他回来后 剧院里，安东迫不及待地将整场演出亲自传达给家人。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0026+" title="33. Theatre by Chehov" number="[b]- 33 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0026+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0026+" title="33. 契诃夫的戏剧" number="[b]- 33 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0026+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="155.77923514543528" vlookat="-9.994148869789022" fovtype="MFOV" fov="81.04339997530613" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -210,14 +210,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				Very soon, his directorial energy required a new dimension. In the house of his school friend Andrei Drossi there were opportunities for that. Several rooms were allocated there for performances.
+				很快，他的导演能量需要一个新的维度。 在他的学校朋友安德烈·德罗西 (Andrei Drossi) 的家里，有这样的机会。 那里分配了几个房间用于表演。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0027+" title="34. Theatre by Chehov" number="[b]- 34 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0027+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0027+" title="34. 契诃夫的戏剧" number="[b]- 34 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0027+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="178.55" vlookat="-53.03" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -241,14 +241,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				Everything was like in a real theatre: the “theatre” lamps were lit, the cretonne curtain with parrots and a firebird pasted on it parted, there was a theatrical wardrobe and stage props. The audience - the owners and servants of the house - were given numbered tickets. Anton picked up the troupe from among the inveterate theatregoers.
+				一切都像在一个真正的剧院里：“剧院”灯亮着，布满鹦鹉和火鸟的窗帘分开了，有一个戏剧衣橱和舞台道具。 观众——房子的主人和仆人——得到了编号的门票。 安东从老练的剧院观众中挑选了剧团。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0028+" title="35. Theatre by Chehov" number="[b]- 35 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0028+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0028+" title="35. 契诃夫的戏剧" number="[b]- 35 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0028+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-47.5804878379853" vlookat="3.101464883219672" fovtype="MFOV" fov="58.8474964577744" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -272,14 +272,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				Many biographers of A.P. Chekhov are surprised at how quickly his writing talent manifested itself; how the yesterday’s schoolboy turned out to have erudition which allowed him almost immediately upon his arrival from provincial Taganrog to Moscow to appear in print not only with humorous stories but also with serious theatre reviews. And this phenomenon can be explained as follows: a passion for theatre led to a serious passion for reading.
+				契诃夫的许多传记作者都惊讶于他的写作才能如此迅速地显现出来。 昨天的男学生如何证明博学多才，使他几乎立即从塔甘罗格省到达莫斯科后，不仅以幽默的故事而且还以严肃的戏剧评论出现在印刷品中。 而这种现象可以解释如下：对戏剧的热情导致了对阅读的严重热情。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0029+" title="36. Theatre by Chehov" number="[b]- 36 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0029+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0029+" title="36. 契诃夫的戏剧" number="[b]- 36 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0029+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-43.98" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -303,14 +303,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				The first play by Chekhov played at the Taganrog Theatre was The Seagull. It was staged in 1896 and was an exceptional success. On 25 October 1903, Uncle Vanya and The Wedding were staged, in March 1904 – The Cherry Orchard.
+				契诃夫在塔甘罗格剧院上演的第一部戏剧是《海鸥》。 它于 1896 年上演，并取得了非凡的成功。 1903 年 10 月 25 日，万尼亚叔叔和婚礼上演，1904 年 3 月——樱桃园。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0030+" title="37. Theatre by Chehov" number="[b]- 37 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0030+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0030+" title="37. 契诃夫的戏剧" number="[b]- 37 -[/b]" onstart="" thumburl="../teatr-chehova/panos/0030+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="90.0" vlookat="-89.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -334,7 +334,7 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				In 1944, by the resolution of the Council of People’s Commissars of the USSR “On measures to perpetuate the memory of Anton Pavlovich Chekhov in connection with the 40th anniversary of his death”, the Taganrog Theatre was named after Anton Pavlovich Chekhov.
+				1944 年，根据苏联人民委员会“关于为纪念安东·巴甫洛维奇·契诃夫逝世 40 周年而永久纪念的措施”的决议，塔甘罗格剧院以安东·巴甫洛维奇·契诃夫的名字命名。
 			</div>
 
 		]]></data>

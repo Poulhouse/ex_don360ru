@@ -1,29 +1,6 @@
 <krpano>
-	
-	<!--<scene name="scene_0001" title="ул. Чехова" onstart="" thumburl="../domik-chehova/panos/0001.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="-124.36" vlookat="-78.19" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
-
-		<preview url="../domik-chehova/panos/0001.tiles/preview.jpg" />
-
-		<image type="CUBE" multires="true" tilesize="512">
-			<level tiledimagewidth="512" tiledimageheight="512">
-				<cube url="../domik-chehova/panos/0001.tiles/%s/l4/%v/l4_%s_%v_%h.jpg" />
-			</level>
-			<level tiledimagewidth="1024" tiledimageheight="1024">
-				<cube url="../domik-chehova/panos/0001.tiles/%s/l3/%v/l3_%s_%v_%h.jpg" />
-			</level>
-			<level tiledimagewidth="2048" tiledimageheight="2048">
-				<cube url="../domik-chehova/panos/0001.tiles/%s/l2/%v/l2_%s_%v_%h.jpg" />
-			</level>
-			<level tiledimagewidth="4096" tiledimageheight="4096">
-				<cube url="../domik-chehova/panos/0001.tiles/%s/l1/%v/l1_%s_%v_%h.jpg" />
-			</level>
-		</image> 
-
-	</scene>-->
-
-	<scene name="scene_0002__" title="[b]1.[/b] Chehov's House" number="[b]- 1 -[/b]" onstart="" thumburl="../domik-chehova/panos/0002__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0002__" title="[b]1.[/b] 契诃夫故居" number="[b]- 1 -[/b]" onstart="" thumburl="../domik-chehova/panos/0002__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-120" vlookat="-47.78" fovtype="MFOV" fov="40" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -47,14 +24,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				- Chekhov is still not well and truly known ... - wrote Ivan Bunin. And he was not so wrong in his 20th century. Even in the 21st century, the personality of this great man is often hidden behind the clichés imposed by time, and only occasionally Chekhov’s pince-nez gleams ironically from those Chekhovian times, as if reminding: “Not everything is so simple with me, gentlemen! ...
+				- 契诃夫仍然不为人所知...... - 伊万·布宁写道。 在他的 20 世纪，他并没有错。 即使在21世纪，这位伟人的个性也常常隐藏在陈词滥调的背后，只是偶尔契诃夫的夹鼻眼镜从契诃夫时代讽刺地闪烁着光芒，仿佛在提醒：“先生们，并非一切都那么简单 ！ ...
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0003+" title="[b]2.[/b] Chehov's House" number="[b]- 2 -[/b]" onstart="" thumburl="../domik-chehova/panos/0003+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0003+" title="[b]2.[/b] 契诃夫故居" number="[b]- 2 -[/b]" onstart="" thumburl="../domik-chehova/panos/0003+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-34.09" vlookat="20.61" fovtype="MFOV" fov="27.61" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -78,14 +55,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				Anton Pavlovich Chekhov, the world’s most famous Russian playwright and great Russian writer, “our everything” of the 20th century, probably, was supposed to be born in such a small house “with three windows” which even today is seen by passers-by on the street of Taganrog that without doubt bears his name. Was supposed – because he wrote about life which often takes place in such small houses with ordinary people, but he wrote in such a way that the reader’s heart was twisted from pity for those people and the reader definitely wanted to change something in that life.
+				安东·巴甫洛维奇·契诃夫，世界最著名的俄罗斯剧作家和伟大的俄罗斯作家，20世纪的“我们的一切”，大概应该出生在这样一个“三扇窗”的小房子里，即使在今天也被路人看到 在毫无疑问以他的名字命名的塔甘罗格街上。 应该是——因为他写的是经常发生在这样的小房子里和普通人在一起的生活，但他的写作方式让读者的心因对这些人的怜悯而扭曲，读者肯定希望在那种生活中有所改变。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0004+" title="[b]3.[/b] Chehov's House" number="[b]- 3 -[/b]" onstart="" thumburl="../domik-chehova/panos/0004+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0004+" title="[b]3.[/b] 契诃夫故居" number="[b]- 3 -[/b]" onstart="" thumburl="../domik-chehova/panos/0004+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-7.53" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -109,14 +86,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				This tiny building where the family lived for less than two years is now known throughout the world. Any Taganrog schoolchild will show the way here to a guest of the city. The house became a museum, however, only in Soviet times. If the visitor is lucky enough to get here on the writer’s birthday - January 29 – he/she will have an opportunity to watch a theatrical performance.
+				这家人住了不到两年的这座小建筑现在举世闻名。 任何塔甘罗格学童都会向这座城市的客人指路。 然而，这座房子仅在苏联时期才成为博物馆。 如果参观者有幸在作家的生日 - 1 月 29 日到达这里 - 他/她将有机会观看戏剧表演。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0005+" title="[b]4.[/b] Chehov's House" number="[b]- 4 -[/b]" onstart="" thumburl="../domik-chehova/panos/0005+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0005+" title="[b]4.[/b] 契诃夫故居" number="[b]- 4 -[/b]" onstart="" thumburl="../domik-chehova/panos/0005+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="157.77407376518198" vlookat="31.65719097386762" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -145,7 +122,7 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				Anton Pavlovich Chekhov was born a year before the abolition of serfdom. Chekhov’s grandfather Yegor Mikhailovich bought himself and then his entire family out of serfdom. That is, Anton Pavlovich was a representative of only the second “unwhipped generation” in his family. He was the third child in the family of Pavel Yegorovich, merchant of the third guild, and Yevgenia Yakovlevna Chekhova.
+				安东·巴甫洛维奇·契诃夫出生于农奴制废除前一年。 契诃夫的祖父叶戈尔·米哈伊洛维奇（Yegor Mikhailovich）从农奴制买下了他自己，然后是他的整个家庭。 也就是说，安东·帕夫洛维奇只是他家族中第二个“未受鞭打的一代”的代表。 他是第三行会商人帕维尔·叶戈罗维奇和叶夫根尼娅·雅科夫列夫娜·契诃娃家中的第三个孩子。
 			</div>
 
 		]]></data>
@@ -154,11 +131,9 @@
 
 			<div style="padding:40px;color:#000;">
 				<img src="skin/infospot/pictures/mama.jpg" />
-				<h2>Yevgenia Yakovlevna Chekhova</h2>
-				(nee Morozova)<br>				
-				Evgenia Yakovlevna Chekhova (nee Morozova) - mother of A.P. Chekhov. played a significant role in shaping the characters of her children. From her, Anton Pavlovich inherited softness and responsiveness. It was she who supported and strengthened the views of her husband, Pavel Yegorovich, on the education of children.<br>
-				<br>
-
+				<h2>叶夫根尼娅·雅科夫列夫娜·契诃娃</h2>
+				（尼莫罗佐娃）<br>				
+				Evgenia Yakovlevna Chekhova (nee Morozova) - A.P. Chekhov 的母亲。 在塑造她孩子的性格方面发挥了重要作用。 安东·帕夫洛维奇 (Anton Pavlovich) 从她身上继承了柔软性和反应能力。 是她支持并加强了她丈夫帕维尔·叶戈罗维奇 (Pavel Yegorovich) 对儿童教育的看法。
 			</div>
 
 		]]></data>
@@ -166,7 +141,7 @@
 
 	</scene>
 	
-	<scene name="scene_0006-7" title="[b]5.[/b] Chehov's House" number="[b]- 5 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0006-7" title="[b]5.[/b] 契诃夫故居" number="[b]- 5 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="73.96525428874695" vlookat="28.319564115166088" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -191,14 +166,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				Once Chekhov said that his childhood passed without a childhood. In principle, this was true: every day, at the behest of his father, he and his brothers got up at five in the morning to sing in the church choir. The family was very musical, which affected the future.
+				契诃夫曾经说过，他的童年没有童年就过去了。 原则上，这是真的：每天，在父亲的要求下，他和他的兄弟们早上五点起床在教堂唱诗班唱歌。 这个家庭非常乐于助人，这影响了未来。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0006-7_2" title="6. Chehov's House" number="[b]- 6 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0006-7_2" title="6. 契诃夫故居" number="[b]- 6 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="159.6454971749426" vlookat="18.21733762788555" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -224,7 +199,7 @@
 
 	</scene>
 
-	<scene name="scene_0006-7_3" title="7. Chehov's House" number="[b]- 7 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7_3+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0006-7_3" title="7. 契诃夫故居" number="[b]- 7 -[/b]" onstart="" thumburl="../domik-chehova/panos/0006-7_3+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="339.25884352079646" vlookat="35.39174796981571" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -248,7 +223,7 @@
 
 	</scene>
 
-	<scene name="scene_0008+" title="8. Chehov's House" number="[b]- 8. -[/b]" onstart="" thumburl="../domik-chehova/panos/0008+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0008+" title="8. 契诃夫故居" number="[b]- 8. -[/b]" onstart="" thumburl="../domik-chehova/panos/0008+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-135.52073798811486" vlookat="25.028886470424034" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -272,14 +247,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				Young Chekhov had a passion for participating in home musical performances (he sang alto parts), he immediately felt that Rachmaninoff would be a great composer, and the great Tchaikovsky dreamed that Chekhov would write a libretto for one of his operas. In response, Anton Pavlovich dedicated one of his short stories to this composer.
+				年轻的契诃夫热衷于参加家庭音乐表演（他唱中音部分），他立刻觉得拉赫玛尼诺夫会是一位伟大的作曲家，伟大的柴可夫斯基梦想契诃夫为他的一部歌剧写剧本。 作为回应，安东·帕夫洛维奇 (Anton Pavlovich) 将他的一个短篇小说献给了这位作曲家。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0009_2__" title="9. Chehov's Store" number="[b]- 9 -[/b]" onstart="" thumburl="../domik-chehova/panos/0009_2__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0009_2__" title="9. 切霍夫的商店" number="[b]- 9 -[/b]" onstart="" thumburl="../domik-chehova/panos/0009_2__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-80.45" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -303,14 +278,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				In the evening, after returning from the gymnasium, Anton Chekhov helped Pavel Yegorovich in the grocery store. In 1869, Pavel Yegorovich Chekhov (the father of the famous writer) rented this two-story building from the famous Taganrog merchant I. Moiseev.
+				晚上，从体育馆回来后，安东·契诃夫在杂货店帮助帕维尔·叶戈罗维奇。 1869 年，帕维尔·叶戈罗维奇·契诃夫（著名作家的父亲）从著名的塔甘罗格商人 I. Moiseev 那里租下了这座两层楼的建筑。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0009+" title="10. Chehov's Store" number="[b]- 10 -[/b]" onstart="" thumburl="../domik-chehova/panos/0009+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0009+" title="10. 切霍夫的商店" number="[b]- 10 -[/b]" onstart="" thumburl="../domik-chehova/panos/0009+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-127.95" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -334,7 +309,7 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				On the first floor he organized his own grocery store, and on the second floor he lived with his family.
+				一楼他开办了自己的杂货店，二楼他和家人住在一起。
 			</div>
 
 		]]></data>

@@ -103,23 +103,23 @@
 		
 		<layer name="leftpanel" type="container" width="38" height="100%" x="5" y="0" align="left" maskchildren="false" visible="true" bgcapture="false" zorder="2">
 		
-			<layer name="btn_menu_container" type="container" style="skin_bg4" align="topleft" x="0" y.desktop="5" y.mobile.or.tablet="48" onclick="openurl(index.php?lang=ch, _self);" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_home].crop, 1104|137|64|64); showtext(Go back to the main page, btn_description); set(bgborder,2 0x901518);" onout="set(layer[btn_home].crop, 1104|0|64|64); set(bgborder,0); tooltipIn();" >
+			<layer name="btn_menu_container" type="container" style="skin_bg4" align="topleft" x="0" y.desktop="5" y.mobile.or.tablet="48" onclick="openurl(index.php?lang=ch, _self);" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_home].crop, 1104|137|64|64); showtext(返回主页面, btn_description); set(bgborder,2 0x901518);" onout="set(layer[btn_home].crop, 1104|0|64|64); set(bgborder,0); tooltipIn();" >
 				<layer name="btn_home" url="vskin.png" crop="1104|0|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" visible="true" onclick="" enabled="false" />
 			</layer>
 
-			<layer 	name="btn_player_container" type="container" style="skin_bg4" align="bottomleft" x="0" y="111" onclick="playerShowHide();" onover="tooltipIn();" onhover="set(layer[btn_player].crop, 288|137|64|64); set(bgborder,2 0x901518); tooltipIn2(); showtext(Show player, btn_description);" onout="set(layer[btn_player].crop, 288|0|64|64); set(bgborder,0); tooltipIn();" >
+			<layer 	name="btn_player_container" type="container" style="skin_bg4" align="bottomleft" x="0" y="111" onclick="playerShowHide();" onover="tooltipIn();" onhover="set(layer[btn_player].crop, 288|137|64|64); set(bgborder,2 0x901518); tooltipIn2(); showtext(显示播放器, btn_description);" onout="set(layer[btn_player].crop, 288|0|64|64); set(bgborder,0); tooltipIn();" >
 				<layer 	name="btn_player" url="vskin.png" crop="288|0|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true" enabled="false" />
 			</layer>
 			
 			<layer name="player_panel_container" type="container" style="skin_bg5" width="38" height="193" align="bottomleft" x="0" y="-194"  visible="true" zorder="2" hidden="true">
 				
 				<layer name="btn_play_container" type="container" style="" width="38" height="38" align="topleft" x="0" y="0" onhover="" onout="" >
-					<layer name="btn_play" url="vskin.png" crop="356|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_play].crop, 356|137|64|64); if(events[audiogidState].enabled === true, showtext(Launch audio guide, btn_description);, showtext(Enable audio guide, btn_description););" onclick=" play();" onout="set(layer[btn_play].crop, 356|69|64|64); tooltipIn();" visible="true" />
+					<layer name="btn_play" url="vskin.png" crop="356|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_play].crop, 356|137|64|64); if(events[audiogidState].enabled === true, showtext(启动语音导览, btn_description);, showtext(启用语音导览, btn_description););" onclick=" play();" onout="set(layer[btn_play].crop, 356|69|64|64); tooltipIn();" visible="true" />
 					
-					<layer name="btn_pause" url="vskin.png" crop="1506|137|64|64" align="center" scale="0.36" edge="center" distorted="false" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_pause].crop, 1506|69|64|64); if(events[audiogidState].enabled === true, showtext(Pause, btn_description);, showtext(Turn off audio guide, btn_description););" onout="set(layer[btn_pause].crop, 1506|137|64|64); tooltipIn(); " onclick="pause();" visible="false" />
+					<layer name="btn_pause" url="vskin.png" crop="1506|137|64|64" align="center" scale="0.36" edge="center" distorted="false" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_pause].crop, 1506|69|64|64); if(events[audiogidState].enabled === true, showtext(暂停, btn_description);, showtext(关闭语音导览, btn_description););" onout="set(layer[btn_pause].crop, 1506|137|64|64); tooltipIn(); " onclick="pause();" visible="false" />
 				</layer>				
 				
-				<layer name="btn_vol_plus_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="38" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_vol_plus].crop, 492|137|64|64); showtext(Vol +, btn_description);" onout="set(layer[btn_vol_plus].crop, 492|69|64|64); tooltipIn();" >
+				<layer name="btn_vol_plus_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="38" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_vol_plus].crop, 492|137|64|64); showtext(音量 +, btn_description);" onout="set(layer[btn_vol_plus].crop, 492|69|64|64); tooltipIn();" >
 					<layer name="btn_vol_plus" url="vskin.png" crop="492|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="setVolumePlus();" visible="true" />
 				</layer>
 				
@@ -206,7 +206,7 @@
 					/>
 				</layer>
 				
-				<layer name="btn_vol_minus_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="132" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_vol_minus].crop, 560|137|64|64); showtext(Vol -, btn_description);" onout="set(layer[btn_vol_minus].crop, 560|69|64|64); tooltipIn();" >
+				<layer name="btn_vol_minus_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="132" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_vol_minus].crop, 560|137|64|64); showtext音量 -, btn_description);" onout="set(layer[btn_vol_minus].crop, 560|69|64|64); tooltipIn();" >
 					<layer name="btn_vol_minus" url="vskin.png" crop="560|69|64|64" align="center" scale="0.36" edge="center" onhover="" onclick="setVolumeMinus();" visible="true" />
 				</layer>
 				
@@ -221,12 +221,12 @@
 		
 		<layer name="rightpanel" type="container" width="38" height="100%" x="5" y="0" align="right" maskchildren="false" visible="true" bgcapture="false" zorder="3">
 		
-			<layer name="btn_container2" type="container" style="skin_bg4" align="topright" x="0" y.desktop="5" y.mobile.or.tablet="48" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_fs2_in].crop, 1240|137|64|64);  set(bgborder,2 0x901518); showtext(Fullscreen, btn_description);" onout="set(layer[btn_fs2_in].crop, 1240|0|64|64);  set(bgborder,0); tooltipIn();">
+			<layer name="btn_container2" type="container" style="skin_bg4" align="topright" x="0" y.desktop="5" y.mobile.or.tablet="48" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_fs2_in].crop, 1240|137|64|64);  set(bgborder,2 0x901518); showtext(全屏, btn_description);" onout="set(layer[btn_fs2_in].crop, 1240|0|64|64);  set(bgborder,0); tooltipIn();">
 				<layer name="btn_fs2_in" url="vskin.png" style="full_screen_in" onclick="switch(fullscreen);" devices="fullscreensupport" visible="true"/>
 				<layer name="btn_fs2_out" url="vskin.png" style="full_screen_out" onclick="switch(fullscreen);" devices="fullscreensupport" visible="false"/>
 			</layer>
 			
-			<layer name="btn_media_container" type="container" style="skin_bg4" align="bottomright" x="0" y="111" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_media].crop, 696|137|64|64);  set(bgborder,2 0x901518); showtext(Show / Hide menu, btn_description);" onout="set(layer[btn_media].crop, 696|0|64|64);  set(bgborder,0); tooltipIn();" onclick="mediaShowHide();" status_start="true">
+			<layer name="btn_media_container" type="container" style="skin_bg4" align="bottomright" x="0" y="111" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_media].crop, 696|137|64|64);  set(bgborder,2 0x901518); showtext(显示/隐藏菜单, btn_description);" onout="set(layer[btn_media].crop, 696|0|64|64);  set(bgborder,0); tooltipIn();" onclick="mediaShowHide();" status_start="true">
 				<layer name="btn_media" url="vskin.png" crop="696|0|64|64" align="center" scale="0.36" edge="center" distorted="false" onclick="" visible="true" enabled="false"/>
 			</layer>
 			
@@ -254,22 +254,22 @@
 							
 						);" 
 					   onover="tooltipIn();" 
-					   onhover="tooltipIn2(); showtext(Description, btn_description);" 
+					   onhover="tooltipIn2(); showtext(描述, btn_description);" 
 					   onout="tooltipIn();"  
 				>
 					<layer name="btn_texttype_turnon" url="vskin.png" crop="1771|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true" enabled="false"/>
 					<layer name="btn_texttype_turnoff" url="vskin.png" crop="1771|137|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="false" enabled="false"/>
 				</layer>
 				
-				<layer name="btn_screenshot_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="38" onclick="makescreenshot();" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_screenshot].crop, 764|137|64|64); showtext(Screenshot, btn_description);" onout="set(layer[btn_screenshot].crop, 764|69|64|64); tooltipIn();"  >
+				<layer name="btn_screenshot_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="38" onclick="makescreenshot();" onover="tooltipIn();" onhover="tooltipIn2(); set(layer[btn_screenshot].crop, 764|137|64|64); showtext(截屏, btn_description);" onout="set(layer[btn_screenshot].crop, 764|69|64|64); tooltipIn();"  >
 					<layer name="btn_screenshot" url="vskin.png" crop="764|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true" enabled="false"/>
 				</layer>
 				
-				<layer name="btn_map_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="76" onclick="if(layer[btn_hide_icon].visible == false, showskin();, hideskin();)" onover="tooltipIn();" onhover="tooltipIn2(); if(layer[btn_hide_icon].visible == false, showtext(Show navigate, btn_description);, showtext(Hide navigate, btn_description);); " onout="tooltipIn();"  >
+				<layer name="btn_map_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="76" onclick="if(layer[btn_hide_icon].visible == false, showskin();, hideskin();)" onover="tooltipIn();" onhover="tooltipIn2(); if(layer[btn_hide_icon].visible == false, showtext(显示导航, btn_description);, showtext(隐藏导航, btn_description);); " onout="tooltipIn();"  >
 					<layer name="btn_map" url="vskin.png" crop="832|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true"  enabled="false"/>
 				</layer>
 			
-				<layer name="btn_info_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="116" onclick="if(get(hotspot[infospot2].visible) == true, toggleHotspotVisibility(0); , toggleHotspotVisibility(1); );" onover="tooltipIn();" onhover="tooltipIn2(); if(get(hotspot[infospot2].visible) == true,  showtext(Hide points of prompt, btn_description);, showtext(Show points of prompt, btn_description);); " onout="tooltipIn();" >
+				<layer name="btn_info_container" type="container" style="" bgcapture="true" width="38" height="38" align="top" x="0" y="116" onclick="if(get(hotspot[infospot2].visible) == true, toggleHotspotVisibility(0); , toggleHotspotVisibility(1); );" onover="tooltipIn();" onhover="tooltipIn2(); if(get(hotspot[infospot2].visible) == true,  showtext(隐藏提示点, btn_description);, showtext(显示提示点, btn_description);); " onout="tooltipIn();" >
 					<layer name="btn_info" url="vskin.png" crop="900|69|64|64" align="center" scale="0.36" edge="center" distorted="false" onhover="" onclick="" visible="true"  enabled="false"/>
 				</layer>
 				
@@ -499,7 +499,7 @@
 		if(titlescene == '', set(layer[info].visible, false);,set(layer[info].visible, true);calc(layer[info].html, titlescene););
 	</action>	
 	<action name="autorotate_turnon">
-		showtext(Enable auto rotation, btn_description);
+		showtext(启用自动旋转, btn_description);
 	</action>	
 	<action name="rotate_turnon">					
 		trace('Включили вращение');
@@ -512,7 +512,7 @@
 		set(autorotate.enabled, true); 
 	</action>		
 	<action name="autorotate_turnoff">
-		showtext(Disable auto-rotation, btn_description);
+		showtext(禁用自动旋转, btn_description);
 	</action>	
 	<action name="rotate_turnoff">				
 		trace('Выключили вращение');

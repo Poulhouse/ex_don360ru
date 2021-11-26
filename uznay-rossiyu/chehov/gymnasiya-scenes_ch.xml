@@ -1,6 +1,6 @@
 <krpano>
 	
-	<scene name="scene_0011+" title="11. Taganrog gymnasium - Museum" number="[b]- 11 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0011+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0011+" title="11. 塔甘罗格体育馆 - 博物馆" number="[b]- 11 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0011+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-75.03472470789946" vlookat="1.226573757216566" fovtype="MFOV" fov="47.34747771604827" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -24,14 +24,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				Certainly, the Alma Mater of the genius was not his father’s grocery store but the Taganrog gymnasium - today it is the only “school museum” in the south of the country which has retained both the form and the spirit of the old educational institution of the second half of the 19th century. It has retained a classroom, old desks, a blackboard with chalks that are already beginning to be forgotten in modern schools, a ceremonial assembly hall, a lobby.<br>And the “exemplary project” of the architect Boffo, according to which the building was built in the traditions of classicism, will not leave lovers of graceful forms indifferent.
+				当然，这位天才的母校不是他父亲的杂货店，而是塔甘罗格体育馆——今天它是该国南部唯一保留了旧教育机构形式和精神的“学校博物馆”。 19 世纪下半叶。 它保留了一间教室、旧书桌、一块在现代学校中已经开始被遗忘的粉笔黑板、一个礼堂、一个大厅。<br>还有建筑师 Boffo 的“示范项目”，根据该项目， 建筑建于古典主义的传统中，不会让优雅形式的爱好者无动于衷。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0012__" title="12. Taganrog gymnasium - Museum" number="[b]- 12 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0012__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0012__" title="12. 塔甘罗格体育馆 - 博物馆" number="[b]- 12 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0012__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-16.842170447796626" vlookat="-28.562284490959787" fovtype="MFOV" fov="43.447655257072114" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -55,14 +55,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				On the wall of the gymnasium you can see the world’s only high relief to Chekhov as the school student: where else could it be?! Another monument to Chekhov was erected in the park in Taganrog, obviously, named after the writer on the day of the centenary of the classical author.
+				在体育馆的墙上，你可以看到世界上唯一一张对作为学生的契诃夫的高浮雕：还能是哪里？！ 另一座契诃夫纪念碑竖立在塔甘罗格的公园里，显然是在这位古典作家百年诞辰纪念日以这位作家的名字命名的。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0013+" title="13. Taganrog gymnasium - Museum" number="[b]- 13 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0013+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0013+" title="13. 塔甘罗格体育馆 - 博物馆" number="[b]- 13 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0013+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-229.58617751275034" vlookat="28.319564115166088" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -86,14 +86,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				In the last years of his studies, the future genius of Russian literature was listed among the “no lunchers” (that is, those who were left without lunch) for unlearned lessons. He was also familiar with the punishment cell of the gymnasium, where they offered inattentive students to think about life.
+				在他学习的最后几年，这位未来的俄罗斯文学天才被列为“不吃午饭的人”（即那些没有吃午饭的人），以吸取教训。 他也熟悉体育馆的惩戒室，在那里，他们让漫不经心的学生思考人生。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0014" title="14. Taganrog gymnasium - Museum" number="[b]- 14 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0014+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0014" title="14. 塔甘罗格体育馆 - 博物馆" number="[b]- 14 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0014+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-111.52" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -117,14 +117,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				But try to study at the age of 17 and at the same time earn a livelihood for yourself and your parents by lessons: Pavel Yegorovich was declared bankrupt, and the family was fleeing from creditors in Moscow! Perhaps it was precisely the circumstance that tempered the character of the future writer, who more and more became the breadwinner for his large family.
+				但是尝试在 17 岁学习，同时通过课程为自己和父母谋生：Pavel Yegorovich 被宣布破产，全家逃离莫斯科的债权人！ 也许正是这种环境磨练了这位未来作家的性格，他越来越成为他大家庭的养家糊口的人。
 			</div>
 
 		]]></data>
 		<hotspot name="spot1" style="skin_hotspotstyle"  ath="0" atv="10" linkedscene="scene_0014_2" />
 	</scene>
 
-	<scene name="scene_0014_2" title="15. Taganrog gymnasium - Museum" number="[b]- 15 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0014_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0014_2" title="15. 塔甘罗格体育馆 - 博物馆" number="[b]- 15 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0014_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-61.61" vlookat="28.43" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -149,7 +149,7 @@
 
 	</scene>
 
-	<scene name="scene_0014_3" title="16. Taganrog gymnasium - Museum" number="[b]- 16 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0014_3+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0014_3" title="16. 塔甘罗格体育馆 - 博物馆" number="[b]- 16 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0014_3+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="45.04604673063283" vlookat="0.706219472650333" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -173,7 +173,7 @@
 
 	</scene>
 
-	<scene name="scene_0015" title="17. Taganrog gymnasium - Museum" number="[b]- 17 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0015+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0015" title="17. 塔甘罗格体育馆 - 博物馆" number="[b]- 17 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0015+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -197,7 +197,7 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				His vision of the world, his love of books and theatre were formed in the gymnasium; here he received his first literary pseudonym – “Chekhonte” which was given to him by Fyodor Platonovich Pokrovsky, teacher of the Law of God; here his first literary and stage experiments began.
+				他的世界观，他对书籍和戏剧的热爱，都是在体育馆里形成的； 在这里，他收到了他的第一个文学笔名——“契洪特”，这是上帝律法的老师费奥多尔·普拉托诺维奇·波克罗夫斯基 (Fyodor Platonovich Pokrovsky) 给他的； 他的第一个文学和舞台实验由此开始。
 			</div>
 
 		]]></data>
@@ -206,7 +206,7 @@
 
 	</scene>
 
-	<scene name="scene_0015_2" title="18. Taganrog gymnasium - Museum" number="[b]- 18 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0015_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0015_2" title="18. 塔甘罗格体育馆 - 博物馆" number="[b]- 18 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0015_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-89.21" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -231,7 +231,7 @@
 
 	</scene>
 
-	<scene name="scene_0016" title="19. Taganrog gymnasium - Museum" number="[b]- 19 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0016+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0016" title="19. 塔甘罗格体育馆 - 博物馆" number="[b]- 19 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0016+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="121.78" vlookat="15.27" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -255,7 +255,7 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				And he began to write early. There was a legend in the Chekhov family that Anton published his first short story in order to earn money for a birthday cake for his mother. There is some truth in this legend: Chekhov loved his mother dearly and, as one of the family’s friends, journalist Vladimir Gilyarovsky said, “the fact that Anton Pavlovich became a writer is a great merit of his mother Yevgenia Yakovlevna ...”.<br>But young Anton did not dare to think about devoting his life to literature. Hardships forced him to choose another field - medicine, which at that time brought a good income and allowed him to make his way in life.
+				他很早就开始写作。 契诃夫家族有一个传说，安东为了挣钱给母亲买生日蛋糕，发表了他的第一篇短篇小说。 这个传说有一定的道理：契诃夫深爱他的母亲，作为家人的朋友之一，记者弗拉基米尔·吉利亚罗夫斯基说，“安东·巴甫洛维奇成为作家的事实是他母亲叶夫根尼亚·雅科夫列夫娜的一大功绩……”。 <br>但年轻的安东不敢想着将一生献给文学。 艰辛迫使他选择了另一个领域——医学，这在当时带来了不错的收入，让他在生活中走上了自己的道路。
 			</div>
 
 		]]></data>
@@ -264,7 +264,7 @@
 
 	</scene>
 
-	<scene name="scene_0016_2" title="20. Taganrog gymnasium - Museum" number="[b]- 20 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0016_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0016_2" title="20. 塔甘罗格体育馆 - 博物馆" number="[b]- 20 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0016_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="110.92" vlookat="4.88" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -290,7 +290,7 @@
 
 	</scene>
 
-	<scene name="scene_0016_3" title="21. Taganrog gymnasium - Museum" number="[b]- 21 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0016_3+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0016_3" title="21. 塔甘罗格体育馆 - 博物馆" number="[b]- 21 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0016_3+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="100.0" vlookat="5.83" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -314,7 +314,7 @@
 
 	</scene>
 
-	<scene name="scene_0017+" title="22. Taganrog gymnasium - Museum" number="[b]- 22 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0017+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0017+" title="22. 塔甘罗格体育馆 - 博物馆" number="[b]- 22 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0017+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-27.52" vlookat="2.99" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -338,14 +338,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				In 1879, A.P. Chekhov moved from Taganrog to Moscow, entered the Faculty of Medicine at Moscow University, graduating with a diploma of “doctor and district doctor”. Unlike the gymnasium, Chekhov had only two “satisfactory” marks during his student years.
+				1879年，A.P.契诃夫从塔甘罗格搬到莫斯科，考入莫斯科大学医学院，毕业时获得“医生和地区医生”文凭。 与体育馆不同的是，契诃夫在学生时代只有两个“满意”的成绩。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0018" title="23. Taganrog gymnasium - Museum" number="[b]- 23 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0018+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0018" title="23. 塔甘罗格体育馆 - 博物馆" number="[b]- 23 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0018+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="121.63" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -369,7 +369,7 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				He spends his student holidays in his hometown, being - neither more nor less! - under the secret supervision of gendarmes, who, apparently, saw every student as a potential rebel. This is described in the reports of the gendarme administration which can still be found in the Rostov State Archives.
+				他在家乡度过他的学生假期，是——不多也不少！ - 在宪兵的秘密监督下，他们显然将每个学生都视为潜在的反叛者。 这在宪兵管理部门的报告中有所描述，该报告仍可在罗斯托夫国家档案馆找到。
 			</div>
 
 		]]></data>
@@ -377,7 +377,7 @@
 
 	</scene>
 
-	<scene name="scene_0018_2" title="24. Taganrog gymnasium - Museum" number="[b]- 24 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0018_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0018_2" title="24. 塔甘罗格体育馆 - 博物馆" number="[b]- 24 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0018_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-90.0" vlookat="0.0" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -401,7 +401,7 @@
 
 	</scene>
 
-	<scene name="scene_0019" title="25. Taganrog gymnasium - Museum" number="[b]- 25 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0019+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0019" title="25. 塔甘罗格体育馆 - 博物馆" number="[b]- 25 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0019+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-1.42" vlookat="1.06" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -425,7 +425,7 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				And many years later, in 2014 Moscow University will open a monument to one of its most famous graduates. And all the other cities - Serpukhov, Lopasnya (now the city of Chekhov, Moscow region) and others, where the writer worked as a “doctor”, will erect monuments to him both as a writer and as a district doctor.
+				许多年后，莫斯科大学将在 2014 年为其最著名的毕业生之一开设一座纪念碑。 而所有其他城市——谢尔普霍夫、洛帕斯尼亚（现莫斯科地区契诃夫市）和其他作家曾担任“医生”的城市，都将为他作为作家和地区医生竖立纪念碑。
 			</div>
 
 		]]></data>
@@ -433,7 +433,7 @@
 
 	</scene>
 
-	<scene name="scene_0019_2" title="26. Taganrog gymnasium - Museum" number="[b]- 26 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0019_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0019_2" title="26. 塔甘罗格体育馆 - 博物馆" number="[b]- 26 -[/b]" onstart="" thumburl="../gymnasiya-chehova/panos/0019_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="0.0" vlookat="5.76" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 

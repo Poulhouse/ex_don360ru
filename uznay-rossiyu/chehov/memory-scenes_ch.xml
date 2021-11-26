@@ -1,6 +1,6 @@
 <krpano>
 
-	<scene name="scene_0031__" title="38. Monument to A.P. Chekhov in Taganrog" number="[b]- 38 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/__0031.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0031__" title="38. 塔甘罗格的契诃夫纪念碑" number="[b]- 38 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/__0031.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="302.8125931266111" vlookat="-23.02238875081714" fovtype="MFOV" fov="38.77542964527296" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -24,14 +24,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				In memory of Chekhov, his museums were opened and monuments were erected; geographical objects, theatres, libraries, ships, astronomical objects were named; coins, postage stamps were issued.
+				为了纪念契诃夫，他开设了博物馆，竖立了纪念碑； 地理物体、剧院、图书馆、船舶、天文物体被命名； 发行了硬币、邮票。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0032__" title="39. MAN IN CASE" number="[b]- 39 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0032__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0032__" title="39. 万一男人" number="[b]- 39 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0032__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="43.355559155934586" vlookat="10.649909084539981" fovtype="MFOV" fov="68.80423266280138" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -55,7 +55,7 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				Surely, the fellow countrymen of the great writer did not stand aside either. At the Museum Chekhov’s Store you can see the same Fat and Thin, at the gymnasium there is the figure of Belikov, the Man in the Case, on Pushkinskaya Embankment the heroine of the short story Romance with Double-Bass carefully peeps out of the case of double-bass.
+				当然，这位伟大作家的同胞们也没有袖手旁观。 在博物馆契诃夫的商店你可以看到同样的胖和瘦，在体育馆里有案中人别利科夫的身影，在普希金斯卡亚堤岸上，短篇小说的女主人公小心翼翼地从箱子里窥视 低音提琴。
 			</div>
 
 		]]></data>
@@ -63,7 +63,7 @@
 
 	</scene>
 
-	<scene name="scene_0032_2" title="40. Romance with Double-Bass" number="[b]- 40 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0032_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0032_2" title="40. 低音提琴的浪漫" number="[b]- 40 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0032_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="29.23139997899974" vlookat="10.242710218560026" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -87,7 +87,7 @@
 
 	</scene>
 
-	<scene name="scene_0033+" title="41. Kashtanka" number="[b]- 41 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0033+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0033+" title="41. 卡什坦卡" number="[b]- 41 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0033+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-72.59408437918682" vlookat="28.717519736959325" fovtype="MFOV" fov="51.67626309983378" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -111,14 +111,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				And near the city community centre there is the famous “Egyptian pyramid” from Kashtanka.
+				在城市社区中心附近有著名的来自卡什坦卡的“埃及金字塔”。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0034__" title="42. Library" number="[b]- 42 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0034__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0034__" title="42. 图书馆" number="[b]- 42 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0034__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-48.833917635538235" vlookat="-43.94831071530859" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -142,14 +142,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				Chekhov loved his small homeland with all his heart and as an active person he did a lot to transform the city. He constantly sent books to the local library where he himself was once a reader.
+				契诃夫全心全意地热爱他的小家园，作为一个积极的人，他为改造这座城市做了很多工作。 他不断地向当地图书馆送书，他自己曾经是那里的读者。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0035+" title="43. Library" number="[b]- 43 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0035+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0035+" title="43. 图书馆" number="[b]- 43 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0035+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-52.29224242894421" vlookat="-38.58146019947564" fovtype="MFOV" fov="67.37384494503401" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -173,14 +173,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				In his memory, the famous metropolitan architect Fyodor Shekhtel designed the library and the museum building free of charge for the city.
+				在他的记忆中，著名的都市建筑师费奥多尔·谢赫特尔（Fyodor Shekhtel）为这座城市免费设计了图书馆和博物馆建筑。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0036__" title="44. Art Museum" number="[b]- 44 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0036__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0036__" title="44. 艺术博物馆" number="[b]- 44 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0036__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-40.40379445362246" vlookat="-26.101143611032107" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -204,7 +204,7 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				Thanks to Chekhov’s ability, a museum appeared in the city. Today it is already a reserve museum with several museums.
+				由于契诃夫的能力，这座城市出现了一座博物馆。 今天它已经是一个拥有数个博物馆的后备博物馆。
 			</div>
 
 		]]></data>
@@ -212,7 +212,7 @@
 
 	</scene>
 
-	<scene name="scene_0036_2__" title="45. Museum by Durov" number="[b]- 45 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0036_2__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0036_2__" title="45. 杜罗夫博物馆" number="[b]- 45 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0036_2__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-32.130255027812396" vlookat="0.5933893784176818" fovtype="MFOV" fov="71.77554067026628" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -236,7 +236,7 @@
 
 	</scene>
 
-	<scene name="scene_0037+" title="46. Monument to Peter the Great" number="[b]- 46 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0037+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0037+" title="46. 彼得大帝纪念碑" number="[b]- 46 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0037+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-30.068222019490776" vlookat="-9.817379998469159" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -260,14 +260,14 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				Separate words should be given to the monument to Peter the Great, the founder of the city, whose statue for the city was also made by Anton Pavlovich’s acquaintance - the famous sculptor Pavel Antokolsky.
+				这座城市的创始人彼得大帝的纪念碑应该单独写下，他的城市雕像也是由安东·帕夫洛维奇的熟人——著名的雕塑家帕维尔·安托科尔斯基制作的。
 			</div>
 
 		]]></data>
 
 	</scene>
 
-	<scene name="scene_0038__" title="47. Cafe FRECKEN BOK" number="[b]- 47 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0038__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0038__" title="47. 咖啡馆 FRECKEN BOK" number="[b]- 47 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0038__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-30.04003570472217" vlookat="1.6569861426316792" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -291,7 +291,7 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				And every year in January Taganrog celebrates Chekhov’s week when theatrical excursions and performances are held in almost all Chekhov’s memorial buildings.
+				每年一月，塔甘罗格都会庆祝契诃夫的一周，届时几乎所有契诃夫的纪念建筑都会举办戏剧短途旅行和表演。
 			</div>
 
 		]]></data>
@@ -299,7 +299,7 @@
 
 	</scene>
 
-	<scene name="scene_0038_2__" title="48. Cafe FRECKEN BOK" number="[b]- 48 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0038_2__.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0038_2__" title="48. 咖啡馆 FRECKEN BOK" number="[b]- 48 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0038_2__.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-30.04003570472217" vlookat="1.6569861426316792" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -323,7 +323,7 @@
 
 	</scene>
 
-	<scene name="scene_0039" title="49. Chehov Literary Museum" number="[b]- 49 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0039+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0039" title="49. 契诃夫文学馆" number="[b]- 49 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0039+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-20.18430181175564" vlookat="-19.635810007631402" fovtype="MFOV" fov="100" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 
@@ -347,7 +347,7 @@
 		<data name="text1"><![CDATA[
 
 			<div style="padding:10px; padding-right:40px; color:#000000;">
-				This city also had Chekhov festivals - book, theatre, cinematographic festivals. And the place in the gallery in the local theatre, which young Chekhov usually occupied, hiding from the gymnasium inspectors, is marked with a memorial plaque.
+				这个城市也有契诃夫节——书籍节、戏剧节、电影节。 当地剧院的画廊里，年轻的契诃夫平时躲避体育馆检查员的地方，有一块纪念牌匾。
 			</div>
 
 		]]></data>
@@ -355,7 +355,7 @@
 
 	</scene>
 
-	<scene name="scene_0039_2" title="50. Drama theatre Chehov" number="[b]- 50 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0039_2+.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_0039_2" title="50. 戏剧剧院切霍夫" number="[b]- 50 -[/b]" onstart="" thumburl="../memory-places-chehova/panos/0039_2+.tiles/thumb.jpg" lat="" lng="" heading="">
 
 		<view hlookat="-46.4332322342111" vlookat="-26.728098534962133" fovtype="MFOV" fov="57.723325939274375" maxpixelzoom="2.0" fovmin="90" fovmax="100" limitview="range" hlookatmin="-180.0" hlookatmax="180.0" vlookatmin="-90.0" vlookatmax="85.0" />
 

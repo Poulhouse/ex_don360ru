@@ -1,6 +1,18 @@
 <krpano>
 		   
-	
+	<style 	name="skin_infospot" 
+			type="image" 
+			url="infospot__image.png" 
+			scale="0.36" 
+			edge="center" 
+			distorted="false" 
+			zoom="false"
+			tooltip=""
+			linkedscene=""
+			linkedscene_lookat=""
+			onover="tween(scale,0.4);"
+			onout="tween(scale,0.36);"
+	/>
 	<style 	name="skin_infospot_right" 
 			type="image" 
 			url="infospot__image.png" 

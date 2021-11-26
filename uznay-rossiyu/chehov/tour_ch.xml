@@ -19,7 +19,7 @@
 	/>
 	<include url="skin/vtourskin.xml" />
 	<include url="skin/arrows/arrows.xml" />
-	<include url="../player/player_skin_en.xml" />
+	<include url="../player/player_skin_ch.xml" />
 	<include url="../infospot/popup.xml" />
 	
 	
@@ -215,10 +215,10 @@
 	
 	<!--<include url="skin/vtourskin_design_black_new.xml"       />-->
 	
-	<include url="domik-scenes_en.xml" />
-	<include url="gymnasiya-scenes_en.xml" />
-	<include url="teatr-scenes_en.xml" />
-	<include url="memory-scenes_en.xml" />
+	<include url="domik-scenes_ch.xml" />
+	<include url="gymnasiya-scenes_ch.xml" />
+	<include url="teatr-scenes_ch.xml" />
+	<include url="memory-scenes_ch.xml" />
 	
 	
 	
