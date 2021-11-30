@@ -65,9 +65,6 @@ img.lang_img {
 	box-sizing: content-box;
 	border-radius: 2px;
 }
-.lang_wrap a:not(.active) img {
-	/* opacity: 0.6; */
-}
 .lang_wrap span {
 	display: inline-flex;
 	margin-right: 10px;
