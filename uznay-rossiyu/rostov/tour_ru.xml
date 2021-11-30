@@ -1,4 +1,4 @@
-﻿<krpano version="1.20" title="Virtual Tour" logkey="false" showerrors="false">
+﻿﻿<krpano version="1.20" title="Virtual Tour" logkey="false" showerrors="false">
 
 	<arrowsxmlpath url="/" />
 	
@@ -99,12 +99,10 @@
 					if(hotspot[infospot2].visible == true,
 						toggleHotspotVisibility(1);
 						set(layer[btn_info_container].alpha, 1.0);
-						set(layer[btn_info_container].enabled, true);
 						
 					,
 						toggleHotspotVisibility(0);
 						set(layer[btn_info_container].alpha, 0.8);
-						set(layer[btn_info_container].enabled, false);
 					);
 				); "
 			onxmlcomplete="getscenename();"
@@ -166,12 +164,10 @@
 		if(hotspot[infospot2].visible == true,
 			toggleHotspotVisibility(1);
 			set(layer[btn_info_container].alpha, 1.0);
-			set(layer[btn_info_container].enabled, true);
 			
 		,
 			toggleHotspotVisibility(0);
 			set(layer[btn_info_container].alpha, 0.8);
-			set(layer[btn_info_container].enabled, false);
 		);
 		
 		if(events[audiogidState].enabled === true, 

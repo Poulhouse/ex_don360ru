@@ -31,7 +31,7 @@
 	<!--<link rel="stylesheet" href="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/css/nicepage.css';?>" media="screen">-->
 	<link rel="stylesheet" href="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/css/main.css';?>" media="screen">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-	<link href="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/css/style.css?v=1.1.0';?>" rel='stylesheet' type='text/css'>
+	<link href="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/css/style.css?v=1.3.0';?>" rel='stylesheet' type='text/css'>
     
     <style>
 		#centerLayer .image {
@@ -68,25 +68,25 @@
 			<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				<div class="container header_wrapper">
 					<div class="col-auto me-auto">
-						<?php if($_GET['lang'] == 'ru' || $_GET['lang'] == ''){ ?>
+						<?php if($_GET['lang'] == 'ru' && $_GET['lang'] !== 'en' && $_GET['lang'] !== 'ch' || $_GET['lang'] == ''){ ?>
 							<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/images/fond_black_ru.svg';?>" class="image_first"/>
-						<?} elseif($_GET['lang'] == 'en'){?>
+						<?} elseif($_GET['lang'] == 'en' && $_GET['lang'] !== 'ru' && $_GET['lang'] !== 'ch' && $_GET['lang'] !== ''){?>
 							<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/images/fond_black_en.svg';?>" class="image_first"/>
-						<?} elseif($_GET['lang'] == 'ch'){?>
+						<?} elseif($_GET['lang'] == 'ch' && $_GET['lang'] !== 'ru' && $_GET['lang'] !== 'en' && $_GET['lang'] !== ''){?>
 							<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/images/fond_black_ch.svg';?>" class="image_first"/>
 						<?}?>
 					</div>
-					<div class="col-auto lang_wrapper d-none d-lg-block">										
+					<div class="col-auto lang_wrapper">										
 						<div class="lang_wrap">
-							<a href="?lang=ru" class="<?php if($_GET['lang'] == 'ru' || $_GET['lang'] == ''){ ?> active <?}?>">
+							<a href="?lang=ru" class="<?php if($_GET['lang'] == 'ru' && $_GET['lang'] !== 'en' && $_GET['lang'] !== 'ch' || $_GET['lang'] == ''){ ?> active <?}?>">
 								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
 								<p class="small_text">Русский</p>
 							</a>
-							<a href="?lang=en" class="<?php if($_GET['lang'] == 'en' || $_GET['lang'] == ''){ ?> active <?}?>">
+							<a href="?lang=en" class="<?php if($_GET['lang'] == 'en' && $_GET['lang'] !== 'ru' && $_GET['lang'] !== 'ch' && $_GET['lang'] !== ''){ ?> active <?}?>">
 								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/eng.jpg';?>" class="lang_img" />
 								<p class="small_text">English</p>
 							</a>
-							<a href="?lang=ch" class="<?php if($_GET['lang'] == 'ch' || $_GET['lang'] == ''){ ?> active <?}?>">
+							<a href="?lang=ch" class="<?php if($_GET['lang'] == 'ch' && $_GET['lang'] !== 'ru' && $_GET['lang'] !== 'en' && $_GET['lang'] !== ''){ ?> active <?}?>">
 								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/china.jpg';?>" class="lang_img" />
 								<p class="small_text">中国人</p>
 							</a>
@@ -156,7 +156,7 @@
 					<?}?>
 					
 					</div>
-					<div class="col-auto w-actionbox-controls at_right mb-md-0 mb-4">
+					<div class="col-auto w-actionbox-controls at_right mb-md-0 mb-3">
 				
 						<?php if($_GET['lang'] == 'ru' || $_GET['lang'] == ''){ ?>
 						
@@ -179,11 +179,10 @@
 					<?}?>
 					
 				</div>
-				<div class="col-12 lang_wrapper d-block d-lg-none">
+				<!--<div class="col-12 lang_wrapper d-block d-lg-none">
 					
 					<?php if($_GET['lang'] == 'ru' || $_GET['lang'] == ''){ ?>
-					
-						<!--<span class="title_lang">Выберите язык</span>-->			
+   
 						<div class="lang_wrap">
 							<a href="?lang=ru" class="active">
 								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
@@ -200,8 +199,7 @@
 						</div>
 						
 					<?} elseif($_GET['lang'] == 'en'){?>
-					
-						<!--<span class="title_lang">Choose language</span>-->
+
 						<div class="lang_wrap">
 							<a href="?lang=ru">
 								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
@@ -219,8 +217,7 @@
 					
 					
 					<?} elseif($_GET['lang'] == 'ch'){?>
-					
-						<!--<span class="title_lang">选择语言</span>-->
+
 						<div class="lang_wrap">
 							<a href="?lang=ru">
 								<img src="<?echo '//'.$_SERVER['SERVER_NAME']. '/uznay-rossiyu/assets/images/rus.jpg';?>" class="lang_img" />
@@ -238,7 +235,7 @@
 					
 					<?}?>
 					
-				</div>
+				</div> -->
 			</div><!-- /.row -->
 		</div><!-- /.container-fluid -->
 	</footer>
