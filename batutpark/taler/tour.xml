@@ -77,7 +77,7 @@
 	
 	<scene name="scene_0001" title="0001" onstart="" thumburl="panos/0001.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmax="60"  />
 
 		<preview url="panos/0001.tiles/preview.jpg" />
 
@@ -89,7 +89,7 @@
 
 	<scene name="scene_0002" title="0002" onstart="" thumburl="panos/0002.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmax="60"  />
 
 		<preview url="panos/0002.tiles/preview.jpg" />
 
@@ -101,7 +101,7 @@
 
 	<scene name="scene_0003" title="0003" onstart="" thumburl="panos/0003.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmax="60"  />
 
 		<preview url="panos/0003.tiles/preview.jpg" />
 
@@ -113,7 +113,7 @@
 
 	<scene name="scene_0004" title="0004" onstart="" thumburl="panos/0004.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmax="60"  />
 
 		<preview url="panos/0004.tiles/preview.jpg" />
 
@@ -125,7 +125,7 @@
 
 	<scene name="scene_0005" title="0005" onstart="" thumburl="panos/0005.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmax="60"  />
 
 		<preview url="panos/0005.tiles/preview.jpg" />
 
@@ -137,7 +137,7 @@
 
 	<scene name="scene_0006" title="0006" onstart="" thumburl="panos/0006.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmax="60"  />
 
 		<preview url="panos/0006.tiles/preview.jpg" />
 
@@ -149,7 +149,7 @@
 
 	<scene name="scene_0007" title="0007" onstart="" thumburl="panos/0007.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmax="60"  />
 
 		<preview url="panos/0007.tiles/preview.jpg" />
 
@@ -161,7 +161,7 @@
 
 	<scene name="scene_0008" title="0008" onstart="" thumburl="panos/0008.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmax="60"  />
 
 		<preview url="panos/0008.tiles/preview.jpg" />
 
