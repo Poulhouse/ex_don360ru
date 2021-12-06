@@ -77,7 +77,7 @@
 	
 	<scene name="scene_0001" title="0001" onstart="" thumburl="panos/0001.tiles/thumb.jpg" lat="" lng="" heading="">
 
-		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-45" vlookatmax="+45" />
 
 		<preview url="panos/0001.tiles/preview.jpg" />
 
